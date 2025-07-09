@@ -1,0 +1,16503 @@
+import {
+    r as h,
+    j as e,
+    A as Va,
+    u as jn,
+    o as Sn,
+    C as on,
+    a as io,
+    D as Bi,
+    d as us,
+    b as ro,
+    G as Xa,
+    I as mi,
+    c as hs,
+    L as oo,
+    e as so,
+    f as ms,
+    S as ps,
+    g as Kt,
+    h as Gn,
+    H as gs,
+    i as fs,
+    E as ys,
+    N as co,
+    k as bs,
+    l as xs,
+    m as vs,
+    n as ws,
+    R as Ga,
+    p as js,
+    q as Ss,
+    s as lo,
+    P as uo,
+    t as Cs,
+    v as ho,
+    w as Yn,
+    x as Ts,
+    W as pi,
+    y as Dn,
+    F as ks,
+    z as Lt,
+    B as Qn,
+    J as Cn,
+    K as As,
+    M as _s,
+    O as Ls,
+    Q as Ps,
+    T as Is,
+    U as Es,
+    V as qs,
+    X as lr,
+    Y as dr,
+    Z as Rs,
+    _ as Ds,
+    $ as Fs,
+    a0 as Bs
+} from "./vndr-C-rNLSX8.js";
+import {
+    d as Tn,
+    t as N,
+    X as Ms,
+    E as Ns,
+    e as Os,
+    l as O,
+    j as S,
+    a as Vs,
+    w as mo,
+    b as y,
+    P as Te,
+    T as va,
+    c as ue,
+    W as an,
+    f as Mi,
+    C as fa,
+    g as po,
+    _ as Hs,
+    B as zs,
+    h as Ws,
+    i as da,
+    s as Gs,
+    V as Ys,
+    G as Us,
+    N as go,
+    k as $s,
+    m as Ie,
+    $ as Ha,
+    n as ca,
+    o as Ks,
+    r as la,
+    L as Ni,
+    p as ua,
+    q as ce,
+    u as Qs,
+    v as yt,
+    x as Js,
+    H as fo,
+    y as be,
+    z as Jn,
+    A as B,
+    D as ga,
+    F as Yt,
+    I as Li,
+    J as kn,
+    U as Zn,
+    Q as Ht,
+    K as Ba,
+    M as Zs,
+    O as Xs,
+    Y as sa,
+    R as Un,
+    S as Pi,
+    Z as sn,
+    a0 as ec,
+    a1 as tc,
+    a2 as ac,
+    a3 as Fn,
+    a4 as An,
+    a5 as yo,
+    a6 as en,
+    a7 as nc,
+    a8 as ic,
+    a9 as rc,
+    aa as oc,
+    ab as sc,
+    ac as bo,
+    ad as cc,
+    ae as lc,
+    af as xo,
+    ag as vo,
+    ah as dc,
+    ai as uc,
+    aj as hc,
+    ak as mc,
+    al as pc,
+    am as gc,
+    an as Wt,
+    ao as cn,
+    ap as fc,
+    aq as Gt,
+    ar as ha,
+    as as yc,
+    at as Ne,
+    au as Oe,
+    av as bc,
+    aw as xc,
+    ax as vc,
+    ay as wc,
+    az as jc,
+    aA as wo,
+    aB as jo,
+    aC as _n,
+    aD as Ya,
+    aE as Sc,
+    aF as Cc,
+    aG as Tc,
+    aH as kc,
+    aI as Ac,
+    aJ as _c,
+    aK as Lc,
+    aL as Pc,
+    aM as Ic,
+    aN as Ec,
+    aO as qc,
+    aP as Rc,
+    aQ as Dc,
+    aR as Fc,
+    aS as Bc,
+    aT as Mc,
+    aU as Nc,
+    aV as Oc,
+    aW as Vc,
+    aX as Hc,
+    aY as zc,
+    aZ as Wc,
+    a_ as Gc,
+    a$ as Oi,
+    b0 as Yc,
+    b1 as Vi,
+    b2 as Qt,
+    b3 as Uc,
+    b4 as $c,
+    b5 as Kc,
+    b6 as Qc,
+    b7 as Jc,
+    b8 as ur,
+    b9 as Zc,
+    ba as Xc,
+    bb as So,
+    bc as el,
+    bd as Ua,
+    be as tl,
+    bf as al,
+    bg as ie,
+    bh as nl,
+    bi as il,
+    bj as hr,
+    bk as mr,
+    bl as pr,
+    bm as rl,
+    bn as ol,
+    bo as gr,
+    bp as sl,
+    bq as fr,
+    br as cl,
+    bs as ll,
+    bt as dl,
+    bu as ul,
+    bv as yr,
+    bw as br,
+    bx as xr,
+    by as vr,
+    bz as wr,
+    bA as jr,
+    bB as hl,
+    bC as ml,
+    bD as pl,
+    bE as gl,
+    bF as fl,
+    bG as yl,
+    bH as bl,
+    bI as xl,
+    bJ as vl,
+    bK as wl,
+    bL as jl,
+    bM as ln,
+    bN as Sl,
+    bO as Cl,
+    bP as Tl,
+    bQ as Hi,
+    bR as zi,
+    bS as Co,
+    bT as kl,
+    bU as To,
+    bV as Al,
+    bW as _l,
+    bX as Ll,
+    bY as Pl,
+    bZ as Il,
+    b_ as El,
+    b$ as ql,
+    c0 as Rl,
+    c1 as Dl,
+    c2 as Fl,
+    c3 as Bl,
+    c4 as Ml,
+    c5 as Nl,
+    c6 as Xn,
+    c7 as Ol,
+    c8 as ko,
+    c9 as Vl,
+    ca as Hl,
+    cb as zl,
+    cc as Wl,
+    cd as Gl,
+    ce as Yl,
+    cf as Ao,
+    cg as Ul,
+    ch as Na,
+    ci as $l,
+    cj as Kl,
+    ck as Ql,
+    cl as xa,
+    cm as _o,
+    cn as Jl,
+    co as Zl,
+    cp as Xl,
+    cq as Sr,
+    cr as ed,
+    cs as td,
+    ct as ad,
+    cu as nd,
+    cv as id,
+    cw as Cr,
+    cx as rd,
+    cy as od,
+    cz as sd,
+    cA as cd,
+    cB as ld,
+    cC as dd,
+    cD as ud,
+    cE as ba,
+    cF as hd,
+    cG as md,
+    cH as Ln,
+    cI as Pn,
+    cJ as In,
+    cK as pd,
+    cL as gd,
+    cM as En,
+    cN as fd,
+    cO as yd,
+    cP as bd,
+    cQ as xd,
+    cR as vd,
+    cS as wd,
+    cT as jd,
+    cU as Sd,
+    cV as Cd,
+    cW as Td,
+    cX as kd,
+    cY as Ad,
+    cZ as _d,
+    c_ as ei,
+    c$ as qn,
+    d0 as Wi,
+    d1 as ti,
+    d2 as ai,
+    d3 as Rn,
+    d4 as Ld,
+    d5 as Pd,
+    d6 as Id,
+    d7 as Gi,
+    d8 as Lo,
+    d9 as Ed,
+    da as qd,
+    db as Rd,
+    dc as Dd,
+    dd as Fd,
+    de as Bd,
+    df as Md,
+    dg as Nd,
+    dh as Od,
+    di as Vd,
+    dj as Hd,
+    dk as zd,
+    dl as Wd,
+    dm as Gd,
+    dn as Yd,
+    dp as Ud,
+    dq as Po,
+    dr as Io,
+    ds as $d,
+    dt as Kd,
+    du as Qd,
+    dv as Jd,
+    dw as Zd,
+    dx as Xd,
+    dy as eu,
+    dz as Tr,
+    dA as tu,
+    dB as au,
+    dC as kr,
+    dD as nu,
+    dE as iu,
+    dF as Yi,
+    dG as ru,
+    dH as ou,
+    dI as su,
+    dJ as Eo,
+    dK as cu,
+    dL as lu,
+    dM as du,
+    dN as uu,
+    dO as hu,
+    dP as mu,
+    dQ as pu,
+    dR as gu,
+    dS as fu,
+    dT as yu,
+    dU as bu,
+    dV as xu,
+    dW as vu,
+    dX as wu,
+    dY as ju,
+    dZ as Su,
+    d_ as Cu,
+    d$ as Tu,
+    e0 as ku,
+    e1 as Au
+} from "./refresh-B4OVI0m0.js";
+import {
+    f as _u,
+    O as Lu,
+    C as ni
+} from "./routes-ar-CVVbN.js";
+import {
+    e as Pu,
+    n as Iu,
+    s as Eu,
+    p as qu,
+    a as Ru,
+    b as Du,
+    v as Fu,
+    i as Bu,
+    c as Mu,
+    d as Nu,
+    f as Ou,
+    g as Vu,
+    h as Hu,
+    j as zu,
+    k as Wu,
+    l as Gu,
+    m as Yu,
+    o as Uu,
+    q as $u,
+    r as Ku,
+    t as qo,
+    u as Qu,
+    I as Ju,
+    w as Zu,
+    x as Xu,
+    y as eh,
+    z as th,
+    O as ah,
+    T as nh,
+    E as ih,
+    A as rh,
+    B as oh,
+    C as sh,
+    D as ch,
+    F as lh,
+    G as dh,
+    H as uh,
+    J as hh,
+    K as mh,
+    U as ph,
+    L as Ar,
+    M as gh,
+    N as fh,
+    P as yh,
+    Q as bh,
+    R as xh,
+    S as vh,
+    V as wh,
+    W as jh,
+    X as Sh,
+    Y as Ch,
+    Z as Th,
+    _ as kh,
+    $ as Ah,
+    a0 as _h,
+    a1 as Lh,
+    a2 as Ph,
+    a3 as Ih,
+    a4 as Eh,
+    a5 as qh,
+    a6 as Rh,
+    a7 as Dh,
+    a8 as Fh,
+    a9 as Bh,
+    aa as Mh,
+    ab as Nh,
+    ac as Oh,
+    ad as Vh,
+    ae as Ro,
+    af as Hh,
+    ag as zh,
+    ah as Wh,
+    ai as gi,
+    aj as Gh,
+    ak as Yh,
+    al as Uh,
+    am as $h,
+    an as Do,
+    ao as Kh,
+    ap as Qh,
+    aq as Jh,
+    ar as Ii,
+    as as Zh
+} from "./images-CdFzsLB1.js";
+import {
+    s as Xh,
+    a as em,
+    u as Ui,
+    c as Fo,
+    b as tm,
+    d as am,
+    g as nm,
+    e as im,
+    f as rm,
+    h as $i,
+    i as om,
+    j as sm,
+    k as _r,
+    l as cm,
+    m as lm,
+    n as dm
+} from "./utils-CMJtqSu6.js";
+import {
+    c as gt,
+    g as um,
+    a as hm,
+    b as mm,
+    d as pm,
+    e as gm,
+    f as fm,
+    h as ym,
+    i as bm,
+    j as xm,
+    k as vm,
+    l as wm,
+    m as jm,
+    n as Sm,
+    t as Cm,
+    s as Tm,
+    o as Lr,
+    p as km
+} from "./index-DWb1yUZw.js";
+
+function Am({
+    onReport: t
+}) {
+    const {
+        config: {
+            sideMenuItems: a
+        }
+    } = h.useContext(Tn), n = /\/dashboard\/?$/.test(location.pathname), i = a.filter(r => r.name !== "logout");
+    return e.jsxs(N, {
+        sx: {
+            display: {
+                xs: "none",
+                sm: "none",
+                md: "none",
+                lg: "block"
+            },
+            ">.MuiList-root": {
+                width: "310px",
+                maxWidth: "310px"
+            }
+        },
+        children: [e.jsx(Ms, {
+            menuItems: i,
+            matchingRoute: location.pathname,
+            onReport: t,
+            hideItems: [{
+                name: "myGarage",
+                routesToHide: ["dashboard", "report"]
+            }, {
+                name: "myAccount",
+                routesToHide: ["report"]
+            }],
+            location: "sidebar"
+        }), n && e.jsxs(e.Fragment, {
+            children: [e.jsx(Ns, {}), e.jsx(Os, {})]
+        })]
+    })
+}
+const _m = O(N)(({
+    theme: t
+}) => ({
+    width: "100%",
+    margin: "auto",
+    minHeight: "80vh",
+    backgroundColor: t.palette.background.paper,
+    [t.breakpoints.up("md")]: {
+        maxWidth: "1296px",
+        width: "calc(100% - 250px)",
+        padding: t.spacing(3.5)
+    }
+}));
+
+function ob({
+    children: t,
+    defaultBackground: a = !1
+}) {
+    return e.jsxs(S, {
+        direction: "row",
+        children: [e.jsx(N, {
+            display: {
+                xs: "none",
+                md: "block"
+            },
+            sx: n => ({
+                backgroundColor: n.palette.background.paper,
+                borderRightWidth: "1px",
+                borderRightStyle: "solid",
+                borderColor: n.palette.divider
+            }),
+            children: e.jsx(N, {
+                position: "sticky",
+                top: 55,
+                children: e.jsx(Am, {})
+            })
+        }), e.jsx(_m, {
+            children: t
+        })]
+    })
+}
+Vs();
+const Ei = {
+        social_network_report: t => t == null ? void 0 : t.name,
+        detailed_person_report: t => mo((t == null ? void 0 : t.name) || ""),
+        username_report: t => t == null ? void 0 : t.name,
+        reverse_phone_report: t => t == null ? void 0 : t.name,
+        property_report: t => t == null ? void 0 : t.name,
+        vehicle_report: t => {
+            var n;
+            const a = t == null ? void 0 : t.name;
+            return a.includes(" ") ? a : (n = t == null ? void 0 : t.name) == null ? void 0 : n.toUpperCase()
+        },
+        sex_offender_report: t => "",
+        detailed_business_report: t => "",
+        contact_report: t => "",
+        ancestry_report: t => ""
+    },
+    Bo = {
+        social_network_report: Pu,
+        detailed_person_report: Iu,
+        username_report: Eu,
+        reverse_phone_report: qu,
+        sex_offender_report: Ru,
+        property_report: Du,
+        vehicle_report: Fu,
+        detailed_business_report: "",
+        contact_report: "",
+        ancestry_report: ""
+    },
+    Mo = {
+        detailed_person_report: "name",
+        username_report: "account",
+        social_network_report: "email",
+        reverse_phone_report: "phone",
+        sex_offender_report: "area",
+        property_report: "property",
+        vehicle_report: "vehicle",
+        detailed_business_report: "",
+        contact_report: "",
+        ancestry_report: ""
+    },
+    Lm = t => `Add ${Mo[t]}`,
+    Pm = t => `Claim ${Mo[t]}`,
+    Im = {
+        username_report: "social media profile",
+        social_network_report: "email",
+        reverse_phone_report: "phone number",
+        property_report: "property",
+        vehicle_report: "vehicle",
+        sex_offender_report: "",
+        detailed_person_report: "",
+        detailed_business_report: "",
+        contact_report: "",
+        ancestry_report: ""
+    },
+    fi = {
+        username_report: "Username or profile link (Ex. facebook/com/johnsmith)",
+        social_network_report: "E.g. johnsmith@gmail.com",
+        reverse_phone_report: "(___) ___-____",
+        property_report: "property",
+        vehicle_report: "vehicle",
+        sex_offender_report: "",
+        detailed_person_report: "",
+        detailed_business_report: "",
+        contact_report: "",
+        ancestry_report: ""
+    },
+    Em = {
+        social_network_report: "Email",
+        detailed_person_report: "Name",
+        username_report: "Social Media",
+        reverse_phone_report: "Phone",
+        property_report: "Property",
+        vehicle_report: "Vehicle",
+        sex_offender_report: "Neighborhood",
+        detailed_business_report: "",
+        contact_report: "",
+        ancestry_report: ""
+    },
+    No = (t, a) => `${Em[t]}${a?`
+`:" "}${t==="sex_offender_report"?"Watch":"Monitoring"}`,
+    qm = new va,
+    Oo = (t = "") => qm.parseDateFromString(t, "LL/dd/yyyy") || "--/--/----",
+    Rm = {
+        detailed_person_report: t => {
+            const a = Oo(t == null ? void 0 : t.updatedAt).toString();
+            return e.jsxs(e.Fragment, {
+                children: [e.jsx(y, {
+                    variant: "body1",
+                    children: t == null ? void 0 : t.location
+                }, "2"), e.jsx(Te, {
+                    orientation: "vertical",
+                    flexItem: !0
+                }), e.jsxs(y, {
+                    variant: "body1",
+                    children: ["Last updated ", a]
+                }, "3"), e.jsx(Te, {
+                    orientation: "vertical",
+                    flexItem: !0
+                })]
+            })
+        },
+        property_report: t => e.jsxs(e.Fragment, {
+            children: [e.jsx(y, {
+                variant: "body1",
+                children: t == null ? void 0 : t.location
+            }, "2"), e.jsx(Te, {
+                orientation: "vertical",
+                flexItem: !0
+            })]
+        }),
+        username_report: t => {},
+        reverse_phone_report: t => {},
+        vehicle_report: t => {},
+        social_network_report: t => {},
+        sex_offender_report: t => {},
+        detailed_business_report: t => {},
+        contact_report: t => {},
+        ancestry_report: t => {}
+    },
+    Dm = ["Facebook", "Instagram", "𝕏", "LinkedIn", "Youtube", "Pinterest", "eBay"],
+    Fm = ["Aboutme", "Badoo", "Bebo", "Classmates", "CPF", "Cyworld", "Delicious", "Deviantart", "Diggtagged", "Douban", "Flavorsme", "Flickr", "Flixster", "Foursquare", "Freelancer", "Friendster", "Gaia", "Github", "Goodreads", "Google", "Gravatar", "Habbo", "Hi5", "Hyves", "Imgur", "Lastfm", "Livejournal", "Meetup", "Myheritage", "Mylife", "Myspace", "Myyearbook", "Netlog", "Ning", "Odnoklassniki", "Orkut", "Quora", "Qzone", "Renren", "Sonico", "Soundcloud", "Stumbleupon", "Tumblr", "Viadeo", "Vkontakte", "Weeworld", "Xanga", "Xing", "Yelp"],
+    Bm = () => {
+        let t = [];
+        const a = (n, i) => {
+            n.forEach(r => {
+                i.push({
+                    display: r,
+                    value: r.toLowerCase()
+                })
+            })
+        };
+        return t.push({
+            display: "All",
+            value: "all"
+        }), t.push({
+            display: e.jsx(Te, {
+                orientation: "horizontal",
+                flexItem: !0
+            }),
+            value: "limiter1",
+            limiter: !0
+        }), a(Dm, t), t.push({
+            display: e.jsx(Te, {
+                orientation: "horizontal",
+                flexItem: !0
+            }),
+            value: "limiter2",
+            limiter: !0
+        }), a(Fm, t), t
+    },
+    Vo = 10,
+    Ki = O(S)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(2),
+        backgroundColor: t.palette.background.default,
+        borderRadius: t.spacing(.5),
+        border: "1px solid var(--divider, #E2E2E2)",
+        cursor: "pointer"
+    })),
+    Mm = O(Ki)(({
+        theme: t
+    }) => ({
+        width: "100%",
+        position: "relative",
+        [t.breakpoints.up("sm")]: {
+            width: `calc(50% - ${t.spacing(2)})`
+        },
+        "&:hover": {
+            boxShadow: "0px 3px 3px -2px rgba(0, 0, 0, 0.20), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12)"
+        }
+    })),
+    yi = O(ue)(({
+        theme: t
+    }) => ({
+        height: "36px",
+        width: "100%",
+        [t.breakpoints.up("lg")]: {
+            width: "42%",
+            right: t.spacing(2),
+            position: "absolute",
+            maxWidth: "170px"
+        }
+    })),
+    Nm = O(an)(({
+        theme: t
+    }) => ({
+        overflowX: "hidden",
+        ".MuiDialogTitle-root": {
+            display: "flex",
+            padding: `0 ${t.spacing(3)}`,
+            margin: `${t.spacing(2.5)} 0 0 0`
+        },
+        ".edit-modal": {
+            overflowX: "hidden",
+            maxWidth: "none",
+            width: "100%",
+            [t.breakpoints.up("sm")]: {
+                maxWidth: "600px"
+            },
+            [t.breakpoints.up("lg")]: {
+                maxWidth: "1000px"
+            }
+        },
+        ".MuiDialogContent-root": {
+            overflowY: "auto",
+            overflowX: "hidden",
+            padding: t.spacing(2.5)
+        }
+    })),
+    Om = O(S)(({
+        theme: t
+    }) => ({
+        marginTop: "-33px",
+        marginBottom: t.spacing(2),
+        [t.breakpoints.up("sm")]: {
+            marginTop: "0px"
+        },
+        [t.breakpoints.up("lg")]: {
+            marginBottom: "0px"
+        }
+    })),
+    Pr = O(y)(({
+        theme: t
+    }) => ({
+        whiteSpace: "nowrap",
+        overflow: "hidden",
+        OTextOverflow: "ellipsis",
+        textOverflow: "ellipsis",
+        maxWidth: "100%"
+    })),
+    Vm = O(Mi)(({
+        theme: t
+    }) => ({
+        color: t.palette.background.light,
+        borderBottom: "solid",
+        marginBottom: t.spacing(2.5)
+    })),
+    Hm = ({
+        closeIcon: t,
+        onReportSuccess: a
+    }) => {
+        const [n, i] = h.useState(0), {
+            isMobile: r
+        } = fa();
+        return e.jsx(S, {
+            width: "100%",
+            children: e.jsx(Vm, {
+                value: n,
+                onTabChanged: o => i(o),
+                tab: po,
+                tabs: [{
+                    content: e.jsxs(S, {
+                        direction: "row",
+                        width: "100%",
+                        mb: [0, 1],
+                        sx: {
+                            alignItems: ["center", "initial"],
+                            minHeight: "58px"
+                        },
+                        children: [e.jsx(Hs, {
+                            onSuccess: o => a(o),
+                            searchButtonText: "Add",
+                            searchButtonSize: "16%",
+                            optionalProps: {
+                                yearLabelHidden: !0,
+                                yearWidth: 2.5,
+                                makeLabelHidden: !0,
+                                makeWidth: 2.5,
+                                modelLabelHidden: !0,
+                                modelWidth: 2.5,
+                                trimLabelHidden: !0,
+                                trimWidth: 2.5,
+                                selectHeight: "58px",
+                                searchStartIcon: e.jsx(Va, {}),
+                                formStyle: {
+                                    width: "100%"
+                                }
+                            }
+                        }), t({
+                            margins: !0
+                        })]
+                    }),
+                    label: "Year, Make, Model"
+                }, {
+                    content: e.jsxs(S, {
+                        direction: "row",
+                        width: "100%",
+                        mb: [0, 1],
+                        sx: {
+                            alignItems: ["center", "initial"]
+                        },
+                        children: [e.jsx(zs, {
+                            onSuccess: o => a(o),
+                            searchButtonText: "Add",
+                            searchButtonSize: "16%",
+                            optionalProps: {
+                                vinLabelHidden: !0,
+                                vinWidth: "84%",
+                                selectHeight: "58px",
+                                searchStartIcon: e.jsx(Va, {}),
+                                formStyle: {
+                                    width: "100%"
+                                }
+                            }
+                        }), t({
+                            margins: !0
+                        })]
+                    }),
+                    label: "VIN"
+                }, {
+                    content: e.jsxs(S, {
+                        direction: "row",
+                        width: "100%",
+                        sx: {
+                            alignItems: ["center", "initial"]
+                        },
+                        children: [e.jsx(Ws, {
+                            onSuccess: o => a(o),
+                            searchButtonSize: "16%",
+                            searchButtonText: "Add",
+                            optionalProps: {
+                                licensePlateComponentsWidth: 10.08,
+                                licensePlateLabelHidden: !0,
+                                licensePlateWidth: "50%",
+                                stateLabelHidden: !0,
+                                stateWidth: "20%",
+                                selectHeight: r ? "60px" : "0px",
+                                searchStartIcon: e.jsx(Va, {}),
+                                formStyle: {
+                                    width: "100%"
+                                },
+                                alignItems: "flex-start"
+                            }
+                        }), t({
+                            margins: !0
+                        })]
+                    }),
+                    label: "License Plate"
+                }]
+            })
+        })
+    },
+    zm = ({
+        rawReportType: t,
+        defaultOpen: a,
+        navigateToReport: n
+    }) => {
+        const [i, r] = h.useState(!1), [o, s] = h.useState(!1), {
+            currentMonitors: c
+        } = da();
+        h.useEffect(() => {
+            r(a)
+        }, [a]);
+        const u = Gs(t),
+            l = $s[t],
+            {
+                register: d,
+                handleSubmit: C,
+                formState: {
+                    errors: m
+                },
+                setValue: v,
+                resetField: L
+            } = jn({
+                resolver: Sn(l)
+            }),
+            g = t === "username_report",
+            b = ["reverse_phone_report", "social_network_report"].includes(t) ? "center" : "flex-start",
+            f = !!(m != null && m[u]),
+            w = Ys(),
+            p = Us(),
+            P = async M => {
+                if (s(!1), u === "phone" && M[u]) {
+                    const j = {
+                        phone_number: Ha(M[u] ?? "")
+                    };
+                    p.mutate({
+                        reportType: u,
+                        input: j
+                    });
+                    return
+                }
+                await p.mutate({
+                    reportType: u,
+                    input: M
+                }), r(!1)
+            };
+        h.useEffect(() => {
+            o || q()
+        }, [p]);
+        const q = () => {
+                if (p.isSuccess) {
+                    const M = c.length || 0,
+                        D = Vo - M;
+                    go(`Monitor was enabled. You have ${D} monitors remaining.`, {
+                        variant: "success"
+                    }), s(!0), L(u)
+                }
+            },
+            _ = M => {
+                const D = `${M.street_line} ${M.secondary}`.trim();
+                M.address = D, v("address", D), v("city", M.city), v("state", M.state), P(M)
+            },
+            E = ({
+                margins: M
+            }) => !a && e.jsx(on, {
+                onClick: () => r(!1),
+                sx: {
+                    cursor: "pointer",
+                    ...M && {
+                        ml: [1.5],
+                        mt: [0, .75]
+                    }
+                }
+            }),
+            x = () => e.jsx(ue, {
+                variant: "contained",
+                startIcon: e.jsx(Va, {}),
+                onClick: C(P),
+                sx: {
+                    ...!g && {
+                        marginX: [1.5]
+                    },
+                    paddingX: [2.75],
+                    height: "40px"
+                },
+                children: "Add"
+            }),
+            I = () => {
+                var M;
+                return t === "reverse_phone_report" ? e.jsxs(e.Fragment, {
+                    children: [e.jsx(Ie, {
+                        ...d(u, {
+                            required: !0,
+                            onChange: D => {
+                                const j = Ha(D.target.value);
+                                v(u, ca(j))
+                            }
+                        }),
+                        sx: {
+                            width: "100%"
+                        },
+                        placeholder: fi[t],
+                        error: f,
+                        type: "tel",
+                        inputProps: {
+                            maxLength: 14
+                        }
+                    }), x(), E({})]
+                }) : t === "vehicle_report" ? e.jsx(Hm, {
+                    closeIcon: E,
+                    onReportSuccess: w
+                }) : t === "property_report" ? e.jsxs(e.Fragment, {
+                    children: [e.jsx(Ks, {
+                        parentFormSubmitHandler: D => _(D),
+                        buttonText: "Add",
+                        inputOptions: {
+                            inputWidth: {
+                                md: "80%"
+                            },
+                            customPx: 0,
+                            hideInputLabel: !0,
+                            customSpacing: 0,
+                            rowGap: 1,
+                            alignment: "space-between",
+                            buttonStartIcon: e.jsx(Va, {})
+                        }
+                    }), E({
+                        margins: !0
+                    })]
+                }) : g ? e.jsxs(e.Fragment, {
+                    children: [e.jsxs(S, {
+                        direction: ["column", "row"],
+                        gap: 1.5,
+                        width: "100%",
+                        children: [e.jsx(Ie, {
+                            ...d(u, {
+                                required: !0
+                            }),
+                            fullWidth: !0,
+                            placeholder: fi[t],
+                            error: f,
+                            helperText: (M = m[u]) == null ? void 0 : M.message,
+                            type: "text"
+                        }), e.jsx(la, {
+                            id: "social-media-network-select",
+                            sx: {
+                                width: ["100%", "50%"]
+                            },
+                            options: Bm(),
+                            defaultValue: "all"
+                        }), x()]
+                    }), E({
+                        margins: !0
+                    })]
+                }) : e.jsxs(e.Fragment, {
+                    children: [e.jsx(Ie, {
+                        ...d(u, {
+                            required: !0
+                        }),
+                        sx: {
+                            width: "100%"
+                        },
+                        placeholder: fi[t],
+                        error: f,
+                        type: "text"
+                    }), x(), E({})]
+                })
+            },
+            H = () => {
+                var M;
+                return e.jsx(e.Fragment, {
+                    children: e.jsxs(S, {
+                        direction: "column",
+                        children: [e.jsx(S, {
+                            direction: "row",
+                            alignItems: ["center", b],
+                            children: I()
+                        }), f && !g && e.jsx(y, {
+                            ml: 1,
+                            mt: .5,
+                            color: "error",
+                            children: (M = m[u]) == null ? void 0 : M.message
+                        })]
+                    })
+                })
+            };
+        return e.jsx(e.Fragment, {
+            children: i ? H() : e.jsxs(ue, {
+                startIcon: e.jsx(Va, {}),
+                sx: {
+                    justifyContent: "flex-start",
+                    textDecoration: "underline"
+                },
+                onClick: () => r(!0),
+                children: ["Add another ", Im[t]]
+            })
+        })
+    },
+    Wm = () => {
+        var r;
+        const {
+            data: t
+        } = Ni(!0), a = (r = t == null ? void 0 : t.account) == null ? void 0 : r.user_info, {
+            redirectToSearchPersonUrlv2: n
+        } = ua(), i = () => {
+            const o = {
+                fName: (a == null ? void 0 : a.first_name) || "",
+                lName: (a == null ? void 0 : a.last_name) || "",
+                mName: "",
+                age: "",
+                city: "",
+                state: ""
+            };
+            n(o)
+        };
+        return e.jsxs(Ki, {
+            direction: ["column", "row"],
+            justifyItems: "center",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: [2.5, 0],
+            children: [e.jsxs(S, {
+                direction: ["column", "row"],
+                justifyItems: "center",
+                alignItems: "center",
+                gap: 2.5,
+                children: [e.jsx("img", {
+                    src: Bo.detailed_person_report,
+                    width: "52px",
+                    height: "56px",
+                    alt: "name-monitoring-icon"
+                }), e.jsx(y, {
+                    variant: "h4",
+                    mb: 0,
+                    children: "Search for yourself"
+                })]
+            }), e.jsx(ue, {
+                variant: "contained",
+                startIcon: e.jsx(Va, {}),
+                onClick: i,
+                children: "Add Report"
+            })]
+        })
+    },
+    Gm = ({
+        serializedReport: t,
+        onNavigate: a
+    }) => {
+        const n = t.permalink,
+            i = t.reportType,
+            {
+                toggleReportIsMonitored: r,
+                currentMonitors: o
+            } = da(n),
+            s = () => {
+                const l = o.length || 0,
+                    d = Vo - l;
+                go(`Monitor was disabled. You have ${d} monitors remaining.`, {
+                    variant: "info"
+                })
+            },
+            c = () => {
+                r({
+                    deleteMonitor: !0,
+                    successCallback: s
+                })
+            },
+            u = () => {
+                const l = Oo(t.createdAt).toString();
+                return e.jsxs(e.Fragment, {
+                    children: [Rm[i](t), e.jsxs(y, {
+                        variant: "body1",
+                        children: ["Added ", l]
+                    }, "1")]
+                })
+            };
+        return e.jsxs(S, {
+            sx: {
+                cursor: "initial"
+            },
+            direction: "row",
+            alignItems: "center",
+            columnGap: 1.5,
+            children: [e.jsxs(Ki, {
+                direction: ["column", "row"],
+                sx: {
+                    flex: 1
+                },
+                justifyContent: "space-between",
+                children: [e.jsxs(S, {
+                    direction: "column",
+                    children: [e.jsx(y, {
+                        variant: "h4",
+                        children: Ei[i](t)
+                    }), e.jsx(S, {
+                        direction: ["column", "row"],
+                        columnGap: 1,
+                        mb: 1.25,
+                        rowGap: .5,
+                        children: u()
+                    })]
+                }), e.jsx(S, {
+                    alignItems: "flex-end",
+                    justifyContent: "center",
+                    children: e.jsx(ue, {
+                        onClick: () => a(n),
+                        sx: {
+                            textDecoration: "underline"
+                        },
+                        children: "View Report"
+                    })
+                })]
+            }), e.jsx(on, {
+                onClick: c,
+                sx: {
+                    cursor: "pointer"
+                }
+            })]
+        })
+    },
+    Ym = ({
+        serializedReports: t,
+        rawReportType: a,
+        openModal: n,
+        setOpenModal: i,
+        navigateToReport: r
+    }) => {
+        const o = a === "property_report",
+            s = a === "detailed_person_report",
+            c = t.length,
+            u = m => {
+                r(m)
+            },
+            l = () => t.map((m, v) => e.jsx(Gm, {
+                serializedReport: m,
+                onNavigate: u
+            }, `${a}+card+${v}`)),
+            d = !s && (c < 2 || !o),
+            C = () => s && c === 0 ? e.jsx(Wm, {}) : e.jsxs(S, {
+                direction: "column",
+                gap: 2.5,
+                children: [l(), d && e.jsx(zm, {
+                    rawReportType: a,
+                    defaultOpen: c === 0,
+                    navigateToReport: r
+                })]
+            });
+        return e.jsxs(Nm, {
+            open: n,
+            onClose: () => i(!1),
+            classes: {
+                paper: "edit-modal"
+            },
+            children: [e.jsxs(S, {
+                sx: {
+                    flexDirection: "row",
+                    alignItems: "flex-end",
+                    justifyContent: "space-between"
+                },
+                children: [e.jsx(y, {
+                    variant: "h2",
+                    sx: {
+                        marginBottom: "0"
+                    },
+                    children: No(a, !1)
+                }), e.jsx(on, {
+                    onClick: () => i(!1),
+                    sx: {
+                        cursor: "pointer"
+                    }
+                })]
+            }), e.jsx(Te, {
+                sx: {
+                    my: [2.5]
+                }
+            }), C()]
+        })
+    },
+    Um = {
+        vehicle_report: "vehicle monitor",
+        property_report: "property monitor",
+        social_network_report: "email monitor",
+        reverse_phone_report: "phone monitor",
+        detailed_person_report: "name monitor",
+        username_report: "social media monitor"
+    },
+    Qa = ({
+        reportMonitors: t,
+        rawReportType: a
+    }) => {
+        const [n, i] = h.useState(!1), {
+            trackEvent: r
+        } = h.useContext(ce), o = a === "detailed_person_report", s = t ? Qs(t, a) : [], c = (s == null ? void 0 : s.length) ?? 0, {
+            isMobile: u,
+            isMedium: l
+        } = fa(), {
+            redirectToReportUrl: d
+        } = ua(), C = b => {
+            const f = Js[a];
+            f ? d(f, b) : console.error("No report type found for", a)
+        }, m = () => o ? c > 0 ? e.jsx(yi, {
+            variant: "outlined",
+            fullWidth: l,
+            onClick: () => C(s[0].permalink),
+            children: "Check Report"
+        }) : e.jsx(yi, {
+            variant: "contained",
+            fullWidth: l,
+            endIcon: e.jsx(io, {}),
+            children: "Set up now"
+        }) : e.jsx(yi, {
+            variant: c > 0 ? "outlined" : "contained",
+            fullWidth: l,
+            endIcon: e.jsx(Va, {}),
+            children: c > 0 ? Lm(a) : Pm(a)
+        }), v = yt(), L = () => o ? `${mo(s[0].name||"")}, ${s[0].location}` : Ei[a](s[0]), g = () => c > 1 && !o ? e.jsxs(e.Fragment, {
+            children: [e.jsx(Pr, {
+                children: Ei[a](s[0])
+            }), e.jsxs(y, {
+                sx: {
+                    color: v.palette.primary.light,
+                    whiteSpace: "nowrap"
+                },
+                ml: 1,
+                variant: "body1",
+                children: ["(+", c - 1, " more)"]
+            })]
+        }) : e.jsxs(e.Fragment, {
+            children: [e.jsx(Pr, {
+                sx: {
+                    color: b => b.palette.text.primary
+                },
+                children: c > 0 ? L() : "Not claimed"
+            }), e.jsx(y, {
+                whiteSpace: "pre",
+                children: " "
+            })]
+        });
+        return e.jsxs(e.Fragment, {
+            children: [e.jsxs(Mm, {
+                direction: "column",
+                onClick: () => {
+                    const b = Um[a];
+                    r(b, "navigation click", "id monitor settings"), i(!0)
+                },
+                children: [e.jsx(S, {
+                    direction: "row",
+                    justifyContent: "space-between",
+                    mb: [2, 0],
+                    children: e.jsxs(S, {
+                        direction: "row",
+                        children: [e.jsx("img", {
+                            src: Bo[a],
+                            width: "36px",
+                            height: "39px",
+                            alt: "name-monitoring-icon"
+                        }), e.jsx(S, {
+                            direction: "column",
+                            ml: 2,
+                            sx: {},
+                            children: e.jsx(y, {
+                                variant: "h6",
+                                sx: {
+                                    whiteSpace: "pre-wrap"
+                                },
+                                mb: 1,
+                                children: No(a, !u)
+                            })
+                        })]
+                    })
+                }), e.jsx(Om, {
+                    direction: "row",
+                    ml: 6.5,
+                    children: g()
+                }), m()]
+            }), e.jsx(Ym, {
+                serializedReports: s,
+                rawReportType: a,
+                openModal: n,
+                setOpenModal: i,
+                navigateToReport: C
+            })]
+        })
+    },
+    sb = () => {
+        const {
+            currentMonitors: t
+        } = da(), a = h.useMemo(() => _u(t || []), [t]), n = a.detailed_person_report, i = a.social_network_report, r = a.reverse_phone_report, o = a.username_report, s = a.property_report, c = a.vehicle_report, u = yt();
+        return e.jsxs(N, {
+            sx: {
+                backgroundColor: u.palette.background.paper
+            },
+            padding: 2.5,
+            children: [e.jsxs(S, {
+                direction: "column",
+                mb: 2.5,
+                children: [e.jsxs(S, {
+                    direction: "row",
+                    children: [e.jsx(fo.IdMonitorIcon, {
+                        color: "primary"
+                    }), e.jsx(y, {
+                        variant: "h3",
+                        children: " Personal Report Monitoring"
+                    })]
+                }), e.jsx(y, {
+                    variant: "body1",
+                    children: "Monitor your reports for changes in your public records related to your name, properties, registered vehicles, phone numbers, email addresses, or social media accounts"
+                })]
+            }), e.jsxs(S, {
+                direction: ["column", "row"],
+                gap: 2.5,
+                flexWrap: "wrap",
+                children: [e.jsx(Qa, {
+                    reportMonitors: n,
+                    rawReportType: "detailed_person_report"
+                }), e.jsx(Qa, {
+                    reportMonitors: s,
+                    rawReportType: "property_report"
+                }), e.jsx(Qa, {
+                    reportMonitors: r,
+                    rawReportType: "reverse_phone_report"
+                }), e.jsx(Qa, {
+                    reportMonitors: c,
+                    rawReportType: "vehicle_report"
+                }), e.jsx(Qa, {
+                    reportMonitors: i,
+                    rawReportType: "social_network_report"
+                }), e.jsx(Qa, {
+                    reportMonitors: o,
+                    rawReportType: "username_report"
+                })]
+            })]
+        })
+    },
+    $m = {
+        contactPage: Bu,
+        shield: Mu,
+        analytics: Nu,
+        calculator: Ou,
+        feed: Vu,
+        navigator: Hu
+    },
+    Km = {
+        contactPage: zu,
+        shield: Wu,
+        analytics: Gu,
+        calculator: Yu,
+        feed: Uu,
+        navigator: $u
+    },
+    Ja = (t, a) => a ? Km[t] : $m[t],
+    Ho = t => [{
+        img: Ja("contactPage", t),
+        title: "Identity & Credit Monitoring",
+        summary: "Safeguard your identity and credit with alerts monitoring changes in your TransUnion credit record"
+    }, {
+        img: Ja("shield", t),
+        title: "$1M Identity Theft Insurance & Restoration",
+        summary: "Recover certain out-of-pocket expenses and lost wages if your identity is stolen"
+    }, {
+        img: Ja("analytics", t),
+        title: "Score Tracker",
+        summary: "Keep a monthly historical record of your credit score to monitor your progress"
+    }, {
+        img: Ja("calculator", t),
+        title: "Score Simulator",
+        summary: "See how your next financial decision may impact your credit profile"
+    }, {
+        img: Ja("feed", t),
+        title: "Credit Summary",
+        summary: "Don't have time to look over your entire credit report? Access the highlights with Quick Summary"
+    }, {
+        img: Ja("navigator", t),
+        title: "Credit Navigator",
+        summary: "Get analysis on factors and actions that may help accomplish your credit goals"
+    }];
+Ho(!1);
+const Qm = ({
+        img: t,
+        title: a,
+        summary: n
+    }) => e.jsx(B, {
+        item: !0,
+        xs: 12,
+        sm: 5.9,
+        children: e.jsxs(S, {
+            direction: "row",
+            alignItems: "flex-start",
+            textAlign: "left",
+            children: [e.jsx("img", {
+                src: t,
+                width: "35px",
+                height: "35px",
+                alt: "id-monitor-summary"
+            }), e.jsxs(S, {
+                direction: "column",
+                sx: {
+                    marginLeft: "12px"
+                },
+                children: [e.jsx(y, {
+                    variant: "h1",
+                    fontSize: "16px",
+                    sx: {
+                        marginBottom: "4px"
+                    },
+                    children: a
+                }), e.jsx(y, {
+                    variant: "body1",
+                    children: n
+                })]
+            })]
+        })
+    }),
+    Jm = () => {
+        const {
+            trackEvent: t,
+            trackEventGA4: a
+        } = h.useContext(ce), n = be("OAR-1448"), {
+            checkSessionEscalation: {
+                refetch: i
+            }
+        } = Jn(), r = () => {
+            t("id monitor start", "navigation click", "id monitor enrollment"), a({
+                event_name: "id_monitor_enrollment",
+                step: "id_monitor_start"
+            }), i()
+        }, o = Ho(n), s = n ? Ku : qo, c = e.jsxs(e.Fragment, {
+            children: [e.jsx("img", {
+                src: s,
+                alt: "id-monitor-color-logo"
+            }), e.jsx(y, {
+                variant: "h2",
+                fontSize: "30px",
+                fontWeight: "bold",
+                children: "ID Monitor"
+            }), e.jsx(y, {
+                variant: "h2",
+                fontSize: "20px",
+                textAlign: "center",
+                children: "Maximize your credit and identity management tools by connecting your credit record from TransUnion®"
+            }), e.jsx(B, {
+                container: !0,
+                marginTop: 4,
+                sx: {
+                    marginBottom: [2, 2.5],
+                    border: n ? "none" : "1px solid #E2E2E2",
+                    borderRadius: n ? 0 : "4px",
+                    rowGap: [2, 2.5],
+                    padding: [2, 2.5],
+                    justifyContent: ["default", "space-between"]
+                },
+                children: o.map(u => e.jsx(Qm, {
+                    img: u.img,
+                    title: u.title,
+                    summary: u.summary
+                }, u.title))
+            }), e.jsx(ue, {
+                onClick: () => r(),
+                variant: "contained",
+                sx: {
+                    width: ["100%", "172px"]
+                },
+                children: "Get Started"
+            }), e.jsx(Te, {
+                sx: {
+                    marginY: [2, 2.5],
+                    width: "100%"
+                }
+            }), e.jsx(y, {
+                marginBottom: [2, 2.5],
+                color: "#757575",
+                children: "*Please answer required personal information to verify your identity and allow us to perform a soft pull on your TransUnion credit record. A soft pull does NOT affect your credit score."
+            })]
+        });
+        return n ? e.jsx(ga, {
+            sx: {
+                padding: 3,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
+            },
+            children: c
+        }) : c
+    },
+    Zm = () => {
+        var o, s;
+        const {
+            session: {
+                account: t
+            }
+        } = Yt(), {
+            trackEvent: a,
+            trackEventGA4: n
+        } = h.useContext(ce), i = t == null ? void 0 : t.account.user_info.email, r = (s = (o = t == null ? void 0 : t.account) == null ? void 0 : o.user_settings) == null ? void 0 : s.credit_hub_enrollment_completed;
+        return h.useEffect(() => {
+            r ? a("return session escalation", "navigation trigger", "id monitor") : (a("new session escalation", "trigger", "id monitor enrollment"), n({
+                event_name: "id_monitor_enrollment",
+                step: "new_session_escalation"
+            }))
+        }, [r]), e.jsxs(e.Fragment, {
+            children: [e.jsx("img", {
+                src: Qu,
+                alt: "id-monitor-lock"
+            }), e.jsxs(y, {
+                variant: "h1",
+                width: ["100%", "75%"],
+                marginY: [2, 2.5],
+                children: ["Check ", i, " for a link to confirm your identity."]
+            }), e.jsxs(S, {
+                width: ["100%", "65%"],
+                alignItems: "center",
+                textAlign: "center",
+                marginBottom: [2, 2.5],
+                children: [e.jsx(y, {
+                    variant: "body1",
+                    children: "To access ID Monitor, please confirm that you are the account holder by checking your email and following the link provided."
+                }), e.jsxs(y, {
+                    variant: "body1",
+                    marginY: [2, 2.5],
+                    children: ["Please make sure to check your spam folder if you do not see the verification email in your inbox.", " "]
+                }), e.jsx(y, {
+                    variant: "body1",
+                    children: "You can attempt to verify again in 20 minutes."
+                })]
+            }), e.jsx(Li, {
+                href: "https://gmail.com",
+                target: "_blank",
+                children: e.jsx(ue, {
+                    variant: "outlined",
+                    sx: {
+                        maxWidth: 172,
+                        paddingY: 1,
+                        whiteSpace: "nowrap",
+                        border: "1px solid black"
+                    },
+                    children: e.jsxs(S, {
+                        direction: "row",
+                        spacing: 2,
+                        alignItems: "center",
+                        children: [e.jsx(fo.GmailIcon, {}), e.jsx(S, {
+                            direction: "row",
+                            spacing: .8125,
+                            alignItems: "center",
+                            children: e.jsx(y, {
+                                variant: "h5",
+                                sx: {
+                                    margin: 0,
+                                    textDecoration: "none",
+                                    color: "black"
+                                },
+                                children: "Open in Gmail"
+                            })
+                        })]
+                    })
+                })
+            })]
+        })
+    },
+    ii = () => e.jsxs(S, {
+        alignItems: "center",
+        textAlign: "center",
+        paddingY: 2.5,
+        justifyContent: "center",
+        sx: {
+            height: ["100vh", "494px"]
+        },
+        children: [e.jsx("img", {
+            src: Ju,
+            height: "12px",
+            width: "108px",
+            alt: "id-monitor-loading"
+        }), e.jsx(y, {
+            variant: "h1",
+            marginTop: 2.5,
+            width: ["default", "458px"],
+            children: "Please wait while we fetch your credit data from our partner, TransUnion®"
+        })]
+    }),
+    Xm = O(S)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        alignItems: "center",
+        textAlign: "center",
+        padding: t.spacing(2, 2.5)
+    })),
+    ep = () => {
+        var r, o;
+        const {
+            checkEmail: t
+        } = Jn(), {
+            session: {
+                account: a
+            }
+        } = Yt(), n = (o = (r = a == null ? void 0 : a.account) == null ? void 0 : r.user_settings) == null ? void 0 : o.credit_hub_enrollment_completed, i = () => t ? e.jsx(Zm, {}) : n ? e.jsx(ii, {}) : e.jsx(Jm, {});
+        return e.jsx(Xm, {
+            children: i()
+        })
+    },
+    ri = "/oxford",
+    zo = `${ri}/notification_settings`,
+    tp = `${ri}/identity_management`,
+    bi = "user_profile",
+    ap = "authentication/questions",
+    np = "authentication/answers",
+    ip = "authentication/check_answers",
+    xi = "Please select your preferred method of Authentication?",
+    Ir = "Enter the passcode you received",
+    rp = "credit_data",
+    Er = "score_simulator",
+    qr = "credit_navigator",
+    Wo = "/service_token/session_escalation_token",
+    op = 10,
+    Go = "notifications",
+    sp = `${ri}/${Go}/mark_all_as_displayed`,
+    oi = t => ({
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${t}`
+    });
+class xn extends Error {
+    constructor(a, n) {
+        super(a), this.passthrough = !0, this.response = n
+    }
+}
+class ft {
+    static async poll({
+        method: a,
+        url: n,
+        body: i,
+        queryParams: r,
+        token: o,
+        jsonRequired: s = !1
+    }) {
+        const c = () => ft.request({
+            method: a,
+            url: n,
+            body: i,
+            queryParams: r,
+            token: o,
+            jsonRequired: !1
+        });
+        let u = await c();
+        if (u instanceof xn) return Promise.reject(u);
+        let l = 0;
+        for (;
+            (u == null ? void 0 : u.status) === 202 && l < op;) {
+            if (await ft.wait(), u = await c(), u instanceof xn) return Promise.reject(u);
+            l += 1
+        }
+        return (u == null ? void 0 : u.status) === 202 ? Promise.reject(new Error("Max Polling reached")) : s ? await u.json() : u
+    }
+    static wait(a = 3e3) {
+        return new Promise(n => {
+            setTimeout(n, a)
+        })
+    }
+    static async request({
+        method: a,
+        url: n,
+        body: i,
+        queryParams: r,
+        token: o,
+        jsonRequired: s = !1
+    }) {
+        let c = `${ri}/${n}`;
+        return r && (c += `?${new URLSearchParams(r).toString()}`), await fetch(c, {
+            method: a,
+            body: i && JSON.stringify(i),
+            headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${o}`
+            }
+        }).then(u => [4, 5].includes(Math.floor(u.status / 100)) ? ft._requestErrorHandler(u) : s ? u.json() : u)
+    }
+    static _requestErrorHandler(a) {
+        const n = new xn(`Request Error ${a.statusText}`, a);
+        return Promise.reject(n)
+    }
+}
+const dn = () => {
+    const t = n => n.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll(`&#xD;
+`, "").replaceAll("d3p1:", "").replaceAll("&amp;", "&");
+    return {
+        parseToXml: n => new DOMParser().parseFromString(t(n), "text/xml")
+    }
+};
+class $t {
+    static async getAuthenticationQuestionRequest(a, n) {
+        return ft.poll({
+            method: "GET",
+            url: ap,
+            queryParams: a,
+            token: n,
+            jsonRequired: !0
+        })
+    }
+    static async postAuthenticationAnswersRequest(a, n) {
+        return ft.request({
+            method: "POST",
+            url: np,
+            body: {
+                custom_attributes: {
+                    answers: a
+                }
+            },
+            token: n
+        })
+    }
+    static async getAuthenticationCheckAnswersRequest(a) {
+        return ft.poll({
+            method: "GET",
+            url: ip,
+            token: a,
+            jsonRequired: !0
+        })
+    }
+    static _answersBuilder(a) {
+        let n = [];
+        return a.forEach(i => {
+            var s, c;
+            const r = (s = i.querySelector("AnswerChoiceText")) == null ? void 0 : s.textContent,
+                o = (c = i.querySelector("AnswerChoiceId")) == null ? void 0 : c.textContent;
+            if (!(r && o)) throw new Error("Authentication questions's answers missing required attributes");
+            r.includes(xi) || n.push({
+                answerText: r,
+                answerId: o
+            })
+        }), n
+    }
+    static questionsListMeta(a) {
+        const n = dn().parseToXml(a);
+        let i = [];
+        const r = n.querySelectorAll("MultiChoiceQuestion");
+        if (r.length === 0) throw new Error("Authentication Questions not parsable, but present.");
+        return r.forEach(o => {
+            var l, d;
+            const s = (l = o == null ? void 0 : o.querySelector("FullQuestionText")) == null ? void 0 : l.textContent,
+                c = (d = o == null ? void 0 : o.querySelector("QuestionId")) == null ? void 0 : d.textContent,
+                u = $t._answersBuilder(o == null ? void 0 : o.querySelectorAll("AnswerChoice"));
+            if (!(s && c && u.length)) throw new Error("Authentication Question parsing missing required attributes");
+            i.push({
+                questionText: s,
+                questionId: c,
+                answerChoices: u
+            })
+        }), i
+    }
+    static isOneTimePasscodeQuestion(a) {
+        return (a == null ? void 0 : a.length) === 1 && (a[0].questionText.includes(xi) || a[0].questionText.includes(Ir))
+    }
+    static isOneTimePasscodeMCQ(a) {
+        return a.includes(xi)
+    }
+    static isOneTimePasscodeUserInput(a) {
+        return a.includes(Ir)
+    }
+}
+const cp = {
+        NewInquiry: "A new inquiry was placed on the consumer’s credit file",
+        NewTrade: "A new account was opened in the consumer’s name",
+        DelinquentAccount: "The consumer did not pay a creditor on time and the account is now 30, 60, or 90 (or more) days late, or delinquent",
+        ImprovedTrade: "An account went from a derogatory status to current",
+        TradeBankrupt: "The consumer filed for bankruptcy and listed an account as one that the member could not pay",
+        NewPublic: "A new public record is added to the consumer’s credit file",
+        NewAddress: "An account in the consumer’s name shows a different address than what’s on the credit file",
+        NewEmployment: "A new employer appears on the consumer’s credit file",
+        FraudStatement: "Alerts the consumer that a fraud alert has been placed on the credit report",
+        AuthorizedUserTrades: "A consumer was added as an authorized user on a credit card",
+        BankCardGoesOverCreditLimit: "The balance on a Bank card exceeds the credit limit",
+        ClosedTradeLines: "An account is closed",
+        LostStolenCard: "Bank and/or Retail card was indicated as lost or stolen",
+        NewAutoLease: "A new auto lease is opened",
+        "NewCharge-off": "An account changes from delinquent status to a charge off status",
+        NewForeclosure: "An increase in the number of foreclosures or new foreclosure is reported",
+        NumberofCollectionsExcludingMedical: "A new, non-medical collection is reported",
+        IncreaseinCollectionBalances: "An increase in the balance of all collections, including medical",
+        DecreaseinCollectionBalances: "A decrease in the balance of all collections, including medical",
+        PaidCollections: "A collection is fully paid",
+        PaidTradelines: "An account is fully paid",
+        RetailCardGoesOverCreditLimit: "The balance on a Retail card exceeds the credit limit",
+        VantageScoreDecrease: "VantageScore 3.0 decrease by 10 points or more",
+        VantageScoreIncrease: "VantageScore 3.0 increase by 10 points or more"
+    },
+    Rr = {
+        IncreaseinCollectionBalances: "Increase in Collection Balances",
+        DecreaseinCollectionBalances: "Decrease in Collection Balances",
+        NumberofCollectionsExcludingMedical: "Number of Collections Excluding Medical",
+        "NewCharge-off": "New Charge-off",
+        VantageScoreDecrease: "VantageScore® Decrease",
+        VantageScoreIncrease: "VantageScore® Increase",
+        NumberofCollections: "Number of Collections",
+        CountofPaidCollection: "Count of PaidCollection",
+        DatePaidforMostRecentPaidCollection: "Date Paid for Most Recent Paid Collection",
+        BalanceofMostRecentBankCard: "Balance of Most Recent Bank Card",
+        CountofBankCardOverLimit: "Count of Bank Card Over Limit",
+        CreditLimitofMostRecentBankCard: "Credit Limit of Most Recent Bank Card",
+        DateVerifiedofMostRecentBankCard: "Date Verified of Most Recent Bank Card",
+        BalanceofMostRecentRetailCard: "Balance of Most Recent Retail Card",
+        CountofRetailCardOverLimit: "Count of Retail Card Over Limit",
+        CreditLimitofMostRecentRetailCard: "Credit Limit of Most Recent Retail Card",
+        DateVerifiedofMostRecentRetailCard: "Date Verified of Most Recent Retail Card",
+        ClosedDateofMostRecentlyClosedTrade: "Closed Date of Most Recently Closed Trade",
+        CountofClosedTradeLine: "Count of Closed Trade Line",
+        CreditLimitofMostRecentlyClosedTradeLine: "Credit Limit of Most Recently Closed Trade Line",
+        DateReportedofMostRecentlyClosedTrade: "Date Reported of Most Recently Closed Trade",
+        CountofPaidTradeLine: "Count of Paid Trade Line",
+        CreditLimitofMostRecentlyPaidTradeLine: "Credit Limit of Most Recently Paid Trade Line",
+        DatePaidofMostRecentlyPaidTradeLine: "Date Paid of MostRecently Paid Trade Line",
+        DateReportedofMostRecentlyPaidTradeLine: "Date Reported of Most Recently Paid Trade Line",
+        AccountNumberofMostRecentCard: "Account Number of Most Recent Card",
+        ClosedDateofMostRecentCard: "Closed Date of Most Recent Card",
+        NumberofForeclosures: "Number of Foreclosures",
+        NewChargeoffDate: "New Charge-off Date",
+        NumberofNewChargeoff: "Number of New Charge-off",
+        RecentChargeoffBalance: "Recent Charge-off Balance",
+        SubscriberAddres: "Subscriber Address",
+        NegativeScoreFactor1: "Negative Score Factor 1",
+        NegativeScoreFactor2: "Negative Score Factor 2",
+        NegativeScoreFactor3: "Negative Score Factor 3",
+        NegativeScoreFactor4: "Negative Score Factor 4",
+        PositiveScoreFactor1: "Positive Score Factor 1",
+        PositiveScoreFactor2: "Positive Score Factor 2",
+        PositiveScoreFactor3: "Positive Score Factor 3",
+        PositiveScoreFactor4: "Positive Score Factor 4"
+    },
+    Dr = {
+        4: {
+            factor: "The balances on your accounts are too high compared to loan amounts",
+            explain: "The balances on your accounts are high compared to the original loan amounts, lowering your score."
+        },
+        5: {
+            factor: "Too many of the delinquencies on your accounts are recent",
+            explain: "A delinquency is a payment that was made 30 or more days late.  Too many late payments occurred recently on some of your accounts.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        6: {
+            factor: "You have too many accounts that were opened recently",
+            explain: "Because too many of your accounts were opened recently, the history on those new accounts is not long enough to provide sufficient payment and account history to demonstrate responsible behavior on those accounts.  In addition, having multiple accounts that are relatively new is seen as a higher risk because of the possibility of becoming overextended, which can then lead to late payments or defaulting on the account."
+        },
+        7: {
+            factor: "You have too many delinquent or derogatory accounts",
+            explain: "You have had too many accounts with payments that are at least 30 days late and/or on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        8: {
+            factor: "You have either very few loans or too many loans with recent delinquencies",
+            explain: "You have had too many accounts with late payments or do not have enough loans to provide sufficient information about your credit behaviors. Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        9: {
+            factor: "The worst payment status on your accounts is delinquent or derogatory",
+            explain: "Your credit file is showing an account with a payment that was at least 30 days late and/or on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        10: {
+            factor: "You have either very few loans or too many loans with delinquencies",
+            explain: "You have had too many accounts with late payments or do not have enough loans to provide sufficient information about your credit behaviors. Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        11: {
+            factor: "The total of your delinquent or derogatory account balances is too high",
+            explain: "The total of the balances is high on your accounts with late payments or on which a lender has reported the account derogatory. Late payments are a proven indicator of risk.  When credit line balances approach credit limits, risk is further increased because you don't have much credit available should it be needed, creating a greater chance of becoming overextended."
+        },
+        12: {
+            factor: "The date that you opened your oldest account is too recent",
+            explain: "Your oldest account is still too recent.  A credit file containing older accounts will have a positive impact on your credit score because it demonstrates that you are experienced managing credit."
+        },
+        13: {
+            factor: "Your most recently opened account is too new",
+            explain: "The account that you opened most recently is still too new.  A credit file containing older accounts will have a positive impact on your credit score because it demonstrates that you are experienced managing credit."
+        },
+        14: {
+            factor: "Lack of sufficient credit history",
+            explain: "Your credit file does not contain enough information about your use of credit.  A credit file with older accounts and/or more accounts reflects more experience with handling credit and can have a positive impact on your credit score."
+        },
+        15: {
+            factor: "Newest delinquent or derogatory payment status on your accounts is too recent",
+            explain: "You have an account that had a late payment or on which a lender has reported a derogatory status.  Your credit file shows that this event occurred too recently.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        16: {
+            factor: "The total of all balances on your open accounts is too high",
+            explain: "The total that you owe on all your accounts is high.  Maintaining high balances has proven to be risky behavior because you don't have much credit available should it be needed, creating a greater chance of becoming overextended.  People with the highest credit scores keep their account balances low."
+        },
+        17: {
+            factor: "Balances on previously delinquent accounts are too high compared to loan amts",
+            explain: "You've been late on at least one payment in the past, and the balances on the accounts that had late payments are high compared to the original loan amount or the credit limit on a revolving account.  Late payments are a proven indicator of risk.  When balances are close to the original loan amount or approach credit limits, risk is further increased because you don't have much credit available should it be needed, creating a greater chance of becoming overextended.  People with the best scores have no late payments and keep their balances low."
+        },
+        18: {
+            factor: "Total of balances on accounts never late is too high compared to loan amounts",
+            explain: "You have some accounts in your credit file with balances that are high compared to the original loan amount or the limit on a revolving account.  The good news is that you've never been late on these accounts.  Maintaining high balances has proven to be risky behavior because you don't have much credit available should it be needed, creating a greater chance of becoming overextended.  People with the highest credit scores keep their account balances low."
+        },
+        21: {
+            factor: "No open accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Because you have no open accounts, your credit file does not contain enough information about your use of credit.  A mix of different types of open and active credit accounts can have a positive impact on your credit score."
+        },
+        22: {
+            factor: "No recently reported account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Because you have no accounts where a lender has reported recent activity, your credit file does not contain enough information about your use of credit.  A mix of different types of open and active credit accounts with can have a positive impact on your credit score."
+        },
+        23: {
+            factor: "Lack of sufficient relevant account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not have enough credit behavior information about your loans.  A mix of different types of open and active credit accounts can have a positive impact on your credit score."
+        },
+        29: {
+            factor: "Too many of your open bankcard or revolving accounts have a balance",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Carrying a balance on too many bankcards and revolving accounts is an indicator of increased risk.  People who carry balances on multiple bankcards or revolving accounts have reduced available credit to use if needed, creating a greater chance of becoming overextended."
+        },
+        30: {
+            factor: "Too few of your bankcard or other revolving accounts have high limits",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Having too few accounts with high credit limits is an indicator that you lack available credit.  Having higher limits gives you access to credit without seeking new loans or becoming overextended _ which are triggers for higher risk."
+        },
+        31: {
+            factor: "Too many bankcard or other revolving accounts were opened recently",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Opening multiple bankcards or other revolving accounts in a relatively short period of time is a proven indicator of increased risk because the history on those new accounts is not long enough to provide sufficient payment and account information to demonstrate responsible behavior on those accounts.  In addition, having multiple accounts that are relatively new is seen as a higher risk because of the possibility of becoming overextended, which can then lead to late payments or defaulting on the account."
+        },
+        32: {
+            factor: "Balances on bankcard or revolving accounts too high compared to credit limits",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  You have bankcard or revolving accounts in your credit file with balances that are high compared to the credit limit on the account, which is a proven indicator of increased risk."
+        },
+        33: {
+            factor: "Your worst bankcard or revolving account status is delinquent or derogatory",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Your credit file is showing a bankcard or revolving account with a payment that was at least 30 days late and/or an account on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        34: {
+            factor: "Total of all balances on bankcard or revolving accounts is too high",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The total combined amount you owe on all of your bankcards and revolving accounts is high, a sign of increased risk. People who carry balances on multiple bankcards or other revolving accounts have reduced available credit to use if needed, creating a greater chance of becoming overextended."
+        },
+        35: {
+            factor: "Your highest bankcard or revolving account balance is too high",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  You have a bankcard or revolving account in your credit file with a high balance, a sign of increased risk. People who carry balances on bankcards or other revolving accounts have reduced available credit to use if needed, creating a greater chance of becoming overextended."
+        },
+        36: {
+            factor: "Your largest credit limit on open bankcard or revolving accounts is too low",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The largest credit limit among all the open bankcard or revolving accounts in your credit file is low.  Having higher limits gives you access to credit without seeking new loans or becoming overextended _ which are triggers for higher risk."
+        },
+        39: {
+            factor: "Available credit on your open bankcard or revolving accounts is too low",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The amount of credit you have available to use on your open bankcards or revolving accounts is low.  Having higher limits gives you access to credit without seeking new loans or becoming overextended _ which are triggers for higher risk."
+        },
+        40: {
+            factor: "The date you opened your oldest bankcard or revolving account is too recent",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Your oldest bankcard or revolving account is still too new.  A credit file containing older accounts will have a positive impact on your credit score because it demonstrates that you are experienced managing credit."
+        },
+        42: {
+            factor: "The date you opened your newest bankcard or revolving account is too recent",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The bankcard or revolving account that you opened most recently is still too new.  A credit file containing older accounts will have a positive impact on your credit score because it demonstrates that you are experienced managing credit."
+        },
+        43: {
+            factor: "Lack of sufficient credit history on bankcard or revolving accounts",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  Your credit file does not contain enough information about your use of bankcards or revolving accounts.  A credit file with older accounts and/or more accounts reflects more experience with handling credit and can have a positive impact on your credit score."
+        },
+        44: {
+            factor: "Too many bankcard or revolving accounts with delinquent or derogatory status",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  You have had too many bankcard or revolving accounts with payments that are at least 30 days late and/or on which a lender has reported a derogatory status.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        45: {
+            factor: "Total balances too high on delinquent/derogatory bankcard or revolving accts ",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The total of the balances is high on your bankcard or revolving accounts with late payments or on which a lender has reported a derogatory.  Late payments are a proven indicator of risk.  When credit line balances approach credit limits, risk is further increased because you don't have much credit available should it be needed, creating a greater chance of becoming overextended."
+        },
+        47: {
+            factor: "No open bankcard or revolving accounts in your credit file",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.   The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Because you have no open bankcards or revolving accounts, your credit file does not contain enough information about your use of credit.  A mix of different types of open and active credit accounts, including bankcards and other revolving accounts, can have a positive impact on your credit score."
+        },
+        48: {
+            factor: "No bankcard or revolving recently reported account information",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Because you have no bankcard or revolving accounts where a lender has reported recent activity, your credit file does not contain enough information about your use of this kind of credit.  A mix of different types of open and active credit accounts, including bankcards and other revolving accounts, can have a positive impact on your credit score."
+        },
+        49: {
+            factor: "Lack of sufficient relevant bankcard or revolving account information",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts.  Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not have enough credit behavior information about your bankcard or revolving accounts. A mix of different types of open and active credit accounts, including bankcard and other revolving accounts, can have a positive impact on your credit score."
+        },
+        53: {
+            factor: "The worst status on your real estate accounts is delinquent or derogatory",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  Your credit file is showing a real estate account with a payment that was at least 30 days late and/or on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        54: {
+            factor: "The amount of balance paid down on your open real estate accounts is too low",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The amount that has been paid down on your open real estate accounts is low.  People who haven't paid down much of their mortgage or other real estate loans are higher credit risks than people who have."
+        },
+        55: {
+            factor: "Open real estate account balances are too high compared to their loan amounts",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The outstanding balances on open real estate accounts remain high compared to the original loan amounts.  People who haven't paid down much of their mortgage or other real estate loans are higher credit risks than people who have."
+        },
+        57: {
+            factor: "Too many real estate accounts with delinquent or derogatory payment status",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  You have had too many real estate accounts with payments that are at least 30 days late and/or on which a lender has reported a derogatory status. Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        58: {
+            factor: "The total of all balances on your open real estate accounts is too high",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The total that you owe on all of your open real estate accounts is high.  Maintaining high balances has proven to be risky behavior because you don't have much credit available should it be needed, creating a greater chance of becoming overextended.  People with the highest credit scores keep their account balances low."
+        },
+        61: {
+            factor: "No open real estate accounts in your credit file",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  A mix of different types of open and active credit accounts, including real estate accounts, can have a positive impact on your credit score."
+        },
+        62: {
+            factor: "No recently reported real estate account information",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Because you have no real estate accounts where a lender has reported recent activity, your credit file does not contain enough information about your use of credit.  A mix of different types of open and active credit accounts with can have a positive impact on your credit score."
+        },
+        63: {
+            factor: "Lack of sufficient relevant real estate account information",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not contain enough credit behavior information about your real estate accounts.  A mix of different types of open and active credit accounts, including real estate loans, can have a positive impact on your credit score."
+        },
+        64: {
+            factor: "No open first mortgage accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  A mix of different types of open and active credit accounts, including first mortgage accounts, can have a positive impact on your credit score."
+        },
+        65: {
+            factor: "Lack of sufficient relevant first mortgage account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not contain enough credit behavior information about your first mortgage accounts.  A mix of different types of open and active credit accounts, including first mortgage loans, can have a positive impact on your credit score."
+        },
+        66: {
+            factor: "Your open auto account balances are too high compared to their loan amounts",
+            explain: "You have auto loans in your credit file with balances that are high compared to the original loan amounts on the account, which is a proven indicator of increased risk."
+        },
+        68: {
+            factor: "No open auto accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  A mix of different types of open and active credit accounts, including auto loans, can have a positive impact on your credit score."
+        },
+        69: {
+            factor: "Lack of sufficient relevant auto  account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not contain enough credit behavior information about your auto loans.  A mix of different types of open and active credit accounts, including auto loans, can have a positive impact on your credit score."
+        },
+        71: {
+            factor: "You have either very few installment loans or too many with delinquencies",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  You have had too many installment accounts with late payments or do not have enough installment loans to provide sufficient information about your credit behaviors.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        72: {
+            factor: "Too many installment accounts with a delinquent or derogatory payment status",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  You have had too many installment accounts that are at least 30 days late and/or on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        73: {
+            factor: "The worst status on your installment accounts is delinquent or derogatory",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  Your credit file is showing an installment account with a payment that was at least 30 days late and/or on which a lender has reported a derogatory status.    Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        74: {
+            factor: "The balance amount paid down on your open installment accounts is too low",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  The amount that has been paid down on your open installment accounts is low.  People who haven't paid down much of their installment account loan balances are higher credit risks than people who have."
+        },
+        75: {
+            factor: "The installment account that you opened most recently is too new",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  The installment account that you opened most recently is still too new.  A credit file containing older accounts will have a positive impact on your credit score because it demonstrates that you are experienced managing credit."
+        },
+        76: {
+            factor: "You have insufficient credit history on installment loans",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  Your credit file does not contain enough information about your use of installment loans.  A credit file with older accounts and/or more accounts reflects more experience with handling credit and can have a positive impact on your credit score."
+        },
+        77: {
+            factor: "Newest delinquent or derogatory status on installment accounts is too recent",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  You have an installment account that had a late payment or on which a lender has reported a derogatory status.  Your credit file shows that this event occurred too recently.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        78: {
+            factor: "Balances on installment accounts are too high compared to their loan amounts",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  The outstanding balances on open installment accounts remain high compared to the original loan amounts.  People who haven't paid down much of the original amount on installment loans are higher credit risks than people who have."
+        },
+        79: {
+            factor: "Too many of the delinquencies on your installment accounts are recent",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  A delinquency is a payment that was made 30 or more days late. Too many late payments occurred recently on your installment accounts.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        81: {
+            factor: "No open installment accounts in your credit file",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  A mix of different types of open and active credit accounts, including installment accounts, can have a positive impact on your credit score."
+        },
+        83: {
+            factor: "Lack of sufficient relevant installment account information",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan.  Auto loans and student loans are common examples of installment loans.  The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not contain enough information about your installment accounts.  A mix of different types of open and active credit accounts, including installment accounts, can have a positive impact on your credit score."
+        },
+        84: {
+            factor: "The number of inquiries was also a factor, but effect was not significant",
+            explain: "If a lender runs a credit check when you apply for credit, an inquiry is reported to the credit bureaus.  This can lower your score a small amount, in this case the drop was not significant.  The VantageScore credit score model takes rate shopping, e.g., for a mortgage or car loan, into consideration.  All inquiries for mortgages, auto loans and major credit cards that appear in your credit file within a 14-day window are interpreted as a single inquiry.  Another time inquiries never count against your score is when you check your own credit or obtain your own credit score."
+        },
+        85: {
+            factor: "You have too many inquiries on your credit report.",
+            explain: "If a lender runs a credit check when you apply for credit, an inquiry is reported to the credit bureaus.  This can lower your score a small amount, typically by 10 to 20 points.  The VantageScore credit score model takes rate shopping, e.g., for a mortgage or car loan, into consideration.  All inquiries for mortgages, auto loans and major credit cards that appear in your credit file within a 14-day window are interpreted as a single inquiry.  Another time inquiries never count against your score is when you check your own credit or obtain your own credit score."
+        },
+        86: {
+            factor: "Your credit report contains too many derogatory public records",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your credit score include legal judgments against you, or tax liens levied by a government authority.  Public records can have a significant negative impact on your credit score."
+        },
+        87: {
+            factor: "Your credit report contains too many unsatisfied public records",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your credit score include legal judgments against you, or tax liens levied by a government authority.  Your credit file contains public records that remain unpaid.  All public records can have a significant negative impact on your credit score."
+        },
+        88: {
+            factor: "One or more derogatory public records in your credit file is too recent",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your credit score include legal judgments against you, or tax liens levied by a government authority.  Your credit file contains public records that are too recent.  All public records can have a significant negative impact on your credit score."
+        },
+        90: {
+            factor: "Too few discharged bankruptcies",
+            explain: "You have a bankruptcy on your credit report that has not been discharged."
+        },
+        93: {
+            factor: "The worst status on your student loan accounts is delinquent or derogatory",
+            explain: "Your credit file is showing a student loan with a payment that was at least 30 days late and/or on which a lender has reported a derogatory status.  Late payments are a proven indicator of increased risk.  People with late payments are at risk of being overextended, putting existing credit with lenders at risk."
+        },
+        94: {
+            factor: "The balance amount paid down on your open student loan accounts is too low",
+            explain: "The amount that has been paid down on your open student loan accounts is low.  People who haven't paid down much of their student loan account balances are higher credit risks than people who have."
+        },
+        95: {
+            factor: "You have too many collection agency accounts that are unpaid",
+            explain: "Some collection agencies report account information to credit bureaus just like lenders do.  Your credit file has too many accounts that have been sent to a collection agency and remain unpaid.  Unpaid collection accounts in your file can have a significant negative impact on your credit score."
+        },
+        96: {
+            factor: "The total you owe on collection agency accounts is high",
+            explain: "Some collection agencies report account information to credit bureaus just like lenders do.  Your credit file indicates the amount of money you owe to collection agencies is high.  Unpaid collection accounts in your file can have a significant negative impact on your credit score."
+        },
+        97: {
+            factor: "You have too few credit accounts",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score.  Your credit file does not have enough credit behavior information about your loans.  A mix of different types of open and active credit accounts can have a positive impact on your credit score."
+        },
+        98: {
+            factor: "There is a bankruptcy on your credit report",
+            explain: "Bankruptcy is a proven indicator of risk with future payments and causes a significant drop to your credit score over an extended period of time."
+        },
+        P04: {
+            factor: "The balances on your accounts are not too high compared to loan limits",
+            explain: "Your balances are not too high compared to the loan amounts, which causes your score to improve."
+        },
+        P05: {
+            factor: "There are no or only a few recent delinquencies on your accounts",
+            explain: "A delinquency is a payment that was made 30 or more days late. You have had no or very few delinquencies recently which has caused your score to improve."
+        },
+        P06: {
+            factor: "You have few or no accounts that were opened recently ",
+            explain: "None or only a few of your accounts were recently opened. As a result, your history of credit management performance is enough to demonstrate responsible behavior."
+        },
+        P07: {
+            factor: "You have either no or few delinquent or derogatory accounts",
+            explain: "Paying your bills on time improves your score. You have paid all or nearly all of your bills on time."
+        },
+        P08: {
+            factor: "One or more of your accounts were paid on time in recent months",
+            explain: "Paying your bills on time improves your score. Recently at least one of your accounts was paid on time."
+        },
+        P09: {
+            factor: "None of your accounts have a severe delinquency or a derogatory status",
+            explain: "Paying your bills on time improves your score. You have paid all your accounts on time or no more than 30 days late."
+        },
+        P10: {
+            factor: "One or more of your accounts have been paid on time",
+            explain: "Paying your bills on time improves your score. At least one of your accounts has no late payments."
+        },
+        P11: {
+            factor: "You have few or no accounts with delinquent or derogatory balances",
+            explain: "Paying your bills on time improves your score. At most, only a small amount of your balances is currently late."
+        },
+        P12: {
+            factor: "The date that you opened your oldest account is not too recent",
+            explain: "Your oldest account was not opened too recently. As a result, your history of credit management is enough to demonstrate responsible behavior which has improved your score."
+        },
+        P13: {
+            factor: "Your most recently opened account is not too new",
+            explain: "Your newest account was not opened too recently. As a result, your history of credit management is enough to demonstrate responsible behavior which has improved your score."
+        },
+        P14: {
+            factor: "Your credit file contains enough information about your use of credit",
+            explain: "A credit file with sufficient accounts and credit history reflects more experience in handling credit. More experience can have a positive impact on your score."
+        },
+        P15: {
+            factor: "None of your accounts have a recent delinquency or a derogatory status",
+            explain: "A delinquency or derogatory is a payment that was made at least 30 or more days late. Recently you have paid all of your accounts on time which has caused your score to improve."
+        },
+        P16: {
+            factor: "The total of all balances on your open accounts is not too high",
+            explain: "The total of your balances on your open accounts, compared to the loan amounts, is not too high which has caused your score to improve. "
+        },
+        P17: {
+            factor: "Balances on prior delinquent accounts not too high compared to loan amts",
+            explain: "Keeping low balances and paying your accounts on time can improve your score. The balances on accounts, that were previously paid late, are now low compared to the loan amount or credit limit."
+        },
+        P18: {
+            factor: "Total of balances on accts never late not too high compared to loan amts",
+            explain: "Your balances on loans that you have paid on time, compared to the loan amounts, are not too high which has caused your score to improve. "
+        },
+        P21: {
+            factor: "No open accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P22: {
+            factor: "No recently reported account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P23: {
+            factor: "Lack of sufficient relevant account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P29: {
+            factor: "Few or none of your open bankcard or revolving accounts has a balance",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Keeping low balances can improve your score. The balances on your bankcard and revolving accounts are low."
+        },
+        P30: {
+            factor: "One or more of your bankcard or revolving accounts has a high limit",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Having bankcard or revolving accounts with high credit limits indicates that you have high availability of credit, improving your score."
+        },
+        P31: {
+            factor: "Few or none of your bankcard or revolving accounts was opened recently",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. None or only a few of your bankcard or revolving accounts were recently opened. As a result, your history of credit management is enough to demonstrate responsible behavior."
+        },
+        P32: {
+            factor: "Balances on bankcard or revolving accts not too high compared to limits",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Your balances on bankcard or revolving accounts are not too high compared to the credit limit amounts, which causes your score to improve."
+        },
+        P33: {
+            factor: "No severe delinquency/derogatory status on bankcard or revolving accts",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Paying your bills on time improves your score. You have paid all your bankcard or revolving accounts on time or no more than 30 days late."
+        },
+        P34: {
+            factor: "Total of all balances on bankcard or revolving accounts is not too high",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. The total of your balances on your open bankcard or revolving accounts, compared to the credit limit amounts, is not too high which has caused your score to improve."
+        },
+        P35: {
+            factor: "Your highest bankcard or revolving account balance is not too high",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. The highest of your balances on your open bankcard or revolving accounts is not too high which has caused your score to improve."
+        },
+        P36: {
+            factor: "Largest credit limit on open bankcard or revolving accts is not too low",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Having bankcard or revolving accounts with high credit limits indicates that you have high availability of credit, improving your score."
+        },
+        P39: {
+            factor: "Available credit on open bankcard or revolving accounts is not too low",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. You have high available credit on bankcard or revolving accounts which has caused your score to improve."
+        },
+        P40: {
+            factor: "Date your oldest bankcard or revolving account opened is not too recent",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Your oldest bankcard or revolving account was not opened too recently. As a result, your history of credit management is enough to demonstrate responsible behavior which has improved your score."
+        },
+        P42: {
+            factor: "Date your newest bankcard or revolving account opened is not too recent",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Your newest bankcard or revolving account was not opened too recently. As a result, your history of credit management is enough to demonstrate responsible behavior which has improved your score."
+        },
+        P43: {
+            factor: "Credit file has enough history on your use of bankcard/revolving accts",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. A credit file with sufficient accounts and credit history, including bankcard or revolving accounts, reflects more experience in handling credit. More experience can have a positive impact on your score."
+        },
+        P44: {
+            factor: "Few or no bankcard or revolving accts with delinquent/derogatory status",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Paying your bills on time improves your score. You have paid all your bankcard or revolving accounts on time or no more than 30 days late."
+        },
+        P45: {
+            factor: "Few or no bankcard/revolving accts with delinquent/derogatory balances",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. Paying your bills on time improves your score. At most, only a small amount of your bankcard or revolving balances are currently late."
+        },
+        P47: {
+            factor: "No open bankcard or revolving accounts in your credit file",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open bankcard or revolving accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P48: {
+            factor: "No bankcard or revolving recently reported account information",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open bankcard or revolving accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P49: {
+            factor: "Lack of sufficient relevant bankcard or revolving account information",
+            explain: "Bankcard accounts include credit cards and charge cards from a bank and are frequently revolving accounts. Revolving accounts allow you to carry a balance and your monthly payment will vary, based on the amount of your balance. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. Because you have no open bankcard or revolving accounts, your credit file does not contain enough information about your use of credit. A mix of different types of open and active credit accounts can have a positive impact on your score."
+        },
+        P50: {
+            factor: "No open retail revolving accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including retail revolving accounts, can have a positive impact on your score."
+        },
+        P52: {
+            factor: "No open home equity loans in your credit file ",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including home equity accounts, can have a positive impact on your score."
+        },
+        P53: {
+            factor: "No real estate accounts with severe delinquency or derogatory status",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. Paying your bills on time improves your score. You have paid all your real estate accounts on time or no more than 30 days late."
+        },
+        P54: {
+            factor: "Amount of balance paid down on open real estate accounts is not too low",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. The amount that has been paid down on your open real estate accounts is high. Paying down a high amount of your real estate loans increases your score."
+        },
+        P55: {
+            factor: "Open real estate account balances not too high compared to loan amounts",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. Your balances on real estate accounts are not too high compared to the original loan amounts, which causes your score to improve."
+        },
+        P57: {
+            factor: "Few or no real estate accts with delinquent or derogatory payment status",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. Paying your bills on time improves your score. You have paid all your real estate loans on time or no more than 30 days late."
+        },
+        P58: {
+            factor: "The total of all balances on open real estate accounts is not too high",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. Your balances on real estate loans, compared to the original loan amounts, are not too high which has caused your score to improve."
+        },
+        P61: {
+            factor: "No open real estate accounts in your credit file",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including real estate accounts, can have a positive impact on your score."
+        },
+        P62: {
+            factor: "No recently reported real estate account information",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including real estate accounts, can have a positive impact on your score."
+        },
+        P63: {
+            factor: "Lack of sufficient relevant real estate account information",
+            explain: "A real estate loan can be a first mortgage, a home equity loan, or home equity line of credit. The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including real estate accounts, can have a positive impact on your score."
+        },
+        P64: {
+            factor: "No open first mortgage accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including first mortgage accounts, can have a positive impact on your score."
+        },
+        P65: {
+            factor: "Lack of sufficient relevant first mortgage account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including first mortgage accounts, can have a positive impact on your score."
+        },
+        P66: {
+            factor: "Balances on open auto accounts are not too high compared to loan amounts",
+            explain: "Your balances on auto accounts are not too high compared to the original loan amounts, which causes your score to improve."
+        },
+        P68: {
+            factor: "No open auto accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including auto accounts, can have a positive impact on your score."
+        },
+        P69: {
+            factor: "Lack of sufficient relevant auto account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including auto accounts, can have a positive impact on your score."
+        },
+        P70: {
+            factor: "No open personal installment loans in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including personal installment accounts, can have a positive impact on your score."
+        },
+        P71: {
+            factor: "One or more of your installment accounts has been paid on time",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. Paying your bills on time improves your score. At least one of your installment accounts was paid on time."
+        },
+        P72: {
+            factor: "Few or no installment accts with delinquent or derogatory payment status",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. Paying your bills on time improves your score. You have paid all your installment loans on time or no more than 30 days late."
+        },
+        P73: {
+            factor: "No installment accounts with a severe delinquency or derogatory status",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. Paying your bills on time improves your score. You have paid all your installment accounts on time or no more than 30 days late."
+        },
+        P74: {
+            factor: "Amount of balance paid down on open installment accounts is not too low",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. The amount that has been paid down on your open installment accounts is high. Paying down a high amount of your installment loans increases your score."
+        },
+        P75: {
+            factor: "Your most recently opened installment account is not too new",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. Your newest installment account was not opened too recently. As a result, your history of credit management is enough to demonstrate responsible behavior which has improved your score."
+        },
+        P76: {
+            factor: "Your credit file has enough history on your use of installment loans",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. A credit file with sufficient accounts and credit history, including installment loans, reflects more experience in handling credit. More experience can have a positive impact on your score."
+        },
+        P77: {
+            factor: "Newest delinquent/derogatory status on installment accts not too recent",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. You have an installment account that had a late payment or on which a lender has reported a derogatory status. However, your credit file shows that this event did not occur too recently, having some positive impact on your score."
+        },
+        P78: {
+            factor: "Installment account balances not too high compared to loan amounts",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. Your balances on installment accounts are not too high compared to the original loan amounts, which causes your score to improve."
+        },
+        P79: {
+            factor: "You have few or no recent delinquencies on your installment accounts",
+            explain: "An installment account is one with a fixed monthly payment for the life of the loan. Auto loans and student loans are common examples of installment loans. A delinquency is a payment that was made 30 or more days late. You have had no or very few delinquencies recently on your installment accounts, which has caused your score to improve."
+        },
+        P81: {
+            factor: "No open installment accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including installment accounts, can have a positive impact on your score."
+        },
+        P83: {
+            factor: "Lack of sufficient relevant installment account information",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including installment accounts, can have a positive impact on your score."
+        },
+        P85: {
+            factor: "You have few or no inquiries on your credit report",
+            explain: "If a lender runs a credit check when you apply for credit, an inquiry is reported to the credit bureaus. This can lower your score a small amount, typically by 10 to 20 points. The VantageScore credit score model takes rate shopping, e.g., for a mortgage or car loan, into consideration. All inquiries for mortgages, auto loans and major credit cards that appear in your credit file within a 14-day window are counted as a single inquiry. Another time inquiries never count against your score is when you check your own credit or obtain your own score. You have no inquiries or a low number of inquiries on your credit report, which increases your score."
+        },
+        P86: {
+            factor: "You have few or no derogatory public records on your credit report",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your score include legal judgments against you and tax liens levied by a government authority. You have few or no public records on your credit report, which increases your score."
+        },
+        P87: {
+            factor: "You have few or no unsatisfied public records on your credit report",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your score include legal judgments against you and tax liens levied by a government authority. You have few or no public records on your credit report, which increases your score."
+        },
+        P88: {
+            factor: "You have no recent derogatory public records on your credit report",
+            explain: "Public records include information filed or recorded by local, state, federal or other government agencies that is available to the general public. The types of public records that can affect your score include legal judgments against you and tax liens levied by a government authority. You have few or no public records on your credit report, which increases your score."
+        },
+        P90: {
+            factor: "You have one or more discharged bankruptcies",
+            explain: "You have one or more bankruptcies on your credit report. However, they have been discharged."
+        },
+        P92: {
+            factor: "No open student loan accounts in your credit file",
+            explain: "The VantageScore credit score model relies on information in your credit files at the three national credit reporting companies (Equifax, Experian and TransUnion) to generate your score. A mix of different types of open and active credit accounts, including student loan accounts, can have a positive impact on your score."
+        },
+        P93: {
+            factor: "No student loan accounts with a severe delinquency or derogatory status",
+            explain: "Paying your bills on time improves your score. You have paid all your student loans on time or no more than 30 days late."
+        },
+        P94: {
+            factor: "Amount of balance paid down on open student loan accounts is not too low",
+            explain: "The amount that has been paid down on your open student loan accounts is high. Paying down a high amount of your student loans increases your score."
+        },
+        P95: {
+            factor: "You have few or no unpaid collection agency accounts",
+            explain: "Some collection agencies report account information to credit bureaus just like lenders do. Your credit file has no or few accounts that have been sent to a collection agency and remain unpaid, which increases your score."
+        },
+        P96: {
+            factor: "You have few or no collection agency account balances",
+            explain: "Some collection agencies report account information to credit bureaus just like lenders do. Your credit file has no or few accounts that have been sent to a collection agency and remain unpaid, which increases your score."
+        },
+        P98: {
+            factor: "There is no bankruptcy on your credit report",
+            explain: "You have no bankruptcy on your credit report, which increases your score."
+        }
+    },
+    lp = t => t.length === 2 ? t : t.split(" ").map(a => a.charAt(0).toUpperCase() + a.slice(1).toLowerCase()).join(" "),
+    dp = t => t ? cp[t] : "",
+    Qi = t => t in Rr ? Rr[t] : t.replace(/[A-Z]/g, " $&").trim(),
+    Yo = t => {
+        if (!t) return "";
+        const a = t.split("-"),
+            n = a[0],
+            i = a[1],
+            r = a[2];
+        return `${i}/${r}/${n}`
+    },
+    up = t => {
+        if (!t) return "";
+        const a = t.slice(0, 4),
+            n = t.slice(4, 6),
+            i = t.slice(6, 8);
+        return `${n}/${i}/${a}`
+    },
+    hp = t => {
+        let a;
+        if (t != null && t.notifications) a = dn().parseToXml(t == null ? void 0 : t.notifications);
+        else return {
+            notifications: [],
+            notificationsCount: null
+        };
+        const n = a.querySelectorAll("Notification"),
+            i = t.new_alert_count > 0 ? t.new_alert_count : null,
+            r = [];
+        let o = null,
+            s = null,
+            c = null,
+            u = null;
+        return n.forEach(l => {
+            var m, v, L, g, b;
+            const d = [],
+                C = l.querySelector("GenericAlert");
+            c = l.querySelectorAll("Displayed"), u = l.querySelectorAll("ProcessedDate"), d.push({
+                title: "Alert Date",
+                value: Yo((m = u[0]) == null ? void 0 : m.innerHTML)
+            }), C ? (o = l.querySelectorAll("GAType"), s = l.querySelectorAll("GAElement"), mp(s, d)) : (o = l.querySelectorAll("AlertType"), s = (v = l.querySelectorAll("TUCAlertsDetail")[0]) == null ? void 0 : v.children[0], pp(s, d)), r.push({
+                alertType: Qi((L = o[0]) == null ? void 0 : L.textContent),
+                alertDescription: dp(((g = o[0]) == null ? void 0 : g.textContent) ?? ""),
+                alertDetails: d,
+                displayed: ((b = c[0]) == null ? void 0 : b.textContent) === "true"
+            })
+        }), {
+            notifications: r,
+            notificationsCount: i
+        }
+    },
+    mp = (t, a) => {
+        t && t.forEach(n => {
+            var o, s;
+            const i = Qi((o = n == null ? void 0 : n.children[0]) == null ? void 0 : o.textContent),
+                r = (s = n == null ? void 0 : n.children[1]) == null ? void 0 : s.textContent;
+            if (r && i !== "Artifact Type")
+                if (i.includes("Date")) a.push({
+                    title: i,
+                    value: up(r)
+                });
+                else if (i.includes("Amount") || i.includes("Balance") || i.includes("Credit Limit")) a.push({
+                title: i,
+                value: r.replace(/0+/, "$").replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
+            });
+            else if (i.includes("Positive") || i.includes("Negative"))
+                if (r in Dr) {
+                    const c = Dr[r];
+                    a.push({
+                        title: i,
+                        vantageScoreCodeToFactors: [{
+                            factor: c.factor,
+                            explain: c.explain
+                        }]
+                    })
+                } else a.push({
+                    title: i,
+                    value: r
+                });
+            else a.push({
+                title: i,
+                value: r
+            })
+        })
+    },
+    pp = (t, a) => {
+        t && t.children.length !== 0 && Array.from(t.children).forEach(n => {
+            var o;
+            const i = Qi(n.nodeName),
+                r = n.textContent || "";
+            if (i.includes("Phone") || i === "Inquiree PhoneNumber") {
+                const c = (((o = n.children[0]) == null ? void 0 : o.textContent) || "").replace(/(\d{3})(\d{4})/, "($1) $2");
+                a.push({
+                    title: i,
+                    value: c
+                })
+            } else if (i.includes("Address")) {
+                const s = Array.from(n.children).slice(0, 5).map(l => l.textContent || "").map(l => lp(l)),
+                    c = s[1] ? ` <br/> ${s[1]}` : "",
+                    u = `${s[2]}, ${s[4]} ${s[3]}`;
+                a.push({
+                    title: i,
+                    value: `${s[0]} ${c} <br/> ${u}`
+                })
+            } else if (i.includes("Date") && r.length > 0) a.push({
+                title: i,
+                value: Yo(r)
+            });
+            else if (i.includes("Amount") || i.includes("Balance")) {
+                const s = `$${r.replace(/(\d)(?=(\d\d\d)+(?!\d))/g,"$1,")}`;
+                a.push({
+                    title: i,
+                    value: s
+                })
+            } else a.push({
+                title: i,
+                value: r
+            })
+        })
+    },
+    gp = async t => await kn(zo, {
+        method: "GET",
+        headers: oi(t)
+    }), fp = async ({
+        token: t,
+        newSettings: a
+    }) => await kn(zo, {
+        method: "PUT",
+        body: JSON.stringify(a),
+        headers: oi(t)
+    }), yp = async ({
+        token: t
+    }) => await kn(tp, {
+        method: "PUT",
+        headers: oi(t)
+    }), bp = async t => await kn(sp, {
+        method: "PATCH",
+        headers: oi(t)
+    }), xp = () => {
+        const {
+            data: t,
+            isLoading: a
+        } = Zn("oxford", "/service_token/session_escalation_token"), {
+            logError: n
+        } = h.useContext(ce), {
+            data: i,
+            isLoading: r,
+            isError: o,
+            refetch: s,
+            isFetching: c
+        } = Ht({
+            queryKey: ["oxford", "notifications_summary"],
+            queryFn: async () => await ft.poll({
+                method: "GET",
+                url: Go,
+                token: t == null ? void 0 : t.token,
+                jsonRequired: !0
+            }).then(async l => hp(l)).catch(l => {
+                n("Error fetching notification summary", l)
+            }),
+            enabled: !!(t != null && t.token),
+            retry: 3
+        });
+        return {
+            data: i && !r ? {
+                notifications: i
+            } : void 0,
+            isLoading: a || c,
+            isError: o,
+            markAllNotificationsAsDisplayed: () => bp(t == null ? void 0 : t.token),
+            refetchNotifications: s
+        }
+    };
+class nn {
+    static async getUserProfileRequest(a) {
+        return ft.poll({
+            method: "GET",
+            url: bi,
+            token: a,
+            jsonRequired: !0
+        })
+    }
+    static async postUserProfileRequest(a, n, i) {
+        return ft.request({
+            method: "POST",
+            url: bi,
+            body: nn._transformUserProfileData(a, n),
+            token: i
+        })
+    }
+    static async patchUserProfileRequest(a, n, i) {
+        return ft.request({
+            method: "PUT",
+            url: bi,
+            body: nn._transformUserProfileData(a, n),
+            token: i
+        })
+    }
+    static _transformUserProfileData(a, n) {
+        let i = {
+            ...a,
+            email: n
+        };
+        return i.address = `${a.address} ${a.apt}`, i.phone_number = Ha(a.phone_number), i.phone_number[0] === "1" && (i.phone_number = i.phone_number.substring(1)), i
+    }
+}
+const Fr = "https://cdnx.beenverified.com/assets/integrations/otp_loader.js",
+    Br = 3e3,
+    Uo = h.createContext({
+        blackBoxId: ""
+    }),
+    $o = () => {
+        const t = h.useContext(Uo);
+        if (t === void 0) throw new Error("useOneTimePasscodeContext must be used within a OneTimePasscodeProvider");
+        return t
+    },
+    cb = ({
+        children: t
+    }) => {
+        const [a, n] = h.useState(), [i, r] = h.useState(!1), {
+            logError: o
+        } = h.useContext(ce), s = () => new Promise((l, d) => {
+            const C = document.createElement("script");
+            C.src = Fr, document.head.appendChild(C), C.addEventListener("load", () => {
+                r(!0), l(C)
+            }), C.addEventListener("error", () => {
+                d(new Error(`${Fr} failed to load.`))
+            })
+        }), c = async () => {
+            if (!i) try {
+                await s()
+            } catch (l) {
+                l instanceof Error && o("Error loading one time password script", l)
+            }
+        }, u = async () => {
+            var C;
+            let l = 0;
+            const d = 2;
+            for (; l < d;) try {
+                const m = (C = window == null ? void 0 : window.IGLOO) == null ? void 0 : C.getBlackbox();
+                if (m != null && m.finished) return m.blackbox;
+                l += 1, await ft.wait(Br)
+            } catch {
+                l += 1, await ft.wait(Br)
+            }
+            return ""
+        };
+        return h.useEffect(() => {
+            c()
+        }, []), h.useEffect(() => {
+            if (!i) return;
+            async function l() {
+                const d = await u();
+                n(d)
+            }
+            l()
+        }, [i]), e.jsx(Uo.Provider, {
+            value: {
+                blackBoxId: a
+            },
+            children: t
+        })
+    },
+    Ko = t => {
+        if (!t) return "";
+        const a = t.substring(0, 10),
+            n = Bi.fromISO(a);
+        return n.isValid ? n.toFormat("MM/dd/yyyy") : ""
+    },
+    vp = t => {
+        if (!t) return;
+        const a = [],
+            n = dn().parseToXml(t),
+            i = n.querySelectorAll("Score"),
+            r = n.querySelectorAll("Date");
+        for (let o = 0; o < i.length; o++) {
+            const s = i[o].textContent,
+                c = Ko(r[o].textContent);
+            a.push({
+                score: s,
+                date: c
+            })
+        }
+        return a
+    },
+    wp = t => {
+        const a = dn().parseToXml(t),
+            n = {},
+            i = a.documentElement.children;
+        for (let r = 0; r < i.length; r++) {
+            const o = i[r].tagName,
+                s = i[r].textContent;
+            o && s && (n[o] = s)
+        }
+        return n
+    },
+    jp = t => {
+        const {
+            credit_report_summary: a,
+            credit_score_history: n,
+            last_updated_date: i,
+            vantage_score: r,
+            vantage_score_details: o
+        } = t;
+        return {
+            creditReportSummary: wp(a),
+            creditScoreHistory: vp(n),
+            lastUpdatedDate: Ko(i),
+            vantageScore: Number(r),
+            vantageScoreDetails: o
+        }
+    };
+class Sp {
+    static async getCreditDataRequest(a) {
+        return ft.poll({
+            method: "GET",
+            url: rp,
+            token: a,
+            jsonRequired: !0
+        })
+    }
+}
+const Cp = {
+    DecreaseCreditBalance: "amount",
+    IncreaseCreditBalance: "amount",
+    IncreaseCreditCardLimit: "amount",
+    AllAccountsPastDue: "NumberOfDays",
+    OnTimePayment: "NumberOfMonths",
+    OneAccountPastDue: "NumberOfDays",
+    ObtainCreditCard: "creditLimit",
+    ObtainCreditCardAsAuthorizedUser: "creditLimit",
+    TransferCreditBalances: "transferAmount",
+    ApplyForCreditCard: "numberOfInquiries",
+    ObtainAutoLoan: "creditLimit",
+    ObtainMortgage: "creditLimit",
+    ObtainPersonalLoan: "creditLimit"
+};
+class $n {
+    static async postScoreSimulatorRequest(a, n) {
+        return ft.request({
+            method: "POST",
+            url: Er,
+            body: $n.transformScoreSimulatorData(a),
+            token: n
+        })
+    }
+    static async getScoreSimulatorRequest(a) {
+        return ft.poll({
+            method: "GET",
+            url: Er,
+            token: a,
+            jsonRequired: !0
+        })
+    }
+    static transformScoreSimulatorData(a) {
+        let n = [];
+        return ["PayOffAllCreditCards", "CloseOldestCreditCard"].forEach(i => {
+            a[i] && n.push({
+                modifier_id: i,
+                is_boolean: !0
+            }), delete a[i]
+        }), Object.keys(a).forEach(i => {
+            if ([void 0, "", "$0", !1].includes(a[i])) return;
+            let r = Cp[i],
+                o = a[i];
+            o = o.replace(/[$,]/g, ""), n.push({
+                modifier_id: i,
+                attr_value: o,
+                attr_id: r
+            })
+        }), {
+            score_modifiers: n
+        }
+    }
+}
+class vn {
+    static async postCreditNavigator(a, n) {
+        return ft.request({
+            method: "POST",
+            url: qr,
+            body: vn.transformedBody(a),
+            token: n
+        })
+    }
+    static async getCreditNavigator(a) {
+        return ft.poll({
+            method: "GET",
+            url: qr,
+            token: a,
+            jsonRequired: !0
+        })
+    }
+    static transformedBody(a) {
+        return {
+            score_change_value: a.score_change_value,
+            original_score: a.original_score,
+            score_change_name: "TargetScore",
+            time_frame: 12
+        }
+    }
+    static parseResponse(a) {
+        var l, d;
+        const n = dn().parseToXml(a).querySelector("CreditCompassData"),
+            i = (l = n == null ? void 0 : n.children) == null ? void 0 : l[1],
+            r = (d = n == null ? void 0 : n.children) == null ? void 0 : d[2];
+        if ((i == null ? void 0 : i.tagName) !== "GenericDataElement" || (r == null ? void 0 : r.tagName) !== "GenericDataGroup") return;
+        let o = [],
+            s = [];
+        const c = i.querySelector("GenericDataGroup");
+        return c == null || c.querySelectorAll("Value").forEach(C => {
+            C.textContent && o.push(C.textContent)
+        }), r.querySelectorAll("GenericDataElement").forEach(C => {
+            var L, g;
+            const m = (L = C.querySelector("Key")) == null ? void 0 : L.textContent,
+                v = (g = C.querySelector("Value")) == null ? void 0 : g.textContent;
+            m && v && s.push(`${m}: ${v}`)
+        }), {
+            factors: s,
+            canDo: o
+        }
+    }
+}
+const wa = () => {
+        const [t, a] = h.useState(0), [n, i] = h.useState(!1), {
+            logError: r
+        } = h.useContext(ce), {
+            session: {
+                account: o
+            },
+            setSession: s
+        } = Yt(), c = Ba({
+            mutationFn: Zs,
+            onSuccess: () => {
+                o.account.user_settings.credit_hub_enrollment_completed = !0, s({
+                    account: o
+                })
+            },
+            onError: D => {
+                r("User Setting Update", D)
+            }
+        }), u = o == null ? void 0 : o.account.user_info.email, {
+            checkSessionEscalation: l
+        } = Jn(), {
+            refetch: d
+        } = l, {
+            blackBoxId: C
+        } = $o();
+        let {
+            data: m,
+            isError: v
+        } = Zn("oxford", Wo);
+        h.useEffect(() => {
+            v && n && d()
+        }, [v, d]);
+        const L = Ht({
+                queryKey: ["oxford", "userProfile"],
+                queryFn: async () => {
+                    const D = await nn.getUserProfileRequest(m.token).then(j => {
+                        var R;
+                        return (R = j == null ? void 0 : j.user_profile) != null && R.authenticated ? P.refetch() : f.refetch(), j.user_profile
+                    }).catch(j => I(j, ["oxford", "userProfile"]));
+                    if (D instanceof Error) throw D;
+                    return D
+                },
+                retry: !1,
+                enabled: !!(m != null && m.token) && n
+            }),
+            g = Ba({
+                mutationFn: async D => {
+                    D.black_box_id = C;
+                    const j = nn.postUserProfileRequest(D, u, m.token).then(() => L.refetch()).catch(R => I(R, ["oxford userProfile post"]));
+                    if (j instanceof xn) throw j;
+                    return j
+                }
+            }),
+            b = Ba({
+                mutationFn: async D => {
+                    D.black_box_id = C;
+                    const j = await nn.patchUserProfileRequest(D, u, m.token).then(() => L.refetch()).catch(R => I(R, ["oxford userProfile patch"]));
+                    if (j instanceof Error) throw j;
+                    return j
+                }
+            }),
+            f = Ht(["oxford", "authentication", "questions"], async ({
+                queryKey: D
+            }) => {
+                const j = await $t.getAuthenticationQuestionRequest({
+                    black_box_id: C
+                }, m.token).then(R => (R.questions && (R.questionList = $t.questionsListMeta(R == null ? void 0 : R.questions)), R)).catch(R => I(R, D));
+                if (j instanceof Error) throw j;
+                return j
+            }, {
+                enabled: !1,
+                retry: !1
+            }),
+            w = Ba({
+                mutationFn: async D => {
+                    const j = await $t.postAuthenticationAnswersRequest(D, m.token).then(() => {
+                        f.remove(), p.refetch()
+                    }).catch(R => I(R, ["oxford authentication answers post"]));
+                    if (j instanceof Error) throw j;
+                    return j
+                }
+            }),
+            p = Ht({
+                queryKey: ["oxford", "authentication", "checkAnswers"],
+                queryFn: async ({
+                    queryKey: D
+                }) => {
+                    const j = await $t.getAuthenticationCheckAnswersRequest(m.token).then(R => (a(t + 1), R.questions ? R.questionList = $t.questionsListMeta(R == null ? void 0 : R.questions) : R != null && R.authenticated && P.refetch(), R)).catch(R => I(R, D));
+                    if (j instanceof Error) throw j;
+                    return j
+                },
+                enabled: !1,
+                retry: !1
+            }),
+            P = Ht({
+                queryKey: ["oxford", "creditData"],
+                queryFn: async ({
+                    queryKey: D
+                }) => {
+                    const j = await Sp.getCreditDataRequest(m.token).then(R => {
+                        const W = R == null ? void 0 : R.vantage_score;
+                        return R != null && R.errors || ["1", "4"].includes(W) ? new Error("Credit data error") : (o != null && o.account.user_settings.credit_hub_enrollment_completed || c.mutate({
+                            setting: "credit_hub_enrollment_completed",
+                            state: !0
+                        }), jp(R))
+                    }).catch(R => I(R, D));
+                    if (j instanceof Error) throw j;
+                    return j
+                },
+                enabled: !1,
+                retry: !1
+            }),
+            q = Ba(async D => {
+                const j = await $n.postScoreSimulatorRequest(D, m.token).then(() => _.refetch()).catch(R => I(R, ["oxford authentication answers post"]));
+                if (j instanceof Error) throw j;
+                return j
+            }),
+            _ = Ht(["oxford", "scoreSimulator"], async ({
+                queryKey: D
+            }) => {
+                const j = await $n.getScoreSimulatorRequest(m.token).then(R => {
+                    var $;
+                    if (R != null && R.errors) return new Error("Score Simulator error");
+                    const W = dn().parseToXml(R.score_simulator),
+                        F = ($ = W == null ? void 0 : W.querySelector("score")) == null ? void 0 : $.textContent;
+                    return F ? {
+                        score: F
+                    } : new Error("Score simulator score missing")
+                }).catch(R => I(R, D));
+                if (j instanceof Error) throw j;
+                return j
+            }, {
+                enabled: !1
+            }),
+            E = Ba(async D => {
+                const j = await vn.postCreditNavigator(D, m.token).then(() => x.refetch()).catch(R => I(R, ["oxford creditNavigator post"]));
+                if (j instanceof Error) throw j;
+                return j
+            }),
+            x = Ht(["oxford", "creditNavigator"], async ({
+                queryKey: D
+            }) => {
+                const j = await vn.getCreditNavigator(m.token).then(R => R != null && R.errors ? new Error("Credit Navigator error") : vn.parseResponse(R.credit_navigator)).catch(R => I(R, D));
+                if (j instanceof Error) throw j;
+                return j
+            }, {
+                enabled: !1
+            }),
+            I = (D, j) => (D instanceof xn ? D.response.status === 401 && l.refetch() : r(`Error with ${j.join(" ")} network call`, D), D),
+            H = L.isFetching || f.isFetching || p.isFetching || P.isFetching,
+            M = f.isError || p.isError || P.isError;
+        return {
+            getUserProfile: L,
+            setEnabledUserProfileQuery: i,
+            enabledUserProfileQuery: n,
+            patchUserProfile: b,
+            postUserProfile: g,
+            getAuthenticationQuestions: f,
+            postAuthenticationAnswers: w,
+            getAuthenticationCheckAnswers: p,
+            getCreditData: P,
+            postScoreSimulator: q,
+            getScoreSimulator: _,
+            isLoading: H,
+            isOxfordError: M,
+            useNotifications: xp,
+            sentOneTimePasscodeCount: t,
+            setSentOneTimePasscodeCount: a,
+            postCreditNavigator: E,
+            getCreditNavigator: x
+        }
+    },
+    Mr = {
+        1: {
+            title: "Personal Information",
+            body: e.jsxs(e.Fragment, {
+                children: ["To access ID Monitor, please provide your personal information used on your credit record. Information and protection tools are provided through our credit bureau partner, TransUnion®. Enrolling with ID Monitor will", " ", e.jsx(y, {
+                    component: "span",
+                    fontWeight: "bold",
+                    children: "not"
+                }), " ", "impact your credit score and is used only for accessing your information and protecting your identity and credit."]
+            })
+        },
+        2: {
+            title: "Identity Authentication",
+            body: "Your information will be encrypted and sent directly to TransUnion® strictly for the purpose of confirming your identity. Any data you access and identity protection features or services you opt in to will be based on this confirmed identity."
+        }
+    },
+    Tp = ({
+        isFormStepOne: t
+    }) => {
+        const a = t ? "1" : "2";
+        return e.jsxs(e.Fragment, {
+            children: [e.jsxs(y, {
+                variant: "h6",
+                fontWeight: "normal",
+                children: ["Step ", a, "/2"]
+            }), e.jsx(y, {
+                variant: "h1",
+                children: Mr[a].title
+            }), e.jsx(y, {
+                variant: "body1",
+                children: Mr[a].body
+            })]
+        })
+    },
+    Qo = () => e.jsxs(S, {
+        direction: "row",
+        alignItems: "center",
+        spacing: .5,
+        marginTop: 1.5,
+        sx: {
+            justifyContent: ["center", "flex-end"]
+        },
+        children: [e.jsx("img", {
+            src: Zu,
+            alt: "soc2-logo",
+            height: "34px",
+            width: "34px"
+        }), e.jsx("img", {
+            src: Xu,
+            alt: "norton-logo",
+            height: "27px",
+            width: "58px"
+        }), e.jsx("img", {
+            src: eh,
+            alt: "secure-server",
+            width: "73px",
+            height: "24px"
+        })]
+    }),
+    Jo = ({
+        isFirstOption: t,
+        isLastOption: a,
+        isForwardDisabled: n,
+        onNext: i,
+        onBack: r,
+        onSubmit: o
+    }) => e.jsxs(S, {
+        direction: "column",
+        children: [e.jsxs(S, {
+            direction: "row",
+            useFlexGap: !0,
+            justifyContent: "space-between",
+            columnGap: [2, 0],
+            children: [e.jsxs(ue, {
+                id: "back",
+                variant: "outlined",
+                sx: {
+                    width: ["100%", "172px"],
+                    visibility: t ? "hidden" : "initial"
+                },
+                onClick: () => r(),
+                children: [e.jsx(us, {
+                    fontSize: "inherit"
+                }), "Back"]
+            }, "back"), e.jsx(ue, {
+                variant: "contained",
+                id: "next",
+                disabled: n,
+                sx: {
+                    width: ["100%", "172px"],
+                    display: a ? "none" : "block"
+                },
+                onClick: async () => i(),
+                children: e.jsxs(S, {
+                    direction: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    children: ["Next", e.jsx(ro, {
+                        fontSize: "inherit",
+                        sx: {
+                            marginLeft: [.5]
+                        }
+                    })]
+                })
+            }, "next"), e.jsx(ue, {
+                variant: "contained",
+                id: "submit",
+                disabled: n,
+                sx: {
+                    width: ["100%", "172px"],
+                    display: a ? "block" : "none"
+                },
+                onClick: async () => o(),
+                children: "Submit"
+            }, "submit")]
+        }), e.jsx(Qo, {})]
+    }),
+    kp = ({
+        register: t,
+        errors: a,
+        setValue: n
+    }) => {
+        var r, o;
+        const i = Xs().map(s => ({
+            value: s.abbr === "All" ? "" : s.abbr,
+            display: s.abbr
+        }));
+        return e.jsxs(e.Fragment, {
+            children: [e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 5.85,
+                children: [e.jsx(sa, {
+                    htmlFor: "first_name",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "First name"
+                }), h.createElement(Ie, {
+                    ...t("first_name", {
+                        required: !0
+                    }),
+                    id: "first_name",
+                    key: "first_name",
+                    fullWidth: !0,
+                    placeholder: "First Name",
+                    error: !!a.first_name
+                })]
+            }), e.jsx(B, {
+                item: !0,
+                xs: 0,
+                sm: .3
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 5.85,
+                children: [e.jsx(sa, {
+                    htmlFor: "last_name",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Last name"
+                }), h.createElement(Ie, {
+                    ...t("last_name", {
+                        required: !0
+                    }),
+                    id: "last_name",
+                    key: "last_name",
+                    fullWidth: !0,
+                    placeholder: "Last Name",
+                    error: !!a.last_name
+                })]
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 10,
+                children: [e.jsx(sa, {
+                    htmlFor: "address",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Address"
+                }), h.createElement(Ie, {
+                    ...t("address", {
+                        required: !0
+                    }),
+                    id: "address",
+                    key: "address",
+                    fullWidth: !0,
+                    placeholder: "Address",
+                    error: !!a.address
+                })]
+            }), e.jsx(B, {
+                item: !0,
+                xs: 0,
+                sm: .36
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 1.64,
+                children: [e.jsx(sa, {
+                    htmlFor: "apt",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Apt."
+                }), h.createElement(Ie, {
+                    ...t("apt", {
+                        required: !0
+                    }),
+                    id: "apt",
+                    key: "apt",
+                    fullWidth: !0,
+                    placeholder: "Apartment",
+                    error: !!a.apt
+                })]
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 8.16,
+                children: [e.jsx(sa, {
+                    htmlFor: "city",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "City"
+                }), h.createElement(Ie, {
+                    ...t("city", {
+                        required: !0
+                    }),
+                    id: "city",
+                    key: "city",
+                    fullWidth: !0,
+                    placeholder: "City",
+                    error: !!a.city
+                })]
+            }), e.jsx(B, {
+                item: !0,
+                xs: 0,
+                sm: .3
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 1.62,
+                children: [e.jsx(sa, {
+                    htmlFor: "State",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "State"
+                }), h.createElement(la, {
+                    ...t("state", {
+                        onChange: s => n("state", s.target.value)
+                    }),
+                    options: i,
+                    id: "state",
+                    key: "state",
+                    fullWidth: !0,
+                    error: !!a.state
+                })]
+            }), e.jsx(B, {
+                item: !0,
+                xs: 0,
+                sm: .3
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 1.62,
+                children: [e.jsx(sa, {
+                    htmlFor: "zip",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Zip code"
+                }), h.createElement(Ie, {
+                    ...t("zip", {
+                        required: !0,
+                        onChange: s => {
+                            let c = Ha(s.target.value);
+                            c = c.substring(0, 5), n("zip", c)
+                        }
+                    }),
+                    id: "zip",
+                    key: "zip",
+                    type: "tel",
+                    fullWidth: !0,
+                    placeholder: "Zip code",
+                    error: !!a.zip
+                })]
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                sm: 3.79,
+                children: [e.jsx(sa, {
+                    htmlFor: "phone_number",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Phone number"
+                }), h.createElement(Ie, {
+                    ...t("phone_number", {
+                        required: !0,
+                        onChange: s => {
+                            let c = Ha(s.target.value);
+                            c[0] === "1" ? c = c.substring(0, 11) : c = c.substring(0, 10), n("phone_number", ca(c))
+                        }
+                    }),
+                    id: "phone_number",
+                    key: "phone_number",
+                    type: "tel",
+                    name: "phone_number",
+                    placeholder: "(123) 456-7890",
+                    error: !!((r = a.phone_number) != null && r.message),
+                    helperText: (o = a.phone_number) == null ? void 0 : o.message,
+                    sx: {
+                        fontSize: "1rem"
+                    },
+                    fullWidth: !0
+                })]
+            })]
+        })
+    },
+    Ap = ({
+        register: t,
+        errors: a,
+        setValue: n,
+        control: i
+    }) => {
+        var r;
+        return e.jsxs(e.Fragment, {
+            children: [e.jsxs(Xa, {
+                item: !0,
+                xs: 12,
+                sm: 5.85,
+                children: [e.jsx(mi, {
+                    htmlFor: "tokenized_ssn",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Social security number"
+                }), h.createElement(Ie, {
+                    ...t("tokenized_ssn", {
+                        required: !0,
+                        onChange: o => {
+                            let s = Ha(o.target.value);
+                            return n("tokenized_ssn", s.substring(0, 9))
+                        }
+                    }),
+                    id: "tokenized_ssn",
+                    key: "tokenized_ssn",
+                    type: "password",
+                    fullWidth: !0,
+                    placeholder: "Social Security number",
+                    error: !!a.tokenized_ssn
+                })]
+            }), e.jsx(Xa, {
+                item: !0,
+                xs: 0,
+                sm: .3
+            }), e.jsxs(Xa, {
+                item: !0,
+                xs: 12,
+                sm: 5.85,
+                children: [e.jsx(mi, {
+                    htmlFor: "tokenized_ssn_confirmation",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Re-enter social security number"
+                }), h.createElement(Ie, {
+                    ...t("tokenized_ssn_confirmation", {
+                        required: !0,
+                        onChange: o => {
+                            let s = Ha(o.target.value);
+                            return n("tokenized_ssn_confirmation", s.substring(0, 9))
+                        }
+                    }),
+                    id: "tokenized_ssn_confirmation",
+                    key: "tokenized_ssn_confirmation",
+                    type: "password",
+                    fullWidth: !0,
+                    placeholder: "Re-enter social security number",
+                    error: !!a.tokenized_ssn_confirmation,
+                    helperText: (r = a.tokenized_ssn_confirmation) == null ? void 0 : r.message
+                })]
+            }), e.jsxs(Xa, {
+                item: !0,
+                xs: 12,
+                sm: 5.85,
+                children: [e.jsx(mi, {
+                    htmlFor: "tokenized_dob",
+                    sx: {
+                        fontWeight: "bold",
+                        marginBottom: [1]
+                    },
+                    children: "Date of birth"
+                }), e.jsx(hs, {
+                    name: "tokenized_dob",
+                    control: i,
+                    render: ({
+                        field: {
+                            onChange: o,
+                            ref: s,
+                            name: c
+                        },
+                        fieldState: {
+                            error: u
+                        }
+                    }) => e.jsx(oo, {
+                        dateAdapter: so,
+                        children: e.jsx(ms, {
+                            onChange: l => o(l == null ? void 0 : l.toFormat("yyyy-LL-dd")),
+                            sx: {
+                                width: ["100%", "initial"]
+                            },
+                            inputRef: s,
+                            name: c,
+                            id: "date-picker",
+                            slotProps: {
+                                textField: {
+                                    error: !!u,
+                                    helperText: u == null ? void 0 : u.message
+                                }
+                            }
+                        })
+                    })
+                })]
+            }), e.jsx(Te, {
+                sx: {
+                    width: "100%",
+                    marginTop: [2.5, 4.5],
+                    marginBottom: [2, 2]
+                }
+            }), e.jsxs(ps, {
+                flexDirection: "row",
+                children: [e.jsx(Un, {
+                    sx: {
+                        display: "block"
+                    },
+                    control: e.jsx(Pi, {
+                        ...t("terms_and_conditions", {
+                            required: !0
+                        }),
+                        sx: {
+                            color: a != null && a.terms_and_conditions ? "red" : "black"
+                        }
+                    }),
+                    label: e.jsx(e.Fragment, {})
+                }), e.jsxs(y, {
+                    variant: "body2",
+                    children: ["By checking this box and clicking on the “Authorize” button below, you agree to the ", e.jsx("b", {
+                        children: "terms and conditions"
+                    }), ", acknowledge receipt of our", " ", e.jsx("b", {
+                        children: "privacy policy"
+                    }), " and agree to its terms, and confirm your authorization for BeenVerified, LLC to obtain your credit profile from any consumer reporting agency to display your credit information to you, to confirm your identity to help avoid fraudulent transactions in your name, and to enable any consumer reporting agencies to monitor your credit for changes."]
+                })]
+            })]
+        })
+    },
+    _p = {
+        retryUserProfile: {
+            title: "The information you provided may be incorrect",
+            body: "Please re-enter your information to access ID Monitor and make sure it's correct.",
+            warning: "A second failed attempt will restrict you from using ID Monitor in the future.",
+            action: "Re-enter information"
+        },
+        failedUserProfile: {
+            title: "The information you submitted was incorrect",
+            body: "You are restricted from using this feature permanently because of two failed attempts.",
+            warning: e.jsxs(e.Fragment, {
+                children: ["You may access your credit data directly at", " ", e.jsx("a", {
+                    href: "https://www.transunion.com/",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    style: {
+                        fontWeight: "bold",
+                        textDecoration: "underline"
+                    },
+                    children: "https://www.transunion.com/"
+                })]
+            }),
+            action: "Back to dashboard"
+        },
+        authenticationInProgress: {
+            title: "Your Knowledge Based Authentication Answers are Incorrect",
+            body: "Please re-submit your answers to access the ID Monitor.",
+            warning: "A second failed attempt will restrict you from using ID Monitor for a month.",
+            action: "Restart Authentication"
+        },
+        authenticationAnswersIncorrect: {
+            title: "Your authentication answers were incorrect",
+            body: "Please retry accessing ID Monitor in a month.",
+            warning: e.jsxs(e.Fragment, {
+                children: ["You may access your credit data directly at", " ", e.jsx("a", {
+                    href: "https://www.transunion.com/",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    style: {
+                        fontWeight: "bold",
+                        textDecoration: "underline"
+                    },
+                    children: "https://www.transunion.com/"
+                })]
+            }),
+            action: "Back to Dashboard"
+        },
+        oneTimePasscodeAuthenticationError: {
+            title: "Your authentication answers were incorrect",
+            body: "Please retry accessing ID Monitor in a month.",
+            warning: e.jsxs(e.Fragment, {
+                children: ["You may access your credit data directly at", " ", e.jsx("a", {
+                    href: "https://www.transunion.com/",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    style: {
+                        fontWeight: "bold",
+                        textDecoration: "underline"
+                    },
+                    children: "https://www.transunion.com/"
+                })]
+            }),
+            action: "Back to Dashboard"
+        },
+        generic: {
+            title: "We've experienced an error gathering your data",
+            body: e.jsxs(e.Fragment, {
+                children: ["Please refresh this page or contact support at", " ", e.jsx("a", {
+                    href: "mailto: support@beenverified.com",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    style: {
+                        fontWeight: "bold",
+                        textDecoration: "underline"
+                    },
+                    children: "support@beenverified.com"
+                })]
+            }),
+            action: "Refresh Page"
+        }
+    },
+    Ma = ({
+        type: t
+    }) => {
+        const a = sn(),
+            n = Kt(),
+            {
+                trackEvent: i,
+                trackEventGA4: r
+            } = h.useContext(ce);
+        h.useEffect(() => {
+            (t === "failedUserProfile" || t === "retryUserProfile") && (i("personal info", "error", "id monitor enrollment"), r({
+                event_name: "id_monitor_enrollment_error",
+                type: "personal_info_error"
+            })), t === "authenticationAnswersIncorrect" && (i("kba", "error", "id monitor enrollment"), r({
+                event_name: "id_monitor_enrollment_error",
+                type: "kba_error"
+            })), t === "oneTimePasscodeAuthenticationError" && (i("otp", "error", "id monitor enrollment"), r({
+                event_name: "id_monitor_enrollment_error",
+                type: "otp_error"
+            }))
+        }, [t]);
+        const o = () => {
+                const c = {
+                    retryUserProfile: () => {
+                        a.resetQueries({
+                            queryKey: ["oxford", "authentication", "questions"]
+                        })
+                    },
+                    authenticationInProgress: () => {
+                        const l = m => ({
+                                ...m,
+                                in_progress: !1
+                            }),
+                            d = a.getQueryState(["oxford", "authentication", "questions"]),
+                            C = d == null ? void 0 : d.data;
+                        (C == null ? void 0 : C.in_progress) === !0 ? a.setQueryData(["oxford", "authentication", "questions"], m => l(m)) : (a.resetQueries({
+                            queryKey: ["oxford", "authentication", "questions"]
+                        }), a.setQueryData(["oxford", "authentication", "checkAnswers"], m => l(m)))
+                    },
+                    oneTimePasscodeAuthenticationError: () => {
+                        n("/dashboard")
+                    },
+                    authenticationAnswersIncorrect: () => {
+                        n("/dashboard")
+                    },
+                    generic: () => {
+                        n(0)
+                    },
+                    failedUserProfile: () => {
+                        n("/dashboard")
+                    },
+                    default: () => {
+                        n("/dashboard")
+                    }
+                };
+                (c[t] || c.default)()
+            },
+            s = _p[t];
+        return e.jsx(e.Fragment, {
+            children: e.jsx(an, {
+                title: "",
+                open: !0,
+                hasCloseIcon: !1,
+                children: e.jsxs(S, {
+                    alignItems: "center",
+                    textAlign: "center",
+                    marginY: 2.5,
+                    children: [e.jsx("img", {
+                        src: th,
+                        width: "55",
+                        height: "52",
+                        alt: "id-monitor-error"
+                    }), e.jsx(y, {
+                        variant: "h1",
+                        marginTop: 2.5,
+                        children: s.title
+                    }), s.body && e.jsx(y, {
+                        variant: "body1",
+                        children: s.body
+                    }), s.warning && e.jsx(y, {
+                        variant: "body1",
+                        marginTop: 1.5,
+                        sx: {
+                            color: "#DC0015"
+                        },
+                        children: s.warning
+                    }), e.jsx(ue, {
+                        onClick: () => o(),
+                        variant: "contained",
+                        sx: {
+                            marginTop: [2.5]
+                        },
+                        children: s.action
+                    })]
+                })
+            })
+        })
+    },
+    Lp = O(N)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        padding: t.spacing(2, 2.5)
+    })),
+    Pp = () => {
+        const [t, a] = h.useState(!0), {
+            trackEvent: n,
+            trackEventGA4: i
+        } = h.useContext(ce), {
+            getUserProfile: {
+                data: r
+            },
+            postUserProfile: o,
+            patchUserProfile: s
+        } = wa(), {
+            handleSubmit: c,
+            register: u,
+            formState: {
+                errors: l
+            },
+            setValue: d,
+            control: C,
+            trigger: m
+        } = jn({
+            mode: "onSubmit",
+            resolver: Sn(Xh),
+            defaultValues: {
+                terms_and_conditions: !1
+            },
+            values: {
+                terms_and_conditions: !1,
+                first_name: (r == null ? void 0 : r.first_name) ?? "",
+                last_name: (r == null ? void 0 : r.first_name) ?? "",
+                address: (r == null ? void 0 : r.address) ?? "",
+                city: (r == null ? void 0 : r.city) ?? "",
+                state: (r == null ? void 0 : r.state) ?? "",
+                zip: (r == null ? void 0 : r.zip) ?? "",
+                phone_number: ca((r == null ? void 0 : r.phone_number) ?? ""),
+                tokenized_dob: "",
+                tokenized_ssn: "",
+                tokenized_ssn_confirmation: ""
+            }
+        }), v = async w => {
+            n("personal info", "submit", "id monitor enrollment"), i({
+                event_name: "id_monitor_enrollment",
+                step: "personal_info_submit"
+            }), r ? s.mutate(w) : o.mutate(w), a(!0)
+        }, L = async () => {
+            await m(["first_name", "last_name", "address", "apt", "city", "state", "zip", "phone_number"], {
+                shouldFocus: !0
+            }) && (n("personal info", "navigation click", "id monitor enrollment"), i({
+                event_name: "id_monitor_enrollment",
+                step: "personal_info_navigation_click"
+            }), a(!1))
+        }, g = () => {
+            a(!0)
+        }, b = () => o.isLoading || s.isLoading ? e.jsx(ii, {}) : o.isError || s.isError ? e.jsx(Ma, {
+            type: "generic"
+        }) : f(), f = () => e.jsxs(Lp, {
+            children: [e.jsx(Tp, {
+                isFormStepOne: t
+            }), e.jsx(Te, {
+                sx: {
+                    width: "100%",
+                    marginY: [2, 2.5]
+                }
+            }), e.jsx(Xa, {
+                container: !0,
+                rowGap: [2.5, 2],
+                sx: {},
+                children: t ? e.jsx(kp, {
+                    errors: l,
+                    register: u,
+                    setValue: d
+                }) : e.jsx(Ap, {
+                    errors: l,
+                    register: u,
+                    setValue: d,
+                    control: C
+                })
+            }), e.jsx(Te, {
+                sx: {
+                    width: "100%",
+                    marginY: [2, 2.5]
+                }
+            }), e.jsx(Jo, {
+                isFirstOption: t,
+                isLastOption: !t,
+                onBack: g,
+                onNext: L,
+                onSubmit: c(v)
+            })]
+        });
+        return b()
+    },
+    Ip = {
+        genericMCQ: {
+            title: "Identity Quiz",
+            body: "As a security measure, please answer questions based on your TransUnion® credit profile. Once you are confirmed, you can activate identity protection tools and services, as well as access your credit data"
+        },
+        oneTimePasscodeMCQ: {
+            title: "One-Time Passcode Authentication",
+            body: "Your phone number matches what appears on your TransUnion® credit record. As a security measure, please select a preferred method of authentication. Once you are authenticated with TransUnion, ID Monitor may provide insight and tools for credit and identity protection."
+        },
+        oneTimePasscodeUserInput: {
+            title: "One-Time Passcode Authentication",
+            body: "Please enter the 5-digit passcode or PIN you received on your phone."
+        },
+        repeatOneTimePasscodeUserInput: {
+            title: "One-Time Passcode Authentication",
+            body: "You've entered the wrong passcode. Please check your phone and try again."
+        }
+    },
+    Ep = ({
+        type: t
+    }) => {
+        const a = Ip[t];
+        return e.jsxs(e.Fragment, {
+            children: [e.jsx(y, {
+                variant: "h1",
+                children: a.title
+            }), e.jsx(y, {
+                variant: "body1",
+                children: a.body
+            })]
+        })
+    },
+    Nr = ({
+        question: t,
+        selectedAnswer: a,
+        isOneTimePasscodeMCQ: n,
+        handleAnswerSelect: i
+    }) => {
+        const r = () => t.answerChoices.map(o => e.jsx(Un, {
+            value: o.answerId,
+            control: e.jsx(ac, {}),
+            label: o.answerText
+        }, o.answerId));
+        return e.jsx(ec, {
+            sx: {
+                width: n ? "45%" : "100%"
+            },
+            children: e.jsx(tc, {
+                value: a || null,
+                onChange: i,
+                children: r()
+            })
+        })
+    },
+    Or = ({
+        isOneTimePasscodeMCQ: t,
+        isNextDisabled: a,
+        handleSubmit: n
+    }) => e.jsx(e.Fragment, {
+        children: e.jsxs(S, {
+            direction: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            children: [e.jsx(ue, {
+                variant: "contained",
+                id: t ? "next" : "submit",
+                disabled: a,
+                sx: {
+                    width: ["100%", "172px"]
+                },
+                onClick: n,
+                children: e.jsxs(S, {
+                    direction: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    children: [t ? "Next" : "Submit", t && e.jsx(ro, {
+                        fontSize: "inherit",
+                        sx: {
+                            marginLeft: [.5]
+                        }
+                    })]
+                })
+            }, t ? "next" : "submit"), e.jsx(Qo, {})]
+        })
+    }),
+    qp = O(Ie)`
+  div {
+    height: 80px;
+    max-width: 54px;
+    min-width: 54px;
+  }
+  input {
+    text-align: center;
+    caret-color: transparent;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+`,
+    Rp = ({
+        userPasscode: t,
+        handleOneTimePasscodeInput: a
+    }) => {
+        const n = (r, o) => {
+                if (["Backspace", "Delete"].includes(o.key)) {
+                    a(r, "");
+                    return
+                }
+                if (o.key.match(/^[0-9]/) !== null && (a(r, o.key), r < 4)) {
+                    const s = document.getElementById(`otp-${r+1}`);
+                    s == null || s.focus()
+                }
+            },
+            i = () => t.map((r, o) => e.jsx(qp, {
+                id: `otp-${o}`,
+                type: "number",
+                value: r,
+                onKeyDown: s => n(o, s)
+            }, `otp-${o}`));
+        return e.jsx(e.Fragment, {
+            children: i()
+        })
+    },
+    Dp = O(N)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        padding: t.spacing(2.5)
+    })),
+    Fp = ({
+        sentOneTimePasscodeCount: t,
+        increaseSentOneTimePasscodeCount: a
+    }) => {
+        var R, W;
+        const [n, i] = h.useState(0), [r, o] = h.useState([]), [s, c] = h.useState([]), [u, l] = h.useState(["", "", "", "", ""]), {
+            trackEvent: d,
+            trackEventGA4: C
+        } = h.useContext(ce), {
+            getAuthenticationQuestions: m,
+            postAuthenticationAnswers: v,
+            getAuthenticationCheckAnswers: L
+        } = wa(), {
+            data: g
+        } = m, {
+            data: b
+        } = L, f = s[n], w = $t.isOneTimePasscodeQuestion(s), p = $t.isOneTimePasscodeMCQ(((R = s == null ? void 0 : s[0]) == null ? void 0 : R.questionText) || ""), P = $t.isOneTimePasscodeUserInput(((W = s == null ? void 0 : s[0]) == null ? void 0 : W.questionText) || "");
+        h.useEffect(() => {
+            if (!s.length) return;
+            const F = w ? "otp" : "kba";
+            d(F, "render", "id monitor enrollment"), C({
+                event_name: "id_monitor_enrollment",
+                step: `${F}_render`
+            })
+        }, [s, w]), h.useEffect(() => {
+            let F = (b == null ? void 0 : b.questionList) || (g == null ? void 0 : g.questionList) || [];
+            $t.isOneTimePasscodeQuestion(F) && (F[0].answerChoices = F[0].answerChoices.filter($ => !$.answerText.includes("Security"))), c(F)
+        }, [g, b]), h.useEffect(() => {
+            o(s.map(F => ({
+                question_id: F.questionId,
+                answer_id: ""
+            })))
+        }, [s]), h.useEffect(() => {
+            if (u.join("").length === 0) return;
+            const F = {
+                question_id: f.questionId,
+                answer_id: f.answerChoices[0].answerId,
+                user_input: u.join("")
+            };
+            o([F])
+        }, [u, f == null ? void 0 : f.answerChoices, f == null ? void 0 : f.questionId]);
+        const q = () => t > 0 ? "repeatOneTimePasscodeUserInput" : p ? "oneTimePasscodeMCQ" : P ? "oneTimePasscodeUserInput" : "genericMCQ",
+            _ = F => {
+                const $ = {
+                        question_id: f.questionId,
+                        answer_id: F.target.value
+                    },
+                    oe = [...r];
+                oe[n] = $, o(oe)
+            },
+            E = (F, $) => {
+                const oe = [...u];
+                oe[F] = $, l(oe)
+            },
+            x = () => {
+                const F = {
+                    question_id: f.questionId,
+                    answer_id: f.answerChoices[0].answerId,
+                    user_input: "NEWPIN"
+                };
+                o([F])
+            },
+            I = () => {
+                d("kba", "navigation click", "id monitor enrollment"), C({
+                    event_name: "id_monitor_enrollment",
+                    step: "kba_navigation_click"
+                }), i(n + 1)
+            },
+            H = () => {
+                i(n - 1)
+            },
+            M = () => {
+                if (P && r[n].user_input !== "NEWPIN" && a(), p) d("otp", "navigation click", "id monitor enrollment"), C({
+                    event_name: "id_monitor_enrollment",
+                    step: "otp_navigation_click"
+                });
+                else {
+                    const F = w ? "otp" : "kba";
+                    d(F, "submit", "id monitor enrollment"), C({
+                        event_name: "id_monitor_enrollment",
+                        step: `${F}_submit`
+                    })
+                }
+                v.mutate(r)
+            };
+        h.useEffect(() => {
+            var F;
+            P && ((F = r[n]) == null ? void 0 : F.user_input) === "NEWPIN" && M()
+        }, [r, n, P]), h.useEffect(() => {
+            window.scrollTo(0, 0)
+        }, [n]);
+        const D = () => {
+                var oe, Q, z;
+                const F = ["", void 0].includes((oe = r[n]) == null ? void 0 : oe.answer_id),
+                    $ = (((z = (Q = r[0]) == null ? void 0 : Q.user_input) == null ? void 0 : z.length) || 0) < 5;
+                return w ? p ? e.jsx(Or, {
+                    isOneTimePasscodeMCQ: p,
+                    handleSubmit: M,
+                    isNextDisabled: F
+                }) : e.jsx(Or, {
+                    isOneTimePasscodeMCQ: p,
+                    handleSubmit: M,
+                    isNextDisabled: $
+                }) : e.jsx(Jo, {
+                    isFirstOption: n === 0,
+                    isLastOption: n === s.length - 1,
+                    isForwardDisabled: F,
+                    onNext: I,
+                    onBack: H,
+                    onSubmit: M
+                })
+            },
+            j = () => {
+                const F = r[n].answer_id;
+                return P ? e.jsxs(e.Fragment, {
+                    children: [e.jsx(S, {
+                        flexDirection: "row",
+                        justifyContent: "center",
+                        gap: 1,
+                        marginBottom: 2.5,
+                        children: e.jsx(Rp, {
+                            userPasscode: u,
+                            handleOneTimePasscodeInput: E
+                        })
+                    }), e.jsxs(S, {
+                        direction: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        children: [e.jsx(y, {
+                            variant: "body1",
+                            children: "Didn't receive the verification code?"
+                        }), e.jsx(ue, {
+                            id: "reset-passcode",
+                            onClick: x,
+                            children: "Request another passcode or PIN"
+                        }), e.jsx(y, {
+                            variant: "body2",
+                            children: "You may request 2 or more new passcodes"
+                        })]
+                    })]
+                }) : p ? e.jsx(Nr, {
+                    question: f,
+                    selectedAnswer: F,
+                    isOneTimePasscodeMCQ: p,
+                    handleAnswerSelect: _
+                }) : e.jsxs(e.Fragment, {
+                    children: [e.jsx(y, {
+                        variant: "h2",
+                        children: f.questionText
+                    }), e.jsx(Nr, {
+                        question: f,
+                        selectedAnswer: F,
+                        isOneTimePasscodeMCQ: p,
+                        handleAnswerSelect: _
+                    })]
+                })
+            };
+        return v.isLoading ? e.jsx(ii, {}) : v.isError ? e.jsx(Ma, {
+            type: "generic"
+        }) : e.jsxs(Dp, {
+            children: [e.jsx(Ep, {
+                type: q()
+            }), e.jsx(Te, {
+                sx: {
+                    width: "100%",
+                    marginY: [2.5]
+                }
+            }), e.jsx(S, {
+                sx: {
+                    alignItems: p ? "center" : "initial"
+                },
+                children: r.length > 0 && j()
+            }), e.jsx(Te, {
+                sx: {
+                    width: "100%",
+                    marginBottom: [2, 2.5],
+                    marginTop: [2.5]
+                }
+            }), D()]
+        })
+    },
+    Bp = () => e.jsxs(e.Fragment, {
+        children: [e.jsxs("div", {
+            "data-testid": "theft-benefits-modal",
+            children: [e.jsx(y, {
+                variant: "h3",
+                children: "Identity Theft Expenses Insurance - Summary of Benefits"
+            }), e.jsx(Te, {
+                sx: {
+                    marginY: 2
+                }
+            }), e.jsx(y, {
+                variant: "h3",
+                children: "Summary description of benefits"
+            }), e.jsxs("div", {
+                children: [e.jsxs("p", {
+                    style: {
+                        display: "inline",
+                        fontWeight: "700"
+                    },
+                    children: ["Policy Number:", " "]
+                }), e.jsx("p", {
+                    style: {
+                        display: "inline"
+                    },
+                    children: "FN2306973"
+                })]
+            }), e.jsxs("div", {
+                children: [e.jsx("p", {
+                    style: {
+                        display: "inline",
+                        fontWeight: "700"
+                    },
+                    children: "Insurer: "
+                }), e.jsx("p", {
+                    style: {
+                        display: "inline"
+                    },
+                    children: "Underwritten by certain Underwriters at Lloyd’s, London"
+                })]
+            }), e.jsxs("div", {
+                children: [e.jsxs("p", {
+                    style: {
+                        display: "inline",
+                        fontWeight: "700"
+                    },
+                    children: ["Master Policyholder:", " "]
+                }), e.jsx("p", {
+                    style: {
+                        display: "inline"
+                    },
+                    children: "Cyberscout Limited, Sontiq Inc. and all subsidiaries"
+                })]
+            }), e.jsx("p", {
+                children: "This document summarizes the coverage available to insureds under the Policy. It is only a summary. Additional details, conditions, and exclusions are set forth in the Policy, a copy of which is available upon request. “We” and “us” refer to the Insurer."
+            }), e.jsx("br", {}), e.jsxs(S, {
+                gap: 1,
+                children: [e.jsxs("div", {
+                    className: "box",
+                    children: [e.jsx(y, {
+                        variant: "h4",
+                        children: "Aggregate Limit of Insurance"
+                    }), e.jsx("p", {
+                        children: e.jsx("strong", {
+                            children: "The aggregate limit of your membership program is:"
+                        })
+                    }), e.jsx("ul", {
+                        className: "list",
+                        children: e.jsx("li", {
+                            children: "$1,000,000 per policy period."
+                        })
+                    })]
+                }), e.jsxs("div", {
+                    className: "box",
+                    children: [e.jsx(y, {
+                        variant: "h4",
+                        children: "Aggregate Limit of Insurance"
+                    }), e.jsxs("ul", {
+                        className: "list",
+                        children: [e.jsx("li", {
+                            children: "Lost Wages: $1,500 per week (8 weeks max.)"
+                        }), e.jsx("li", {
+                            children: "Initial Legal Consultation: $1,000"
+                        }), e.jsx("li", {
+                            children: "Travel Expense: $1,000"
+                        }), e.jsx("li", {
+                            children: "Elder Care & Child Care: $1,000"
+                        }), e.jsx("li", {
+                            children: "Certified Public Accountant Costs: $1,000"
+                        })]
+                    })]
+                })]
+            }), e.jsx("p", {
+                children: "Deductible: $0"
+            }), e.jsx(y, {
+                variant: "h4",
+                children: "General description of what is insured"
+            }), e.jsxs("p", {
+                children: ["We shall pay the insured for", " ", e.jsx("strong", {
+                    className: "underline",
+                    children: "loss"
+                }), ", excess of any applicable deductible, resulting from", e.jsx("strong", {
+                    className: "underline",
+                    children: " stolen identity events "
+                }), " first discovered by the insured during the policy period and reported to us within 120 days of such first discovery of the stolen identity event."]
+            }), e.jsxs("p", {
+                children: ["We shall reimburse the insured for loss, excess of any applicable deductible, resulting from", e.jsxs("strong", {
+                    className: "underline",
+                    children: [" ", "unauthorized electronic fund transfers", " "]
+                }), "which (i) first occurs during the policy period; and (ii) is reported to us within 90 days of the discovery of such electronic fund transfer."]
+            })]
+        }), e.jsx(Te, {
+            sx: {
+                marginY: 2
+            }
+        }), e.jsxs("div", {
+            children: [e.jsx(y, {
+                variant: "h4",
+                children: "Selected Definitions"
+            }), e.jsxs("p", {
+                children: [e.jsx("strong", {
+                    children: "“Stolen Identity Event”"
+                }), "means the fraudulent use of the insured’s personal identification, social security number, or any other method of identifying the insured. This includes, but is not limited to, the fraudulent use of the personal identity of the insured to establish credit accounts, secure loans, enter into contracts or commit crimes. All loss resulting from stolen identity event(s) and arising from the same, continuous, related or repeated acts shall be treated as arising out of a single stolen identity event occurring at the time of the first such stolen identity event. Stolen identity event shall not include the fraudulent use of the insured’s business name, trading name or any other method of identifying any business activity of the insured. Stolen identity event shall include “Medical identity theft” as defined in the Policy."]
+            }), e.jsxs("p", {
+                children: [e.jsx("strong", {
+                    children: "“Unauthorized Electronic Fund Transfer” or “UEFT” "
+                }), "means an electronic fund transfer from a insured’s account initiated by a person other than the insured without the actual authority to initiate the transfer and from which the insured receives no benefit. An unauthorized electric fund transfer does not include an electronic fund transfer initiated:"]
+            }), e.jsx("p", {
+                children: "(1) by a person who was furnished the access device to the to the insured’s account by the insured, unless the insured has notified the financial institution that transfers by such person are no longer authorized;"
+            }), e.jsx("p", {
+                children: "(2) with fraudulent intent by the insured or any person acting in concert with the insured; or"
+            }), e.jsx("p", {
+                children: "(3) by the financial institution or its employee."
+            }), e.jsxs("p", {
+                children: ["“Loss” means the reasonable and necessary", e.jsxs("strong", {
+                    className: "underline",
+                    children: [" ", "costs, lost wages, legal defense fees and expenses", " "]
+                }), "incurred within twelve months of an insured’s discovery of a stolen identity event. The full definitions of “costs,” “lost wages,” and “legal defense fees and expenses” are set forth in the Policy."]
+            }), e.jsxs("ul", {
+                className: "list",
+                children: [e.jsxs("li", {
+                    children: [e.jsx("strong", {
+                        children: "“Costs” "
+                    }), "means the specific types of reasonable and necessary costs listed in the Policy that are incurred by the insured as a result of a stolen identity event."]
+                }), e.jsx("br", {}), e.jsxs("li", {
+                    children: [e.jsx("strong", {
+                        children: "“Lost Wages” "
+                    }), "means actual lost wages due to the temporary or permanent loss of employment as a result of a stolen identity event."]
+                }), e.jsx("br", {}), e.jsxs("li", {
+                    children: [e.jsx("strong", {
+                        children: "“Legal Defense Fees and Expenses” "
+                    }), "means the reasonable and necessary fees and expenses incurred by the insured with our consent for an attorney approved by us."]
+                })]
+            }), e.jsxs("p", {
+                children: [e.jsx("strong", {
+                    children: "“Stolen Funds Loss” "
+                }), "means the principal amount, exclusive of interest, incurred by the insured and caused by an unauthorized electronic fund transfer. Stolen Funds Loss shall not include any amount for which the insured did not seek reimbursement from the financial institution which issued the access device and holds the account from which funds were stolen, and stolen funds loss shall not include any amount for which the insured received reimbursement from any source. Stolen Funds Loss also means fees and charges assessed against an insured by a financial institution as a direct result of an unauthorized electronic funds transfer."]
+            })]
+        }), e.jsx(Te, {
+            sx: {
+                marginY: 2
+            }
+        }), e.jsxs("div", {
+            children: [e.jsx(y, {
+                variant: "h4",
+                children: "Your responsibilities if a stolen identity event or loss occurs"
+            }), e.jsxs("p", {
+                children: [e.jsx("strong", {
+                    children: "If a stolen identity event occurs: "
+                }), "Promptly, but no later than 120 days after first discovering the event, notify us by calling the Resolution Center at 877-432-7463. Follow our written instructions to mitigate potential loss."]
+            }), e.jsx("p", {
+                style: {
+                    marginBottom: 0
+                },
+                children: e.jsx("strong", {
+                    children: "a loss occurs:"
+                })
+            }), e.jsxs("ul", {
+                className: "list",
+                children: [e.jsx("li", {
+                    children: "Promptly notify us, submit to us the written proof of loss, and provide any other reasonable information or documentation that we may request."
+                }), e.jsx("li", {
+                    children: "Take reasonable steps to mitigate the loss, including requesting a waiver of any applicable fees."
+                }), e.jsx("li", {
+                    children: "File a report with the appropriate law enforcement authority."
+                }), e.jsx("li", {
+                    children: "Provide assistance and cooperation we may require."
+                })]
+            }), e.jsx("p", {
+                style: {
+                    marginBottom: 0
+                },
+                children: e.jsx("strong", {
+                    children: "If a stolen funds loss occurs:"
+                })
+            }), e.jsxs("ul", {
+                className: "list",
+                children: [e.jsx("li", {
+                    children: "Take all reasonable steps to: (a) prevent further stolen funds loss after suffering an UEFT, including promptly contacting the financial institution which issued the access device and holds the account; and (b) obtain reimbursement from the financial institution. Provide us a complete description of the efforts to obtain reimbursement and stated reasons why full or partial reimbursement was not provided."
+                }), e.jsx("li", {
+                    children: "Promptly notify us and provide us with detailed information regarding the stolen funds loss."
+                }), e.jsx("li", {
+                    children: "Provide any reasonable information or documentation we may request, including, if requested, a sworn statement or affidavit within sixty days of our request."
+                })]
+            })]
+        }), e.jsx(Te, {
+            sx: {
+                marginY: 2
+            }
+        }), e.jsxs("div", {
+            children: [e.jsx(y, {
+                variant: "h4",
+                children: "Additional information about exclusions, insurance limits, and policy conditions"
+            }), e.jsx("p", {
+                children: "Loss arising from the following are not covered (see full list of exclusions in Policy):"
+            }), e.jsx("p", {
+                style: {
+                    marginBottom: 0
+                },
+                children: e.jsx("strong", {
+                    children: "a loss occurs:"
+                })
+            }), e.jsxs("ul", {
+                className: "list",
+                children: [e.jsx("li", {
+                    children: "Physical injury, sickness, disease, disability, shock, mental anguish, and mental injury."
+                }), e.jsx("li", {
+                    children: "Voluntary disclosure of a code or other security information which can be used to gain access to the insured’s account using an access device to someone who subsequently contributes to the UEFT."
+                }), e.jsx("li", {
+                    children: "An UEFT which a member of the insured’s family participated in, directed, or had prior knowledge."
+                })]
+            }), e.jsx("p", {
+                children: "There is no coverage for any stolen identity event or UEFT occurring after the effective date and time of: (a) any expiration, cancellation, or nonrenewal of the Policy; or (b) any cancellation, termination, or expiration of the insured’s individual membership in the Cyberscout Limited, Sontiq Inc. and all subsidiaries membership program."
+            }), e.jsx("p", {
+                children: "The aggregate limit of insurance is the most we shall pay the insured for loss, excess of any applicable deductible, resulting from all stolen identity events and unauthorized electronic fund transfers combined first occurring during the policy period. The sublimits of insurance are part of, and not in addition to, the aggregate limit of insurance. In addition, ALL LEGAL DEFENSE FEES AND EXPENSES ARE PART OF, AND NOT IN ADDITION TO, THE AGGREGATE LIMIT OF INSURANCE FOR EACH INSURED."
+            }), e.jsx("p", {
+                children: "We shall be primary coverage over any other insurance coverage. In all events, we shall not pay more than our Limit of Insurance."
+            }), e.jsx("p", {
+                children: "Should the insured be enrolled in more than one membership program insured by us or any of our affiliates, subject to the applicable deductibles and limits of insurance of the insured under the applicable membership program, we will reimburse the insured under each membership program, but in no event shall the total amount reimbursed to the insured under all membership programs exceed the actual amount of loss"
+            })]
+        })]
+    }),
+    Zo = () => {
+        const {
+            data: t,
+            isLoading: a
+        } = Zn("oxford", "/service_token/session_escalation_token"), {
+            logError: n
+        } = h.useContext(ce), i = sn(), {
+            data: r,
+            isLoading: o,
+            isError: s
+        } = Ht({
+            queryKey: ["oxford", "notification_settings"],
+            queryFn: () => gp(t == null ? void 0 : t.token),
+            enabled: !!(t != null && t.token),
+            onError: g => {
+                n("Error fetching notification settings", g)
+            }
+        }), {
+            data: c,
+            isLoading: u,
+            isError: l
+        } = Ht({
+            queryKey: ["oxford", "identity_management"],
+            queryFn: async () => await ft.poll({
+                method: "GET",
+                url: "identity_management",
+                token: t == null ? void 0 : t.token,
+                jsonRequired: !0
+            }).catch(g => g),
+            enabled: !!(t != null && t.token),
+            retry: 3
+        }), d = Ba({
+            mutationFn: yp,
+            onSuccess: () => {
+                i.resetQueries(["oxford", "identity_management"])
+            }
+        }), C = async () => {
+            try {
+                await d.mutateAsync({
+                    token: t == null ? void 0 : t.token
+                })
+            } catch (g) {
+                n("Error updating identity management settings", g)
+            }
+        }, m = Ba({
+            mutationFn: fp,
+            onSuccess: () => {
+                i.invalidateQueries(["oxford", "notification_settings"])
+            }
+        }), v = async g => {
+            try {
+                await m.mutateAsync({
+                    token: t == null ? void 0 : t.token,
+                    newSettings: g
+                })
+            } catch (b) {
+                n("Error updating notification settings", b)
+            }
+        }, L = o || a || u;
+        return {
+            data: r && c && !L ? {
+                notificationSettings: r,
+                idManagement: c
+            } : void 0,
+            isLoading: L,
+            isError: s || l,
+            updateSettings: v,
+            updateIdentityManagement: C
+        }
+    },
+    Mp = ({
+        navigateToBenefitsModal: t
+    }) => e.jsxs(N, {
+        sx: {
+            padding: 2
+        },
+        children: [e.jsxs(y, {
+            variant: "body2",
+            children: ["For residents of states other than the State of New York, the expense reimbursement insurance benefit for members is underwritten by certain Underwriters at Lloyd’s, under a master group policy issued in the name of Cyberscout Limited, Sontiq Inc. and all subsidiaries thereof, for the benefit of members. Claims will be reviewed by the insurer in accordance with the terms and conditions of the master group policy. A summary of the terms of coverage are set forth", "  ", e.jsx("a", {
+                href: "#",
+                onClick: () => t(),
+                className: "underline",
+                children: "here"
+            })]
+        }), e.jsx("br", {}), e.jsxs(y, {
+            variant: "body2",
+            children: ['For residents of the State of New York, the Master Policies of Personal Internet Identity Coverage have been issued to: TransUnion (the "Master Policy Holder"), under Policy Numbers: 16452600, respectively underwritten by insurance company subsidiaries or affiliates of American International Group, Inc. A summary of the terms of coverage are set forth', "  ", e.jsx("a", {
+                href: "#",
+                onClick: () => t(),
+                className: "underline",
+                children: "here"
+            })]
+        }), e.jsx("br", {}), e.jsx(y, {
+            variant: "body2",
+            children: "This summary description of benefits does not state all the terms, conditions, and exclusions of the master policies. Your benefits will be subject to all of the terms, conditions, and exclusions of the master policies, even if they are not mentioned in this summary. A complete copy of the policies will be provided upon request. Claims will be reviewed by the respective insurer in accordance with the terms and conditions of the master group policies. The description provided here is a summary and is for informational purposes only."
+        }), e.jsx("br", {}), e.jsx(y, {
+            variant: "h4",
+            className: "underline",
+            children: "General Information"
+        }), e.jsx(y, {
+            variant: "body2",
+            children: "Should you have any questions regarding the membership program provided by the Master Policyholder or wish to view a complete copy of the master policy, please call the customer service number at (833) 570-3005 located in your membership materials."
+        }), e.jsx("br", {}), e.jsx(y, {
+            variant: "h4",
+            className: "underline",
+            children: "Filing a Claim"
+        }), e.jsx(y, {
+            variant: "body2",
+            children: "If you have any questions regarding the identity theft insurance coverage or wish to file a claim under the master policies, please contact the insurer at 1-866-IDHelp2 (1-866-434-3572)."
+        })]
+    }),
+    yn = O(S)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(2),
+        border: "1px solid #E2E2E2",
+        borderRadius: "4px",
+        backgroundColor: "#F8F8F8",
+        flexDirection: "row",
+        alignItems: "flex-start",
+        textAlign: "left",
+        width: "100%"
+    })),
+    Np = O(yn)(({
+        theme: t
+    }) => ({
+        flexDirection: "column",
+        alignItems: "flex-start",
+        textAlign: "left",
+        width: "100%"
+    })),
+    Op = O(S)(({
+        theme: t
+    }) => ({
+        gap: t.spacing(2),
+        alignItems: "center",
+        textAlign: "center",
+        h6: {
+            marginBottom: 0
+        },
+        [t.breakpoints.up("lg")]: {
+            display: "grid",
+            gridTemplateAreas: `
+      "first-block second-block"
+      "third-block fourth-block"
+      "third-block fifth-block";
+    `,
+            ".first-block": {
+                gridArea: "first-block"
+            },
+            ".second-block": {
+                gridArea: "second-block"
+            },
+            ".third-block": {
+                gridArea: "third-block",
+                height: "100%"
+            },
+            ".fourth-block": {
+                gridArea: "fourth-block"
+            },
+            ".fifth-block": {
+                gridArea: "fifth-block"
+            }
+        }
+    })),
+    Vp = O(ue)(({
+        theme: t
+    }) => ({
+        width: "100%",
+        marginBottom: t.spacing(2),
+        [t.breakpoints.up("sm")]: {
+            width: "172px",
+            position: "absolute",
+            right: 0
+        }
+    })),
+    Hp = ({
+        standardAlert: t,
+        setStandardAlert: a,
+        enhancedAlert: n,
+        setEnhancedAlert: i,
+        instantInquiryAlert: r,
+        setInstantInquiryAlert: o,
+        identityManagementAlert: s,
+        setIdentityManagementAlert: c,
+        openDisclosureModal: u
+    }) => e.jsxs(e.Fragment, {
+        children: [e.jsxs(yn, {
+            justifyContent: "space-between",
+            className: "first-block",
+            children: [e.jsx(S, {
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 2,
+                children: e.jsxs(S, {
+                    flexDirection: "row",
+                    gap: 2,
+                    children: [e.jsx("img", {
+                        src: ah,
+                        width: 35,
+                        height: 35,
+                        alt: "identity theft insurance and restoration"
+                    }), e.jsxs(S, {
+                        gap: 1.5,
+                        children: [e.jsxs(y, {
+                            variant: "h6",
+                            "data-testid": "identityManagementAlert",
+                            "data-test-checked": s,
+                            children: ["$1M Identity ", e.jsx("br", {}), " Theft Insurance & Restoration"]
+                        }), e.jsx(ue, {
+                            endIcon: e.jsx(Gn, {
+                                color: "inherit"
+                            }),
+                            fullWidth: !0,
+                            size: "large",
+                            sx: {
+                                textAlign: "left",
+                                textDecoration: "underline",
+                                lineHeight: "19.2px",
+                                padding: 0,
+                                width: "fit-content"
+                            },
+                            onClick: () => u(),
+                            children: "Disclosure"
+                        })]
+                    })]
+                })
+            }), e.jsx(Fn, {
+                label: "",
+                checked: s,
+                setChecked: () => c(!s)
+            })]
+        }), e.jsxs(yn, {
+            justifyContent: "space-between",
+            className: "second-block",
+            children: [e.jsxs(S, {
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 2,
+                children: [e.jsx("img", {
+                    src: nh,
+                    width: 35,
+                    height: 35,
+                    alt: "TransUnion Credit Alerts"
+                }), e.jsxs(y, {
+                    variant: "h6",
+                    "data-test-checked": t,
+                    "data-testid": "standardAlert",
+                    children: ["TransUnion® ", e.jsx("br", {}), "Credit Alerts"]
+                })]
+            }), e.jsx(Fn, {
+                label: "",
+                checked: t,
+                setChecked: () => a(!t)
+            })]
+        }), e.jsxs(yn, {
+            justifyContent: "space-between",
+            className: "fourth-block",
+            children: [e.jsxs(S, {
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 2,
+                children: [e.jsx("img", {
+                    src: ih,
+                    width: 35,
+                    height: 35,
+                    alt: "enhanced alerts"
+                }), e.jsxs(y, {
+                    variant: "h6",
+                    "data-testid": "enhancedAlert",
+                    "data-test-checked": n,
+                    children: ["Enhanced ", e.jsx("br", {}), " Alerts"]
+                })]
+            }), e.jsx(Fn, {
+                label: "",
+                checked: n,
+                setChecked: () => i(!n)
+            })]
+        }), e.jsxs(yn, {
+            justifyContent: "space-between",
+            className: "fifth-block",
+            children: [e.jsxs(S, {
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 2,
+                children: [e.jsx("img", {
+                    src: rh,
+                    width: 35,
+                    height: 35,
+                    alt: "Instant Inquiry Alerts"
+                }), e.jsxs(y, {
+                    variant: "h6",
+                    "data-testid": "instantInquiryAlert",
+                    "data-test-checked": r,
+                    children: ["Instant ", e.jsx("br", {}), " Inquiry Alerts"]
+                })]
+            }), e.jsx(Fn, {
+                label: "",
+                checked: r,
+                setChecked: () => o(!r)
+            })]
+        })]
+    }),
+    zp = ({
+        setRenderBenefitsModal: t,
+        setRenderDisclosureModal: a,
+        setRenderAboutIDTheftInsuranceModal: n,
+        notificationSettings: i,
+        idManagement: r
+    }) => {
+        const [o, s] = h.useState(!1), [c, u] = h.useState(!1), [l, d] = h.useState(!1), [C, m] = h.useState(!1), [v, L] = h.useState(!1), {
+            trackEvent: g
+        } = h.useContext(ce), {
+            updateIdentityManagement: b,
+            updateSettings: f,
+            isLoading: w
+        } = Zo(), p = yt();
+        h.useEffect(() => {
+            s(l !== (i == null ? void 0 : i.enhanced_alert_enabled) || c !== (i == null ? void 0 : i.standard_alert_enabled) || C !== (i == null ? void 0 : i.instant_alert_enabled) || v !== (r == null ? void 0 : r.enrolled))
+        }, [c, l, C, v, i, r]), h.useEffect(() => {
+            i && r && (u(i.standard_alert_enabled), d(i.enhanced_alert_enabled), m(i.instant_alert_enabled), L(r.enrolled))
+        }, [i, r]);
+        const P = () => l !== (i == null ? void 0 : i.enhanced_alert_enabled) || c !== (i == null ? void 0 : i.standard_alert_enabled) || C !== (i == null ? void 0 : i.instant_alert_enabled),
+            q = () => v !== (r == null ? void 0 : r.enrolled),
+            _ = () => {
+                o && (g("id protection tools", "engagement click", "id monitor"), q() && b(), P() && f({
+                    standard_alert_enabled: c,
+                    enhanced_alert_enabled: l,
+                    instant_alert_enabled: C
+                }), s(!1))
+            };
+        return e.jsxs(N, {
+            sx: {
+                backgroundColor: p.palette.background.paper
+            },
+            padding: [2, 2.5],
+            children: [e.jsxs(S, {
+                textAlign: "left",
+                sx: {
+                    position: "relative",
+                    width: "100%",
+                    gap: 2
+                },
+                children: [e.jsx(y, {
+                    variant: "h3",
+                    fontSize: 24,
+                    children: "Protection Tools"
+                }), e.jsx(Vp, {
+                    disabled: !o || w,
+                    variant: "contained",
+                    color: "primary",
+                    onClick: () => _(),
+                    children: "Save Changes"
+                }), e.jsx(y, {
+                    variant: "body1",
+                    sx: {
+                        display: {
+                            xs: "none",
+                            sm: "block"
+                        },
+                        width: "70%",
+                        marginBottom: 2
+                    },
+                    children: "Select your identity theft and credit protection tools to ensure your identity and credit are being monitored and safeguarded."
+                })]
+            }), e.jsx(Op, {
+                children: e.jsxs(e.Fragment, {
+                    children: [e.jsx(Hp, {
+                        standardAlert: c,
+                        setStandardAlert: u,
+                        enhancedAlert: l,
+                        setEnhancedAlert: d,
+                        instantInquiryAlert: C,
+                        setInstantInquiryAlert: m,
+                        identityManagementAlert: v,
+                        setIdentityManagementAlert: L,
+                        openDisclosureModal: () => a(!0)
+                    }), e.jsxs(Np, {
+                        gap: 2,
+                        className: "third-block",
+                        children: [e.jsxs(S, {
+                            direction: "row",
+                            alignItems: "center",
+                            gap: 1,
+                            children: [e.jsx("img", {
+                                src: oh,
+                                width: 35,
+                                height: 35,
+                                alt: "Instant Inquiry Alerts"
+                            }), e.jsxs(y, {
+                                variant: "h6",
+                                children: ["Additional ", e.jsx("br", {}), " Information"]
+                            })]
+                        }), e.jsx(ue, {
+                            endIcon: e.jsx(Gn, {
+                                color: "inherit"
+                            }),
+                            fullWidth: !0,
+                            size: "large",
+                            sx: {
+                                textAlign: "left",
+                                textDecoration: "underline",
+                                lineHeight: "19.2px",
+                                padding: 0,
+                                width: "fit-content"
+                            },
+                            onClick: () => n(!0),
+                            children: "About Identity Theft Insurance"
+                        }), e.jsx(ue, {
+                            endIcon: e.jsx(Gn, {
+                                color: "inherit"
+                            }),
+                            size: "large",
+                            sx: {
+                                textAlign: "left",
+                                textDecoration: "underline",
+                                lineHeight: "19.2px",
+                                padding: 0,
+                                width: "fit-content"
+                            },
+                            onClick: () => t(!0),
+                            children: "Identity Theft Expenses Insurance - Summary of Benefits"
+                        })]
+                    })]
+                })
+            })]
+        })
+    },
+    vi = {
+        ".underline": {
+            textDecoration: "underline"
+        },
+        ".list": {
+            paddingLeft: [3],
+            marginTop: 0
+        },
+        ".box": {
+            padding: 2,
+            border: "1px solid #E2E2E2"
+        }
+    },
+    Wp = () => {
+        const [t, a] = h.useState(!1), [n, i] = h.useState(!1), [r, o] = h.useState(!1), {
+            data: s,
+            isLoading: c
+        } = Zo(), u = () => {
+            i(!1), a(!0), o(!1)
+        }, l = () => {
+            i(!1), a(!1), o(!0)
+        };
+        return c ? e.jsxs(S, {
+            textAlign: "left",
+            sx: {
+                position: "relative",
+                width: "100%",
+                gap: 2
+            },
+            children: [e.jsx(y, {
+                variant: "h3",
+                fontSize: 24,
+                children: "Protection Tools"
+            }), e.jsx(y, {
+                variant: "body1",
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "block"
+                    },
+                    width: "70%",
+                    marginBottom: 2
+                },
+                children: "Select your identity theft and credit protection tools to ensure your identity and credit are being monitored and safeguarded."
+            }), e.jsx(An, {
+                count: 7
+            })]
+        }) : e.jsxs(e.Fragment, {
+            children: [(s == null ? void 0 : s.notificationSettings) && (s == null ? void 0 : s.idManagement) && e.jsx(zp, {
+                setRenderBenefitsModal: a,
+                setRenderAboutIDTheftInsuranceModal: i,
+                setRenderDisclosureModal: o,
+                notificationSettings: s == null ? void 0 : s.notificationSettings,
+                idManagement: s == null ? void 0 : s.idManagement
+            }), n && e.jsxs(an, {
+                hasCloseIcon: !0,
+                sx: vi,
+                open: n,
+                onClose: () => i(!1),
+                children: [e.jsx(y, {
+                    variant: "h3",
+                    children: "About Identity Theft Insurance"
+                }), e.jsx(Te, {
+                    sx: {
+                        marginY: 2
+                    }
+                }), e.jsxs(y, {
+                    variant: "body1",
+                    children: ["Identity theft insurance guarantees that you recover certain out-of-pocket expenses and lost wages if your identity is stolen.", " "]
+                }), e.jsxs(S, {
+                    mt: 1.5,
+                    gap: 1.5,
+                    children: [e.jsx(Li, {
+                        onClick: () => l(),
+                        sx: {
+                            cursor: "pointer"
+                        },
+                        children: "Read Disclosure."
+                    }), e.jsx(Li, {
+                        onClick: () => u(),
+                        sx: {
+                            cursor: "pointer"
+                        },
+                        children: "Read summary of benefits."
+                    })]
+                })]
+            }), t && e.jsx(an, {
+                hasCloseIcon: !0,
+                sx: vi,
+                open: t,
+                onClose: () => a(!1),
+                children: e.jsx(Bp, {})
+            }), r && e.jsx(an, {
+                hasCloseIcon: !0,
+                sx: vi,
+                open: r,
+                onClose: () => o(!1),
+                children: e.jsx(Mp, {
+                    navigateToBenefitsModal: u
+                })
+            })]
+        })
+    },
+    Gp = "(833) 570-3005",
+    Yp = O(B)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.default
+    })),
+    Vr = O(B)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        justifyItems: "center",
+        alignItems: "center",
+        padding: t.spacing(2.5),
+        display: "grid",
+        textAlign: "center",
+        mb: t.spacing(2, 0)
+    })),
+    Up = O(gs)(({
+        theme: t
+    }) => {
+        var a;
+        return {
+            color: (a = t.palette.listingPins) == null ? void 0 : a.contrastText,
+            height: "36px",
+            width: "30px",
+            marginBottom: "10px"
+        }
+    }),
+    $p = O(fs)(({
+        theme: t
+    }) => {
+        var a;
+        return {
+            color: (a = t.palette.text) == null ? void 0 : a.primary
+        }
+    }),
+    Kp = O(ys)(({
+        theme: t
+    }) => {
+        var a;
+        return {
+            color: (a = t.palette.text) == null ? void 0 : a.primary
+        }
+    }),
+    Qp = () => {
+        const [t, a] = h.useState(!1), {
+            trackEvent: n
+        } = h.useContext(ce), i = Kt();
+        return e.jsxs(Yp, {
+            container: !0,
+            children: [e.jsxs(Vr, {
+                item: !0,
+                xs: 12,
+                sm: 5.7,
+                children: [e.jsx("img", {
+                    src: sh,
+                    alt: "Contact Bureau Icon",
+                    width: "43px",
+                    height: "36px"
+                }), e.jsxs(y, {
+                    variant: "h3",
+                    whiteSpace: "pre-wrap",
+                    mt: 2,
+                    mb: 1,
+                    children: ["Visit Credit Bureau", `
+`, "Contact Page"]
+                }), e.jsx(y, {
+                    variant: "body1",
+                    mb: 2,
+                    children: "Visit for all questions or issues related to your personal credit record"
+                }), e.jsx(ue, {
+                    variant: "contained",
+                    onClick: () => {
+                        n("credit bureau contact", "navigation click", "id monitor"), i("/dashboard/id-monitor/credit-bureau-contacts")
+                    },
+                    children: "Visit Contact Page"
+                })]
+            }), e.jsx(B, {
+                item: !0,
+                sm: .6
+            }), e.jsxs(Vr, {
+                item: !0,
+                xs: 12,
+                sm: 5.7,
+                children: [e.jsx(Up, {}), e.jsx(y, {
+                    variant: "h3",
+                    marginTop: 1.5,
+                    marginBottom: 0,
+                    children: "Contact our Certified"
+                }), e.jsx(y, {
+                    variant: "h3",
+                    marginTop: 0,
+                    marginBottom: 2,
+                    children: "Protection Experts:"
+                }), e.jsxs(S, {
+                    rowGap: 1,
+                    children: [e.jsxs(S, {
+                        direction: "row",
+                        alignContent: "center",
+                        children: [e.jsx($p, {
+                            fontSize: "small"
+                        }), e.jsx(y, {
+                            variant: "body1",
+                            marginLeft: 1.5,
+                            children: Gp
+                        })]
+                    }), e.jsxs(S, {
+                        direction: "row",
+                        alignContent: "center",
+                        children: [e.jsx(Kp, {
+                            fontSize: "small"
+                        }), e.jsx(y, {
+                            variant: "body1",
+                            marginLeft: 1.5,
+                            children: "support@beenverified.com"
+                        })]
+                    })]
+                }), e.jsx(Te, {
+                    sx: {
+                        marginY: 1,
+                        width: "100%"
+                    }
+                }), e.jsx(ue, {
+                    endIcon: e.jsx(Gn, {
+                        color: "inherit"
+                    }),
+                    size: "large",
+                    sx: {
+                        textAlign: "left",
+                        textDecoration: "underline",
+                        lineHeight: "19.2px",
+                        padding: 0,
+                        width: "fit-content"
+                    },
+                    onClick: () => a(!0),
+                    children: "About Identity Theft Restoration"
+                })]
+            }), e.jsx(an, {
+                hasCloseIcon: !0,
+                open: t,
+                onClose: () => a(!1),
+                children: e.jsx(y, {
+                    variant: "body1",
+                    id: "identity-theft-restoration-text",
+                    paddingRight: 1.25,
+                    children: "Complete identity theft restoration services from Certified Protection Experts available 24 hours, 7 days a week. Specialists don't only assist with identity restoration; they can save you literally hundreds of hours by completing all the paperwork, making calls, and doing all the heavy lifting to make sure your identity is restored."
+                })
+            })]
+        })
+    },
+    Jp = {
+        width: "0",
+        height: "0",
+        clipPath: "polygon(50% 0, 0 100%, 100% 100%)",
+        backgroundColor: "#81B44C",
+        borderLeft: "8px solid transparent",
+        borderRight: "8px solid transparent",
+        borderBottom: "16px solid #81B44C",
+        marginRight: "8px"
+    },
+    Zp = {
+        width: "0",
+        height: "0",
+        clipPath: "polygon(50% 100%, 0 0, 100% 0)",
+        backgroundColor: "#81B44C",
+        borderLeft: "8px solid transparent",
+        borderRight: "8px solid transparent",
+        borderTop: "16px solid #81B44C",
+        marginRight: "8px"
+    },
+    Oa = [{
+        value: "3 Months",
+        display: "3 Months"
+    }, {
+        value: "6 Months",
+        display: "6 Months"
+    }, {
+        value: "9 Months",
+        display: "9 Months"
+    }, {
+        value: "1 Year",
+        display: "1 Year"
+    }],
+    Xp = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    eg = t => {
+        if (!t) return [];
+        const a = {
+                Jan: 0,
+                Feb: 1,
+                Mar: 2,
+                Apr: 3,
+                May: 4,
+                Jun: 5,
+                Jul: 6,
+                Aug: 7,
+                Sep: 8,
+                Oct: 9,
+                Nov: 10,
+                Dec: 11
+            },
+            n = new Set;
+        return t.forEach(r => {
+            const s = new Date(r.date).getMonth(),
+                c = Xp[s];
+            c && n.add(c)
+        }), Array.from(n).sort((r, o) => a[r] - a[o])
+    },
+    tg = t => t.length ? t.length <= 3 ? Oa[0].value : t.length >= 4 && t.length <= 6 ? Oa[1].value : t.length >= 7 && t.length <= 9 ? Oa[2].value : Oa[3].value : null,
+    ag = t => t.length ? t.length <= 3 ? Oa.slice(0, 1) : t.length >= 4 && t.length <= 6 ? Oa.slice(0, 2) : t.length >= 7 && t.length <= 9 ? Oa.slice(0, 3) : Oa : [],
+    Hr = {
+        title: "The table below is a summary of your full credit report through the TransUnion QuickView report, which contains aggregated data from your credit report although it may not contain all data elements and/or fields.",
+        disclaimer: "The TransUnion QuickView report is a summary of your full report and does not contain all data elements and/or fields."
+    },
+    ng = t => {
+        const a = `${Number(t).toFixed(2)}`;
+        if (a !== "Nan") return `${a}%`
+    },
+    wi = t => {
+        const a = yo(Number(t), !0);
+        if (a !== "$0") return a
+    },
+    ig = t => [{
+        text: "Open Accounts",
+        value: t.OpenAccounts
+    }, {
+        text: "On-time Payment History",
+        value: t.OnTimePaymentPercentage
+    }, {
+        text: "Late Payment History",
+        value: t.LatePaymentPercentage
+    }, {
+        text: "Total Revolving Account Balance",
+        value: wi(t.BalanceOpenRevolvingAccounts)
+    }, {
+        text: "Utilization",
+        value: ng(t.Utilization)
+    }, {
+        text: "Age of Credit",
+        value: t.AgeOfCredit && `${t.AgeOfCredit} years`
+    }, {
+        text: "Available Credit",
+        value: wi(t.AvailableCredit)
+    }, {
+        text: "Total Monthly Payments",
+        value: wi(t.TotalMonthlyPayments)
+    }],
+    rg = t => [{
+        text: "Delinquent Accounts",
+        value: t.DelinquentAccounts
+    }, {
+        text: "Inquiries",
+        value: t.NumberOfInquiries
+    }, {
+        text: "Public Record Accounts",
+        value: t.totalPublicRecords
+    }, {
+        text: "Open Installment Accounts",
+        value: t.TotalOpenInstallmentAccounts
+    }, {
+        text: "Open Revolving Accounts",
+        value: t.TotalOpenRevolvingAccounts
+    }, {
+        text: "Open Collection Accounts",
+        value: t.TotalOpenCollectionAccounts
+    }, {
+        text: "Other Open Accounts",
+        value: t.OpenAccounts
+    }],
+    og = ({
+        creditScoreHistory: t
+    }) => {
+        const [a, n] = h.useState(0), [i, r] = h.useState(!1);
+        return h.useEffect(() => {
+            if (t.length > 1) {
+                const o = t[0].score,
+                    s = t[1].score;
+                n(o - s), r(o < s)
+            }
+        }, [t]), a === 0 ? null : e.jsxs(S, {
+            direction: "row",
+            alignItems: "center",
+            mt: 1,
+            children: [e.jsx("div", {
+                style: i ? Jp : Zp
+            }), e.jsx(y, {
+                variant: "body1",
+                children: e.jsxs("strong", {
+                    children: [a, " points"]
+                })
+            })]
+        })
+    },
+    sg = t => t === "6 Months" ? "credit history 6mo" : t === "9 Months" ? "credit history 9mo" : t === "1 Year" ? "credit history 12mo" : "credit history 3mo",
+    cg = ({
+        monthsAbbreviations: t,
+        creditScoreHistory: a,
+        lastUpdatedDate: n,
+        creditScore: i
+    }) => {
+        const {
+            trackEvent: r
+        } = h.useContext(ce), o = tg(t), s = o || "", [c, u] = h.useState(s), [l, d] = h.useState(a), [C, m] = h.useState(t);
+        return h.useEffect(() => {
+            c === "3 Months" ? (d(a.slice(0, 3)), m(t.slice(0, 3))) : c === "6 Months" ? (d(a.slice(0, 6)), m(t.slice(0, 6))) : c === "9 Months" ? (d(a.slice(0, 9)), m(t.slice(0, 9))) : c === "1 Year" && (d(a), m(t))
+        }, [c, a, t]), e.jsxs(e.Fragment, {
+            children: [e.jsxs(S, {
+                direction: ["column", "row"],
+                justifyContent: "space-between",
+                children: [e.jsxs(S, {
+                    children: [e.jsxs(y, {
+                        children: [e.jsx("strong", {
+                            children: "As of:"
+                        }), " ", n]
+                    }), e.jsx(og, {
+                        creditScoreHistory: l
+                    })]
+                }), e.jsx(la, {
+                    id: "credit-score-history-select",
+                    options: ag(t),
+                    value: c,
+                    onChange: v => {
+                        const L = sg(v.target.value);
+                        r(L, "engagement click", "id monitor"), u(v.target.value)
+                    },
+                    sx: {
+                        width: ["100%", "220px"],
+                        height: "48px",
+                        marginY: [2]
+                    }
+                })]
+            }), e.jsx(Te, {}), e.jsxs(e.Fragment, {
+                children: [e.jsxs(S, {
+                    direction: ["column", "column", "row"],
+                    children: [e.jsx(S, {
+                        mt: 2,
+                        ml: -2,
+                        children: e.jsx(en, {
+                            score: i
+                        })
+                    }), e.jsx(S, {
+                        mt: -5,
+                        mb: -2.5,
+                        sx: {
+                            width: "100%"
+                        },
+                        children: e.jsx(nc, {
+                            categories: C,
+                            values: l.map(v => v.score),
+                            tooltipData: l
+                        })
+                    })]
+                }), e.jsx(Te, {}), e.jsx(y, {
+                    display: "block",
+                    variant: "caption",
+                    mt: 2.5,
+                    textAlign: ["left", "right"],
+                    children: "Data source: VantageScore® credit score by TransUnion®"
+                })]
+            })]
+        })
+    },
+    lg = O(S)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        padding: t.spacing(2),
+        marginTop: t.spacing(2),
+        marginBottom: t.spacing(2),
+        columnGap: t.spacing(2)
+    })),
+    dg = () => {
+        var s;
+        const {
+            getCreditData: t
+        } = wa(), a = (s = t == null ? void 0 : t.data) == null ? void 0 : s.creditReportSummary, n = yt(), i = c => c && c !== "%" ? c : "-", r = c => {
+            const u = c.map((l, d) => e.jsxs(S, {
+                direction: "row",
+                justifyContent: "space-between",
+                p: 1.5,
+                sx: {
+                    ...d % 2 === 0 && {
+                        backgroundColor: n.palette.background.default
+                    }
+                },
+                gap: [1.5, 0],
+                children: [e.jsx(y, {
+                    variant: "body1",
+                    fontWeight: "bold",
+                    children: l.text
+                }), e.jsx(y, {
+                    variant: "body1",
+                    textAlign: "right",
+                    children: i(l == null ? void 0 : l.value)
+                })]
+            }, `${c.length}+${d}`));
+            return e.jsx(S, {
+                direction: "column",
+                width: "100%",
+                children: u
+            })
+        }, o = () => a ? e.jsxs(lg, {
+            direction: ["column", "row"],
+            children: [r(ig(a)), e.jsx(Te, {
+                orientation: "vertical",
+                flexItem: !0
+            }), r(rg(a))]
+        }) : e.jsx(S, {
+            alignItems: "center",
+            justifyContent: "center",
+            children: e.jsx(An, {
+                count: 4
+            })
+        });
+        return e.jsxs(e.Fragment, {
+            children: [e.jsx(S, {
+                direction: "row",
+                alignItems: "center",
+                gap: 1.5,
+                children: e.jsx(y, {
+                    variant: "h4",
+                    mb: 0,
+                    children: "Your Credit Report Summary"
+                })
+            }), e.jsx(Te, {
+                sx: {
+                    marginY: [2]
+                }
+            }), e.jsx(y, {
+                variant: "body1",
+                children: Hr.title
+            }), o(), e.jsx(y, {
+                display: "block",
+                variant: "caption",
+                textAlign: "right",
+                my: 2.5,
+                children: "Data source: TransUnion®"
+            }), e.jsx(y, {
+                display: "block",
+                variant: "caption",
+                textAlign: "center",
+                children: Hr.disclaimer
+            })]
+        })
+    },
+    ug = O(S)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper
+    })),
+    hg = O(ga)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.default,
+        padding: t.spacing(2)
+    })),
+    mg = () => {
+        var o, s;
+        const {
+            getCreditData: t
+        } = wa();
+        if (!((o = t.data) != null && o.creditScoreHistory)) return null;
+        const a = eg(t.data.creditScoreHistory),
+            n = a,
+            i = a.length && t.data,
+            r = ((s = t.data.creditScoreHistory) == null ? void 0 : s.map(c => ({
+                score: c.score !== null ? parseInt(c.score, 10) : 0,
+                date: c.date
+            }))) || [];
+        return e.jsxs(ug, {
+            p: 2.5,
+            children: [e.jsx(y, {
+                variant: "h2",
+                children: "Credit Score & History"
+            }), e.jsx(y, {
+                variant: "body1",
+                mb: 2,
+                children: "The VantageScore 3.0® credit score is an alternative credit score model to FICO that is jointly developed by all three national Credit Reporting Companies. The VantageScore model may provide people with a credit score using just one month of credit history, where FICO requires six months of account data."
+            }), e.jsx(ga, {
+                children: i && e.jsx(cg, {
+                    monthsAbbreviations: n,
+                    creditScoreHistory: r,
+                    lastUpdatedDate: t.data.lastUpdatedDate,
+                    creditScore: t.data.vantageScore
+                })
+            }), e.jsx(hg, {
+                children: e.jsx(dg, {})
+            })]
+        })
+    },
+    qi = [{
+        name: "TransUnion",
+        url: "https://transunion.com/credit-freeze ",
+        phone: "(800) 909-8872"
+    }, {
+        name: "Experian",
+        url: "https://www.experian.com/freeze/center.html",
+        phone: "(888) 397-3742"
+    }, {
+        name: "Equifax",
+        url: "https://www.equifax.com/personal/credit-report-services/credit-freeze/",
+        phone: "(800) 349-9960"
+    }],
+    pg = qi.map(t => ({
+        value: t.name,
+        display: t.name
+    })),
+    gg = () => {
+        const [t, a] = h.useState(qi[0]), {
+            trackEvent: n
+        } = h.useContext(ce), i = () => {
+            n("credit freeze", "engagement click", "id monitor"), window.open(t.url, "_blank")
+        }, r = yt();
+        return e.jsxs(S, {
+            gap: 2,
+            textAlign: "center",
+            padding: 2.5,
+            sx: {
+                backgroundColor: r.palette.background.paper
+            },
+            children: [e.jsx("img", {
+                height: 36,
+                width: 51.5,
+                src: ch,
+                alt: "Credit Freeze Logo",
+                style: {
+                    margin: "auto"
+                }
+            }), e.jsxs(S, {
+                children: [e.jsx(y, {
+                    variant: "h2",
+                    children: "Credit Freeze"
+                }), e.jsxs(y, {
+                    variant: "body1",
+                    children: ["Prevent credit fraud by freezing access to your information with the three credit bureaus.", e.jsx("br", {}), "If your personal information has been compromised, it’s a good idea to freeze until it’s resolved."]
+                })]
+            }), e.jsxs(y, {
+                variant: "body2",
+                textAlign: ["left", "center"],
+                children: ["Contact ", t.name, " by phone at", e.jsxs("strong", {
+                    children: [" ", t.phone, " "]
+                }), "or Freeze Account Below"]
+            }), e.jsxs(S, {
+                gap: [2, 1.5],
+                flexDirection: ["column", "row"],
+                children: [e.jsx(la, {
+                    id: "credit-freeze-select",
+                    "data-testid": "credit-freeze-select",
+                    value: t.name,
+                    options: pg,
+                    sx: {
+                        textAlign: "left",
+                        svg: {
+                            color: "text.primary"
+                        }
+                    },
+                    onChange: o => a(qi.find(s => s.name === o.target.value))
+                }), e.jsx(ue, {
+                    variant: "contained",
+                    onClick: () => i(),
+                    sx: {
+                        width: ["100%", "172px"],
+                        minWidth: ["100%", "172px"]
+                    },
+                    children: "Freeze"
+                })]
+            })]
+        })
+    },
+    fg = O(S)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(2),
+        marginBottom: t.spacing(2.5),
+        borderRadius: t.spacing(1),
+        backgroundColor: t.palette.background.default,
+        border: "1px solid #E2E2E2"
+    })),
+    yg = O(Ie)(({
+        theme: t
+    }) => ({
+        "& .MuiInputBase-root": {
+            height: "70px",
+            backgroundColor: t.palette.background.default
+        },
+        width: "138px",
+        position: "absolute",
+        top: "73px",
+        right: "84px",
+        caretColor: "transparent",
+        WebkitUserSelect: "none",
+        MsUserSelect: "none",
+        userSelect: "none"
+    })),
+    bg = () => {
+        var w;
+        const t = yt(),
+            [a, n] = h.useState(""),
+            {
+                trackEvent: i
+            } = h.useContext(ce),
+            {
+                postCreditNavigator: r,
+                getCreditNavigator: o,
+                getCreditData: s
+            } = wa(),
+            c = ((w = s == null ? void 0 : s.data) == null ? void 0 : w.vantageScore) || 0,
+            u = o == null ? void 0 : o.data,
+            l = sn();
+        h.useEffect(() => {
+            l.resetQueries({
+                queryKey: ["oxford", "creditNavigator"]
+            })
+        }, [l]);
+        const d = (o == null ? void 0 : o.isFetching) || (r == null ? void 0 : r.isLoading),
+            C = c >= parseInt(a),
+            m = parseInt(a) > 850,
+            v = d || C || m || a === "",
+            L = () => {
+                if (a && !C && !m) return parseInt(a)
+            },
+            g = () => {
+                i("credit navigator", "engagement click", "id monitor"), r == null || r.mutateAsync({
+                    score_change_value: a,
+                    original_score: c
+                })
+            },
+            b = (p, P) => e.jsxs(S, {
+                p: 2,
+                mb: 2.5,
+                borderRadius: 1,
+                sx: {
+                    backgroundColor: t.palette.background.default,
+                    border: "1px solid #E2E2E2"
+                },
+                children: [e.jsx(y, {
+                    variant: "h4",
+                    children: p
+                }), e.jsx(ic, {
+                    children: P.map((q, _) => e.jsxs(rc, {
+                        children: [e.jsx(oc, {
+                            children: e.jsx(bs, {
+                                sx: {
+                                    height: ".5rem",
+                                    width: ".5rem",
+                                    fill: "black"
+                                }
+                            })
+                        }), e.jsx(sc, {
+                            children: e.jsx(y, {
+                                variant: "body1",
+                                children: q
+                            })
+                        })]
+                    }, `${p}-${_}`))
+                })]
+            }),
+            f = () => u ? e.jsxs(e.Fragment, {
+                children: [b("Factors", u == null ? void 0 : u.factors), b("Can Do", u == null ? void 0 : u.canDo), e.jsx(y, {
+                    variant: "caption",
+                    children: ji.result_caption
+                }), e.jsx(y, {
+                    variant: "caption",
+                    display: "block",
+                    mt: 1.5,
+                    children: "Data source: TransUnion®"
+                })]
+            }) : e.jsxs(fg, {
+                direction: "row",
+                children: [e.jsx(co, {
+                    fontSize: "large",
+                    sx: {
+                        marginRight: 2,
+                        color: t.palette.primary.main
+                    }
+                }), e.jsx(y, {
+                    variant: "body1",
+                    children: ji.recommendation_body
+                })]
+            });
+        return e.jsxs(N, {
+            padding: 2.5,
+            children: [e.jsx(y, {
+                variant: "h4",
+                children: "Credit Navigator"
+            }), e.jsx(y, {
+                variant: "body1",
+                children: ji.description
+            }), e.jsxs(S, {
+                direction: "column",
+                justifyItems: "center",
+                alignItems: "center",
+                marginTop: 2.5,
+                marginBottom: 4,
+                children: [e.jsxs(N, {
+                    sx: {
+                        position: "relative"
+                    },
+                    children: [e.jsx(en, {
+                        score: L()
+                    }), e.jsx(yg, {
+                        InputProps: {
+                            sx: {
+                                fontSize: "64px"
+                            }
+                        },
+                        value: a,
+                        onKeyDown: p => {
+                            p.key === "Backspace" && n(a.slice(0, -1)), p.key.match(/^[0-9]/) !== null && (a.length === 3 ? n(a.slice(0, -1) + p.key) : n(a + p.key))
+                        },
+                        error: C || m
+                    })]
+                }), e.jsxs(y, {
+                    variant: "body1",
+                    mt: 2.5,
+                    mb: 1.5,
+                    whiteSpace: "pre-wrap",
+                    textAlign: "center",
+                    children: ["Please enter a desired", e.jsx("br", {}), "credit score above"]
+                }), e.jsx(ue, {
+                    variant: "contained",
+                    disabled: v,
+                    onClick: g,
+                    sx: {
+                        width: ["100%", "172px"]
+                    },
+                    children: "Navigate"
+                })]
+            }), f()]
+        })
+    },
+    It = O(y)(({
+        theme: t
+    }) => ({
+        paddingRight: "8px",
+        [t.breakpoints.up("sm")]: {
+            paddingRight: "9px"
+        }
+    })),
+    xg = () => {
+        var z, ee, X, se, k, te, he, T, xe, ge, K, A, Se, qe, Ae, G, ne, Re, _e;
+        const t = h.useRef(null),
+            [a, n] = h.useState(!1),
+            [i, r] = h.useState(!1),
+            o = yt(),
+            s = bo(o.breakpoints.down("sm")),
+            {
+                trackEvent: c
+            } = h.useContext(ce),
+            {
+                getScoreSimulator: u,
+                postScoreSimulator: l,
+                getCreditData: d
+            } = wa(),
+            C = (z = d == null ? void 0 : d.data) == null ? void 0 : z.vantageScore,
+            {
+                isLoading: m
+            } = l,
+            {
+                data: v,
+                isFetching: L
+            } = u,
+            g = parseInt((v == null ? void 0 : v.score) || "") || void 0,
+            b = sn();
+        h.useEffect(() => {
+            b.resetQueries({
+                queryKey: ["oxford", "scoreSimulator"]
+            })
+        }, [b]), h.useEffect(() => {
+            u.remove()
+        }, []);
+        const {
+            handleSubmit: f,
+            register: w,
+            formState: {
+                errors: p
+            },
+            reset: P,
+            setValue: q,
+            getValues: _,
+            trigger: E
+        } = jn({
+            mode: "onSubmit",
+            resolver: Sn(em),
+            defaultValues: Wr
+        }), x = () => {
+            for (const V in _())
+                if (![void 0, "", "$0", !1].includes(_(V))) return !0;
+            for (const V in [a, i])
+                if (V) return !0;
+            return !1
+        }, I = V => {
+            let Z = [];
+            for (let le = 1; le <= V; le++) Z.push({
+                value: `${le}`,
+                display: `${le}`
+            });
+            return Z
+        }, H = [{
+            value: "30",
+            display: "30"
+        }, {
+            value: "60",
+            display: "60"
+        }, {
+            value: "90",
+            display: "90"
+        }], M = "Min=$1,Max=$999,999,999", D = (V, Z) => {
+            const le = V.target.value.replace(/[^0-9]/g, "");
+            if (le.length === 0 || !le) {
+                q(Z, void 0);
+                return
+            }
+            q(Z, yo(parseInt(le), !0)), E(Z, {
+                shouldFocus: !0
+            })
+        }, j = (V, Z) => (q(Z, V), E(Z), V), R = () => {
+            t && t.current && setTimeout(() => t.current.scrollIntoView({
+                behavior: "smooth"
+            }), 0)
+        }, W = async V => {
+            R(), c("score simulator", "engagement click", "id monitor"), l.mutate(V)
+        }, F = () => {
+            R(), P(Wr), n(!1), r(!1), v && u.remove()
+        }, $ = L || !!g || m, oe = () => {
+            var ve;
+            const Z = ((ve = Object.keys(p)) == null ? void 0 : ve.length) > 0 || !x() || $,
+                le = !x() || L || m;
+            return s ? e.jsxs(e.Fragment, {
+                children: [e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(ue, {
+                        variant: "contained",
+                        fullWidth: !0,
+                        disabled: Z,
+                        onClick: f(W),
+                        children: "Simulate"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(ue, {
+                        variant: "text",
+                        onClick: () => F(),
+                        fullWidth: !0,
+                        disabled: le,
+                        sx: {
+                            textDecorationLine: "underline"
+                        },
+                        children: "Reset"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(y, {
+                        variant: "caption",
+                        sx: {
+                            fontSize: "12px"
+                        },
+                        children: "Data source: TransUnion®"
+                    })
+                })]
+            }) : e.jsx(e.Fragment, {
+                children: e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsxs(S, {
+                        direction: "row",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        children: [e.jsx(y, {
+                            variant: "caption",
+                            sx: {
+                                fontSize: "12px"
+                            },
+                            children: "Data source: TransUnion®"
+                        }), e.jsxs(S, {
+                            direction: "row",
+                            gap: 2,
+                            children: [e.jsx(ue, {
+                                variant: "text",
+                                onClick: () => F(),
+                                disabled: le,
+                                sx: {
+                                    textDecorationLine: "underline"
+                                },
+                                children: "Reset"
+                            }), e.jsx(ue, {
+                                variant: "contained",
+                                disabled: Z,
+                                onClick: f(W),
+                                children: "Simulate"
+                            })]
+                        })]
+                    })
+                })
+            })
+        }, Q = () => s ? v ? e.jsx(B, {
+            item: !0,
+            xs: 12,
+            children: e.jsx(en, {
+                score: g
+            })
+        }) : e.jsx(B, {
+            item: !0,
+            xs: 12,
+            children: e.jsx(en, {
+                score: C
+            })
+        }) : e.jsxs(e.Fragment, {
+            children: [e.jsx(B, {
+                item: !0,
+                xs: 5,
+                children: e.jsx(en, {
+                    score: C
+                })
+            }), e.jsx(B, {
+                item: !0,
+                xs: 2,
+                children: e.jsx(vs, {
+                    sx: {
+                        fontSize: "7rem"
+                    }
+                })
+            }), e.jsx(B, {
+                item: !0,
+                xs: 5,
+                children: e.jsx(en, {
+                    score: g
+                })
+            })]
+        });
+        return e.jsxs(N, {
+            padding: 2.5,
+            children: [e.jsx(y, {
+                variant: "h4",
+                ref: t,
+                children: "Simulator"
+            }), e.jsx(y, {
+                variant: "body1",
+                marginBottom: 2.5,
+                children: zr.description
+            }), e.jsx(B, {
+                container: !0,
+                justifyItems: "center",
+                alignItems: "center",
+                children: Q()
+            }), e.jsxs(B, {
+                container: !0,
+                rowGap: 2.5,
+                marginTop: [2, 4],
+                children: [e.jsxs(B, {
+                    item: !0,
+                    gap: 1.5,
+                    alignItems: "center",
+                    xs: 12,
+                    display: "flex",
+                    children: [e.jsx(y, {
+                        variant: "h4",
+                        margin: 0,
+                        children: "Factors and Actions"
+                    }), e.jsx(cc, {
+                        title: zr.factors_and_actions_hint,
+                        placement: s ? "bottom" : "right-start",
+                        enterTouchDelay: 0,
+                        children: e.jsx(xs, {})
+                    })]
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(y, {
+                        variant: "h4",
+                        children: "Change Credit Card Balance Limits"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Increase Credit Balance"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("IncreaseCreditBalance", {
+                            onChange: V => {
+                                D(V, "IncreaseCreditBalance")
+                            }
+                        }),
+                        id: "IncreaseCreditBalance",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((ee = p.IncreaseCreditBalance) != null && ee.message),
+                        helperText: (X = p.IncreaseCreditBalance) == null ? void 0 : X.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Increase Credit Limit"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("IncreaseCreditCardLimit", {
+                            onChange: V => {
+                                D(V, "IncreaseCreditCardLimit")
+                            }
+                        }),
+                        id: "IncreaseCreditCardLimit",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((se = p.IncreaseCreditCardLimit) != null && se.message),
+                        helperText: (k = p.IncreaseCreditCardLimit) == null ? void 0 : k.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Decrease Credit Balance"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("DecreaseCreditBalance", {
+                            onChange: V => {
+                                D(V, "DecreaseCreditBalance")
+                            }
+                        }),
+                        id: "DecreaseCreditBalance",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((te = p.DecreaseCreditBalance) != null && te.message),
+                        helperText: (he = p.DecreaseCreditBalance) == null ? void 0 : he.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Pay Off All Credit Cards"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    mt: [-1.25, -1.875],
+                    children: e.jsx(Un, {
+                        sx: {
+                            display: "block"
+                        },
+                        control: e.jsx(Pi, {
+                            disabled: $,
+                            checked: a,
+                            ...w("PayOffAllCreditCards", {
+                                onChange: () => {
+                                    j(!a, "PayOffAllCreditCards"), n(!a)
+                                }
+                            })
+                        }),
+                        label: e.jsx(e.Fragment, {})
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(Te, {})
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(y, {
+                        variant: "h4",
+                        children: "Change Payment History"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "On-Time Payments"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(la, {
+                        ...w("OnTimePayment", {
+                            onChange: V => j(V.target.value, "OnTimePayment")
+                        }),
+                        id: "OnTimePayment",
+                        value: _("OnTimePayment"),
+                        disabled: $,
+                        placeholder: "Number of Months",
+                        options: I(24)
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "All Account(s) Past Due"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(la, {
+                        ...w("AllAccountsPastDue", {
+                            onChange: V => j(V.target.value, "AllAccountsPastDue")
+                        }),
+                        id: "AllAccountsPastDue",
+                        value: _("AllAccountsPastDue"),
+                        disabled: $,
+                        placeholder: "Number of Days",
+                        options: H
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "One Account Past Due"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(la, {
+                        ...w("OneAccountPastDue", {
+                            onChange: V => j(V.target.value, "OneAccountPastDue")
+                        }),
+                        id: "OneAccountPastDue",
+                        value: _("OneAccountPastDue"),
+                        disabled: $,
+                        placeholder: "Number of Days",
+                        options: H
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(Te, {})
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(y, {
+                        variant: "h4",
+                        children: "Open or Close Card"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Close Oldest Credit Card"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    mt: [-1.25, -1.875],
+                    children: e.jsx(Un, {
+                        sx: {
+                            display: "block"
+                        },
+                        control: e.jsx(Pi, {
+                            disabled: $,
+                            checked: i,
+                            ...w("CloseOldestCreditCard", {
+                                onChange: V => {
+                                    j(!i, "CloseOldestCreditCard"), r(!i)
+                                }
+                            })
+                        }),
+                        label: e.jsx(e.Fragment, {})
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Obtain Credit Card"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("ObtainCreditCard", {
+                            onChange: V => {
+                                D(V, "ObtainCreditCard")
+                            }
+                        }),
+                        id: "ObtainCreditCard",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((T = p.ObtainCreditCard) != null && T.message),
+                        helperText: (xe = p.ObtainCreditCard) == null ? void 0 : xe.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Transfer Balance"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("TransferCreditBalances", {
+                            onChange: V => {
+                                D(V, "TransferCreditBalances")
+                            }
+                        }),
+                        id: "TransferCreditBalances",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((ge = p.TransferCreditBalances) != null && ge.message),
+                        helperText: (K = p.TransferCreditBalances) == null ? void 0 : K.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Obtain Card as Authorized User"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("ObtainCreditCardAsAuthorizedUser", {
+                            onChange: V => {
+                                D(V, "ObtainCreditCardAsAuthorizedUser")
+                            }
+                        }),
+                        id: "ObtainCreditCardAsAuthorizedUser",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((A = p.ObtainCreditCardAsAuthorizedUser) != null && A.message),
+                        helperText: (Se = p.ObtainCreditCardAsAuthorizedUser) == null ? void 0 : Se.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(Te, {})
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(y, {
+                        variant: "h4",
+                        children: "Open or Close Account"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Apply for Credit Card"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(la, {
+                        ...w("ApplyForCreditCard", {
+                            onChange: V => j(V.target.value, "ApplyForCreditCard")
+                        }),
+                        id: "ApplyForCreditCard",
+                        value: _("ApplyForCreditCard"),
+                        disabled: $,
+                        placeholder: "Number of Inquiries",
+                        options: I(10)
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Obtain Auto Loan"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("ObtainAutoLoan", {
+                            onChange: V => {
+                                D(V, "ObtainAutoLoan")
+                            }
+                        }),
+                        id: "ObtainAutoLoan",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((qe = p.ObtainAutoLoan) != null && qe.message),
+                        helperText: (Ae = p.ObtainAutoLoan) == null ? void 0 : Ae.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Obtain Personal Loan"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("ObtainPersonalLoan", {
+                            onChange: V => {
+                                D(V, "ObtainPersonalLoan")
+                            }
+                        }),
+                        id: "ObtainPersonalLoan",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((G = p.ObtainPersonalLoan) != null && G.message),
+                        helperText: (ne = p.ObtainPersonalLoan) == null ? void 0 : ne.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 0,
+                    sm: .31
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 4.5,
+                    sm: 1.8,
+                    children: e.jsx(It, {
+                        variant: "h6",
+                        children: "Obtain Mortage"
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 7.5,
+                    sm: 4.045,
+                    children: e.jsx(Ie, {
+                        ...w("ObtainMortgage", {
+                            onChange: V => {
+                                D(V, "ObtainMortgage")
+                            }
+                        }),
+                        id: "ObtainMortgage",
+                        placeholder: M,
+                        disabled: $,
+                        error: !!((Re = p.ObtainMortgage) != null && Re.message),
+                        helperText: (_e = p.ObtainMortgage) == null ? void 0 : _e.message,
+                        fullWidth: !0
+                    })
+                }), e.jsx(B, {
+                    item: !0,
+                    xs: 12,
+                    children: e.jsx(Te, {})
+                }), oe()]
+            })]
+        })
+    },
+    zr = {
+        description: "Simulate your credit score by changing the factors that impact your current score below. Choose from the actions below to see how they may affect your VantageScore credit score and make informed financial decisions.",
+        factors_and_actions_hint: "The simulations are hypothetical; they do not predict or guarantee that your actual score will rise or drop to the simulated score, nor do they guarantee that you will be approved or rejected for credit by any financial institution. Actual results may differ. Entering data into the simulator does not affect your actual credit score. The simulated impact is based upon the VantageScore 3.0®."
+    },
+    ji = {
+        description: "Credit Navigator helps you point your score in the right direction, empowering you to consider how to reach your credit goals. Created by TransUnion® in partnership with VantageScore®, its personalized recommendations are based on the paths millions of others actually took to reach their credit goals. Depending on your desired score goal, personal credit profile and proactive credit behavior, achieving your credit goal may take as little as a few months or as long as several years. These recommendations are based on the VantageScore® 3.0 mode.",
+        recommendation_body: "Recommendations to get to your desired credit score and track your progress will appear below after the credit score simulator is adjusted.",
+        result_caption: "Credit Navigator derives a difficulty level by looking at the percentage of users with similar credit behavior as you in the VantageScore study that actually reached the goal score you selected within a given timeframe. An easy path means that the goal you're trying to reach was achieved by a relatively high number of consumers with credit behavior similar to yours. A harder path means that this goal was achieved by a relatively low number of consumers with credit behavior similar to yours."
+    },
+    vg = () => [{
+        content: e.jsx(xg, {}),
+        label: "Simulator"
+    }, {
+        content: e.jsx(bg, {}),
+        label: "Credit Navigator"
+    }],
+    Wr = {
+        IncreaseCreditBalance: "",
+        IncreaseCreditCardLimit: "",
+        DecreaseCreditBalance: "",
+        PayOffAllCreditCards: !1,
+        OnTimePayment: "",
+        AllAccountsPastDue: "",
+        OneAccountPastDue: "",
+        CloseOldestCreditCard: !1,
+        ObtainCreditCard: "",
+        TransferCreditBalances: "",
+        ObtainCreditCardAsAuthorizedUser: "",
+        ApplyForCreditCard: "",
+        ObtainAutoLoan: "",
+        ObtainPersonalLoan: "",
+        ObtainMortgage: ""
+    },
+    wg = O(po)(({
+        theme: t
+    }) => ({
+        width: "185px",
+        borderBottom: "none"
+    })),
+    jg = O(N)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper
+    })),
+    Sg = () => {
+        const [t, a] = h.useState(0);
+        return e.jsxs(jg, {
+            p: 2.5,
+            children: [e.jsx(y, {
+                variant: "h3",
+                mb: 2.5,
+                children: "Credit Score Analysis"
+            }), e.jsx(Mi, {
+                sx: {
+                    borderBottom: "solid"
+                },
+                value: t,
+                scrollButtons: !1,
+                onTabChanged: n => {
+                    a(n)
+                },
+                tab: wg,
+                tabs: vg()
+            })]
+        })
+    },
+    Cg = () => (wa().useNotifications(), e.jsxs(S, {
+        direction: "column",
+        gap: 2.5,
+        children: [e.jsx(Wp, {}), e.jsx(mg, {}), e.jsx(Sg, {}), e.jsx(gg, {}), e.jsx(Qp, {})]
+    })),
+    lb = () => {
+        document.title = "ID Monitor - BeenVerified";
+        const [t, a] = h.useState(0), n = Ui().get("escalated"), {
+            checkEmail: i,
+            sessionAuthorized: r,
+            checkSessionEscalation: o
+        } = Jn(), {
+            refetch: s
+        } = o, {
+            getUserProfile: c,
+            getAuthenticationQuestions: u,
+            getAuthenticationCheckAnswers: l,
+            setEnabledUserProfileQuery: d,
+            isLoading: C,
+            isOxfordError: m,
+            enabledUserProfileQuery: v
+        } = wa(), {
+            data: L
+        } = c, {
+            data: g
+        } = u, {
+            data: b
+        } = l, f = g ?? b, {
+            session: {
+                account: w
+            }
+        } = Yt(), {
+            blackBoxId: p
+        } = $o(), P = w == null ? void 0 : w.account.user_settings.credit_hub_enrollment_completed, {
+            refetch: q,
+            data: _
+        } = Zn("oxford", Wo);
+        h.useEffect(() => {
+            (P || n === "true") && !i && s()
+        }, [n, P, i, s]), h.useEffect(() => {
+            r && !_ && q()
+        }, [r, q, _]), h.useEffect(() => {
+            _ != null && _.token && p !== void 0 && r && d(!0)
+        }, [_, d, p, r]);
+        const E = () => {
+                a(t + 1)
+            },
+            x = () => {
+                if (r && v) {
+                    if (m) return e.jsx(Ma, {
+                        type: "generic"
+                    });
+                    if (C || p === void 0) return e.jsx(ii, {});
+                    if (L !== void 0) {
+                        if ([L == null ? void 0 : L.authenticated, f == null ? void 0 : f.authenticated].includes(!0)) return e.jsx(Cg, {});
+                        if (f != null && f.next_attempt_date) return t > 0 ? e.jsx(Ma, {
+                            type: "oneTimePasscodeAuthenticationError"
+                        }) : e.jsx(Ma, {
+                            type: "authenticationAnswersIncorrect"
+                        });
+                        if ((f == null ? void 0 : f.update_user_profile) === !0) return e.jsx(Ma, {
+                            type: "retryUserProfile"
+                        });
+                        if ((f == null ? void 0 : f.update_user_profile) === !1) return e.jsx(Ma, {
+                            type: "failedUserProfile"
+                        });
+                        if ((f == null ? void 0 : f.in_progress) === !0 && !$t.isOneTimePasscodeQuestion(f == null ? void 0 : f.questionList)) return e.jsx(Ma, {
+                            type: "authenticationInProgress"
+                        });
+                        if (f != null && f.questionList) return e.jsx(Fp, {
+                            sentOneTimePasscodeCount: t,
+                            increaseSentOneTimePasscodeCount: E
+                        })
+                    }
+                    return e.jsx(Pp, {})
+                } else return e.jsx(ep, {})
+            };
+        return e.jsx(N, {
+            id: "id-monitor-container",
+            className: "id-monitor-container",
+            children: x()
+        })
+    },
+    Tg = (t, a) => t ? a === 1 ? "New ID/Credit Alert" : `New ID/Credit Alerts (${a})` : `Previous ID/Credit Alerts (${a})`,
+    kg = ({
+        isLoading: t,
+        notificationsCount: a,
+        hasNewNotifications: n
+    }) => {
+        const i = Kt();
+        return e.jsx(ue, {
+            variant: "outlined",
+            startIcon: !t && e.jsx(ws, {
+                color: "inherit"
+            }),
+            onClick: () => i("/dashboard/id-monitor/alert-details"),
+            sx: {
+                color: "text.primary",
+                marginBottom: 2,
+                width: ["100%", "270px"],
+                height: "40px"
+            },
+            disabled: t,
+            children: t ? e.jsx(An, {
+                count: 4
+            }) : Tg(n, a)
+        })
+    },
+    Ag = ({
+        notification: t,
+        indexVal: a
+    }) => e.jsxs(ga, {
+        "data-testid": "notification-card",
+        sx: {
+            backgroundColor: "#f8f8f8",
+            padding: "32px 16px 16px",
+            position: "relative",
+            marginTop: 4.5,
+            overflow: "visible"
+        },
+        children: [e.jsxs(S, {
+            alignItems: "flex-start",
+            gap: 1.25,
+            children: [e.jsx(S, {
+                direction: "row",
+                justifyContent: "space-between",
+                alignItems: "center",
+                width: "100%",
+                children: e.jsx(y, {
+                    variant: "h4",
+                    textAlign: "left",
+                    marginBottom: 0,
+                    children: t.alertType
+                })
+            }), e.jsx(y, {
+                variant: "body1",
+                children: t.alertDescription
+            }), e.jsx(ga, {
+                sx: {
+                    width: "100%",
+                    marginBottom: 0
+                },
+                children: t.alertDetails.map((n, i) => e.jsx(Ga.Fragment, {
+                    children: e.jsxs(S, {
+                        direction: "row",
+                        justifyContent: "space-between",
+                        sx: {
+                            backgroundColor: i % 2 === 1 ? "" : "#f8f8f8",
+                            padding: 1.5,
+                            "& > *": {
+                                width: "50%"
+                            }
+                        },
+                        children: [e.jsx(y, {
+                            variant: "body1",
+                            paddingRight: .5,
+                            children: e.jsx("strong", {
+                                children: n.title
+                            })
+                        }), n.title.includes("Address") && typeof n.value == "string" ? e.jsx(y, {
+                            variant: "body1",
+                            textAlign: "left",
+                            dangerouslySetInnerHTML: {
+                                __html: n.value
+                            },
+                            paddingLeft: .5
+                        }) : e.jsx(y, {
+                            variant: "body1",
+                            textAlign: "left",
+                            paddingLeft: .5,
+                            children: n.vantageScoreCodeToFactors ? n.vantageScoreCodeToFactors.map((r, o) => e.jsxs(Ga.Fragment, {
+                                children: [r.factor, e.jsx("br", {}), e.jsx("br", {}), r.explain]
+                            }, `${r.factor}-${o}`)) : n.value ? n.value : "-"
+                        })]
+                    })
+                }, `${t.alertType}-${n.title}-${i}`))
+            })]
+        }), !t.displayed && e.jsx(lc, {
+            "data-testid": "new-info-pill",
+            icon: e.jsx(co, {
+                color: "inherit",
+                fontSize: "small"
+            }),
+            label: "NEW INFO",
+            sx: {
+                position: "absolute",
+                right: "20px",
+                top: "-16px",
+                backgroundColor: "black",
+                color: "white"
+            }
+        })]
+    }),
+    db = ({
+        notifications: t
+    }) => {
+        const a = Kt();
+        return e.jsxs(e.Fragment, {
+            children: [e.jsx(ue, {
+                variant: "text",
+                "data-testid": "back-button",
+                onClick: () => a("/dashboard/id-monitor?escalated=true"),
+                startIcon: e.jsx(js, {
+                    color: "inherit"
+                }),
+                sx: {
+                    textDecoration: "underline",
+                    color: "text.primary"
+                },
+                children: "Back to ID Monitor"
+            }), e.jsx(S, {
+                alignItems: "flex-start",
+                justifyContent: "space-between",
+                flexDirection: ["column", "row"],
+                children: e.jsx(y, {
+                    variant: "h1",
+                    children: "Notifications"
+                })
+            }), e.jsx(Te, {}), t.length === 0 && e.jsx(y, {
+                variant: "h5",
+                sx: {
+                    mt: 2.5
+                },
+                children: "There are no notifications."
+            }), t.map((n, i) => e.jsx(Ga.Fragment, {
+                children: e.jsx(Ag, {
+                    notification: n,
+                    indexVal: i
+                })
+            }, `${n.alertType}-${i}`))]
+        })
+    },
+    ub = () => {
+        var c, u;
+        const {
+            data: t,
+            isLoading: a
+        } = wa().useNotifications(), n = (t == null ? void 0 : t.notifications.notificationsCount) !== null, i = (t == null ? void 0 : t.notifications.notificationsCount) || (t == null ? void 0 : t.notifications.notifications.length), {
+            session: {
+                account: r
+            }
+        } = Yt(), o = r == null ? void 0 : r.account.user_settings.credit_hub_enrollment_completed, s = ((u = (c = r == null ? void 0 : r.account) == null ? void 0 : c.subscription_info) == null ? void 0 : u.subscription_plan_unique_name) ?? "";
+        return Fo(s), e.jsxs(S, {
+            direction: ["column", "row"],
+            justifyContent: "space-between",
+            rowGap: 2,
+            children: [e.jsxs(S, {
+                direction: "row",
+                alignItems: "center",
+                children: [e.jsx("img", {
+                    src: qo,
+                    alt: "id-monitor-color-logo",
+                    style: {
+                        paddingRight: "8px",
+                        paddingBottom: "12px"
+                    },
+                    height: "32px"
+                }), e.jsx(y, {
+                    variant: "h3",
+                    children: "ID Monitor"
+                })]
+            }), (!!t || a) && !!o && e.jsx(kg, {
+                hasNewNotifications: n,
+                notificationsCount: i,
+                isLoading: a
+            })]
+        })
+    },
+    Gr = (t, a, n) => {
+        let i = 0;
+        ["standard_alert_enabled", "enhanced_alert_enabled", "instant_alert_enabled"].forEach(s => {
+            t[s] === !0 && i++
+        });
+        let r = "";
+        if (a) {
+            const s = a.substring(0, 10);
+            r = Bi.fromISO(s).toFormat("MM/dd")
+        }
+        return [{
+            title: "Identity & Credit Alert Subscriptions",
+            description: "Set up your identity and credit record activity alerts",
+            icon: lh,
+            altIcon: "Alerts",
+            btnText: "See your alerts",
+            activateMonitorTab: !0,
+            enrolledBtnText: "Check your alerts",
+            enrolled: i > 0,
+            enrolledText: "Enrolled",
+            enrolledDescription: `${i} of 3 subscriptions active`,
+            notEnrolledText: "0 of 3 Active",
+            gaCategory: "id subscriptions"
+        }, {
+            title: "$1M Identity Theft Insurance",
+            description: "Protect your identity with identity theft insurance and restoration services",
+            icon: dh,
+            altIcon: "Theft Insurance protection",
+            btnText: "Protect your identity",
+            activateMonitorTab: !0,
+            enrolledBtnText: "Learn more",
+            enrolled: !!t.identity_management,
+            enrolledText: "Enrolled",
+            enrolledDescription: "You’re opted in to $1M Identity Theft Insurance and Restoration",
+            notEnrolledText: "Not Enrolled",
+            gaCategory: "id insurance"
+        }, {
+            title: "Dark Web Scan",
+            description: "See if your information may have been leaked in a data breach",
+            icon: uh,
+            altIcon: "Dark Web Scan",
+            btnText: "Scan your email",
+            activateMonitorTab: !1,
+            enrolledBtnText: "Scan your email again",
+            enrolled: !!a,
+            navigateTo: "/dashboard/dark-web",
+            enrolledText: `Scanned on ${r}`,
+            enrolledDescription: "See if your information may have been leaked in a data breach",
+            notEnrolledText: "Not Scanned",
+            gaCategory: "dark web scan"
+        }, {
+            title: "Credit Score Tracker",
+            description: "Keep track of your monthly credit score.",
+            icon: hh,
+            altIcon: "Credit Score Tracker",
+            btnText: "Start tracking your score",
+            activateMonitorTab: !0,
+            enrolledBtnText: "Track your score's changes",
+            enrolled: n,
+            enrolledDescription: "Your financial institutions regularly update your credit record",
+            enrolledText: "Enrolled",
+            notEnrolledText: "Not Enrolled",
+            gaCategory: "credit tracker"
+        }, {
+            title: "Credit Score Analysis",
+            description: "Run a simulation or analysis before your next financial decision",
+            icon: mh,
+            altIcon: "Credit Score Analysis",
+            btnText: "Run simulations & analysis",
+            activateMonitorTab: !0,
+            enrolledBtnText: "Run simulations & analysis",
+            enrolled: n,
+            enrolledText: "Enrolled",
+            enrolledDescription: "Run a simulation or analysis before your next financial decision",
+            notEnrolledText: "Not Enrolled",
+            gaCategory: "credit analysis"
+        }, {
+            title: "Unclaimed Money",
+            description: "See if you may be owed unclaimed money",
+            icon: ph,
+            altIcon: "Unclaimed Money",
+            btnText: "Check unclaimed money",
+            activateMonitorTab: !1,
+            enrolledBtnText: "Check unclaimed money",
+            navigateTo: "/dashboard/unclaimed-money",
+            gaCategory: "unclaimed money"
+        }]
+    },
+    _g = {
+        credit_navigator_used: !1,
+        credit_simulator_used: !1,
+        identity_management: !1,
+        enhanced_alert_enabled: !1,
+        instant_alert_enabled: !1,
+        standard_alert_enabled: !1
+    },
+    Lg = O(ga)(({
+        theme: t
+    }) => ({
+        width: "100%",
+        height: "auto",
+        display: "flex",
+        border: "1px solid var(--divider, #E2E2E2)",
+        flexDirection: "column",
+        gap: 2.5,
+        backgroundColor: t.palette.background.default,
+        justifyContent: "space-between",
+        [t.breakpoints.up("sm")]: {
+            width: "31%",
+            height: "293px"
+        },
+        [t.breakpoints.up("lg")]: {
+            width: "31.5%",
+            height: "233px"
+        },
+        "&:hover": {
+            boxShadow: "0px 3px 3px -2px rgba(0, 0, 0, 0.20), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12)"
+        }
+    })),
+    Pg = O(ue)(({
+        theme: t
+    }) => ({
+        paddingX: 1,
+        fontSize: "14px",
+        [t.breakpoints.down("sm")]: {
+            marginTop: t.spacing(2.5)
+        }
+    })),
+    Ig = O(S)(({
+        theme: t
+    }) => ({
+        marginTop: t.spacing(2.5),
+        gap: t.spacing(2.5),
+        flexWrap: "wrap"
+    })),
+    hb = ({
+        email: t = "",
+        setIsSettingsTab: a
+    }) => {
+        var P, q, _, E;
+        const n = Kt(),
+            {
+                homeAdditions: i
+            } = xo(),
+            {
+                trackEvent: r
+            } = h.useContext(ce),
+            o = be("OAR-1448"),
+            {
+                session: {
+                    account: s
+                }
+            } = Yt(),
+            {
+                data: c,
+                isFetching: u,
+                isError: l
+            } = i(null),
+            {
+                data: d,
+                isLoading: C
+            } = vo({
+                email: (P = s == null ? void 0 : s.account.user_info) == null ? void 0 : P.email
+            }),
+            m = yt(),
+            v = () => {
+                dc("id-monitor-container")
+            };
+        if (C || u) return e.jsx(e.Fragment, {
+            children: e.jsxs(N, {
+                sx: {
+                    backgroundColor: m.palette.background.paper,
+                    padding: [2.5]
+                },
+                children: [e.jsx(y, {
+                    variant: "h3",
+                    children: "Identity Protection Features & Services"
+                }), e.jsx(y, {
+                    variant: "body1",
+                    mb: 2.5,
+                    children: "Take advantage of identity and credit features and services that can help empower and protect you against fraudulent activity."
+                }), e.jsx(An, {
+                    count: 4
+                })]
+            })
+        });
+        let L = [];
+        const g = s == null ? void 0 : s.account.user_settings.credit_hub_enrollment_completed,
+            b = (E = (_ = (q = d == null ? void 0 : d.data) == null ? void 0 : q.rawData) == null ? void 0 : _.meta) == null ? void 0 : E.updated_at,
+            f = c == null ? void 0 : c.user_data_sets,
+            w = f == null ? void 0 : f.user_credit_hub_action_data_set;
+        if (w && b) {
+            const x = c.user_data_sets.user_credit_hub_action_data_set;
+            L = Gr(x, b, !!g)
+        }(l || f && !w) && b && (L = Gr(_g, b, !!g));
+        const p = x => x.map(I => e.jsxs(Lg, {
+            children: [e.jsxs(S, {
+                gap: 1.5,
+                children: [e.jsxs(S, {
+                    direction: "row",
+                    justifyContent: "space-between",
+                    children: [e.jsx("img", {
+                        src: I.icon,
+                        alt: I.altIcon
+                    }), I.enrolled !== void 0 && e.jsxs(S, {
+                        direction: "row",
+                        children: [I.enrolled && e.jsx(Ss, {
+                            sx: {
+                                color: "#81B44C",
+                                width: "13px",
+                                height: "13px",
+                                marginRight: .5
+                            }
+                        }), e.jsx(y, {
+                            variant: "body2",
+                            children: I.enrolled ? I.enrolledText : I.notEnrolledText
+                        })]
+                    })]
+                }), e.jsxs(S, {
+                    gap: 1,
+                    children: [e.jsx(y, {
+                        variant: "h6",
+                        mb: 0,
+                        children: I.title
+                    }), e.jsx(y, {
+                        variant: "body1",
+                        children: I.enrolled !== void 0 && I.enrolled ? I.enrolledDescription : I.description
+                    })]
+                })]
+            }), e.jsx(Pg, {
+                theme: m,
+                variant: I.enrolled ? "outlined" : "contained",
+                fullWidth: !0,
+                onClick: () => {
+                    r(I.gaCategory, "navigation click", "id monitor settings"), I.activateMonitorTab ? o ? v() : a && a(1) : I.navigateTo && n(I.navigateTo)
+                },
+                children: I.enrolled ? I.enrolledBtnText : I.btnText
+            })]
+        }));
+        return e.jsxs(N, {
+            sx: {
+                backgroundColor: m.palette.background.paper,
+                padding: [2.5]
+            },
+            children: [e.jsx(y, {
+                variant: "h3",
+                children: "Identity Protection Features & Services"
+            }), e.jsx(y, {
+                variant: "body1",
+                children: "Take advantage of identity and credit features and services that can help empower and protect you against fraudulent activity."
+            }), e.jsx(Ig, {
+                direction: "row",
+                children: p(L)
+            })]
+        })
+    },
+    si = t => {
+        switch (t) {
+            case "phone":
+                return "Verify whether a phone number is in use, its Do Not Call list status, and a variety of threat signals.";
+            case "ip":
+                return "Discover details about an IP address including its location, risk signals, VPN usage, and other signs the user may be masking their identity.";
+            case "url":
+                return "Scan a URL for threats, suspicious activity, adult content, and redirects that could lead you to a risky destination.";
+            case "email":
+                return "Verify that an email address is valid and in use, or check for risk signals associated with it.";
+            default:
+                return "Our all-in-one solution helps you verify contact details, identify fraudulent information, and protect against online threats."
+        }
+    },
+    Eg = O(ue)(({
+        theme: t
+    }) => ({
+        minWidth: "max-content",
+        flexGrow: 1,
+        maxHeight: "36px",
+        margin: "auto",
+        width: "100%",
+        [t.breakpoints.up("sm")]: {
+            marginLeft: t.spacing(1),
+            maxWidth: "172px",
+            width: "inherit"
+        }
+    })),
+    qg = O("img")(({
+        theme: t
+    }) => ({
+        marginBottom: "0.5rem",
+        alignSelf: "center",
+        "&.left-variant": {
+            alignSelf: "left"
+        },
+        [t.breakpoints.up("sm")]: {
+            alignSelf: "start"
+        }
+    })),
+    Rg = O(S)`
+  flex-direction: column;
+`,
+    Dg = O(S)(({
+        theme: t
+    }) => ({
+        textAlign: "center",
+        [t.breakpoints.up("sm")]: {
+            textAlign: "left"
+        }
+    })),
+    Xo = ({
+        enableViewCTA: t,
+        onCtaClick: a
+    }) => {
+        const n = t ? {
+            width: {
+                xs: "100%",
+                sm: "50%"
+            }
+        } : {};
+        return e.jsxs(Rg, {
+            className: "ast-header-light",
+            sx: {
+                alignItems: t ? "center" : "unset",
+                justifyContent: "space-between"
+            },
+            children: [e.jsx(qg, {
+                className: "image",
+                src: gt.images.astrology.imgAstrologyNumerology,
+                alt: "Astrology Insights",
+                width: "106px"
+            }), e.jsxs(Dg, {
+                className: "description",
+                sx: n,
+                children: [e.jsx(y, {
+                    variant: "h3",
+                    mb: 1,
+                    children: "Astrological Insights"
+                }), e.jsx(y, {
+                    mb: 2.5,
+                    children: "Get personalized daily horoscopes for guidance in work, love, and personal growth."
+                })]
+            }), t && e.jsx(Eg, {
+                variant: "contained",
+                type: "submit",
+                onClick: a,
+                children: "View Insights"
+            })]
+        })
+    },
+    Yr = O(sa)(({
+        theme: t
+    }) => ({
+        color: t.palette.text.primary,
+        fontWeight: "bold",
+        mb: 1
+    })),
+    Fg = O("form")(({
+        theme: t
+    }) => ({
+        background: t.palette.background.light,
+        width: "100%",
+        padding: "1rem",
+        borderRadius: "4px"
+    })),
+    Bg = O(lo)(({
+        theme: t
+    }) => ({
+        background: t.palette.background.paper,
+        width: "100%",
+        height: "100%",
+        maxHeight: "40px",
+        ".MuiInputBase-root": {
+            maxHeight: "40px"
+        },
+        ".MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+            borderColor: t.palette.primary.main
+        },
+        ".MuiButtonBase-root": {
+            color: t.palette.primary.main
+        }
+    })),
+    Mg = O(uo)(({
+        theme: t
+    }) => ({
+        "&.MuiButtonBase-root.MuiPickersDay-root": {
+            fontSize: t.typography.body2.fontSize
+        },
+        "&.MuiButtonBase-root.MuiPickersDay-root.Mui-selected": {
+            backgroundColor: t.palette.text.primary
+        }
+    }));
+var Za = (t => (t.yesterday = "horoscopes_yesterday", t.today = "horoscopes_today", t.tomorrow = "horoscopes_tomorrow", t.monthly = "horoscopes_monthly", t))(Za || {}),
+    rn = (t => (t.lifepath = "numerology_lifepath", t.personality = "numerology_personality", t))(rn || {});
+const Ng = "https://json.astrologyapi.com/v1/";
+var es = (t => (t.today = "sun_sign_consolidated/daily/", t.yesterday = "sun_sign_prediction/daily/previous/", t.tomorrow = "sun_sign_prediction/daily/next/", t.monthly = "horoscope_prediction/monthly/", t.lifepath = "lifepath_number", t.personality = "personality_number", t.ascendant = "general_ascendant_report/tropical", t))(es || {});
+const Og = (t, a) => ({
+        headers: {
+            "content-type": "application/json",
+            Authorization: `Basic ${btoa(t.user+":"+t.key)}`
+        },
+        method: "POST",
+        dataType: "json",
+        body: JSON.stringify(a)
+    }),
+    Vg = async ({
+        credentials: t,
+        queryType: a,
+        params: n
+    }) => {
+        let i = "";
+        return (a === "today" || a === "yesterday" || a === "tomorrow" || a === "monthly") && (i = n.sign || ""), await kn(`${Ng}${es[a]}${i}`, Og(t, n))
+    }, Ji = {
+        fetchAstrology: Vg
+    }, Wa = "astrology_ascendant", Hg = (t, a, n) => {
+        const {
+            keys: {
+                astrologyUser: i,
+                astrologyKey: r
+            }
+        } = h.useContext(Tn), {
+            logError: o
+        } = h.useContext(ce), s = {
+            user: i,
+            key: r
+        }, c = function(v) {
+            const L = localStorage.getItem(Wa);
+            if (!L || !v) return !1;
+            const g = JSON.parse(L);
+            return g == null ? void 0 : g[v]
+        }, u = function(v) {
+            const L = localStorage.getItem(Wa),
+                g = L ? JSON.parse(L) : {};
+            g[t] = v, localStorage.setItem(Wa, JSON.stringify(g))
+        }, l = async () => {
+            if (!(a != null && a.day) || !(a != null && a.month) || !(a != null && a.year) || !(a != null && a.hour) || !(a != null && a.min) || !(a != null && a.lat) || !(a != null && a.lon) || !(a != null && a.tzone) || !t) return Promise.resolve({});
+            const v = c(t);
+            if (v) return Promise.resolve(v);
+            const L = await Ji.fetchAstrology({
+                credentials: s,
+                queryType: "ascendant",
+                params: a
+            });
+            return u(L), Promise.resolve(L)
+        }, d = n && !!t && !!a, C = Ht({
+            queryKey: [Wa, t],
+            queryFn: l,
+            enabled: d,
+            cacheTime: 0,
+            onError: v => {
+                o(`${Wa} generation failed`, v)
+            }
+        }), m = d ? C.isLoading : !1;
+        return {
+            ...C,
+            isLoading: m
+        }
+    }, zg = {
+        aquarius: "Aquarius-Aquarius compatibility is marked by a strong bond of shared intellect and vision, creating a stimulating and progressive partnership.",
+        aries: "Aquarius and Aries exhibit moderate compatibility, blending independence with camaraderie, needing mutual respect for individuality.",
+        cancer: "Aquarius and Cancer share moderate compatibility, balancing emotion with intellect, fostering a dynamic and evolving bond.",
+        capricorn: "Aquarius and Capricorn share good compatibility, balancing Capricorn's tradition with Aquarius' innovation, fostering growth through shared values and vision.",
+        gemini: "Aquarius and Gemini exhibit strong compatibility, sharing intellect and innovation, creating an exciting and progressive relationship.",
+        leo: "Aquarius and Leo exhibit moderate compatibility, balancing Leo's individuality with Aquarius' unity, requiring mutual appreciation for uniqueness.",
+        libra: "Aquarius and Libra share very compatible traits, with social grace and ideals, fostering a harmonious and progressive partnership.",
+        pisces: "Aquarius and Pisces exhibit fair compatibility, balancing Aquarius' idealism with Pisces' empathy, fostering understanding and mutual growth.",
+        sagittarius: "Aquarius and Sagittarius exhibit a strong partnership, balancing Sagittarius' independence with Aquarius' unity, creating a progressive and harmonious bond.",
+        scorpio: "Aquarius and Scorpio share fair compatibility, balancing Scorpio's depth with Aquarius' innovation, requiring mutual respect and appreciation.",
+        taurus: "Aquarius and Taurus share moderate compatibility, balancing tradition with innovation, needing mutual appreciation for different approaches.",
+        virgo: "Aquarius and Virgo form a good match, offering intellectual stimulation and adaptability, blending practicality with innovation."
+    }, Wg = {
+        aquarius: "Aquarius-Aquarius compatibility is marked by a strong bond of shared intellect and vision, creating a stimulating and progressive partnership. When two Aquarians come together, they form a unique and dynamic union built on mutual understanding and an insatiable curiosity about the world. Both partners share a deep appreciation for individuality and freedom, allowing each other the space to explore their passions and interests. This relationship is characterized by lively discussions, innovative ideas, and a shared desire to make the world a better place. Their bond is strengthened by their forward-thinking nature and a love for social causes, often leading them to collaborate on projects that aim to bring about positive change. While their unconventional approach to life may sometimes pose challenges, their mutual respect and open-mindedness help them overcome any obstacles that come their way. Together, they create a harmonious and exciting partnership that thrives on creativity, friendship, and a shared vision for the future.",
+        aries: "Aquarius and Aries compatibility is characterized by an exciting and adventurous partnership, fueled by their shared love for innovation and independence. When these two dynamic signs come together, they create an energetic and spirited relationship where spontaneity and passion are at the forefront. Both Aquarius and Aries are forward-thinkers who enjoy pushing boundaries and challenging the status quo. Their mutual enthusiasm for new experiences and ideas leads them to embark on exciting adventures and projects together. While Aries brings a fiery determination and drive, Aquarius offers a visionary perspective, making them a powerful team. However, their strong-willed natures can sometimes lead to clashes, as both prefer to take the lead. Yet, their mutual respect for each other's individuality helps them navigate any conflicts that arise. Together, they form a partnership that is never dull, full of excitement and the pursuit of shared dreams.",
+        cancer: "Aquarius and Cancer compatibility presents an interesting blend of emotions and intellect, creating a partnership that can be both nurturing and challenging. While Aquarius is known for its logical and independent nature, Cancer is deeply emotional and values security and connection. This pairing requires effort and understanding from both sides, as they often approach life from different perspectives. Aquarius is drawn to Cancer’s nurturing and empathetic qualities, while Cancer admires Aquarius’s innovative ideas and unique vision. Despite their differences, they can complement each other well, with Aquarius bringing a fresh perspective to Cancer’s emotional world and Cancer offering warmth and support to Aquarius’s endeavors. However, their contrasting needs for freedom and closeness can sometimes lead to tension. Aquarius must learn to appreciate Cancer’s need for emotional connection, while Cancer should respect Aquarius’s desire for independence. With patience and open communication, they can create a partnership that balances emotional depth with intellectual stimulation.",
+        capricorn: "Aquarius and Capricorn compatibility is an intriguing blend of innovation and practicality, creating a partnership that is both ambitious and progressive. Aquarius’s visionary ideas and love for change often challenge Capricorn’s preference for stability and tradition. Despite their differences, these two signs can complement each other well, with Aquarius bringing fresh perspectives and Capricorn offering structure and discipline. Aquarius admires Capricorn’s determination and work ethic, while Capricorn appreciates Aquarius’s originality and forward-thinking nature. Their shared desire for success and achievement often leads them to collaborate on projects that aim to bring about positive change. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aquarius seeking freedom and Capricorn valuing structure. By respecting each other’s strengths and differences, they can create a balanced partnership that combines creativity with practicality. Together, Aquarius and Capricorn can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        gemini: "Aquarius and Gemini compatibility is marked by a lively and intellectual connection, creating a partnership filled with curiosity, communication, and shared interests. Both signs are air elements, naturally drawn to each other’s wit, intelligence, and love for socializing. Aquarius and Gemini thrive in a relationship where mental stimulation is abundant, engaging in deep conversations and exchanging ideas on a wide range of topics. They share a mutual appreciation for freedom and independence, allowing each other the space to pursue their individual interests while still maintaining a strong bond. This relationship is characterized by its adaptability and open-mindedness, as both partners are flexible and willing to embrace change. While their tendency to overthink or get lost in their thoughts can sometimes lead to misunderstandings, their excellent communication skills enable them to resolve any issues quickly. Together, Aquarius and Gemini form a dynamic duo, constantly inspiring and challenging each other to grow and evolve.",
+        leo: "Aquarius and Leo compatibility is a powerful combination of creativity and charisma, creating a partnership that is both dynamic and inspiring. When these two signs come together, they form a vibrant and energetic relationship characterized by mutual admiration and respect. Aquarius is captivated by Leo’s confidence and leadership qualities, while Leo appreciates Aquarius’s originality and visionary ideas. Both signs are strong-willed and enjoy being in the spotlight, which can sometimes lead to power struggles. However, their shared desire for self-expression and adventure helps them overcome any challenges that arise. Together, they create a relationship that is full of excitement and passion, with each partner encouraging the other to pursue their dreams. Their mutual love for socializing and connecting with others often leads them to collaborate on creative projects or causes they are passionate about. In this partnership, Aquarius and Leo inspire each other to shine brightly, creating a lasting bond built on creativity, enthusiasm, and mutual respect.",
+        libra: "Aquarius and Libra compatibility is a harmonious and intellectually stimulating partnership, characterized by a deep mutual understanding and appreciation for each other’s qualities. As both signs belong to the air element, they share a love for communication, socializing, and exploring new ideas. Aquarius and Libra thrive in a relationship where mental stimulation and open-mindedness are abundant, engaging in lively discussions and sharing their unique perspectives on various topics. Aquarius admires Libra’s charm and diplomacy, while Libra appreciates Aquarius’s originality and visionary ideas. This partnership is characterized by its balance and harmony, with each partner respecting the other’s need for independence and freedom. While they may sometimes struggle with indecisiveness or overthinking, their strong communication skills help them resolve any issues quickly. Together, Aquarius and Libra create a relationship that is both intellectually enriching and emotionally satisfying, built on mutual respect, friendship, and a shared vision for the future.",
+        pisces: "Aquarius and Pisces compatibility is a blend of creativity and compassion, creating a partnership that is both imaginative and nurturing. Aquarius’s innovative ideas and logical thinking often complement Pisces’s emotional depth and artistic sensibilities. Despite their differences, these two signs can form a harmonious and enriching relationship, with Aquarius bringing fresh perspectives and Pisces offering empathy and understanding. Aquarius admires Pisces’s intuition and compassion, while Pisces appreciates Aquarius’s originality and visionary ideas. Their shared love for creativity and exploration often leads them to collaborate on projects that aim to bring about positive change and inspire others. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aquarius seeking independence and Pisces valuing emotional connection. By respecting each other’s strengths and differences, they can create a balanced partnership that combines creativity with empathy. Together, Aquarius and Pisces can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        sagittarius: "Aquarius and Sagittarius compatibility is a vibrant and adventurous partnership, characterized by a shared love for exploration, freedom, and intellectual pursuits. When these two spirited signs come together, they form an energetic and dynamic relationship where spontaneity and curiosity are at the forefront. Aquarius and Sagittarius share a mutual appreciation for new experiences and ideas, often embarking on exciting adventures and projects together. Aquarius is drawn to Sagittarius’s optimism and enthusiasm, while Sagittarius admires Aquarius’s originality and visionary thinking. Their relationship is characterized by its open-mindedness and adaptability, with both partners respecting each other’s need for independence and growth. While their tendency to be overly independent can sometimes lead to misunderstandings, their excellent communication skills help them resolve any issues quickly. Together, Aquarius and Sagittarius create a partnership that is never dull, full of excitement, inspiration, and the pursuit of shared dreams.",
+        scorpio: "Aquarius and Scorpio compatibility is a complex and intriguing blend of intellect and intensity, creating a partnership that is both challenging and rewarding. Aquarius’s logical and independent nature often contrasts with Scorpio’s emotional depth and passion, leading to a dynamic relationship that requires effort and understanding from both sides. Despite their differences, Aquarius and Scorpio are drawn to each other’s strength and determination, forming a bond that is both fascinating and transformative. Aquarius admires Scorpio’s intensity and loyalty, while Scorpio appreciates Aquarius’s originality and visionary ideas. Their shared desire for change and growth often leads them to collaborate on projects that aim to bring about positive transformation. However, their contrasting needs for freedom and intimacy can sometimes lead to tension, with Scorpio seeking emotional connection and Aquarius valuing independence. By respecting each other’s boundaries and communicating openly, they can create a partnership that balances emotional depth with intellectual stimulation, offering opportunities for growth and transformation.",
+        taurus: "Aquarius and Taurus compatibility is a blend of contrasting qualities, bringing together the visionary and the practical in a unique and intriguing partnership. Aquarius, with its innovative and unconventional mindset, often challenges Taurus’s preference for stability and tradition. This pairing can be both stimulating and challenging, as each partner brings a different perspective to the table. Taurus admires Aquarius’s intellect and progressive ideas, while Aquarius appreciates Taurus’s steadfastness and reliability. While Taurus seeks security and routine, Aquarius thrives on change and spontaneity, leading to potential differences in their approach to life. However, this combination also allows them to learn and grow from one another. Taurus can help ground Aquarius’s lofty ideas, providing practical solutions and support, while Aquarius can encourage Taurus to embrace change and explore new possibilities. Together, they create a partnership that balances innovation with practicality, offering opportunities for growth and transformation.",
+        virgo: "Aquarius and Virgo compatibility is a blend of intellect and practicality, creating a partnership that is both analytical and innovative. Aquarius’s visionary ideas and love for innovation often challenge Virgo’s methodical and detail-oriented approach to life. Despite their differences, these two signs can complement each other well, with Aquarius bringing fresh perspectives and Virgo offering practical solutions. Aquarius admires Virgo’s intelligence and dedication, while Virgo appreciates Aquarius’s originality and open-mindedness. Their shared love for knowledge and learning often leads them to engage in thought-provoking conversations and collaborative projects. However, their contrasting approaches can sometimes lead to misunderstandings, as Virgo’s need for order may clash with Aquarius’s preference for spontaneity. By respecting each other’s strengths and differences, they can create a balanced partnership that combines creativity with practicality. Together, Aquarius and Virgo can achieve great things, using their unique skills to bring about positive change and growth in their lives."
+    }, Gg = {
+        aquarius: "Aries and Aquarius exhibit moderate compatibility, blending independence with camaraderie, needing mutual respect for individuality.",
+        aries: "Aries-Aries compatibility is marked by a powerful bond of shared energy and similar traits, leading to a dynamic and passionate relationship.",
+        cancer: "Aries and Cancer experience decent harmony, blending action-oriented Aries with emotionally deep Cancer for a blend of energy and sensitivity.",
+        capricorn: "Aries and Capricorn face challenges due to differences in impulsiveness and practicality, requiring patience and understanding.",
+        gemini: "The Aries-Gemini connection is characterized by lively communication and intellectual stimulation, creating a dynamic and engaging relationship.",
+        leo: "Aries and Leo form a strong partnership, combining passion with vitality, resulting in a fiery and enthusiastic connection.",
+        libra: "Aries-Libra compatibility is moderate, balancing Aries' assertiveness with Libra's diplomacy, needing mutual respect and compromise.",
+        pisces: "Aries-Pisces connection is moderate, combining Aries' drive with Pisces' dreaminess, requiring understanding of each other's realities.",
+        sagittarius: "Aries and Sagittarius share a very harmonious bond, blending adventurous traits for an optimistic and enthusiastic partnership.",
+        scorpio: "Aries-Scorpio connection exhibits moderate compatibility, balancing Aries' passion with Scorpio's intensity, requiring trust and depth.",
+        taurus: "Aries and Taurus exhibit moderate compatibility, with Aries' assertiveness needing to find harmony with Taurus' stability for a balanced partnership.",
+        virgo: "Aries and Virgo share fair harmony, with Aries' confidence complementing Virgo's practicality, requiring balance and understanding."
+    }, Yg = {
+        aquarius: "Aries and Aquarius compatibility is characterized by an exciting and adventurous partnership, fueled by their shared love for innovation and independence. When these two dynamic signs come together, they create an energetic and spirited relationship where spontaneity and passion are at the forefront. Both Aries and Aquarius are forward-thinkers who enjoy pushing boundaries and challenging the status quo. Their mutual enthusiasm for new experiences and ideas leads them to embark on exciting adventures and projects together. While Aries brings a fiery determination and drive, Aquarius offers a visionary perspective, making them a powerful team. However, their strong-willed natures can sometimes lead to clashes, as both prefer to take the lead. Yet, their mutual respect for each other’s individuality helps them navigate any conflicts that arise. Together, they form a partnership that is never dull, full of excitement and the pursuit of shared dreams.",
+        aries: "Aries and Aries compatibility is a dynamic and fiery partnership, characterized by mutual passion and a zest for life. When two Aries come together, they form an exciting and energetic relationship filled with enthusiasm, adventure, and a shared love for challenges. Both partners are driven by a strong sense of ambition and a desire to be the best, which can lead to a competitive yet exhilarating connection. Their shared enthusiasm for life often results in spontaneous adventures and bold endeavors. While their similar temperaments can lead to clashes of egos and power struggles, their mutual respect and understanding allow them to resolve conflicts quickly. The key to their successful partnership lies in channeling their fiery energy into collaborative efforts and shared goals. Together, Aries and Aries create a relationship that is full of excitement, passion, and a relentless pursuit of their dreams.",
+        cancer: "Aries and Cancer compatibility presents a complex and intriguing blend of passion and emotion, creating a partnership that can be both nurturing and challenging. Aries, with its fiery and independent nature, often contrasts with Cancer’s emotional depth and sensitivity. This pairing requires effort and understanding from both sides, as they often approach life from different perspectives. Aries is drawn to Cancer’s nurturing and empathetic qualities, while Cancer admires Aries’s courage and determination. Despite their differences, they can complement each other well, with Aries bringing excitement and energy to Cancer’s emotional world and Cancer offering warmth and support to Aries’s endeavors. However, their contrasting needs for freedom and closeness can sometimes lead to tension. Aries must learn to appreciate Cancer’s need for emotional connection, while Cancer should respect Aries’s desire for independence. With patience and open communication, they can create a partnership that balances passion with compassion, offering opportunities for growth and transformation.",
+        capricorn: "Aries and Capricorn compatibility is an intriguing blend of ambition and practicality, creating a partnership that is both dynamic and grounded. Aries’s fiery and adventurous spirit often challenges Capricorn’s preference for stability and tradition. Despite their differences, these two signs can complement each other well, with Aries bringing excitement and energy and Capricorn offering structure and discipline. Aries admires Capricorn’s determination and work ethic, while Capricorn appreciates Aries’s enthusiasm and drive. Their shared desire for success and achievement often leads them to collaborate on projects that aim to bring about positive change. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aries seeking excitement and Capricorn valuing stability. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with practicality. Together, Aries and Capricorn can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        gemini: "Aries and Gemini compatibility is marked by a lively and adventurous partnership, characterized by mutual curiosity and a love for exploration. When these two dynamic signs come together, they form an energetic and spirited relationship filled with excitement and intellectual stimulation. Aries and Gemini share a mutual appreciation for new experiences and ideas, often embarking on thrilling adventures and projects together. Aries admires Gemini’s wit and adaptability, while Gemini appreciates Aries’s enthusiasm and drive. Their relationship is characterized by its open-mindedness and flexibility, with both partners respecting each other’s need for independence and growth. While their tendency to be overly impulsive can sometimes lead to misunderstandings, their excellent communication skills help them resolve any issues quickly. Together, Aries and Gemini create a partnership that is never dull, full of excitement, inspiration, and the pursuit of shared dreams.",
+        leo: "Aries and Leo compatibility is a powerful combination of energy and charisma, creating a partnership that is both dynamic and inspiring. When these two fiery signs come together, they form a vibrant and energetic relationship characterized by mutual admiration and respect. Aries is captivated by Leo’s confidence and leadership qualities, while Leo appreciates Aries’s enthusiasm and adventurous spirit. Both signs are strong-willed and enjoy being in the spotlight, which can sometimes lead to power struggles. However, their shared desire for self-expression and adventure helps them overcome any challenges that arise. Together, they create a relationship that is full of excitement and passion, with each partner encouraging the other to pursue their dreams. Their mutual love for socializing and connecting with others often leads them to collaborate on creative projects or causes they are passionate about. In this partnership, Aries and Leo inspire each other to shine brightly, creating a lasting bond built on creativity, enthusiasm, and mutual respect.",
+        libra: "Aries and Libra compatibility is a harmonious and balanced partnership, characterized by mutual admiration and a blend of passion and diplomacy. Aries, with its fiery and adventurous spirit, often contrasts with Libra’s charm and grace, creating a dynamic and intriguing relationship. Aries admires Libra’s elegance and social skills, while Libra appreciates Aries’s enthusiasm and courage. This pairing can be both challenging and rewarding, as each partner brings unique qualities to the relationship. Aries’s boldness and determination often complement Libra’s ability to find balance and harmony. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aries seeking excitement and Libra valuing peace and harmony. By respecting each other’s strengths and finding common ground, they can create a partnership that combines passion with diplomacy. Together, Aries and Libra can achieve great things, using their unique skills to build a lasting and fulfilling relationship.",
+        pisces: "Aries and Pisces compatibility is a blend of energy and compassion, creating a partnership that is both dynamic and nurturing. Aries’s fiery and adventurous spirit often contrasts with Pisces’s emotional depth and sensitivity, leading to a relationship that requires effort and understanding from both sides. Despite their differences, these two signs can complement each other well, with Aries bringing excitement and energy and Pisces offering empathy and understanding. Aries admires Pisces’s intuition and compassion, while Pisces appreciates Aries’s enthusiasm and drive. Their shared love for creativity and exploration often leads them to collaborate on projects that aim to bring about positive change and inspire others. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aries seeking independence and Pisces valuing emotional connection. By respecting each other’s strengths and differences, they can create a balanced partnership that combines energy with compassion. Together, Aries and Pisces can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        sagittarius: "Aries and Sagittarius compatibility is a vibrant and adventurous partnership, characterized by a shared love for exploration, freedom, and new experiences. When these two spirited signs come together, they form an energetic and dynamic relationship where spontaneity and curiosity are at the forefront. Aries and Sagittarius share a mutual appreciation for excitement and adventure, often embarking on thrilling journeys and projects together. Aries admires Sagittarius’s optimism and enthusiasm, while Sagittarius appreciates Aries’s passion and drive. Their relationship is characterized by its open-mindedness and adaptability, with both partners respecting each other’s need for independence and growth. While their tendency to be overly impulsive can sometimes lead to misunderstandings, their excellent communication skills help them resolve any issues quickly. Together, Aries and Sagittarius create a partnership that is never dull, full of excitement, inspiration, and the pursuit of shared dreams.",
+        scorpio: "Aries and Scorpio compatibility is a powerful and intense partnership, characterized by mutual passion and a deep emotional connection. When these two strong-willed signs come together, they form a dynamic and intriguing relationship that is both challenging and rewarding. Aries and Scorpio share a mutual admiration for each other’s strength and determination, often forming a bond that is both fascinating and transformative. Aries admires Scorpio’s intensity and loyalty, while Scorpio appreciates Aries’s courage and drive. Their relationship is characterized by its passion and intensity, with both partners pushing each other to reach new heights. However, their strong personalities can sometimes lead to power struggles and conflicts. By respecting each other’s boundaries and communicating openly, they can create a partnership that balances passion with emotional depth. Together, Aries and Scorpio can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        taurus: "Aries and Taurus compatibility is a blend of energy and stability, creating a partnership that is both dynamic and grounded. Aries, with its fiery and adventurous spirit, often contrasts with Taurus’s practical and steady nature. This pairing can be both challenging and rewarding, as each partner brings unique qualities to the relationship. Aries admires Taurus’s reliability and strength, while Taurus appreciates Aries’s passion and drive. Their differences can lead to a complementary balance, with Taurus providing stability and support to Aries’s ambitious endeavors. However, their contrasting approaches to life can sometimes lead to misunderstandings, with Aries seeking excitement and Taurus valuing routine. By respecting each other’s strengths and finding common ground, they can create a harmonious partnership that combines energy with stability. Together, Aries and Taurus can achieve great things, using their unique skills to build a lasting and fulfilling relationship.",
+        virgo: "Aries and Virgo compatibility is a blend of energy and intellect, creating a partnership that is both dynamic and analytical. Aries’s fiery and adventurous spirit often challenges Virgo’s methodical and detail-oriented approach to life. Despite their differences, these two signs can complement each other well, with Aries bringing excitement and energy and Virgo offering practical solutions and support. Aries admires Virgo’s intelligence and dedication, while Virgo appreciates Aries’s enthusiasm and drive. Their shared love for knowledge and learning often leads them to engage in thought-provoking conversations and collaborative projects. However, their contrasting approaches can sometimes lead to misunderstandings, as Virgo’s need for order may clash with Aries’s preference for spontaneity. By respecting each other’s strengths and differences, they can create a balanced partnership that combines energy with intellect. Together, Aries and Virgo can achieve great things, using their unique skills to bring about positive change and growth in their lives."
+    }, Ug = {
+        aquarius: "Cancer and Aquarius share moderate compatibility, balancing emotion with intellect, fostering a dynamic and evolving bond.",
+        aries: "Cancer and Aries experience decent harmony, blending action-oriented Aries with emotionally deep Cancer for a blend of energy and sensitivity.",
+        cancer: "Cancer-Cancer compatibility is marked by a strong bond of deep emotional understanding, fostering a compassionate and nurturing bond.",
+        capricorn: "Cancer and Capricorn face moderate compatibility, balancing emotion with ambition, requiring understanding of each other's priorities.",
+        gemini: "Gemini and Cancer exhibit fair harmony, needing to balance different perspectives, appreciating each other's strengths for growth.",
+        leo: "Cancer and Leo exhibit fair harmony, balancing sensitivity with assertiveness, needing mutual support and appreciation.",
+        libra: "Cancer-Libra compatibility is challenging, balancing emotions with diplomacy, requiring understanding and communication.",
+        pisces: "Cancer and Pisces share a strong connection, with a nurturing and intuitive bond, creating a compassionate and spiritually fulfilling relationship.",
+        sagittarius: "Cancer and Sagittarius exhibit moderate compatibility, blending emotion with optimism, needing balance between depth and lightness.",
+        scorpio: "Cancer and Scorpio share a very compatible bond, with emotional depth and intuition, fostering a profound and spiritually fulfilling connection.",
+        taurus: "The Taurus-Cancer connection is good, offering emotional stability and shared values, creating a nurturing and supportive relationship.",
+        virgo: "Cancer and Virgo share fair harmony, balancing emotions with practicality, creating a stable and supportive relationship."
+    }, $g = {
+        aquarius: "Cancer and Aquarius compatibility presents an interesting blend of emotion and intellect, creating a partnership that is both nurturing and stimulating. When these two signs come together, they form a dynamic relationship characterized by a mix of emotional depth and innovative thinking. Cancer, with its nurturing and empathetic nature, often contrasts with Aquarius’s intellectual and forward-thinking approach to life. Despite their differences, these two signs can complement each other well, with Cancer offering emotional support and understanding, and Aquarius bringing excitement and new perspectives. Cancer admires Aquarius’s originality and vision, while Aquarius appreciates Cancer’s warmth and caring nature. Their relationship is characterized by its adaptability and open-mindedness, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for stability and independence can sometimes lead to misunderstandings. Cancer must learn to appreciate Aquarius’s need for freedom and exploration, while Aquarius should respect Cancer’s desire for security and emotional connection. By respecting each other’s strengths and differences, they can create a balanced partnership that combines emotion with intellect. Together, Cancer and Aquarius can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        aries: "Cancer and Aries compatibility is a blend of passion and emotion, creating a partnership that is both dynamic and nurturing. When these two signs come together, they form a relationship characterized by a unique mix of fiery energy and emotional depth. Aries, with its adventurous spirit and boldness, often contrasts with Cancer’s sensitivity and nurturing nature. This pairing requires effort and understanding from both sides, as they often approach life from different perspectives. Aries is drawn to Cancer’s caring and empathetic qualities, while Cancer admires Aries’s courage and determination. Despite their differences, they can complement each other well, with Aries bringing excitement and energy to Cancer’s emotional world and Cancer offering warmth and support to Aries’s endeavors. However, their contrasting needs for freedom and closeness can sometimes lead to tension. Aries must learn to appreciate Cancer’s need for emotional connection, while Cancer should respect Aries’s desire for independence. With patience and open communication, they can create a partnership that balances passion with compassion, offering opportunities for growth and transformation.",
+        cancer: "Cancer and Cancer compatibility is a deeply emotional and nurturing partnership, characterized by mutual understanding and a strong sense of empathy. When two Cancers come together, they form a relationship built on shared values and a desire for emotional connection and security. Both partners are highly sensitive and intuitive, often forming a deep and meaningful bond that is both supportive and enduring. Their relationship is characterized by its warmth and nurturing nature, with both partners providing each other with a sense of comfort and understanding. Cancer admires their partner’s empathy and caring nature, while their partner appreciates Cancer’s intuition and emotional depth. While their similar temperaments can sometimes lead to moodiness and emotional intensity, their mutual respect and understanding help them navigate any challenges that arise. Together, two Cancers create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        capricorn: "Cancer and Capricorn compatibility is a harmonious and balanced partnership, characterized by mutual understanding and a deep appreciation for stability and practicality. When these two signs come together, they form a strong and lasting bond built on shared values and a desire for security. Cancer, with its emotional depth and nurturing nature, complements Capricorn’s practical and disciplined approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Cancer admires Capricorn’s strength and determination, while Capricorn appreciates Cancer’s empathy and caring nature. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to stubbornness, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Capricorn create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        gemini: "Cancer and Gemini compatibility presents an interesting blend of emotion and intellect, creating a partnership that is both stimulating and nurturing. When these two signs come together, they form a dynamic relationship characterized by a mix of emotional depth and lively communication. Cancer, with its nurturing and empathetic nature, often contrasts with Gemini’s intellectual and adaptable approach to life. Despite their differences, these two signs can complement each other well, with Cancer offering emotional support and understanding, and Gemini bringing excitement and mental stimulation. Cancer admires Gemini’s wit and versatility, while Gemini appreciates Cancer’s warmth and caring nature. Their relationship is characterized by its adaptability and open-mindedness, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for stability and variety can sometimes lead to misunderstandings. Cancer must learn to appreciate Gemini’s need for change and exploration, while Gemini should respect Cancer’s desire for security and emotional connection. By respecting each other’s strengths and differences, they can create a balanced partnership that combines emotion with intellect. Together, Cancer and Gemini can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        leo: "Cancer and Leo compatibility is a blend of emotion and charisma, creating a partnership that is both dynamic and nurturing. When these two signs come together, they form a vibrant relationship characterized by a mix of emotional depth and creative energy. Cancer, with its nurturing and empathetic nature, complements Leo’s confidence and leadership qualities. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Cancer admires Leo’s strength and charisma, while Leo appreciates Cancer’s warmth and caring nature. Their relationship is characterized by its passion and creativity, with both partners inspiring each other to pursue their dreams. While their contrasting needs for attention and emotional connection can sometimes lead to misunderstandings, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Leo create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        libra: "Cancer and Libra compatibility is a blend of emotion and diplomacy, creating a partnership that is both nurturing and harmonious. When these two signs come together, they form a relationship characterized by a mix of emotional depth and social grace. Cancer, with its nurturing and empathetic nature, complements Libra’s charm and diplomatic approach to life. Both signs value love and harmony, often forming a partnership that is both supportive and enduring. Cancer admires Libra’s elegance and social skills, while Libra appreciates Cancer’s warmth and caring nature. Their relationship is characterized by its balance and harmony, with both partners inspiring each other to pursue their dreams. While their contrasting needs for security and social interaction can sometimes lead to misunderstandings, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Libra create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        pisces: "Cancer and Pisces compatibility is a deeply emotional and harmonious partnership, characterized by mutual understanding and a strong sense of empathy. When these two water signs come together, they form a relationship built on shared values and a desire for emotional connection and creativity. Cancer and Pisces share a mutual admiration for each other’s intuition and sensitivity, often forming a deep and meaningful bond that is both supportive and enduring. Their relationship is characterized by its warmth and nurturing nature, with both partners providing each other with a sense of comfort and understanding. Cancer admires Pisces’s artistic and compassionate nature, while Pisces appreciates Cancer’s empathy and caring nature. While their similar temperaments can sometimes lead to emotional intensity, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Pisces create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        sagittarius: "Cancer and Sagittarius compatibility is a blend of emotion and adventure, creating a partnership that is both dynamic and nurturing. When these two signs come together, they form a relationship characterized by a mix of emotional depth and a love for exploration. Cancer, with its nurturing and empathetic nature, often contrasts with Sagittarius’s adventurous and free-spirited approach to life. Despite their differences, these two signs can complement each other well, with Cancer offering emotional support and understanding, and Sagittarius bringing excitement and inspiration. Cancer admires Sagittarius’s optimism and enthusiasm, while Sagittarius appreciates Cancer’s warmth and caring nature. Their relationship is characterized by its adaptability and open-mindedness, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for stability and variety can sometimes lead to misunderstandings. Cancer must learn to appreciate Sagittarius’s need for change and exploration, while Sagittarius should respect Cancer’s desire for security and emotional connection. By respecting each other’s strengths and differences, they can create a balanced partnership that combines emotion with adventure. Together, Cancer and Sagittarius can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        scorpio: "Cancer and Scorpio compatibility is a powerful and intense partnership, characterized by mutual passion and a deep emotional connection. When these two water signs come together, they form a dynamic and intriguing relationship that is both challenging and rewarding. Cancer and Scorpio share a mutual admiration for each other’s emotional depth and intuition, often forming a bond that is both fascinating and transformative. Cancer admires Scorpio’s intensity and loyalty, while Scorpio appreciates Cancer’s empathy and caring nature. Their relationship is characterized by its passion and intensity, with both partners pushing each other to reach new heights. However, their strong personalities can sometimes lead to power struggles and conflicts. By respecting each other’s boundaries and communicating openly, they can create a partnership that balances passion with emotional depth. Together, Cancer and Scorpio can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        taurus: "Cancer and Taurus compatibility is a harmonious and nurturing partnership, characterized by mutual understanding and a deep appreciation for stability and comfort. When these two signs come together, they form a strong and lasting bond built on shared values and a desire for security. Cancer, with its emotional depth and nurturing nature, complements Taurus’s practical and reliable approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Cancer admires Taurus’s strength and dependability, while Taurus appreciates Cancer’s empathy and caring nature. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to stubbornness, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Taurus create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        virgo: "Cancer and Virgo compatibility is a harmonious and supportive partnership, characterized by mutual understanding and a deep appreciation for stability and practicality. When these two signs come together, they form a strong and lasting bond built on shared values and a desire for security. Cancer, with its emotional depth and nurturing nature, complements Virgo’s practical and detail-oriented approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Cancer admires Virgo’s intelligence and dedication, while Virgo appreciates Cancer’s empathy and caring nature. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to perfectionism and overthinking, their mutual respect and understanding help them navigate any challenges that arise. Together, Cancer and Virgo create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life."
+    }, Kg = {
+        aquarius: "Capricorn and Aquarius share good compatibility, balancing Capricorn's tradition with Aquarius' innovation, fostering growth through shared values and vision.",
+        aries: "Capricorn and Aries face challenges due to differences in impulsiveness and practicality, requiring patience and understanding.",
+        cancer: "Cancer and Capricorn face moderate compatibility, balancing emotion with ambition, requiring understanding of each other's priorities.",
+        capricorn: "Capricorn-Capricorn compatibility is marked by a strong bond of shared ambition and determination, creating a stable and successful partnership.",
+        gemini: "Capricorn and Gemini form a good match, offering intellectual stimulation and practicality, blending innovation with groundedness.",
+        leo: "Capricorn and Leo form a good match, balancing Leo's ambition with Capricorn's stability, creating a supportive and ambitious partnership.",
+        libra: "Capricorn and Libra exhibit fair harmony, balancing Libra's diplomacy with Capricorn's ambition, requiring mutual respect and compromise.",
+        pisces: "Capricorn and Pisces face challenges due to differences in practicality and empathy, requiring understanding and compromise.",
+        sagittarius: "Sagittarius and Capricorn share good compatibility, balancing Sagittarius' freedom with Capricorn's ambition, fostering growth through balance and support.",
+        scorpio: "Scorpio and Capricorn exhibit moderate compatibility, balancing Scorpio's emotion with Capricorn's ambition, fostering growth through trust and dedication.",
+        taurus: "Taurus and Capricorn form a strong partnership, grounded and ambitious together, supporting each other's goals and creating stability.",
+        virgo: "Virgo and Capricorn share very compatible traits, with practicality and diligence, creating a stable and successful partnership."
+    }, Qg = {
+        aquarius: "Capricorn and Aquarius compatibility is an intriguing blend of practicality and innovation, creating a partnership that is both dynamic and stimulating. When these two signs come together, they form a relationship characterized by a mix of ambition and visionary thinking. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Aquarius’s free-spirited and unconventional approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing structure and stability to Aquarius’s innovative endeavors, and Aquarius bringing excitement and new perspectives to Capricorn’s ambitions. Capricorn admires Aquarius’s originality and intellect, while Aquarius appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its adaptability and potential for growth, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for security and freedom can sometimes lead to misunderstandings. Capricorn must learn to appreciate Aquarius’s need for independence and exploration, while Aquarius should respect Capricorn’s desire for security and order. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with innovation. Together, Capricorn and Aquarius can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        aries: "Capricorn and Aries compatibility is an intriguing blend of ambition and energy, creating a partnership that is both dynamic and challenging. When these two signs come together, they form a relationship characterized by a mix of practicality and enthusiasm. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Aries’s adventurous and impulsive approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing stability and structure to Aries’s enthusiastic endeavors, and Aries bringing excitement and inspiration to Capricorn’s ambitions. Capricorn admires Aries’s courage and drive, while Aries appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its ambition and potential for growth, with both partners pushing each other to reach new heights. However, their contrasting approaches to life can sometimes lead to misunderstandings, as Capricorn’s need for order may clash with Aries’s preference for spontaneity. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with energy. Together, Capricorn and Aries can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        cancer: "Capricorn and Cancer compatibility is a harmonious and balanced partnership, characterized by mutual understanding and a deep appreciation for stability and emotion. When these two signs come together, they form a strong and lasting bond built on shared values and a desire for security. Capricorn, with its disciplined and goal-oriented nature, complements Cancer’s nurturing and empathetic approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Capricorn admires Cancer’s empathy and caring nature, while Cancer appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to moodiness and emotional intensity, their mutual respect and understanding help them navigate any challenges that arise. Together, Capricorn and Cancer create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        capricorn: "Capricorn and Capricorn compatibility is a partnership of ambition and mutual respect, characterized by a deep understanding of each other’s goals and values. When these two disciplined and goal-oriented signs come together, they form a relationship that is both stable and focused. Both partners value hard work, loyalty, and long-term success, creating a bond that is both supportive and enduring. Their shared drive and determination make them a powerful team, capable of achieving great things together. However, their similar temperaments can sometimes lead to stubbornness and a lack of emotional expression. By learning to communicate openly and share their feelings, two Capricorns can build a relationship that is both deeply satisfying and long-lasting.",
+        gemini: "Capricorn and Gemini compatibility presents an interesting blend of intellect and practicality, creating a partnership that is both dynamic and stimulating. When these two signs come together, they form a relationship characterized by a mix of logic and ambition. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Gemini’s adaptable and curious approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing structure and stability to Gemini’s versatile endeavors, and Gemini bringing excitement and new perspectives to Capricorn’s ambitions. Capricorn admires Gemini’s wit and versatility, while Gemini appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its adaptability and potential for growth, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for stability and variety can sometimes lead to misunderstandings. Capricorn must learn to appreciate Gemini’s need for change and exploration, while Gemini should respect Capricorn’s desire for security and order. By respecting each other’s strengths and differences, they can create a balanced partnership that combines intellect with practicality. Together, Capricorn and Gemini can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        leo: "Capricorn and Leo compatibility is an intriguing blend of ambition and charisma, creating a partnership that is both dynamic and inspiring. When these two signs come together, they form a relationship characterized by a mix of practicality and creativity. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Leo’s confident and expressive approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing structure and stability to Leo’s creative endeavors, and Leo bringing excitement and inspiration to Capricorn’s ambitions. Capricorn admires Leo’s strength and charisma, while Leo appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its ambition and potential for growth, with both partners pushing each other to reach new heights. However, their contrasting needs for attention and stability can sometimes lead to misunderstandings. Capricorn must learn to appreciate Leo’s need for self-expression and recognition, while Leo should respect Capricorn’s desire for security and order. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with charisma. Together, Capricorn and Leo can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        libra: "Capricorn and Libra compatibility is a blend of ambition and diplomacy, creating a partnership that is both balanced and inspiring. When these two signs come together, they form a relationship characterized by a mix of practicality and charm. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Libra’s diplomatic and social approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing structure and stability to Libra’s social endeavors, and Libra bringing excitement and new perspectives to Capricorn’s ambitions. Capricorn admires Libra’s elegance and social skills, while Libra appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its adaptability and potential for growth, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for security and social interaction can sometimes lead to misunderstandings. Capricorn must learn to appreciate Libra’s need for balance and harmony, while Libra should respect Capricorn’s desire for security and order. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with diplomacy. Together, Capricorn and Libra can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        pisces: "Capricorn and Pisces compatibility is a harmonious and supportive partnership, characterized by mutual understanding and a deep appreciation for stability and compassion. When these two signs come together, they form a strong and lasting bond built on shared values and a desire for emotional security. Capricorn, with its disciplined and goal-oriented nature, complements Pisces’s empathetic and intuitive approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Capricorn admires Pisces’s creativity and sensitivity, while Pisces appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its warmth and emotional depth, with both partners providing each other with a sense of comfort and security. While their different approaches to life can sometimes lead to misunderstandings, their mutual respect and understanding help them navigate any challenges that arise. Together, Capricorn and Pisces create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        sagittarius: "Capricorn and Sagittarius compatibility is a blend of ambition and adventure, creating a partnership that is both dynamic and inspiring. When these two signs come together, they form a relationship characterized by a mix of practicality and a love for exploration. Capricorn, with its disciplined and goal-oriented nature, often contrasts with Sagittarius’s adventurous and free-spirited approach to life. Despite their differences, these two signs can complement each other well, with Capricorn providing structure and stability to Sagittarius’s adventurous endeavors, and Sagittarius bringing excitement and inspiration to Capricorn’s ambitions. Capricorn admires Sagittarius’s optimism and enthusiasm, while Sagittarius appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its adaptability and potential for growth, with both partners learning and growing from each other’s unique perspectives. However, their contrasting needs for stability and variety can sometimes lead to misunderstandings. Capricorn must learn to appreciate Sagittarius’s need for change and exploration, while Sagittarius should respect Capricorn’s desire for security and order. By respecting each other’s strengths and differences, they can create a balanced partnership that combines ambition with adventure. Together, Capricorn and Sagittarius can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        scorpio: "Capricorn and Scorpio compatibility is a powerful and intense partnership, characterized by mutual ambition and a deep emotional connection. When these two strong-willed signs come together, they form a dynamic and intriguing relationship that is both challenging and rewarding. Capricorn and Scorpio share a mutual admiration for each other’s determination and intuition, often forming a bond that is both fascinating and transformative. Capricorn admires Scorpio’s intensity and loyalty, while Scorpio appreciates Capricorn’s discipline and work ethic. Their relationship is characterized by its passion and potential for growth, with both partners pushing each other to reach new heights. However, their strong personalities can sometimes lead to power struggles and conflicts. By respecting each other’s boundaries and communicating openly, they can create a partnership that balances ambition with emotional depth. Together, Capricorn and Scorpio can achieve great things, using their unique skills to bring about growth and transformation in their lives.",
+        taurus: "Capricorn and Taurus compatibility is a harmonious and stable partnership, characterized by mutual understanding and a deep appreciation for security and practicality. When these two earth signs come together, they form a strong and lasting bond built on shared values and a desire for stability. Capricorn, with its disciplined and goal-oriented nature, complements Taurus’s reliable and practical approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Capricorn admires Taurus’s strength and dependability, while Taurus appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to stubbornness, their mutual respect and understanding help them navigate any challenges that arise. Together, Capricorn and Taurus create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life.",
+        virgo: "Capricorn and Virgo compatibility is a harmonious and supportive partnership, characterized by mutual understanding and a deep appreciation for stability and practicality. When these two earth signs come together, they form a strong and lasting bond built on shared values and a desire for security. Capricorn, with its disciplined and goal-oriented nature, complements Virgo’s practical and detail-oriented approach to life. Both signs value loyalty and commitment, often forming a partnership that is both supportive and enduring. Capricorn admires Virgo’s intelligence and dedication, while Virgo appreciates Capricorn’s determination and work ethic. Their relationship is characterized by its warmth and stability, with both partners providing each other with a sense of comfort and security. While their similar temperaments can sometimes lead to perfectionism and overthinking, their mutual respect and understanding help them navigate any challenges that arise. Together, Capricorn and Virgo create a harmonious and fulfilling partnership, built on love, trust, and a shared desire for a stable and happy life."
+    }, Jg = {
+        aquarius: "Aquarius and Gemini exhibit strong compatibility, sharing intellect and innovation, creating an exciting and progressive relationship.",
+        aries: "The Aries-Gemini connection is characterized by lively communication and intellectual stimulation, creating a dynamic and engaging relationship.",
+        cancer: "Gemini and Cancer exhibit fair harmony, needing to balance different perspectives, appreciating each other's strengths for growth.",
+        capricorn: "Capricorn and Gemini form a good match, offering intellectual stimulation and practicality, blending innovation with groundedness.",
+        gemini: "Gemini-Gemini compatibility is marked by a strong bond of shared intellectual stimulation and curiosity, fostering a dynamic and engaging relationship.",
+        leo: "Gemini and Leo face challenges balancing independence with togetherness, needing mutual respect for space and closeness.",
+        libra: "Gemini and Libra share very compatible traits, with lively communication and harmony, creating a balanced and harmonious relationship.",
+        pisces: "Gemini and Pisces face challenges due to differences in practicality and imagination, requiring compromise and creative solutions.",
+        sagittarius: "Gemini and Sagittarius share a strong connection, with intellectual and social synergy, creating a stimulating and fulfilling partnership.",
+        scorpio: "Gemini-Scorpio connection exhibits moderate compatibility, balancing emotions with logic, requiring understanding of each other's depths.",
+        taurus: "Gemini and Taurus share moderate compatibility, blending adaptability with stability, needing mutual understanding and compromise for a balanced partnership.",
+        virgo: "Gemini and Virgo share fair harmony, needing to balance detail-oriented and spontaneous traits, fostering mutual understanding."
+    }, Zg = {
+        aquarius: "Gemini and Aquarius form an intellectually stimulating and unconventional partnership, both being air signs with a love for ideas and innovation. They share a mutual appreciation for freedom, independence, and intellectual exploration, making their relationship full of lively discussions and shared interests. Gemini is fascinated by Aquarius’s visionary ideas and humanitarian outlook, while Aquarius enjoys Gemini’s quick wit and adaptability. Together, they enjoy a relationship that is free-spirited and forward-thinking, with both partners encouraging each other to think outside the box and explore new horizons. However, their shared love for freedom can sometimes lead to a lack of emotional depth and commitment. Gemini’s tendency to be indecisive might clash with Aquarius’s strong opinions, and Aquarius’s aloofness can sometimes make Gemini feel insecure. For a successful relationship, both must work on deepening their emotional connection and finding a balance between independence and intimacy. When they do, Gemini and Aquarius can create a dynamic and intellectually fulfilling partnership that is ahead of its time.",
+        aries: "The pairing of Gemini and Aries is like a whirlwind of curiosity and action. Gemini's intellectual agility meets Aries's bold dynamism, creating a partnership brimming with excitement and spontaneity. Gemini, with their love for communication and exploration, finds Aries’s assertive and adventurous spirit irresistible. Aries, in turn, is captivated by Gemini’s quick wit and playful nature. Together, they enjoy a life full of stimulating conversations and thrilling adventures. However, their fast-paced lifestyle can sometimes lead to a lack of focus, with Gemini's tendency to overthink contrasting with Aries's impulsive decisions. For this duo to thrive, they need to balance Gemini’s need for mental stimulation with Aries’s desire for action. If they can find common ground, Gemini and Aries can create an exhilarating and ever-changing partnership that keeps them both on their toes.",
+        cancer: "Gemini and Cancer have a fascinating relationship dynamic, combining the intellectual curiosity of Gemini with the emotional depth of Cancer. Gemini is intrigued by Cancer’s nurturing nature and intuitive understanding of emotions, while Cancer is fascinated by Gemini’s wit and versatility. Gemini brings lightness and fun into Cancer’s life, encouraging them to step out of their shell and explore the world. Meanwhile, Cancer offers Gemini a safe harbor where they can explore their feelings and vulnerabilities. However, challenges can arise from their different emotional needs, Gemini’s rational approach can sometimes clash with Cancer’s emotional sensitivity. Cancer may feel insecure if they perceive Gemini as distant or uncommitted, while Gemini might feel overwhelmed by Cancer’s emotional demands. For their relationship to succeed, both must learn to communicate openly and respect each other’s emotional landscapes. Together, they can create a balance of heart and mind, blending Cancer’s empathy with Gemini’s intellect.",
+        capricorn: "Gemini and Capricorn bring together two very different energies, creating a relationship that is both challenging and enriching. Gemini’s light-hearted and spontaneous nature contrasts with Capricorn’s serious and disciplined approach to life. Gemini is intrigued by Capricorn’s ambition and practicality, while Capricorn admires Gemini’s intellect and versatility. This pairing can be highly complementary, with Capricorn providing the stability and structure that Gemini sometimes lacks, and Gemini bringing a sense of fun and adventure into Capricorn’s life. However, their differences can also lead to misunderstandings, Gemini may find Capricorn’s cautious and conservative nature restrictive, while Capricorn might view Gemini’s carefree attitude as irresponsible. For their relationship to succeed, both must learn to appreciate each other’s strengths and find common ground. If they can respect each other’s differences and work together, Gemini and Capricorn can create a balanced and fulfilling partnership that combines practicality with a sense of wonder.",
+        gemini: "When two Geminis come together, the result is a relationship full of lively conversation, intellectual stimulation, and endless curiosity. This pairing is like two butterflies fluttering around a garden, always seeking new experiences and ideas. They understand each other’s need for variety and change, making their time together dynamic and never dull. With their shared love for communication, they can spend hours debating, discussing, and exploring different perspectives. However, the challenge for this couple lies in their mutual tendency to be inconsistent and superficial. Without grounding influences, they may struggle with commitment and stability. To thrive, two Geminis must focus on deepening their emotional connection and finding ways to bring their ideas into reality. If they can harness their shared energy and curiosity, they can create a relationship that is both intellectually satisfying and emotionally enriching.",
+        leo: "The combination of Gemini and Leo is a vibrant and playful mix of air and fire. Gemini’s quick wit and Leo’s radiant charisma create a relationship that is full of fun, laughter, and excitement. Leo is drawn to Gemini’s cleverness and ability to keep them entertained, while Gemini is captivated by Leo’s confidence and generous spirit. This duo thrives on social interaction, enjoying a lively social life and stimulating conversations. Leo’s passion adds warmth and enthusiasm to the relationship, while Gemini’s versatility keeps things fresh and exciting. However, potential challenges arise from their different approaches to attention, Leo’s desire for admiration might clash with Gemini’s need for freedom and variety. Gemini may find Leo’s need for constant validation demanding, while Leo might feel neglected if Gemini’s attention wanes. For a harmonious relationship, both partners must balance Leo’s need for recognition with Gemini’s need for independence. Together, they can create a dynamic and joyful partnership that shines brightly.",
+        libra: "Gemini and Libra make a harmonious and intellectually compatible pair, both being air signs that thrive on communication and social interaction. Gemini’s quick mind and witty banter are perfectly matched by Libra’s charm and diplomacy. They enjoy a relationship filled with lively discussions, cultural activities, and a mutual appreciation for beauty and art. Libra’s sense of balance and fairness complements Gemini’s adaptability and open-mindedness, creating a partnership that is both dynamic and peaceful. However, their shared love for variety and indecision can sometimes lead to a lack of direction, with both partners avoiding deeper emotional issues. Gemini may find Libra’s need for harmony a bit stifling, while Libra might view Gemini’s restlessness as unsettling. For a successful relationship, both must work on grounding their connection and making decisions together. When they do, Gemini and Libra can create a beautiful and harmonious partnership that is intellectually and aesthetically fulfilling.",
+        pisces: "Gemini and Pisces create a whimsical and imaginative pairing, blending Gemini’s curiosity with Pisces’s dreamy nature. Both signs are mutable, which means they are adaptable and open to change, making their relationship fluid and ever-evolving. Gemini is enchanted by Pisces’s creativity and compassion, while Pisces is fascinated by Gemini’s intellect and versatility. Together, they can explore the realms of imagination and fantasy, enjoying a relationship that is both intellectually and emotionally enriching. However, their differences can also pose challenges, Gemini’s logical approach can sometimes clash with Pisces’s emotional sensitivity, and Pisces’s need for deep emotional connection may feel overwhelming to the more light-hearted Gemini. Gemini might find Pisces’s dreamy nature impractical, while Pisces could view Gemini’s analytical mindset as lacking in empathy. For their relationship to thrive, both must learn to communicate openly and respect each other’s emotional needs. If they can find a balance, Gemini and Pisces can create a magical and soulful partnership that is full of creativity and compassion.",
+        sagittarius: "Gemini and Sagittarius create a vibrant and adventurous pairing, both being mutable signs with a love for exploration and discovery. Gemini’s intellectual curiosity matches Sagittarius’s philosophical outlook, making their relationship full of lively debates and shared adventures. They are both free spirits who value independence and variety, which allows them to give each other plenty of space while still enjoying a strong connection. Gemini is captivated by Sagittarius’s optimism and enthusiasm, while Sagittarius is drawn to Gemini’s cleverness and adaptability. However, their mutual love for freedom can sometimes lead to a lack of commitment and stability. Gemini’s tendency to overthink may clash with Sagittarius’s straightforwardness, and Sagittarius’s blunt honesty can sometimes hurt Gemini’s feelings. For a successful partnership, both must learn to balance their need for freedom with the need for a deeper emotional connection. When they do, Gemini and Sagittarius can create a relationship full of excitement, growth, and endless possibilities.",
+        scorpio: "Gemini and Scorpio form a complex and intriguing partnership, blending Gemini’s light-hearted curiosity with Scorpio’s intense depth. Gemini is fascinated by Scorpio’s mysterious and passionate nature, while Scorpio is intrigued by Gemini’s quick wit and versatility. This relationship is a study in contrasts, with Gemini’s playful approach often clashing with Scorpio’s serious and intense demeanor. Gemini loves to explore new ideas and experiences, while Scorpio seeks deep emotional connections and transformative experiences. The challenge for this pair lies in their differing communication styles, Gemini’s light and breezy manner can sometimes feel shallow to the more intense Scorpio, who craves depth and authenticity. Scorpio may find Gemini’s need for freedom and variety unsettling, while Gemini might feel overwhelmed by Scorpio’s emotional intensity. For their relationship to work, both must learn to respect each other’s differences and find common ground. Together, Gemini and Scorpio can explore the depths of the human experience, balancing light-hearted curiosity with profound emotional insight.",
+        taurus: "Gemini and Taurus make an intriguing pair, blending the airy, changeable nature of Gemini with the earthy, steady energy of Taurus. Gemini is captivated by Taurus’s sensuality and groundedness, while Taurus is intrigued by Gemini’s intellectual curiosity and adaptability. Taurus provides a stable anchor for Gemini’s restless energy, offering a sense of security that Gemini secretly craves. Meanwhile, Gemini brings a breath of fresh air into Taurus’s life, encouraging them to explore new ideas and experiences. However, conflicts may arise from Taurus’s need for consistency and Gemini’s love of variety. Taurus might find Gemini’s unpredictability unsettling, while Gemini could feel stifled by Taurus’s insistence on routine. For their relationship to flourish, both must embrace each other’s differences, with Taurus learning to be more flexible and Gemini appreciating the beauty of stability.",
+        virgo: "Gemini and Virgo form an intellectually stimulating pair, combining Gemini’s curiosity and Virgo’s analytical nature. Both are ruled by Mercury, the planet of communication, which makes their conversations rich and insightful. Gemini’s playful and spontaneous nature complements Virgo’s meticulous and thoughtful approach. Virgo appreciates Gemini’s ability to see the bigger picture, while Gemini values Virgo’s attention to detail. However, their differences can also lead to misunderstandings, Virgo’s need for order and precision might clash with Gemini’s more carefree and scattered ways. Gemini may find Virgo’s criticism overly harsh, while Virgo might view Gemini’s lack of consistency as irresponsible. For their relationship to thrive, both must practice patience and understanding, with Gemini learning to appreciate Virgo’s practicality and Virgo embracing Gemini’s spontaneity. When they find balance, Gemini and Virgo can create a harmonious blend of creativity and logic."
+    }, Xg = {
+        aquarius: "Aquarius and Leo exhibit moderate compatibility, balancing Leos individuality with Aquarius' unity, requiring mutual appreciation for uniqueness.",
+        aries: "Aries and Leo form a strong partnership, combining passion with vitality, resulting in a fiery and enthusiastic connection.",
+        cancer: "Cancer and Leo exhibit fair harmony, balancing sensitivity with assertiveness, needing mutual support and appreciation.",
+        capricorn: "Capricorn and Leo form a good match, balancing Leo's ambition with Capricorn's stability, creating a supportive and ambitious partnership.",
+        gemini: "Capricorn and Leo form a good match, balancing Leo's ambition with Capricorn's stability, creating a supportive and ambitious partnership.",
+        leo: "Leo-Leo compatibility is marked by a strong bond of shared passion and vitality, leading to a dynamic and exciting partnership.",
+        libra: "Leo and Libra share good understanding, with harmony and shared values, creating a balanced and harmonious relationship.",
+        pisces: "Leo and Pisces share fair harmony, balancing Leo's creativity with Pisces' intuition, fostering a creative and spiritually fulfilling relationship.",
+        sagittarius: "Leo and Sagittarius share a very compatible bond, with enthusiasm and optimism, fostering a dynamic and adventurous connection.",
+        scorpio: "Leo-Scorpio connection exhibits moderate compatibility, balancing Leo's passion with Scorpio's depth, requiring trust and emotional connection.",
+        taurus: "Taurus and Leo face challenges balancing practicality with passion, needing understanding of each other's approaches for harmony.",
+        virgo: "Leo and Virgo exhibit fair harmony, balancing confidence with practicality, requiring mutual respect and support."
+    }, ef = {
+        aquarius: "Leo and Aquarius form an exciting and unconventional partnership, combining Leo's fiery passion with Aquarius's innovative and independent nature. Both signs are fixed, which means they are determined and often set in their ways, making their relationship full of strong-willed energy. Leo is fascinated by Aquarius's unique perspective and intellectual curiosity, while Aquarius is drawn to Leo's warmth and charisma. Together, they can create a dynamic and stimulating relationship, full of creativity and new ideas. However, their differences can sometimes lead to tension, Leo's desire for attention and admiration might clash with Aquarius's need for freedom and detachment. Aquarius's unconventional approach can sometimes be too much for Leo's more traditional and expressive nature. For a successful relationship, both must learn to respect each other's differences and embrace each other's uniqueness. When they do, Leo and Aquarius can create a powerful and innovative partnership that is full of excitement and mutual growth.",
+        aries: "The combination of Leo and Aries is a fiery and dynamic duo, full of passion, energy, and enthusiasm. Both signs are natural leaders and thrive on excitement and adventure. Leo's charisma and warmth complement Aries's boldness and courage, creating a relationship that is full of mutual admiration and respect. They inspire each other to take on challenges and pursue their goals with vigor. Leo loves the spontaneity and daring spirit of Aries, while Aries appreciates Leo’s generosity and flair for life. However, their strong personalities can sometimes lead to power struggles, as both signs like to take the lead. Leo's need for admiration may clash with Aries's independent streak, and their occasional stubbornness can lead to fiery disagreements. For their relationship to succeed, they must learn to share the spotlight and support each other's ambitions. Together, Leo and Aries can create an exhilarating partnership that is both passionate and inspiring.",
+        cancer: "Leo and Cancer create a warm and nurturing partnership, combining Leo's fiery enthusiasm with Cancer's gentle and caring nature. Leo is drawn to Cancer’s sensitivity and emotional depth, while Cancer is captivated by Leo's confidence and warmth. Together, they can create a loving and supportive relationship, with Leo providing the excitement and passion, and Cancer offering emotional security and comfort. Leo enjoys being the protector and provider, while Cancer nurtures and cares for their partner. However, their differences can sometimes lead to misunderstandings, Leo’s outgoing and sometimes flamboyant nature might clash with Cancer’s more reserved and private approach. Cancer may feel overwhelmed by Leo's need for attention, while Leo could find Cancer's moodiness challenging. For a harmonious relationship, both must learn to respect each other’s emotional landscapes and communicate openly. When they do, Leo and Cancer can create a deep and fulfilling partnership that is full of love and mutual support.",
+        capricorn: "Leo and Capricorn create an intriguing and powerful partnership, blending Leo's vibrant energy with Capricorn's disciplined and ambitious nature. Leo is attracted to Capricorn's strength and determination, while Capricorn admires Leo's confidence and warmth. Together, they can create a successful and fulfilling relationship, with both partners supporting each other's goals and ambitions. Leo brings a sense of fun and creativity to Capricorn's life, while Capricorn provides the structure and stability that Leo sometimes lacks. However, their different approaches to life can lead to challenges, Leo's need for recognition and admiration might clash with Capricorn's more reserved and practical nature. Capricorn's focus on work and success can sometimes leave Leo feeling neglected, while Leo's desire for spontaneity might disrupt Capricorn's carefully planned routines. For their relationship to thrive, both must learn to appreciate each other's strengths and find a balance between work and play. When they do, Leo and Capricorn can create a powerful and successful partnership that is full of love and mutual respect.",
+        gemini: "Leo and Gemini form a lively and playful partnership, full of fun, creativity, and excitement. Both signs are social and love to engage in stimulating conversations and activities. Leo's charismatic and outgoing nature complements Gemini's quick wit and versatility. They enjoy a vibrant social life together, with Leo providing warmth and enthusiasm, while Gemini keeps things interesting with their endless curiosity and humor. However, their different needs can sometimes cause friction, Leo's desire for loyalty and admiration may clash with Gemini's love for variety and independence. Gemini might find Leo's need for constant attention overwhelming, while Leo could see Gemini as too inconsistent. For their relationship to thrive, both must work on communication and understanding each other's needs. When they find balance, Leo and Gemini can create a dynamic and joyful partnership that is full of laughter and adventure.",
+        leo: "When two Leos come together, the result is a dazzling and passionate partnership, full of excitement, creativity, and mutual admiration. This pair shares a deep understanding of each other’s needs for attention, appreciation, and recognition. They enjoy being the center of attention and love to celebrate life in grand style. Together, they can create a relationship that is full of warmth, loyalty, and shared interests. However, their strong personalities can sometimes lead to competition and power struggles, as both Leos enjoy being in control. Their need for admiration might also lead to conflicts if they feel neglected or unappreciated. For their relationship to succeed, both must learn to share the spotlight and support each other’s goals and ambitions. When they find a balance, two Leos can create a powerful and vibrant partnership that is full of love, joy, and a shared zest for life.",
+        libra: "Leo and Libra form a harmonious and charming pair, full of romance, beauty, and social grace. Both signs are ruled by the elements of fire and air, creating a natural chemistry and a mutual appreciation for the finer things in life. Leo's charisma and passion complement Libra's elegance and diplomacy, making them a dynamic and attractive couple. They enjoy a rich social life together, with Leo taking the lead and Libra providing balance and harmony. However, their different needs can sometimes lead to tension, Leo's desire for attention and admiration might clash with Libra's need for peace and harmony. Libra's indecisiveness can frustrate Leo, while Leo's dominance can sometimes overwhelm Libra. For their relationship to thrive, both must work on communication and compromise, respecting each other's needs and boundaries. When they do, Leo and Libra can create a beautiful and loving partnership that is full of romance and mutual respect.",
+        pisces: "Leo and Pisces create a magical and romantic partnership, blending Leo's vibrant energy with Pisces's dreamy and compassionate nature. Leo is captivated by Pisces's sensitivity and artistic soul, while Pisces is drawn to Leo's confidence and warmth. Together, they can create a loving and supportive relationship, with Leo providing the passion and Pisces offering emotional depth and intuition. Leo enjoys being the protector and hero, while Pisces appreciates the love and admiration they receive from their partner. However, their differences can sometimes lead to challenges, Leo's need for recognition and drama might clash with Pisces's more introspective and gentle nature. Pisces's emotional sensitivity can sometimes feel overwhelming for Leo, while Leo's boldness can be too much for Pisces's delicate sensibilities. For their relationship to thrive, both must learn to communicate openly and respect each other's emotional needs. When they do, Leo and Pisces can create a beautiful and harmonious partnership that is full of love, creativity, and mutual understanding.",
+        sagittarius: "Leo and Sagittarius create a vibrant and adventurous pairing, full of excitement, passion, and mutual enthusiasm. Both signs are fire elements, making their relationship full of warmth, energy, and a love for life. Leo's charisma and Sagittarius's adventurous spirit complement each other perfectly, creating a dynamic and fun-loving partnership. They enjoy exploring new experiences together, with Leo providing the stability and Sagittarius bringing the excitement. However, their shared love for freedom can sometimes lead to conflicts, as both signs value their independence. Leo's need for loyalty and attention might clash with Sagittarius's desire for freedom and exploration. Sagittarius's blunt honesty can sometimes hurt Leo's pride, while Leo's desire for drama might overwhelm Sagittarius. For a successful relationship, both must learn to respect each other's need for space and independence. When they do, Leo and Sagittarius can create a joyful and adventurous partnership that is full of love and shared experiences.",
+        scorpio: "Leo and Scorpio create an intense and magnetic partnership, combining Leo's fiery passion with Scorpio's deep emotional intensity. Both signs are strong-willed and determined, making their relationship full of power and intrigue. Leo is captivated by Scorpio's mysterious and alluring nature, while Scorpio is drawn to Leo's confidence and warmth. Together, they can create a passionate and transformative relationship, with both partners pushing each other to new heights. However, their strong personalities can also lead to power struggles and jealousy, as both Leo and Scorpio have a desire for control and loyalty. Leo's need for admiration might clash with Scorpio's possessiveness, and Scorpio's intense emotions can sometimes be overwhelming for Leo. For their relationship to succeed, both must learn to trust each other and communicate openly. When they find a balance, Leo and Scorpio can create a powerful and passionate partnership that is full of depth and mutual respect.",
+        taurus: "Leo and Taurus create a luxurious and sensual pairing, blending Leo's love for grandeur and drama with Taurus's appreciation for beauty and comfort. Leo is drawn to Taurus's sensuality and reliability, while Taurus admires Leo’s confidence and zest for life. They both enjoy the finer things in life and can build a stable and enjoyable partnership. Leo brings excitement and a touch of glamour to the relationship, while Taurus provides a steady and grounding influence. However, their differences can lead to challenges, Leo’s desire for attention and admiration might clash with Taurus’s more reserved nature, and Taurus’s stubbornness can conflict with Leo’s need for adoration. Leo may find Taurus's pace too slow, while Taurus could see Leo as overly dramatic. For a successful relationship, they must learn to appreciate each other's strengths and compromise. When they do, Leo and Taurus can create a harmonious and indulgent partnership that is full of love and affection.",
+        virgo: "Leo and Virgo form a complementary and balanced partnership, blending Leo's vibrant energy with Virgo's practical and analytical nature. Leo is attracted to Virgo’s intelligence and attention to detail, while Virgo admires Leo’s confidence and warmth. Together, they can create a harmonious relationship where Leo inspires Virgo to be more expressive and adventurous, and Virgo provides Leo with the grounding and organization they sometimes lack. However, their different approaches to life can lead to challenges, Leo’s need for recognition and affection might clash with Virgo’s more reserved and modest nature. Virgo’s critical nature can sometimes hurt Leo’s pride, while Leo’s flamboyance may overwhelm the more understated Virgo. For a successful relationship, both must learn to appreciate each other’s differences and find common ground. When they do, Leo and Virgo can create a stable and enriching partnership that balances creativity with practicality."
+    }, tf = {
+        aquarius: "Aquarius and Libra share very compatible traits, with social grace and ideals, fostering a harmonious and progressive partnership.",
+        aries: "Aries-Libra compatibility is moderate, balancing Aries' assertiveness with Libra's diplomacy, needing mutual respect and compromise.",
+        cancer: "Cancer-Libra compatibility is challenging, balancing emotions with diplomacy, requiring understanding and communication.",
+        capricorn: "Capricorn and Libra exhibit fair harmony, balancing Libra's diplomacy with Capricorn's ambition, requiring mutual respect and compromise.",
+        gemini: "Gemini and Libra share very compatible traits, with lively communication and harmony, creating a balanced and harmonious relationship.",
+        leo: "Leo and Libra share good understanding, with harmony and shared values, creating a balanced and harmonious relationship.",
+        libra: "Libra-Libra compatibility is marked by a strong bond of shared social grace and harmony, creating a balanced and sociable relationship.",
+        pisces: "Libra and Pisces face challenges balancing emotion with empathy, requiring understanding and empathy for a fulfilling bond.",
+        sagittarius: "Libra and Sagittarius share a strong partnership, with shared social ideals and optimism, creating an enthusiastic and supportive bond.",
+        scorpio: "Libra and Scorpio exhibit moderate connection, balancing trust with diplomacy, fostering growth through understanding and communication.",
+        taurus: "Taurus and Libra share moderate compatibility, blending tradition with novelty, needing balance and appreciation of uniqueness.",
+        virgo: "Virgo and Libra exhibit moderate compatibility, balancing Virgo's order with Libra's harmony, requiring mutual understanding and compromise."
+    }, af = {
+        aquarius: "Libra and Aquarius form an intellectually stimulating and socially dynamic pair, both being air signs with a love for communication, ideas, and social interaction. Libra's charm and diplomacy complement Aquarius's innovative and independent nature, making their relationship full of lively discussions and shared interests. They enjoy a rich social life together, with Libra appreciating Aquarius's unique perspective and humanitarian outlook, and Aquarius admiring Libra's grace and ability to bring people together. However, their shared love for variety and independence can sometimes lead to a lack of emotional depth and commitment. Libra's desire for harmony and partnership might clash with Aquarius's need for freedom and detachment. For a successful relationship, both must work on deepening their emotional connection and finding a balance between independence and intimacy. When they do, Libra and Aquarius can create a dynamic and intellectually fulfilling partnership that is full of love, mutual respect, and shared ideals.",
+        aries: "Libra and Aries make an exciting and dynamic pair, blending Libra's charm and diplomacy with Aries's boldness and passion. As opposite signs, they are naturally attracted to each other, with Libra being drawn to Aries's confidence and Aries appreciating Libra's grace and social skills. Together, they create a balanced partnership, with Libra's tact smoothing out Aries's impulsive edges and Aries bringing excitement and initiative to Libra's life. However, their differences can also lead to friction, Libra's indecisiveness might frustrate the action-oriented Aries, while Aries's directness can sometimes be too harsh for the peace-loving Libra. For their relationship to thrive, they must learn to communicate openly and respect each other's differing approaches. When they do, Libra and Aries can create a harmonious and dynamic partnership that combines diplomacy with action.",
+        cancer: "Libra and Cancer create a warm and nurturing partnership, blending Libra's social grace with Cancer's emotional depth. Libra is drawn to Cancer's sensitivity and caring nature, while Cancer appreciates Libra's diplomacy and charm. Together, they can create a harmonious and loving relationship, with Libra providing a sense of balance and Cancer offering emotional security. Libra enjoys the comfort and nurturing environment that Cancer creates, while Cancer appreciates Libra's ability to bring harmony and peace to their life. However, their differences can sometimes lead to misunderstandings, Libra's need for social interaction may clash with Cancer's desire for a more private and intimate connection. Cancer's moodiness can be challenging for Libra, who seeks harmony and balance. For their relationship to succeed, they must learn to communicate openly and respect each other's emotional needs. When they do, Libra and Cancer can create a deep and fulfilling partnership that is full of love and mutual understanding.",
+        capricorn: "Libra and Capricorn create a refined and ambitious partnership, blending Libra's charm and social grace with Capricorn's discipline and determination. Libra is attracted to Capricorn's strength and reliability, while Capricorn admires Libra's elegance and ability to connect with others. Together, they can create a successful and harmonious relationship, with Libra bringing a touch of beauty and diplomacy to Capricorn's life, and Capricorn providing structure and stability. However, their different approaches to life can sometimes lead to challenges, Libra's love for socializing and indecisiveness might clash with Capricorn's focus on work and practicality. Capricorn's seriousness can sometimes dampen Libra's light-heartedness, while Libra's desire for a luxurious lifestyle may conflict with Capricorn's more conservative approach to finances. For their relationship to thrive, both must learn to appreciate each other's strengths and find common ground. When they do, Libra and Capricorn can create a balanced and fulfilling partnership that combines beauty with ambition.",
+        gemini: "Libra and Gemini make an intellectually stimulating and socially dynamic pair, both being air signs with a love for communication and exploration. Libra's diplomatic nature and Gemini's quick wit create a relationship full of lively conversations and shared interests. They enjoy a rich social life together, attending cultural events and engaging in intellectual discussions. Libra appreciates Gemini's versatility and humor, while Gemini admires Libra's grace and charm. However, their shared love for variety and socializing can sometimes lead to a lack of depth and commitment. Libra's desire for harmony may clash with Gemini's love for debate, and Gemini's unpredictability can unsettle Libra's need for balance. For their relationship to thrive, they must work on deepening their emotional connection and finding common ground. When they do, Libra and Gemini can create a vibrant and intellectually fulfilling partnership that is full of laughter and shared experiences.",
+        leo: "Libra and Leo form a glamorous and charismatic pair, full of passion, creativity, and mutual admiration. Both signs enjoy being in the spotlight and have a natural flair for drama and elegance. Libra's charm and diplomacy complement Leo's confidence and warmth, making them a socially dynamic and attractive couple. They enjoy a rich social life together, attending parties, cultural events, and enjoying the finer things in life. Libra appreciates Leo's generosity and enthusiasm, while Leo admires Libra's grace and intelligence. However, their strong personalities can sometimes lead to power struggles, Leo's need for admiration might clash with Libra's desire for equality and fairness. Libra's indecisiveness can frustrate Leo, who prefers decisive action. For their relationship to thrive, both must learn to share the spotlight and support each other's strengths. When they do, Libra and Leo can create a vibrant and loving partnership that is full of romance and mutual respect.",
+        libra: "When two Libras come together, the result is a harmonious and balanced relationship, full of beauty, grace, and mutual respect. Both partners share a love for art, culture, and socializing, making their time together full of stimulating conversations and enjoyable experiences. They understand each other's need for harmony and are skilled at navigating conflicts with diplomacy and tact. This pairing enjoys a peaceful and aesthetically pleasing relationship, with both partners appreciating each other's charm and elegance. However, their shared tendency to avoid conflict can sometimes lead to issues being swept under the rug, causing tension to build up over time. Additionally, their indecisiveness can make it challenging to make decisions, as both partners may defer to the other. For their relationship to thrive, they must work on being more assertive and addressing issues as they arise. When they do, two Libras can create a beautiful and loving partnership that is full of mutual admiration and respect.",
+        pisces: "Libra and Pisces create a dreamy and romantic partnership, blending Libra's charm and social grace with Pisces's sensitivity and compassion. Libra is captivated by Pisces's artistic and intuitive nature, while Pisces appreciates Libra's elegance and diplomacy. Together, they can create a loving and harmonious relationship, with Libra providing balance and structure, and Pisces offering emotional depth and creativity. However, their differences can sometimes lead to challenges, Libra's need for social interaction and balance might clash with Pisces's introspective and emotional nature. Pisces's tendency to escape into fantasy can sometimes be confusing for Libra, who seeks harmony and clarity. For their relationship to thrive, both must learn to communicate openly and respect each other's emotional needs. When they do, Libra and Pisces can create a beautiful and compassionate partnership that is full of love, creativity, and mutual understanding.",
+        sagittarius: "Libra and Sagittarius form a lively and adventurous pair, full of excitement, optimism, and a love for exploration. Libra's social grace and diplomacy complement Sagittarius's free-spirited and adventurous nature, making their relationship full of fun and new experiences. They enjoy a rich social life together, with Libra appreciating Sagittarius's honesty and enthusiasm, and Sagittarius admiring Libra's charm and ability to navigate social situations. However, their different needs can sometimes lead to conflicts, Libra's desire for harmony and partnership might clash with Sagittarius's need for independence and freedom. Sagittarius's bluntness can sometimes hurt Libra's sensitive feelings, while Libra's indecisiveness can frustrate the straightforward Sagittarius. For a successful relationship, both must learn to respect each other's need for space and independence while also nurturing their connection. When they do, Libra and Sagittarius can create a joyful and adventurous partnership that is full of love, growth, and shared experiences.",
+        scorpio: "Libra and Scorpio create a complex and intriguing partnership, blending Libra's charm and diplomacy with Scorpio's intensity and depth. Libra is fascinated by Scorpio's mysterious and passionate nature, while Scorpio is drawn to Libra's grace and social ease. Together, they can create a powerful and magnetic relationship, with Libra providing balance and harmony, and Scorpio offering emotional depth and transformation. However, their differences can sometimes lead to challenges, Libra's desire for peace and avoidance of conflict might clash with Scorpio's intense emotions and need for honesty. Scorpio's possessiveness can feel stifling to Libra, who values freedom and social interaction. For their relationship to succeed, both must learn to communicate openly and respect each other's emotional landscapes. When they find a balance, Libra and Scorpio can create a transformative and deeply fulfilling partnership that combines beauty with intensity.",
+        taurus: "Libra and Taurus form a harmonious and aesthetically pleasing pairing, both ruled by Venus, the planet of love and beauty. This connection creates a shared appreciation for the finer things in life, such as art, music, and luxurious surroundings. Libra's social grace and charm complement Taurus's steady and reliable nature, making for a stable and loving relationship. Taurus provides Libra with a sense of security and grounding, while Libra brings a touch of elegance and social flair to Taurus's life. However, challenges may arise from their differing pace and decision-making styles, Taurus's stubbornness can clash with Libra's indecisiveness, and Libra's need for social interaction might feel overwhelming to the more introverted Taurus. For a successful partnership, they must find a balance between Taurus's need for stability and Libra's love for variety. Together, Libra and Taurus can create a beautiful and harmonious relationship filled with love and mutual appreciation.",
+        virgo: "Libra and Virgo create a thoughtful and balanced partnership, blending Libra's love for harmony with Virgo's attention to detail and practicality. Libra is drawn to Virgo's intelligence and reliability, while Virgo appreciates Libra's charm and social grace. Together, they can create a harmonious and stable relationship, with Libra bringing a sense of beauty and elegance to Virgo's life, and Virgo providing structure and order. However, their differing approaches to life can sometimes lead to challenges, Libra's indecisiveness and desire for social interaction might clash with Virgo's need for precision and routine. Virgo's critical nature can sometimes hurt Libra's sensitive feelings, while Libra's tendency to avoid conflict can frustrate the more straightforward Virgo. For a successful relationship, both must learn to communicate openly and appreciate each other's strengths. When they do, Libra and Virgo can create a balanced and enriching partnership that combines practicality with beauty."
+    }, nf = {
+        aquarius: "Aquarius and Pisces exhibit fair compatibility, balancing Aquarius' idealism with Pisces' empathy, fostering understanding and mutual growth.",
+        aries: "Aries-Pisces connection is moderate, combining Aries' drive with Pisces' dreaminess, requiring understanding of each other's realities.",
+        cancer: "Cancer and Pisces share a strong connection, with a nurturing and intuitive bond, creating a compassionate and spiritually fulfilling relationship.",
+        capricorn: "Capricorn and Pisces face challenges due to differences in practicality and empathy, requiring understanding and compromise.",
+        gemini: "Gemini and Pisces face challenges due to differences in practicality and imagination, requiring compromise and creative solutions.",
+        leo: "Leo and Pisces share fair harmony, balancing Leo's creativity with Pisces' intuition, fostering a creative and spiritually fulfilling relationship.",
+        libra: "Libra and Pisces face challenges balancing emotion with empathy, requiring understanding and empathy for a fulfilling bond.",
+        pisces: "Pisces-Pisces compatibility is marked by a strong bond of shared sensitivity and imagination, fostering a deep and spiritually fulfilling connection.",
+        sagittarius: "Sagittarius and Pisces exhibit moderate compatibility, blending Sagittarius' exploration with Pisces' sensitivity, requiring mutual understanding and adaptation.",
+        scorpio: "Scorpio and Pisces share a very compatible bond, with emotional depth and intuition, fostering a profound and spiritually fulfilling connection.",
+        taurus: "Taurus and Pisces face challenges due to differences in practicality and sensitivity, requiring understanding and compromise.",
+        virgo: "Virgo and Pisces exhibit moderate connection, balancing pragmatism with sensitivity, requiring mutual understanding and empathy."
+    }, rf = {
+        aquarius: "Pisces and Aquarius create an imaginative and unconventional pair, blending Pisces’s dreamy and compassionate nature with Aquarius’s innovative and independent spirit. Both signs are open-minded and enjoy exploring new ideas and possibilities, making their relationship full of creativity and excitement. Pisces is fascinated by Aquarius’s unique perspective and humanitarian ideals, while Aquarius appreciates Pisces’s empathy and artistic sensibilities. Together, they can create a visionary and inspiring partnership, with Aquarius encouraging Pisces to think outside the box and Pisces helping Aquarius connect with their emotions. However, their differences can sometimes lead to challenges, Pisces’s need for emotional connection may clash with Aquarius’s desire for freedom and detachment. Aquarius’s intellectual approach can sometimes feel distant to Pisces, who craves emotional depth and intimacy. For their relationship to succeed, both must learn to balance their need for independence with their desire for connection. When they do, Pisces and Aquarius can create a magical and forward-thinking partnership that is full of love, creativity, and mutual respect.",
+        aries: "Pisces and Aries create a unique blend of water and fire, combining Pisces’s dreamy and empathetic nature with Aries’s bold and energetic personality. Pisces is drawn to Aries's confidence and passion, while Aries is intrigued by Pisces’s creativity and compassion. Together, they can inspire each other in unexpected ways, with Aries pushing Pisces to take bold actions and Pisces encouraging Aries to explore their emotional depth. However, their differences can also lead to challenges, Pisces's sensitivity may clash with Aries's bluntness, and Aries’s impulsive nature might overwhelm Pisces's need for emotional security. Pisces may find Aries too aggressive, while Aries could view Pisces as too passive. For their relationship to thrive, both must learn to balance Aries's fiery enthusiasm with Pisces’s gentle intuition. When they do, Pisces and Aries can create a dynamic and imaginative partnership that is full of adventure and emotional growth.",
+        cancer: "Pisces and Cancer create a deeply emotional and intuitive partnership, blending Pisces’s compassionate nature with Cancer’s nurturing and protective instincts. Both signs are highly empathetic and value emotional connection, making their relationship full of understanding and support. Pisces and Cancer share a natural affinity for each other, with Pisces appreciating Cancer’s loyalty and care, and Cancer finding comfort in Pisces’s kindness and sensitivity. Together, they can create a loving and harmonious home, filled with warmth and creativity. However, their shared emotional depth can sometimes lead to mood swings and over-sensitivity, causing them to retreat into their own worlds. Pisces may struggle with Cancer’s occasional clinginess, while Cancer could find Pisces’s escapist tendencies frustrating. For a successful relationship, both must learn to communicate openly and support each other’s emotional needs. When they do, Pisces and Cancer can create a beautiful and soulful partnership that is full of love, compassion, and mutual understanding.",
+        capricorn: "Pisces and Capricorn form an intriguing and balanced partnership, blending Pisces’s intuitive and imaginative nature with Capricorn’s disciplined and practical approach. Despite their differences, they can create a stable and nurturing relationship, with Capricorn providing structure and security, and Pisces offering emotional insight and creativity. Pisces is inspired by Capricorn’s ambition and dedication, while Capricorn appreciates Pisces’s compassion and artistic talents. Together, they can create a harmonious and supportive bond, with Capricorn helping Pisces bring their dreams to life and Pisces encouraging Capricorn to embrace their emotional side. However, their differing approaches to life can sometimes lead to challenges, Pisces’s dreamy and idealistic nature may clash with Capricorn’s more grounded and realistic outlook. Capricorn’s focus on work and success can sometimes leave Pisces feeling neglected, while Pisces’s emotional depth can be overwhelming for Capricorn. For their relationship to thrive, both must learn to communicate openly and appreciate each other’s strengths. When they do, Pisces and Capricorn can create a beautiful and balanced partnership that combines creativity with practicality.",
+        gemini: "Pisces and Gemini make an intriguing and ever-changing pair, combining Pisces’s intuitive and emotional nature with Gemini's intellectual and adaptable personality. Both signs are curious and enjoy exploring new ideas and experiences, making their relationship full of excitement and variety. Pisces is fascinated by Gemini's wit and versatility, while Gemini appreciates Pisces’s creativity and depth. Together, they can inspire each other to see the world from different perspectives. However, their differences can also lead to challenges, Pisces's need for emotional connection may clash with Gemini's love for mental stimulation, and Gemini's inconsistency can leave Pisces feeling insecure. Pisces may find Gemini too superficial, while Gemini could see Pisces as too emotional. For their relationship to thrive, both must work on communication and understanding each other's needs. When they do, Pisces and Gemini can create a magical and dynamic partnership that is full of imagination and intellectual exploration.",
+        leo: "Pisces and Leo create a captivating and romantic pairing, blending Pisces’s dreamy and compassionate nature with Leo's vibrant and charismatic personality. Pisces is enchanted by Leo’s warmth and generosity, while Leo is fascinated by Pisces’s creativity and emotional depth. Together, they can create a magical and theatrical relationship, with Leo providing the spotlight and Pisces offering a sense of mystery and fantasy. However, their differences can sometimes lead to challenges, Pisces's introspective and sensitive nature may clash with Leo’s outgoing and confident demeanor. Leo’s need for attention might overwhelm Pisces, who prefers a quieter and more introspective approach to life. Pisces may find Leo too demanding, while Leo could see Pisces as too elusive. For their relationship to thrive, both must learn to respect each other’s needs and find a balance between Leo’s need for recognition and Pisces’s need for emotional connection. When they do, Pisces and Leo can create a beautiful and enchanting partnership that is full of love and artistic expression.",
+        libra: "Pisces and Libra create a charming and romantic pairing, blending Pisces’s dreamy and compassionate nature with Libra’s grace and diplomacy. Both signs value harmony, beauty, and emotional connection, making their relationship full of romance and mutual appreciation. Pisces is captivated by Libra’s charm and elegance, while Libra is enchanted by Pisces’s creativity and sensitivity. Together, they can create a loving and aesthetically pleasing relationship, filled with art, music, and cultural experiences. However, their differences can sometimes lead to challenges, Pisces’s emotional depth may clash with Libra’s more rational and balanced approach, and Libra’s indecisiveness can frustrate the more intuitive Pisces. Pisces may find Libra too superficial, while Libra could see Pisces as too emotional. For their relationship to thrive, both must learn to communicate openly and respect each other’s emotional needs. When they do, Pisces and Libra can create a beautiful and harmonious partnership that is full of love, creativity, and mutual understanding.",
+        pisces: "When two Pisces come together, the result is a deeply empathetic and intuitive partnership, full of emotional depth and understanding. Both partners share a natural affinity for each other, valuing compassion, creativity, and spirituality. Together, they create a nurturing and dreamy relationship, with both partners providing emotional support and inspiration. Pisces and Pisces enjoy exploring their shared interests in art, music, and the mystical aspects of life, creating a magical and imaginative world together. However, their shared sensitivity and emotional depth can sometimes lead to challenges, both partners may struggle with setting boundaries and dealing with practical matters. Their tendency to avoid conflict can result in issues being ignored, causing tension to build up over time. For their relationship to thrive, both must learn to communicate openly and face challenges together. When they do, two Pisces can create a beautiful and compassionate partnership that is full of love, creativity, and mutual understanding.",
+        sagittarius: "Pisces and Sagittarius create a whimsical and adventurous pair, blending Pisces’s dreamy and compassionate nature with Sagittarius’s free-spirited and optimistic personality. Both signs love to explore new ideas and experiences, making their relationship full of excitement and discovery. Pisces is inspired by Sagittarius’s enthusiasm and love for life, while Sagittarius appreciates Pisces’s creativity and emotional depth. Together, they can create a vibrant and imaginative relationship, full of shared dreams and adventures. However, their differences can sometimes lead to challenges, Pisces’s need for emotional connection may clash with Sagittarius’s love for independence and freedom. Sagittarius’s blunt honesty can sometimes hurt Pisces’s sensitive feelings, while Pisces’s introspective nature can feel limiting to Sagittarius. For a successful relationship, both must learn to respect each other’s need for space and emotional depth. When they do, Pisces and Sagittarius can create a joyful and adventurous partnership that is full of love, growth, and mutual exploration.",
+        scorpio: "Pisces and Scorpio create a deeply passionate and transformative partnership, blending Pisces’s empathetic and intuitive nature with Scorpio’s intense and mysterious personality. Both signs are highly emotional and value deep connections, making their relationship full of depth and intensity. Pisces is drawn to Scorpio’s strength and magnetism, while Scorpio is captivated by Pisces’s compassion and sensitivity. Together, they can create a powerful and soulful bond, with Scorpio providing protection and Pisces offering emotional healing. However, their shared emotional intensity can sometimes lead to power struggles and misunderstandings. Pisces’s need for peace and escapism may clash with Scorpio’s need for control and honesty. Scorpio’s possessiveness can feel overwhelming to Pisces, who values freedom and compassion. For their relationship to succeed, both must learn to trust each other and communicate openly. When they do, Pisces and Scorpio can create a profound and passionate partnership that is full of love, transformation, and mutual understanding.",
+        taurus: "Pisces and Taurus form a harmonious and romantic partnership, blending Pisces’s emotional depth with Taurus's sensual and grounded nature. Both signs value comfort, beauty, and emotional connection, creating a relationship full of warmth and affection. Pisces appreciates Taurus's stability and loyalty, while Taurus is enchanted by Pisces’s creativity and compassion. Together, they create a nurturing and supportive environment, with Taurus providing security and Pisces offering emotional insight. However, their differences can sometimes cause friction, Taurus's practicality might clash with Pisces’s dreamy nature, and Pisces's fluctuating emotions can be unsettling for the steady Taurus. Taurus may find Pisces too idealistic, while Pisces could see Taurus as too stubborn. For a successful relationship, both must learn to appreciate each other's strengths and find a balance between reality and fantasy. When they do, Pisces and Taurus can create a beautiful and loving partnership that is full of shared dreams and stability.",
+        virgo: "Pisces and Virgo form a complementary and balanced partnership, blending Pisces’s intuitive and imaginative nature with Virgo’s practical and analytical approach. Despite being opposite signs, they share a deep connection and can learn much from each other. Pisces is inspired by Virgo’s attention to detail and dedication, while Virgo appreciates Pisces’s creativity and emotional sensitivity. Together, they can create a harmonious and supportive relationship, with Virgo providing structure and Pisces offering emotional insight. However, their differences can also lead to challenges, Pisces’s dreamy nature may clash with Virgo’s need for order and precision, and Virgo’s critical approach can sometimes hurt Pisces’s sensitive feelings. Pisces may find Virgo too rigid, while Virgo could see Pisces as too chaotic. For a successful relationship, both must learn to communicate openly and appreciate each other’s strengths. When they do, Pisces and Virgo can create a nurturing and balanced partnership that combines imagination with practicality."
+    }, of = {
+        aquarius: "Aquarius and Sagittarius exhibit a strong partnership, balancing Sagittarius' independence with Aquarius' unity, creating a progressive and harmonious bond.",
+        aries: "Aries and Sagittarius share a very harmonious bond, blending adventurous traits for an optimistic and enthusiastic partnership.",
+        cancer: "Cancer and Sagittarius exhibit moderate compatibility, blending emotion with optimism, needing balance between depth and lightness.",
+        capricorn: "Sagittarius and Capricorn share good compatibility, balancing Sagittarius' freedom with Capricorn's ambition, fostering growth through balance and support.",
+        gemini: "Gemini and Sagittarius share a strong connection, with intellectual and social synergy, creating a stimulating and fulfilling partnership.",
+        leo: "Leo and Sagittarius share a very compatible bond, with enthusiasm and optimism, fostering a dynamic and adventurous connection.",
+        libra: "Libra and Sagittarius share a strong partnership, with shared social ideals and optimism, creating an enthusiastic and supportive bond.",
+        pisces: "Sagittarius and Pisces exhibit moderate compatibility, blending Sagittarius' exploration with Pisces' sensitivity, requiring mutual understanding and adaptation.",
+        sagittarius: "Sagittarius-Sagittarius compatibility is marked by a strong connection, sharing enthusiasm and an adventurous spirit, creating an exciting and dynamic relationship.",
+        scorpio: "Scorpio and Sagittarius face challenges balancing intensity with freedom, needing compromise and understanding.",
+        taurus: "Taurus and Sagittarius exhibit moderate connection, blending security with exploration, needing balance between stability and adventure.",
+        virgo: "Virgo and Sagittarius face challenges balancing detail with spontaneity, needing compromise and adaptability for growth."
+    }, sf = {
+        aquarius: "Sagittarius and Aquarius form an intellectually stimulating and free-spirited pair, both being signs that value independence, exploration, and a love for new ideas. Sagittarius's adventurous nature complements Aquarius's innovative and unconventional approach, making their relationship full of excitement and intellectual growth. They enjoy exploring new concepts, cultures, and experiences together, always seeking to expand their horizons. Sagittarius appreciates Aquarius's unique perspective and humanitarian ideals, while Aquarius admires Sagittarius's optimism and sense of humor. However, their shared love for freedom and independence can sometimes lead to a lack of emotional depth and commitment. Sagittarius's blunt honesty can sometimes clash with Aquarius's more detached and analytical nature. For their relationship to thrive, both must learn to communicate openly and respect each other's need for space and individuality. When they do, Sagittarius and Aquarius can create a vibrant and intellectually fulfilling partnership that is full of love, creativity, and mutual respect.",
+        aries: "Sagittarius and Aries create an adventurous and fiery partnership, blending Sagittarius's love for exploration and philosophy with Aries's boldness and enthusiasm. Both signs share a passion for life and a desire for excitement, making their relationship dynamic and full of energy. Sagittarius appreciates Aries's courage and spontaneity, while Aries admires Sagittarius's optimism and sense of humor. Together, they can embark on thrilling adventures and enjoy a vibrant social life. However, their impulsive natures can sometimes lead to conflicts, as both tend to act without considering the consequences. Sagittarius's love for freedom may clash with Aries's occasional possessiveness, and Aries's impatience can sometimes overwhelm Sagittarius. For their relationship to thrive, both must learn to balance their fiery impulses with a bit of patience and understanding. When they do, Sagittarius and Aries can create a passionate and exhilarating partnership that is full of growth and discovery.",
+        cancer: "Sagittarius and Cancer create an interesting and sometimes challenging partnership, blending Sagittarius's adventurous spirit with Cancer's nurturing and emotional nature. Sagittarius is attracted to Cancer's depth and sensitivity, while Cancer is intrigued by Sagittarius's optimism and zest for life. Together, they can learn much from each other, with Sagittarius introducing Cancer to new experiences and Cancer offering emotional support and stability. However, their differences can sometimes lead to misunderstandings, Sagittarius's need for freedom and exploration can clash with Cancer's desire for security and intimacy. Cancer may find Sagittarius too detached and insensitive, while Sagittarius could see Cancer as too clingy and emotional. For a successful relationship, both must learn to communicate openly and respect each other's needs. When they do, Sagittarius and Cancer can create a balanced and enriching partnership that combines adventure with emotional depth.",
+        capricorn: "Sagittarius and Capricorn form an intriguing and complementary pair, blending Sagittarius's adventurous and optimistic nature with Capricorn's disciplined and practical approach. Sagittarius is inspired by Capricorn's ambition and determination, while Capricorn appreciates Sagittarius's enthusiasm and love for life. Together, they can create a balanced and successful relationship, with Sagittarius encouraging Capricorn to embrace new experiences and Capricorn providing structure and stability. However, their differences can sometimes lead to challenges, Sagittarius's love for freedom and spontaneity may clash with Capricorn's need for order and planning. Capricorn may find Sagittarius too reckless and irresponsible, while Sagittarius could see Capricorn as too serious and restrictive. For a successful relationship, both must learn to appreciate each other's strengths and find a balance between adventure and responsibility. When they do, Sagittarius and Capricorn can create a dynamic and enriching partnership that combines excitement with practicality.",
+        gemini: "Sagittarius and Gemini make a lively and intellectually stimulating pair, both being mutable signs that thrive on variety and change. Sagittarius's love for adventure and philosophical exploration complements Gemini's curiosity and love for communication. Together, they can enjoy a relationship full of lively discussions, shared interests, and spontaneous adventures. Sagittarius appreciates Gemini's wit and versatility, while Gemini admires Sagittarius's optimism and sense of humor. However, their shared love for freedom and variety can sometimes lead to a lack of stability and commitment. Sagittarius's blunt honesty can sometimes hurt Gemini's sensitive feelings, while Gemini's inconsistency can frustrate Sagittarius. For their relationship to thrive, both must work on deepening their emotional connection and finding ways to ground their dynamic energy. When they do, Sagittarius and Gemini can create a vibrant and exciting partnership that is full of intellectual growth and shared experiences.",
+        leo: "Sagittarius and Leo form a vibrant and passionate pair, both being fire signs that thrive on excitement, adventure, and a love for life. Sagittarius's adventurous nature and philosophical outlook complement Leo's confidence and charisma, making their relationship full of passion, creativity, and mutual admiration. They enjoy a rich social life together, attending parties, exploring new places, and engaging in lively discussions. Sagittarius appreciates Leo's warmth and generosity, while Leo admires Sagittarius's optimism and humor. However, their strong personalities can sometimes lead to power struggles and competition. Sagittarius's blunt honesty can sometimes hurt Leo's pride, while Leo's need for attention and recognition can feel overwhelming to Sagittarius. For their relationship to thrive, both must learn to share the spotlight and appreciate each other's strengths. When they do, Sagittarius and Leo can create a dynamic and exciting partnership that is full of love, creativity, and shared adventures.",
+        libra: "Sagittarius and Libra create a harmonious and intellectually stimulating pair, blending Sagittarius's adventurous spirit with Libra's love for beauty and harmony. Both signs enjoy socializing, exploring new ideas, and engaging in lively discussions, making their relationship full of excitement and mutual admiration. Sagittarius is drawn to Libra's charm and diplomacy, while Libra appreciates Sagittarius's optimism and sense of humor. Together, they can create a vibrant and balanced relationship, with Sagittarius introducing Libra to new adventures and Libra providing a sense of balance and harmony. However, their differences can sometimes lead to challenges, Sagittarius's blunt honesty may clash with Libra's desire for peace and harmony, and Libra's indecisiveness can frustrate the more straightforward Sagittarius. For their relationship to thrive, both must learn to communicate openly and respect each other's needs for adventure and balance. When they do, Sagittarius and Libra can create a beautiful and intellectually fulfilling partnership that is full of love, creativity, and mutual respect.",
+        pisces: "Sagittarius and Pisces create a whimsical and adventurous partnership, blending Sagittarius's love for exploration and philosophical nature with Pisces's dreamy and compassionate personality. Both signs are open-minded and enjoy exploring new ideas, making their relationship full of creativity and shared dreams. Sagittarius is inspired by Pisces's empathy and artistic sensibilities, while Pisces appreciates Sagittarius's optimism and zest for life. Together, they can create a magical and imaginative relationship, with Sagittarius encouraging Pisces to embrace new experiences and Pisces helping Sagittarius connect with their emotions. However, their differences can sometimes lead to challenges, Sagittarius's blunt honesty may clash with Pisces's sensitivity, and Pisces's introspective nature can feel limiting to Sagittarius's need for freedom. For a successful relationship, both must learn to communicate openly and respect each other's emotional needs. When they do, Sagittarius and Pisces can create a joyful and adventurous partnership that is full of love, growth, and mutual exploration.",
+        sagittarius: "When two Sagittarians come together, the result is an adventurous and free-spirited partnership, full of excitement, optimism, and a love for exploration. Both partners share a passion for travel, new experiences, and philosophical discussions, making their relationship dynamic and ever-changing. They enjoy a vibrant social life together, exploring new cultures, engaging in stimulating conversations, and laughing at life's absurdities. However, their shared love for freedom and independence can sometimes lead to a lack of commitment and stability. Both partners may struggle with routine and responsibility, preferring to focus on the next adventure rather than the practical aspects of life. For their relationship to thrive, they must learn to balance their need for freedom with a sense of commitment and mutual support. When they do, two Sagittarians can create a joyful and adventurous partnership that is full of love, growth, and endless possibilities.",
+        scorpio: "Sagittarius and Scorpio create a powerful and intense partnership, blending Sagittarius's adventurous and philosophical nature with Scorpio's passionate and mysterious personality. Sagittarius is fascinated by Scorpio's depth and intensity, while Scorpio is intrigued by Sagittarius's optimism and love for exploration. Together, they can create a transformative and exciting relationship, with Sagittarius encouraging Scorpio to embrace new experiences and Scorpio helping Sagittarius explore their emotional depth. However, their differences can sometimes lead to challenges, Sagittarius's love for freedom and independence may clash with Scorpio's need for control and emotional intimacy. Scorpio's possessiveness can feel stifling to Sagittarius, who values freedom and adventure. For a successful relationship, both must learn to trust each other and communicate openly. When they do, Sagittarius and Scorpio can create a powerful and passionate partnership that is full of growth, transformation, and mutual understanding.",
+        taurus: "Sagittarius and Taurus form an intriguing and contrasting pair, blending Sagittarius's love for adventure and change with Taurus's love for stability and comfort. Sagittarius is drawn to Taurus's grounded and sensual nature, while Taurus is intrigued by Sagittarius's optimism and zest for life. Together, they can create a relationship that balances excitement with security, with Sagittarius introducing Taurus to new experiences and Taurus providing a sense of stability and loyalty. However, their differences can sometimes lead to friction, Sagittarius's need for freedom and exploration can clash with Taurus's desire for routine and predictability. Taurus may find Sagittarius too restless and inconsistent, while Sagittarius could see Taurus as too possessive and resistant to change. For a successful relationship, both must learn to appreciate each other's strengths and find common ground. When they do, Sagittarius and Taurus can create a dynamic and complementary partnership that combines adventure with comfort.",
+        virgo: "Sagittarius and Virgo create an intriguing and contrasting partnership, blending Sagittarius's adventurous and philosophical nature with Virgo's practical and analytical approach. Sagittarius is inspired by Virgo's intelligence and attention to detail, while Virgo appreciates Sagittarius's optimism and sense of humor. Together, they can learn much from each other, with Sagittarius encouraging Virgo to embrace spontaneity and Virgo helping Sagittarius focus on the practical aspects of life. However, their differences can sometimes lead to challenges, Sagittarius's love for freedom and exploration may clash with Virgo's need for order and routine. Virgo may find Sagittarius too reckless and inconsistent, while Sagittarius could see Virgo as too critical and rigid. For a successful relationship, both must learn to communicate openly and find a balance between adventure and practicality. When they do, Sagittarius and Virgo can create a complementary and enriching partnership that combines excitement with groundedness."
+    }, cf = {
+        aquarius: "Scorpio and Aquarius share fair compatibility, balancing Scorpio's depth with Aquarius' innovation, requiring mutual respect and appreciation.",
+        aries: "Aries-Scorpio connection exhibits moderate compatibility, balancing Aries' passion with Scorpio's intensity, requiring trust and depth.",
+        cancer: "Cancer and Scorpio share a very compatible bond, with emotional depth and intuition, fostering a profound and spiritually fulfilling connection.",
+        capricorn: "Scorpio and Capricorn exhibit moderate compatibility, balancing Scorpio's emotion with Capricorn's ambition, fostering growth through trust and dedication.",
+        gemini: "Gemini-Scorpio connection exhibits moderate compatibility, balancing emotions with logic, requiring understanding of each other's depths.",
+        leo: "Leo-Scorpio connection exhibits moderate compatibility, balancing Leo's passion with Scorpio's depth, requiring trust and emotional connection.",
+        libra: "Libra and Scorpio exhibit moderate connection, balancing trust with diplomacy, fostering growth through understanding and communication.",
+        pisces: "Scorpio and Pisces share a very compatible bond, with emotional depth and intuition, fostering a profound and spiritually fulfilling connection.",
+        sagittarius: "Scorpio and Sagittarius face challenges balancing intensity with freedom, needing compromise and understanding.",
+        scorpio: "Scorpio-Scorpio compatibility is marked by a strong connection, sharing intensity and loyalty, fostering a deep and passionate relationship.",
+        taurus: "Taurus and Scorpio share fair compatibility, balancing practicality with intensity, requiring mutual understanding and compromise.",
+        virgo: "Virgo and Scorpio share fair compatibility, balancing Virgo's logic with Scorpio's intensity, creating a dynamic and insightful bond."
+    }, lf = {
+        aquarius: "Scorpio and Aquarius compatibility is an intriguing blend of intensity and independence. When these two signs come together, they create a relationship that is both dynamic and complex. Scorpio’s deep emotions and desire for connection can sometimes clash with Aquarius’s free-spirited and independent nature. However, their differences can also create a stimulating and transformative partnership. Scorpio is intrigued by Aquarius’s originality and visionary thinking, while Aquarius is fascinated by Scorpio’s depth and intensity. Their relationship is characterized by its intellectual stimulation and emotional complexity. By embracing each other’s uniqueness and finding a balance between connection and independence, Scorpio and Aquarius can create a captivating and evolving partnership.",
+        aries: "Scorpio and Aries compatibility is an intense and fiery combination, filled with passion and determination. When these two strong-willed signs come together, they create a relationship that is both magnetic and challenging. Scorpio’s deep emotions and mysterious nature intrigue Aries, while Aries’s boldness and enthusiasm captivate Scorpio. Their relationship is marked by a powerful connection and a mutual respect for each other’s strength. However, their strong personalities can also lead to power struggles and conflicts. By embracing their shared passion and learning to navigate their differences, Scorpio and Aries can form a dynamic and transformative partnership.",
+        cancer: "Scorpio and Cancer compatibility is a deeply emotional and intuitive connection. These two water signs share a natural understanding and empathy for each other’s feelings, creating a relationship that is both nurturing and transformative. Scorpio’s passion and intensity resonate with Cancer’s sensitivity and caring nature. Together, they create a bond that is deeply rooted in emotional security and mutual support. Scorpio admires Cancer’s loyalty and nurturing spirit, while Cancer appreciates Scorpio’s strength and protectiveness. Their relationship is characterized by its emotional depth and unwavering support. However, their intense emotions can sometimes lead to moodiness and misunderstandings. By valuing each other’s emotional needs and communicating openly, Scorpio and Cancer can build a loving and resilient partnership.",
+        capricorn: "Scorpio and Capricorn compatibility is a powerful and ambitious blend. When these two determined signs come together, they create a relationship that is both focused and dynamic. Scorpio’s passion and intensity are complemented by Capricorn’s discipline and ambition. Together, they form a partnership that is both strong and enduring. Scorpio admires Capricorn’s determination and reliability, while Capricorn appreciates Scorpio’s depth and commitment. Their relationship is characterized by its mutual respect and shared goals. However, their different approaches to life can sometimes lead to tension and misunderstandings. By valuing each other’s strengths and finding common ground, Scorpio and Capricorn can build a successful and lasting partnership.",
+        gemini: "Scorpio and Gemini compatibility is a fascinating blend of mystery and curiosity. When these two signs come together, they create a relationship that is both intriguing and complex. Scorpio’s intense emotions and desire for deep connection can sometimes clash with Gemini’s light-hearted and sociable nature. However, their differences can also create a dynamic and stimulating partnership. Scorpio is intrigued by Gemini’s quick wit and adaptability, while Gemini is fascinated by Scorpio’s depth and intensity. Their relationship is characterized by its intellectual stimulation and emotional complexity. By embracing each other’s uniqueness and finding a balance between depth and lightness, Scorpio and Gemini can create a captivating and evolving partnership.",
+        leo: "Scorpio and Leo compatibility is a powerful and dramatic combination. When these two strong-willed signs come together, they create a relationship that is both passionate and dynamic. Scorpio’s intensity and determination are matched by Leo’s confidence and charisma. Together, they form a partnership that is full of excitement and mutual admiration. Scorpio is drawn to Leo’s warmth and generosity, while Leo is fascinated by Scorpio’s depth and mystery. Their relationship is characterized by its fiery passion and unwavering loyalty. However, their strong personalities can also lead to power struggles and clashes of will. By respecting each other’s strengths and finding a balance between dominance and compromise, Scorpio and Leo can create a vibrant and enduring partnership.",
+        libra: "Scorpio and Libra compatibility is a blend of intensity and harmony. When these two signs come together, they create a relationship that is both passionate and balanced. Scorpio’s deep emotions and desire for connection are complemented by Libra’s charm and diplomacy. Together, they form a partnership that is both magnetic and harmonious. Scorpio is drawn to Libra’s grace and social skills, while Libra is intrigued by Scorpio’s depth and intensity. Their relationship is characterized by its dynamic energy and mutual respect. However, their different approaches to life can sometimes lead to conflict and misunderstandings. By appreciating each other’s strengths and finding a balance between passion and harmony, Scorpio and Libra can create a beautiful and fulfilling partnership.",
+        pisces: "Scorpio and Pisces compatibility is a deeply emotional and intuitive connection. These two water signs share a natural understanding and empathy for each other’s feelings, creating a relationship that is both nurturing and transformative. Scorpio’s intensity and passion resonate with Pisces’s sensitivity and compassion. Together, they create a bond that is deeply rooted in emotional security and mutual support. Scorpio admires Pisces’s creativity and empathy, while Pisces appreciates Scorpio’s strength and protectiveness. Their relationship is characterized by its emotional depth and unwavering support. However, their intense emotions can sometimes lead to moodiness and misunderstandings. By valuing each other’s emotional needs and communicating openly, Scorpio and Pisces can build a loving and resilient partnership.",
+        sagittarius: "Scorpio and Sagittarius compatibility is a dynamic and adventurous combination. When these two signs come together, they create a relationship that is both exciting and challenging. Scorpio’s intensity and desire for deep connection can sometimes clash with Sagittarius’s free-spirited and adventurous nature. However, their differences can also create a stimulating and passionate partnership. Scorpio is intrigued by Sagittarius’s optimism and love for adventure, while Sagittarius is fascinated by Scorpio’s depth and intensity. Their relationship is characterized by its passion and dynamic energy. By embracing each other’s uniqueness and finding a balance between stability and spontaneity, Scorpio and Sagittarius can create a thrilling and evolving partnership.",
+        scorpio: "Scorpio and Scorpio compatibility is an intense and powerful connection. When two Scorpios come together, they create a relationship that is deeply passionate and transformative. Their shared intensity and emotional depth create a strong bond that is both magnetic and unbreakable. Scorpio admires and understands the other Scorpio’s complexity and desire for connection. Their relationship is characterized by its profound emotional connection and mutual respect. However, their intense personalities can also lead to power struggles and emotional turmoil. By embracing their shared depth and learning to navigate their differences, two Scorpios can create a relationship that is both deeply fulfilling and transformative.",
+        taurus: "Scorpio and Taurus compatibility is a harmonious blend of intensity and stability. These two signs are opposite each other on the zodiac wheel, creating a magnetic attraction and a balanced partnership. Scorpio’s depth and passion are complemented by Taurus’s steadfastness and sensuality. Together, they create a relationship that is both emotionally rich and grounded. Scorpio appreciates Taurus’s loyalty and reliability, while Taurus admires Scorpio’s intensity and commitment. Their relationship is characterized by its strong foundation and enduring bond. However, their fixed natures can lead to stubbornness and resistance to change. By valuing each other’s strengths and finding common ground, Scorpio and Taurus can build a lasting and fulfilling relationship.",
+        virgo: "Scorpio and Virgo compatibility is a harmonious blend of intensity and practicality. When these two signs come together, they create a relationship that is both deep and grounded. Scorpio’s passion and emotional depth are complemented by Virgo’s analytical and detail-oriented nature. Together, they form a partnership that is both intellectually stimulating and emotionally fulfilling. Scorpio appreciates Virgo’s dedication and reliability, while Virgo admires Scorpio’s intensity and commitment. Their relationship is characterized by its strong foundation and mutual respect. However, their different approaches to life can sometimes lead to misunderstandings and tension. By valuing each other’s strengths and finding common ground, Scorpio and Virgo can build a stable and enriching partnership."
+    }, df = {
+        aquarius: "Aquarius and Taurus share moderate compatibility, balancing tradition with innovation, needing mutual appreciation for different approaches.",
+        aries: "Aries and Taurus exhibit moderate compatibility, with Aries' assertiveness needing to find harmony with Taurus' stability for a balanced partnership.",
+        cancer: "The Taurus-Cancer connection is good, offering emotional stability and shared values, creating a nurturing and supportive relationship.",
+        capricorn: "Taurus and Capricorn form a strong partnership, grounded and ambitious together, supporting each other's goals and creating stability.",
+        gemini: "Gemini and Taurus share moderate compatibility, blending adaptability with stability, needing mutual understanding and compromise for a balanced partnership.",
+        leo: "Taurus and Leo face challenges balancing practicality with passion, needing understanding of each other's approaches for harmony.",
+        libra: "Taurus and Libra share moderate compatibility, blending tradition with novelty, needing balance and appreciation of uniqueness.",
+        pisces: "Taurus and Pisces face challenges due to differences in practicality and sensitivity, requiring understanding and compromise.",
+        sagittarius: "Taurus and Sagittarius exhibit moderate connection, blending security with exploration, needing balance between stability and adventure.",
+        scorpio: "Taurus and Scorpio share fair compatibility, balancing practicality with intensity, requiring mutual understanding and compromise.",
+        taurus: "Taurus-Taurus compatibility is marked by a strong bond of shared values and stability, creating a reliable and enduring partnership.",
+        virgo: "Taurus and Virgo share good compatibility, with practicality and attention to detail, creating a harmonious and efficient partnership."
+    }, uf = {
+        aquarius: "Taurus and Aquarius compatibility is an intriguing blend of stability and innovation. When these two signs come together, they create a relationship that is both dynamic and challenging. Taurus’s steady and grounded nature contrasts with Aquarius’s free-spirited and unconventional personality. However, their differences can also create a stimulating and enriching partnership. Taurus is fascinated by Aquarius’s originality and visionary thinking, while Aquarius appreciates Taurus’s reliability and sense of security. Their relationship is characterized by its balance of stability and excitement. By embracing each other’s uniqueness and finding common ground, Taurus and Aquarius can create a fulfilling and evolving partnership.",
+        aries: "Taurus and Aries compatibility is a fascinating blend of steadiness and spontaneity. When these two signs come together, they create a relationship that is both dynamic and challenging. Taurus’s calm and patient nature contrasts with Aries’s energetic and impulsive approach to life. However, their differences can complement each other well. Taurus provides stability and grounding for Aries’s adventurous spirit, while Aries brings excitement and inspiration to Taurus’s life. Their relationship is characterized by a mix of security and passion, with both partners learning to appreciate each other’s strengths. By finding a balance between stability and adventure, Taurus and Aries can create a fulfilling and harmonious partnership.",
+        cancer: "Taurus and Cancer compatibility is a nurturing and harmonious connection. When these two signs come together, they create a relationship that is both emotionally fulfilling and secure. Taurus’s steadfastness and practicality complement Cancer’s sensitivity and nurturing nature. Together, they form a bond that is deeply rooted in emotional security and mutual support. Taurus appreciates Cancer’s loyalty and caring spirit, while Cancer admires Taurus’s strength and reliability. Their relationship is characterized by its warmth and emotional depth. By valuing each other’s emotional needs and creating a safe and loving environment, Taurus and Cancer can build a lasting and fulfilling partnership.",
+        capricorn: "Taurus and Capricorn compatibility is a harmonious and ambitious connection. When these two earth signs come together, they create a relationship that is both stable and focused. Taurus’s steadfastness and practicality complement Capricorn’s discipline and ambition. Together, they form a bond that is deeply rooted in mutual respect and shared goals. Taurus appreciates Capricorn’s dedication and reliability, while Capricorn admires Taurus’s strength and consistency. Their relationship is characterized by its stability and mutual support. By working towards common goals and valuing each other’s strengths, Taurus and Capricorn can build a lasting and successful partnership.",
+        gemini: "Taurus and Gemini compatibility is an intriguing blend of stability and versatility. When these two signs come together, they create a relationship that is both challenging and stimulating. Taurus’s steady and grounded nature can sometimes clash with Gemini’s restless and changeable personality. However, their differences can also create a dynamic and interesting partnership. Taurus is fascinated by Gemini’s wit and adaptability, while Gemini appreciates Taurus’s reliability and sense of security. Their relationship is characterized by its balance of stability and excitement. By embracing each other’s uniqueness and finding common ground, Taurus and Gemini can create a partnership that is both enriching and evolving.",
+        leo: "Taurus and Leo compatibility is a dynamic and passionate blend. When these two signs come together, they create a relationship that is both exciting and challenging. Taurus’s steady and grounded nature contrasts with Leo’s bold and flamboyant personality. However, their differences can also create a vibrant and stimulating partnership. Taurus is drawn to Leo’s confidence and warmth, while Leo appreciates Taurus’s reliability and sensuality. Their relationship is characterized by its passion and mutual admiration. By respecting each other’s strengths and finding a balance between stability and excitement, Taurus and Leo can create a fulfilling and enduring partnership.",
+        libra: "Taurus and Libra compatibility is a blend of beauty and harmony. When these two signs come together, they create a relationship that is both aesthetically pleasing and balanced. Taurus’s love for comfort and luxury complements Libra’s appreciation for beauty and harmony. Together, they form a bond that is marked by mutual admiration and a shared love for the finer things in life. Taurus appreciates Libra’s charm and diplomacy, while Libra admires Taurus’s strength and sensuality. Their relationship is characterized by its balance and mutual respect. By finding common ground and appreciating each other’s strengths, Taurus and Libra can create a harmonious and fulfilling partnership.",
+        pisces: "Taurus and Pisces compatibility is a deeply emotional and harmonious connection. When these two signs come together, they create a relationship that is both nurturing and fulfilling. Taurus’s steadfastness and practicality complement Pisces’s sensitivity and compassion. Together, they form a bond that is deeply rooted in emotional security and mutual support. Taurus appreciates Pisces’s creativity and empathy, while Pisces admires Taurus’s strength and reliability. Their relationship is characterized by its warmth and emotional depth. By valuing each other’s emotional needs and creating a safe and loving environment, Taurus and Pisces can build a lasting and fulfilling partnership.",
+        sagittarius: "Taurus and Sagittarius compatibility is an intriguing blend of stability and adventure. When these two signs come together, they create a relationship that is both dynamic and challenging. Taurus’s steady and grounded nature contrasts with Sagittarius’s free-spirited and adventurous personality. However, their differences can also create a stimulating and enriching partnership. Taurus is fascinated by Sagittarius’s optimism and love for adventure, while Sagittarius appreciates Taurus’s reliability and sense of security. Their relationship is characterized by its balance of stability and excitement. By embracing each other’s uniqueness and finding common ground, Taurus and Sagittarius can create a fulfilling and evolving partnership.",
+        scorpio: "Taurus and Scorpio compatibility is a powerful and magnetic connection. When these two signs come together, they create a relationship that is both intense and transformative. Taurus’s steadfastness and practicality contrast with Scorpio’s depth and intensity. However, their differences can also create a dynamic and passionate partnership. Taurus is drawn to Scorpio’s mysterious and passionate nature, while Scorpio appreciates Taurus’s strength and reliability. Their relationship is characterized by its strong bond and mutual respect. By valuing each other’s strengths and finding a balance between stability and intensity, Taurus and Scorpio can create a powerful and enduring partnership.",
+        taurus: "Taurus and Taurus compatibility is a harmonious and grounded connection. When two Taureans come together, they create a relationship that is marked by mutual understanding and shared values. Their similar approach to life ensures a stable and enduring partnership. Both value security, loyalty, and comfort, making their bond strong and resilient. They enjoy the finer things in life and share a love for beauty and sensuality. However, their stubborn natures can sometimes lead to conflicts. By learning to compromise and communicate openly, two Taureans can build a relationship that is both deeply satisfying and long-lasting.",
+        virgo: "Taurus and Virgo compatibility is a harmonious and practical connection. When these two earth signs come together, they create a relationship that is both stable and nurturing. Taurus’s steadfastness and reliability complement Virgo’s analytical and detail-oriented nature. Together, they form a bond that is deeply rooted in mutual respect and shared values. Taurus appreciates Virgo’s dedication and practicality, while Virgo admires Taurus’s strength and reliability. Their relationship is characterized by its stability and mutual support. By valuing each other’s strengths and working towards common goals, Taurus and Virgo can build a lasting and fulfilling partnership."
+    }, hf = {
+        aquarius: "Virgo and Aquarius form a good match, offering intellectual stimulation and adaptability, blending practicality with innovation.",
+        aries: "Aries and Virgo share fair harmony, with Aries' confidence complementing Virgo's practicality, requiring balance and understanding.",
+        cancer: "Cancer and Virgo share fair harmony, balancing emotions with practicality, creating a stable and supportive relationship.",
+        capricorn: "Virgo and Capricorn share very compatible traits, with practicality and diligence, creating a stable and successful partnership.",
+        gemini: "Gemini and Virgo share fair harmony, needing to balance detail-oriented and spontaneous traits, fostering mutual understanding.",
+        leo: "Leo and Virgo exhibit fair harmony, balancing confidence with practicality, requiring mutual respect and support.",
+        libra: "Virgo and Libra exhibit moderate compatibility, balancing Virgo's order with Libra's harmony, requiring mutual understanding and compromise.",
+        pisces: "Virgo and Pisces exhibit moderate connection, balancing pragmatism with sensitivity, requiring mutual understanding and empathy.",
+        sagittarius: "Virgo and Sagittarius face challenges balancing detail with spontaneity, needing compromise and adaptability for growth.",
+        scorpio: "Virgo and Scorpio share fair compatibility, balancing Virgo's logic with Scorpio's intensity, creating a dynamic and insightful bond.",
+        taurus: "Taurus and Virgo share good compatibility, with practicality and attention to detail, creating a harmonious and efficient partnership.",
+        virgo: "Virgo-Virgo compatibility is marked by a strong bond of shared practicality and attention to detail, creating a harmonious and efficient partnership."
+    }, mf = {
+        aquarius: "Virgo and Aquarius compatibility is an intriguing blend of practicality and innovation. When these two signs come together, they create a relationship that is both dynamic and challenging. Virgo’s analytical and detail-oriented nature contrasts with Aquarius’s free-spirited and unconventional personality. However, their differences can also create a stimulating and enriching partnership. Virgo is fascinated by Aquarius’s originality and visionary thinking, while Aquarius appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its balance of stability and excitement. By embracing each other’s uniqueness and finding common ground, Virgo and Aquarius can create a fulfilling and evolving partnership.",
+        aries: "Virgo and Aries compatibility is a fascinating blend of practicality and passion. When these two signs come together, they create a relationship that is both dynamic and challenging. Virgo’s analytical and detail-oriented nature contrasts with Aries’s energetic and impulsive approach to life. However, their differences can also complement each other well. Virgo provides stability and structure to Aries’s enthusiastic endeavors, while Aries brings excitement and inspiration to Virgo’s organized world. Their relationship is characterized by a mix of practicality and passion, with both partners learning to appreciate each other’s strengths. By finding a balance between order and spontaneity, Virgo and Aries can create a fulfilling and harmonious partnership.",
+        cancer: "Virgo and Cancer compatibility is a nurturing and harmonious connection. When these two signs come together, they create a relationship that is both emotionally fulfilling and secure. Virgo’s analytical and detail-oriented nature complements Cancer’s sensitivity and nurturing spirit. Together, they form a bond that is deeply rooted in emotional security and mutual support. Virgo appreciates Cancer’s loyalty and caring nature, while Cancer admires Virgo’s dedication and reliability. Their relationship is characterized by its warmth and emotional depth. By valuing each other’s emotional needs and creating a safe and loving environment, Virgo and Cancer can build a lasting and fulfilling partnership.",
+        capricorn: "Virgo and Capricorn compatibility is a harmonious and ambitious connection. When these two earth signs come together, they create a relationship that is both stable and focused. Virgo’s analytical and detail-oriented nature complements Capricorn’s discipline and ambition. Together, they form a bond that is deeply rooted in mutual respect and shared goals. Virgo appreciates Capricorn’s dedication and reliability, while Capricorn admires Virgo’s intelligence and practicality. Their relationship is characterized by its stability and mutual support. By working towards common goals and valuing each other’s strengths, Virgo and Capricorn can build a lasting and successful partnership.",
+        gemini: "Virgo and Gemini compatibility is an intriguing blend of intellect and adaptability. When these two signs come together, they create a relationship that is both stimulating and complex. Virgo’s analytical and detail-oriented nature can sometimes clash with Gemini’s restless and changeable personality. However, their differences can also create a dynamic and interesting partnership. Virgo is fascinated by Gemini’s quick wit and versatility, while Gemini appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its intellectual stimulation and mutual respect. By embracing each other’s uniqueness and finding common ground, Virgo and Gemini can create a partnership that is both enriching and evolving.",
+        leo: "Virgo and Leo compatibility is a dynamic and balanced blend. When these two signs come together, they create a relationship that is both exciting and challenging. Virgo’s analytical and detail-oriented nature contrasts with Leo’s bold and charismatic personality. However, their differences can also create a vibrant and stimulating partnership. Virgo is drawn to Leo’s confidence and warmth, while Leo appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its passion and mutual admiration. By respecting each other’s strengths and finding a balance between order and spontaneity, Virgo and Leo can create a fulfilling and enduring partnership.",
+        libra: "Virgo and Libra compatibility is a blend of intellect and harmony. When these two signs come together, they create a relationship that is both balanced and stimulating. Virgo’s analytical and detail-oriented nature complements Libra’s charm and diplomacy. Together, they form a bond that is marked by mutual respect and shared values. Virgo appreciates Libra’s grace and social skills, while Libra admires Virgo’s intelligence and practicality. Their relationship is characterized by its balance and mutual admiration. By finding common ground and appreciating each other’s strengths, Virgo and Libra can create a harmonious and fulfilling partnership.",
+        pisces: "Virgo and Pisces compatibility is a deeply emotional and harmonious connection. When these two signs come together, they create a relationship that is both nurturing and fulfilling. Virgo’s analytical and detail-oriented nature contrasts with Pisces’s sensitivity and compassion. However, their differences can also create a dynamic and enriching partnership. Virgo is fascinated by Pisces’s creativity and empathy, while Pisces appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its warmth and emotional depth. By valuing each other’s emotional needs and creating a safe and loving environment, Virgo and Pisces can build a lasting and fulfilling partnership.",
+        sagittarius: "Virgo and Sagittarius compatibility is an intriguing blend of practicality and adventure. When these two signs come together, they create a relationship that is both dynamic and challenging. Virgo’s analytical and detail-oriented nature contrasts with Sagittarius’s free-spirited and adventurous personality. However, their differences can also create a stimulating and enriching partnership. Virgo is fascinated by Sagittarius’s optimism and love for adventure, while Sagittarius appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its balance of stability and excitement. By embracing each other’s uniqueness and finding common ground, Virgo and Sagittarius can create a fulfilling and evolving partnership.",
+        scorpio: "Virgo and Scorpio compatibility is a powerful and intense connection. When these two signs come together, they create a relationship that is both deep and transformative. Virgo’s analytical and detail-oriented nature contrasts with Scorpio’s depth and intensity. However, their differences can also create a dynamic and passionate partnership. Virgo is drawn to Scorpio’s mysterious and passionate nature, while Scorpio appreciates Virgo’s intelligence and practicality. Their relationship is characterized by its strong bond and mutual respect. By valuing each other’s strengths and finding a balance between stability and intensity, Virgo and Scorpio can create a powerful and enduring partnership.",
+        taurus: "Virgo and Taurus compatibility is a harmonious and practical connection. When these two earth signs come together, they create a relationship that is both stable and nurturing. Virgo’s analytical and detail-oriented nature complements Taurus’s steadfastness and reliability. Together, they form a bond that is deeply rooted in mutual respect and shared values. Virgo appreciates Taurus’s dedication and practicality, while Taurus admires Virgo’s precision and work ethic. Their relationship is characterized by its stability and mutual support. By working towards common goals and valuing each other’s strengths, Virgo and Taurus can build a lasting and successful partnership.",
+        virgo: "Virgo and Virgo compatibility is a harmonious and precise connection. When two Virgos come together, they create a relationship that is marked by mutual understanding and shared values. Their similar approach to life ensures a stable and enduring partnership. Both value practicality, organization, and dedication, making their bond strong and resilient. They appreciate each other’s intelligence and attention to detail. However, their critical natures can sometimes lead to conflicts. By learning to compromise and communicate openly, two Virgos can build a relationship that is both deeply satisfying and long-lasting."
+    }, pf = {
+        aquarius: zg,
+        aries: Gg,
+        cancer: Ug,
+        capricorn: Kg,
+        gemini: Jg,
+        leo: Xg,
+        libra: tf,
+        pisces: nf,
+        sagittarius: of,
+        scorpio: cf,
+        taurus: df,
+        virgo: hf
+    }, gf = {
+        aquarius: Wg,
+        aries: Yg,
+        cancer: $g,
+        capricorn: Qg,
+        gemini: Zg,
+        leo: ef,
+        libra: af,
+        pisces: rf,
+        sagittarius: sf,
+        scorpio: lf,
+        taurus: uf,
+        virgo: mf
+    }, wn = {
+        value: "default",
+        display: "Select a sign",
+        image: Ar,
+        smallImage: Ar,
+        summary: ""
+    }, zn = [wn, {
+        value: "aquarius",
+        display: "Aquarius",
+        dateRange: "Jan 20th to Feb 18th",
+        image: gh,
+        smallImage: fh,
+        summary: "Aquarians are known for their independent and progressive nature. They are often seen as innovative thinkers, highly intellectual, and deeply humanitarian, always striving for social change and equality."
+    }, {
+        value: "aries",
+        display: "Aries",
+        dateRange: "Mar 21st to Apr 19th",
+        image: yh,
+        smallImage: bh,
+        summary: "Aries individuals are known for their boldness, enthusiasm, and determination. They are natural leaders who thrive on challenges, often being adventurous, competitive, and full of energy, always ready to take on new ventures."
+    }, {
+        value: "cancer",
+        display: "Cancer",
+        dateRange: "Jun 21st to Jul 22nd",
+        image: xh,
+        smallImage: vh,
+        summary: "Cancerians are known for their nurturing and empathetic nature. They are highly intuitive, emotional, and protective of their loved ones, often exhibiting a strong sense of loyalty and devotion in their relationships."
+    }, {
+        value: "capricorn",
+        display: "Capricorn",
+        dateRange: "Dec 22nd to Jan 19th",
+        image: wh,
+        smallImage: jh,
+        summary: "Capricorns are known for their ambition, discipline, and practicality. They are hardworking individuals with a strong sense of responsibility and perseverance, often striving for success and stability in all aspects of life."
+    }, {
+        value: "gemini",
+        display: "Gemini",
+        dateRange: "May 21st to Jun 20th",
+        image: Sh,
+        smallImage: Ch,
+        summary: "Geminis are known for their curiosity, versatility, and sociable nature. They are excellent communicators, adaptable, and intellectually curious, often displaying a dual personality that is both charming and complex."
+    }, {
+        value: "leo",
+        display: "Leo",
+        dateRange: "Jul 23rd to Aug 22nd",
+        image: Th,
+        smallImage: kh,
+        summary: "Leos are known for their confidence, charisma, and leadership qualities. They are natural performers who enjoy being in the spotlight, often exhibiting generosity, warmth, and a strong sense of pride in their accomplishments."
+    }, {
+        value: "libra",
+        display: "Libra",
+        dateRange: "Sep 23rd to Oct 22nd",
+        image: Ah,
+        smallImage: _h,
+        summary: "Librans are known for their diplomacy, fairness, and harmony-seeking nature. They are skilled mediators who value peace and cooperation, often exhibiting a strong sense of justice and a desire for balance in all areas of life."
+    }, {
+        value: "pisces",
+        display: "Pisces",
+        dateRange: "Feb 19th to Mar 20th",
+        image: Lh,
+        smallImage: Ph,
+        summary: "Pisceans are known for their empathy, creativity, and dreamy nature. They are deeply intuitive, compassionate, and imaginative individuals, often displaying a strong connection to their emotions and the spiritual realm."
+    }, {
+        value: "sagittarius",
+        display: "Sagittarius",
+        dateRange: "Nov 22nd to Dec 21st",
+        image: Ih,
+        smallImage: Eh,
+        summary: "Sagittarians are known for their adventurous spirit, optimism, and philosophical outlook. They are seekers of truth and knowledge, often being open-minded, enthusiastic, and freedom-loving, always ready for new experiences."
+    }, {
+        value: "scorpio",
+        display: "Scorpio",
+        dateRange: "Oct 23rd to Nov 21st",
+        image: qh,
+        smallImage: Rh,
+        summary: "Scorpios are known for their intensity, passion, and resourcefulness. They are deeply emotional and perceptive individuals, often exhibiting determination, loyalty, and a mysterious aura that draws others to them."
+    }, {
+        value: "taurus",
+        display: "Taurus",
+        dateRange: "Apr 20th to May 20th",
+        image: Dh,
+        smallImage: Fh,
+        summary: "Taureans are known for their stability, reliability, and practicality. They are grounded individuals who value security and comfort, often exhibiting patience, loyalty, and a strong connection to nature and material pleasures."
+    }, {
+        value: "virgo",
+        display: "Virgo",
+        dateRange: "Aug 23rd to Sep 22nd",
+        image: Bh,
+        smallImage: Mh,
+        summary: "Virgos are known for their analytical mind, attention to detail, and perfectionist tendencies. They are methodical and reliable individuals who excel in organization and problem-solving, often exhibiting a strong sense of duty and a desire for orderliness."
+    }], Ut = {
+        summary: {
+            value: "summary",
+            display: "Summary",
+            summaryDisplay: "Summary",
+            category: "Astrology",
+            order: 0
+        },
+        horoscope: {
+            value: "horoscope",
+            display: "Horoscope",
+            summaryDisplay: "Horoscope",
+            category: "Astrology",
+            order: 1
+        },
+        compatibility: {
+            value: "compatibility",
+            display: "Compatibility",
+            summaryDisplay: "Compatibility",
+            category: "Compatibility",
+            startIconUrl: Nh,
+            order: 3
+        },
+        lifepath: {
+            value: "lifepath",
+            display: "Life Path",
+            summaryDisplay: "Numerology Lifepath",
+            category: "Numerology",
+            order: 2
+        },
+        personality: {
+            value: "personality",
+            display: "Personality Trait",
+            summaryDisplay: "Numerology Personality Trait",
+            category: "Numerology",
+            order: 4
+        },
+        ascendant: {
+            value: "ascendant",
+            display: "Rising/Ascendant",
+            summaryDisplay: "Rising Sign/Ascendant",
+            category: "Rising Sign",
+            startIconUrl: Oh,
+            order: 5
+        }
+    }, ff = t => {
+        const a = t ? gf : pf;
+        return {
+            aquarius: {
+                aquarius: {
+                    compatibility: 45,
+                    summary: a.aquarius.aquarius
+                },
+                aries: {
+                    compatibility: 78,
+                    summary: a.aquarius.aries
+                },
+                cancer: {
+                    compatibility: 27,
+                    summary: a.aquarius.cancer
+                },
+                capricorn: {
+                    compatibility: 68,
+                    summary: a.aquarius.capricorn
+                },
+                gemini: {
+                    compatibility: 85,
+                    summary: a.aquarius.gemini
+                },
+                leo: {
+                    compatibility: 68,
+                    summary: a.aquarius.leo
+                },
+                libra: {
+                    compatibility: 90,
+                    summary: a.aquarius.libra
+                },
+                pisces: {
+                    compatibility: 45,
+                    summary: a.aquarius.pisces
+                },
+                sagittarius: {
+                    compatibility: 90,
+                    summary: a.aquarius.sagittarius
+                },
+                scorpio: {
+                    compatibility: 73,
+                    summary: a.aquarius.scorpio
+                },
+                taurus: {
+                    compatibility: 58,
+                    summary: a.aquarius.taurus
+                },
+                virgo: {
+                    compatibility: 30,
+                    summary: a.aquarius.virgo
+                }
+            },
+            aries: {
+                aquarius: {
+                    compatibility: 78,
+                    summary: a.aries.aquarius
+                },
+                aries: {
+                    compatibility: 50,
+                    summary: a.aries.aries
+                },
+                cancer: {
+                    compatibility: 42,
+                    summary: a.aries.cancer
+                },
+                capricorn: {
+                    compatibility: 47,
+                    summary: a.aries.capricorn
+                },
+                gemini: {
+                    compatibility: 83,
+                    summary: a.aries.gemini
+                },
+                leo: {
+                    compatibility: 97,
+                    summary: a.aries.leo
+                },
+                libra: {
+                    compatibility: 85,
+                    summary: a.aries.libra
+                },
+                pisces: {
+                    compatibility: 67,
+                    summary: a.aries.pisces
+                },
+                sagittarius: {
+                    compatibility: 93,
+                    summary: a.aries.sagittarius
+                },
+                scorpio: {
+                    compatibility: 50,
+                    summary: a.aries.scorpio
+                },
+                taurus: {
+                    compatibility: 38,
+                    summary: a.aries.taurus
+                },
+                virgo: {
+                    compatibility: 63,
+                    summary: a.aries.virgo
+                }
+            },
+            cancer: {
+                aquarius: {
+                    compatibility: 27,
+                    summary: a.cancer.aquarius
+                },
+                aries: {
+                    compatibility: 42,
+                    summary: a.cancer.aries
+                },
+                cancer: {
+                    compatibility: 75,
+                    summary: a.cancer.cancer
+                },
+                capricorn: {
+                    compatibility: 83,
+                    summary: a.cancer.capricorn
+                },
+                gemini: {
+                    compatibility: 65,
+                    summary: a.cancer.gemini
+                },
+                leo: {
+                    compatibility: 35,
+                    summary: a.cancer.leo
+                },
+                libra: {
+                    compatibility: 43,
+                    summary: a.cancer.libra
+                },
+                pisces: {
+                    compatibility: 98,
+                    summary: a.cancer.pisces
+                },
+                sagittarius: {
+                    compatibility: 53,
+                    summary: a.cancer.sagittarius
+                },
+                scorpio: {
+                    compatibility: 94,
+                    summary: a.cancer.scorpio
+                },
+                taurus: {
+                    compatibility: 97,
+                    summary: a.cancer.taurus
+                },
+                virgo: {
+                    compatibility: 90,
+                    summary: a.cancer.virgo
+                }
+            },
+            capricorn: {
+                aquarius: {
+                    compatibility: 68,
+                    summary: a.capricorn.aquarius
+                },
+                aries: {
+                    compatibility: 47,
+                    summary: a.capricorn.aries
+                },
+                cancer: {
+                    compatibility: 83,
+                    summary: a.capricorn.cancer
+                },
+                capricorn: {
+                    compatibility: 75,
+                    summary: a.capricorn.capricorn
+                },
+                gemini: {
+                    compatibility: 68,
+                    summary: a.capricorn.gemini
+                },
+                leo: {
+                    compatibility: 35,
+                    summary: a.capricorn.leo
+                },
+                libra: {
+                    compatibility: 55,
+                    summary: a.capricorn.libra
+                },
+                pisces: {
+                    compatibility: 88,
+                    summary: a.capricorn.pisces
+                },
+                sagittarius: {
+                    compatibility: 60,
+                    summary: a.capricorn.sagittarius
+                },
+                scorpio: {
+                    compatibility: 95,
+                    summary: a.capricorn.scorpio
+                },
+                taurus: {
+                    compatibility: 98,
+                    summary: a.capricorn.taurus
+                },
+                virgo: {
+                    compatibility: 95,
+                    summary: a.capricorn.virgo
+                }
+            },
+            gemini: {
+                aquarius: {
+                    compatibility: 85,
+                    summary: a.gemini.aquarius
+                },
+                aries: {
+                    compatibility: 83,
+                    summary: a.gemini.aries
+                },
+                cancer: {
+                    compatibility: 65,
+                    summary: a.gemini.cancer
+                },
+                capricorn: {
+                    compatibility: 68,
+                    summary: a.gemini.capricorn
+                },
+                gemini: {
+                    compatibility: 60,
+                    summary: a.gemini.gemini
+                },
+                leo: {
+                    compatibility: 88,
+                    summary: a.gemini.leo
+                },
+                libra: {
+                    compatibility: 93,
+                    summary: a.gemini.libra
+                },
+                pisces: {
+                    compatibility: 53,
+                    summary: a.gemini.pisces
+                },
+                sagittarius: {
+                    compatibility: 60,
+                    summary: a.gemini.sagittarius
+                },
+                scorpio: {
+                    compatibility: 28,
+                    summary: a.gemini.scorpio
+                },
+                taurus: {
+                    compatibility: 33,
+                    summary: a.gemini.taurus
+                },
+                virgo: {
+                    compatibility: 68,
+                    summary: a.gemini.virgo
+                }
+            },
+            leo: {
+                aquarius: {
+                    compatibility: 68,
+                    summary: a.leo.aquarius
+                },
+                aries: {
+                    compatibility: 97,
+                    summary: a.leo.aries
+                },
+                cancer: {
+                    compatibility: 35,
+                    summary: a.leo.cancer
+                },
+                capricorn: {
+                    compatibility: 35,
+                    summary: a.leo.capricorn
+                },
+                gemini: {
+                    compatibility: 88,
+                    summary: a.leo.gemini
+                },
+                leo: {
+                    compatibility: 45,
+                    summary: a.leo.leo
+                },
+                libra: {
+                    compatibility: 97,
+                    summary: a.leo.libra
+                },
+                pisces: {
+                    compatibility: 38,
+                    summary: a.leo.pisces
+                },
+                sagittarius: {
+                    compatibility: 93,
+                    summary: a.leo.sagittarius
+                },
+                scorpio: {
+                    compatibility: 58,
+                    summary: a.leo.scorpio
+                },
+                taurus: {
+                    compatibility: 73,
+                    summary: a.leo.taurus
+                },
+                virgo: {
+                    compatibility: 35,
+                    summary: a.leo.virgo
+                }
+            },
+            libra: {
+                aquarius: {
+                    compatibility: 90,
+                    summary: a.libra.aquarius
+                },
+                aries: {
+                    compatibility: 85,
+                    summary: a.libra.aries
+                },
+                cancer: {
+                    compatibility: 43,
+                    summary: a.libra.cancer
+                },
+                capricorn: {
+                    compatibility: 55,
+                    summary: a.libra.capricorn
+                },
+                gemini: {
+                    compatibility: 93,
+                    summary: a.libra.gemini
+                },
+                leo: {
+                    compatibility: 97,
+                    summary: a.libra.leo
+                },
+                libra: {
+                    compatibility: 75,
+                    summary: a.libra.libra
+                },
+                pisces: {
+                    compatibility: 88,
+                    summary: a.libra.pisces
+                },
+                sagittarius: {
+                    compatibility: 73,
+                    summary: a.libra.sagittarius
+                },
+                scorpio: {
+                    compatibility: 35,
+                    summary: a.libra.scorpio
+                },
+                taurus: {
+                    compatibility: 65,
+                    summary: a.libra.taurus
+                },
+                virgo: {
+                    compatibility: 68,
+                    summary: a.libra.virgo
+                }
+            },
+            pisces: {
+                aquarius: {
+                    compatibility: 45,
+                    summary: a.pisces.aquarius
+                },
+                aries: {
+                    compatibility: 67,
+                    summary: a.pisces.aries
+                },
+                cancer: {
+                    compatibility: 98,
+                    summary: a.pisces.cancer
+                },
+                capricorn: {
+                    compatibility: 88,
+                    summary: a.pisces.capricorn
+                },
+                gemini: {
+                    compatibility: 53,
+                    summary: a.pisces.gemini
+                },
+                leo: {
+                    compatibility: 38,
+                    summary: a.pisces.leo
+                },
+                libra: {
+                    compatibility: 88,
+                    summary: a.pisces.libra
+                },
+                pisces: {
+                    compatibility: 60,
+                    summary: a.pisces.pisces
+                },
+                sagittarius: {
+                    compatibility: 63,
+                    summary: a.pisces.sagittarius
+                },
+                scorpio: {
+                    compatibility: 97,
+                    summary: a.pisces.scorpio
+                },
+                taurus: {
+                    compatibility: 85,
+                    summary: a.pisces.taurus
+                },
+                virgo: {
+                    compatibility: 88,
+                    summary: a.pisces.virgo
+                }
+            },
+            sagittarius: {
+                aquarius: {
+                    compatibility: 90,
+                    summary: a.sagittarius.aquarius
+                },
+                aries: {
+                    compatibility: 93,
+                    summary: a.sagittarius.aries
+                },
+                cancer: {
+                    compatibility: 53,
+                    summary: a.sagittarius.cancer
+                },
+                capricorn: {
+                    compatibility: 60,
+                    summary: a.sagittarius.capricorn
+                },
+                gemini: {
+                    compatibility: 60,
+                    summary: a.sagittarius.gemini
+                },
+                leo: {
+                    compatibility: 93,
+                    summary: a.sagittarius.leo
+                },
+                libra: {
+                    compatibility: 73,
+                    summary: a.sagittarius.libra
+                },
+                pisces: {
+                    compatibility: 63,
+                    summary: a.sagittarius.pisces
+                },
+                sagittarius: {
+                    compatibility: 45,
+                    summary: a.sagittarius.sagittarius
+                },
+                scorpio: {
+                    compatibility: 28,
+                    summary: a.sagittarius.scorpio
+                },
+                taurus: {
+                    compatibility: 30,
+                    summary: a.sagittarius.taurus
+                },
+                virgo: {
+                    compatibility: 48,
+                    summary: a.sagittarius.virgo
+                }
+            },
+            scorpio: {
+                aquarius: {
+                    compatibility: 73,
+                    summary: a.scorpio.aquarius
+                },
+                aries: {
+                    compatibility: 50,
+                    summary: a.scorpio.aries
+                },
+                cancer: {
+                    compatibility: 94,
+                    summary: a.scorpio.cancer
+                },
+                capricorn: {
+                    compatibility: 95,
+                    summary: a.scorpio.capricorn
+                },
+                gemini: {
+                    compatibility: 28,
+                    summary: a.scorpio.gemini
+                },
+                leo: {
+                    compatibility: 58,
+                    summary: a.scorpio.leo
+                },
+                libra: {
+                    compatibility: 35,
+                    summary: a.scorpio.libra
+                },
+                pisces: {
+                    compatibility: 97,
+                    summary: a.scorpio.pisces
+                },
+                sagittarius: {
+                    compatibility: 28,
+                    summary: a.scorpio.sagittarius
+                },
+                scorpio: {
+                    compatibility: 80,
+                    summary: a.scorpio.scorpio
+                },
+                taurus: {
+                    compatibility: 88,
+                    summary: a.scorpio.taurus
+                },
+                virgo: {
+                    compatibility: 88,
+                    summary: a.scorpio.virgo
+                }
+            },
+            taurus: {
+                aquarius: {
+                    compatibility: 58,
+                    summary: a.taurus.aquarius
+                },
+                aries: {
+                    compatibility: 38,
+                    summary: a.taurus.aries
+                },
+                cancer: {
+                    compatibility: 97,
+                    summary: a.taurus.cancer
+                },
+                capricorn: {
+                    compatibility: 98,
+                    summary: a.taurus.capricorn
+                },
+                gemini: {
+                    compatibility: 33,
+                    summary: a.taurus.gemini
+                },
+                leo: {
+                    compatibility: 73,
+                    summary: a.taurus.leo
+                },
+                libra: {
+                    compatibility: 65,
+                    summary: a.taurus.libra
+                },
+                pisces: {
+                    compatibility: 85,
+                    summary: a.taurus.pisces
+                },
+                sagittarius: {
+                    compatibility: 30,
+                    summary: a.taurus.sagittarius
+                },
+                scorpio: {
+                    compatibility: 88,
+                    summary: a.taurus.scorpio
+                },
+                taurus: {
+                    compatibility: 65,
+                    summary: a.taurus.taurus
+                },
+                virgo: {
+                    compatibility: 90,
+                    summary: a.taurus.virgo
+                }
+            },
+            virgo: {
+                aquarius: {
+                    compatibility: 30,
+                    summary: a.virgo.aquarius
+                },
+                aries: {
+                    compatibility: 63,
+                    summary: a.virgo.aries
+                },
+                cancer: {
+                    compatibility: 90,
+                    summary: a.virgo.cancer
+                },
+                capricorn: {
+                    compatibility: 95,
+                    summary: a.virgo.capricorn
+                },
+                gemini: {
+                    compatibility: 68,
+                    summary: a.virgo.gemini
+                },
+                leo: {
+                    compatibility: 35,
+                    summary: a.virgo.leo
+                },
+                libra: {
+                    compatibility: 68,
+                    summary: a.virgo.libra
+                },
+                pisces: {
+                    compatibility: 88,
+                    summary: a.virgo.pisces
+                },
+                sagittarius: {
+                    compatibility: 48,
+                    summary: a.virgo.sagittarius
+                },
+                scorpio: {
+                    compatibility: 88,
+                    summary: a.virgo.scorpio
+                },
+                taurus: {
+                    compatibility: 90,
+                    summary: a.virgo.taurus
+                },
+                virgo: {
+                    compatibility: 65,
+                    summary: a.virgo.virgo
+                }
+            }
+        }
+    }, yf = t => new va().parseDateFromString(t.toString() || "", "L/dd/yyyy") || "", bf = (t, a) => {
+        const n = yf(a),
+            i = n.split("/");
+        localStorage.setItem("astrology_user", JSON.stringify({
+            name: t,
+            dob: n,
+            date: i[1],
+            month: i[0],
+            year: i[2]
+        }))
+    }, xf = ({
+        hour: t,
+        minute: a,
+        city_state: n,
+        country: i,
+        lat: r,
+        lon: o,
+        timezone_offset: s
+    }) => {
+        const c = localStorage.getItem("astrology_user");
+        if (!c) return null;
+        const u = JSON.parse(c);
+        u.time = {
+            hour: t,
+            minute: a
+        }, u.location = {
+            city_state: n,
+            country: i,
+            lat: r,
+            lon: o,
+            timezone_offset: s
+        }, localStorage.setItem("astrology_user", JSON.stringify(u))
+    }, Kn = t => {
+        const a = localStorage.getItem("astrology_user");
+        if (!a) return null;
+        try {
+            const n = JSON.parse(a);
+            if ("time" in n && n.time) {
+                const {
+                    hour: i,
+                    minute: r
+                } = n.time;
+                (Number(i) === 24 || Number(r) === 60) && (delete n.time, delete n.location, localStorage.setItem("astrology_user", JSON.stringify(n)))
+            }
+            return n
+        } catch (n) {
+            return t("Error parsing astrology user data from localStorage:", n), null
+        }
+    }, vf = t => {
+        const a = localStorage.getItem("astrology_user");
+        if (!a) return null;
+        try {
+            const n = JSON.parse(a);
+            delete n.time, delete n.location, localStorage.setItem("astrology_user", JSON.stringify(n))
+        } catch (n) {
+            return t("Error removing astrology ascendant user data from localStorage:", n), null
+        }
+    }, wf = () => {
+        localStorage.removeItem("astrology_user")
+    }, jf = (t, a) => {
+        localStorage.removeItem("astrology_user");
+        const n = localStorage.getItem(rn.lifepath);
+        if (!n) return null;
+        try {
+            const i = JSON.parse(n);
+            delete i[t], localStorage.setItem(rn.lifepath, JSON.stringify(i))
+        } catch (i) {
+            return a("Error parsing astrology lifepath data from localStorage:", i), null
+        }
+    }, Sf = (t, a) => {
+        localStorage.removeItem("astrology_user");
+        const n = localStorage.getItem(rn.personality);
+        if (!n) return null;
+        try {
+            const i = JSON.parse(n);
+            delete i[t], localStorage.setItem(rn.personality, JSON.stringify(i))
+        } catch (i) {
+            return a("Error parsing astrology lifepath data from localStorage:", i), null
+        }
+    }, Cf = (t, a) => {
+        jf(t, a), Sf(t, a)
+    }, Tf = (t, a) => {
+        const n = localStorage.getItem(Wa);
+        if (!n) return null;
+        try {
+            const i = JSON.parse(n);
+            delete i[t], localStorage.setItem(Wa, JSON.stringify(i))
+        } catch (i) {
+            return a("Error removing astrology ascendant data from localStorage:", i), null
+        }
+    }, kf = t => {
+        if (!t) return "";
+        if (t.sign) return t.sign;
+        const a = new Date(t.dob || ""),
+            n = a.getMonth(),
+            i = a.getDate();
+        return [i <= 20 ? "Capricorn" : "Aquarius", i <= 18 ? "Aquarius" : "Pisces", i <= 20 ? "Pisces" : "Aries", i <= 19 ? "Aries" : "Taurus", i <= 20 ? "Taurus" : "Gemini", i <= 20 ? "Gemini" : "Cancer", i <= 22 ? "Cancer" : "Leo", i <= 22 ? "Leo" : "Virgo", i <= 22 ? "Virgo" : "Libra", i <= 22 ? "Libra" : "Scorpio", i <= 21 ? "Scorpio" : "Sagittarius", i <= 21 ? "Sagittarius" : "Capricorn"][n]
+    }, ts = (t, a) => {
+        const n = a || Ut;
+        return Object.keys(n).reduce((i, r) => t.includes(r) ? i : {
+            ...i,
+            [r]: n[r]
+        }, {})
+    }, as = ({
+        onSubmitCallback: t,
+        standaloneVersion: a
+    }) => {
+        var b, f, w;
+        const {
+            trackEvent: n,
+            logError: i,
+            trackEventGA4: r
+        } = h.useContext(ce), {
+            session: {
+                account: o
+            }
+        } = Yt(), {
+            first_name: s,
+            last_name: c
+        } = (o == null ? void 0 : o.account.user_info) || {}, {
+            register: u,
+            handleSubmit: l,
+            formState: {
+                errors: d
+            },
+            setValue: C,
+            getValues: m,
+            clearErrors: v
+        } = jn({
+            mode: "onSubmit",
+            resolver: Sn(tm),
+            defaultValues: {
+                name: s && c ? `${s} ${c}` : "",
+                dob: null
+            }
+        }), L = p => {
+            v("dob"), p instanceof Bi && p && C("dob", p)
+        }, g = p => {
+            r({
+                event_name: "feature_engagement",
+                type: "astrology_insights",
+                interacted_from: "home"
+            }), n("engagement click/submit", "astrology", "astrology component");
+            const P = m("dob");
+            bf(p.name, P);
+            const q = Kn(i);
+            t(q)
+        };
+        return e.jsxs(Fg, {
+            onSubmit: l(g),
+            sx: {
+                bgcolor: a ? "background.paper" : "primary.light"
+            },
+            children: [e.jsx(Yr, {
+                htmlFor: "name",
+                children: "Full Name"
+            }), e.jsx(Ie, {
+                id: "name",
+                placeholder: "Enter first and last name",
+                fullWidth: !0,
+                ...u("name"),
+                error: !!((b = d.name) != null && b.message)
+            }), e.jsx(y, {
+                variant: "body2",
+                color: "error",
+                mb: 2,
+                children: (f = d.name) == null ? void 0 : f.message
+            }), e.jsx(Yr, {
+                htmlFor: "dob",
+                children: "Date of Birth"
+            }), e.jsxs(oo, {
+                dateAdapter: so,
+                children: [e.jsx(Bg, {
+                    disableFuture: !0,
+                    openTo: "day",
+                    views: ["year", "month", "day"],
+                    slots: {
+                        openPickerIcon: Cs,
+                        day: Mg
+                    },
+                    ...u("dob"),
+                    onChange: L
+                }), e.jsx(y, {
+                    variant: "body2",
+                    color: "error",
+                    mb: 2,
+                    children: (w = d.dob) == null ? void 0 : w.message
+                })]
+            }), e.jsx(ue, {
+                variant: "contained",
+                type: "submit",
+                size: "small",
+                fullWidth: !0,
+                sx: {
+                    px: 2,
+                    py: .75
+                },
+                children: "Get Started"
+            })]
+        })
+    }, Af = ({
+        onSubmitCallback: t
+    }) => e.jsxs(S, {
+        alignItems: "center",
+        p: 4.5,
+        direction: {
+            xs: "column",
+            md: "row"
+        },
+        width: "100%",
+        children: [e.jsx(N, {
+            minWidth: "50%",
+            px: {
+                sx: 0,
+                md: 8
+            },
+            children: e.jsx(Xo, {})
+        }), e.jsx(as, {
+            onSubmitCallback: t
+        })]
+    }), bn = O(N)(({
+        theme: t
+    }) => ({
+        width: "100%",
+        borderRadius: "4px",
+        border: "1px solid",
+        borderColor: t.palette.background.light,
+        minHeight: "360px"
+    })), _f = O(ue)(({
+        theme: t
+    }) => ({
+        color: t.palette.primary.contrastText,
+        fontSize: "0.75rem",
+        maxWidth: "85px",
+        padding: 0,
+        ".MuiButton-startIcon": {
+            marginRight: t.spacing(.5),
+            fontSize: "1rem"
+        }
+    })), ns = O(S)(({
+        theme: t
+    }) => ({
+        position: "relative",
+        width: "100%",
+        color: t.palette.primary.contrastText,
+        flexDirection: "column",
+        "&::before, &::after": {
+            content: '""',
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100%",
+            height: "100%"
+        },
+        "&::before": {
+            backgroundColor: t.palette.primary.main,
+            clipPath: "ellipse(74% 56% at 34% 20%)"
+        }
+    })), Lf = O(la)(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.primary.main,
+        color: t.palette.primary.contrastText,
+        fontWeight: "bold",
+        textAlign: "left",
+        width: "100%",
+        maxWidth: "175px",
+        "&.Mui-focused, &:hover": {
+            borderColor: t.palette.primary.contrastText,
+            ".MuiOutlinedInput-notchedOutline": {
+                borderColor: t.palette.primary.contrastText
+            }
+        },
+        ".MuiOutlinedInput-notchedOutline": {
+            borderColor: t.palette.primary.contrastText
+        },
+        svg: {
+            color: t.palette.primary.contrastText
+        }
+    })), Pf = ({
+        enabledMenuOptions: t,
+        onChangeCallback: a,
+        value: n,
+        variant: i
+    }) => {
+        const {
+            trackEvent: r
+        } = h.useContext(ce), o = s => {
+            r("dropdown menu", `engagement click ${s.target.value}`, "astrology"), a(t[s.target.value])
+        };
+        return e.jsx(Lf, {
+            className: i,
+            id: "astrology-menu-select",
+            value: n,
+            IconComponent: ho,
+            options: Object.keys(t).map(s => {
+                const c = t[s];
+                return {
+                    value: c.value,
+                    display: c.display
+                }
+            }),
+            onChange: o
+        })
+    }, Wn = ({
+        title: t,
+        name: a,
+        dob: n,
+        standaloneVersion: i
+    }) => e.jsxs(S, {
+        direction: "column",
+        children: [e.jsx(y, {
+            variant: "h2",
+            mb: .5,
+            children: t
+        }), e.jsxs(S, {
+            direction: i ? "row" : "column",
+            children: [e.jsx(y, {
+                ...i && {
+                    variant: "h5"
+                },
+                mb: .5,
+                mr: .5,
+                children: a
+            }), e.jsx(y, {
+                variant: "h6",
+                mb: .5,
+                fontWeight: "normal",
+                ...i && {
+                    marginInline: "auto",
+                    marginTop: "auto"
+                },
+                children: n
+            })]
+        })]
+    }), If = O("img")(({
+        theme: t
+    }) => ({
+        width: "85px",
+        height: "85px",
+        backgroundColor: t.palette.background.paper,
+        borderRadius: "100%",
+        padding: t.spacing(.625),
+        border: `1px solid ${t.palette.primary.main}`,
+        boxShadow: "0px 3px 5px -1px rgba(0, 0, 0, 0.2)"
+    })), Ef = O(y)`
+  margin-bottom: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  min-height: 33px;
+`, qf = O(la)`
+  background-color: transparent;
+  border: none;
+  min-width: 122px;
+  height: 33px;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  &.Mui-focused,
+  &:hover {
+    border: none;
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+`, pa = ({
+        sign: t,
+        image: a,
+        number: n,
+        bottomText: i,
+        enableSelect: r,
+        selectValue: o,
+        onSelectChange: s,
+        standaloneVersion: c
+    }) => {
+        const u = zn.find(v => v.value === (t == null ? void 0 : t.toLowerCase())),
+            l = !!n,
+            d = l && Vh,
+            C = h.useMemo(() => zn.filter(v => o === "default" || o ? v.value !== "default" : !0).map(v => ({
+                ...v,
+                display: `${v.display} (${v.dateRange})`
+            })), [o]),
+            m = c ? e.jsxs(e.Fragment, {
+                children: [u == null ? void 0 : u.display, e.jsx(y, {
+                    variant: "subtitle2",
+                    color: v => v.palette.text.secondary,
+                    ml: .5,
+                    children: "(you)"
+                })]
+            }) : u == null ? void 0 : u.display;
+        return e.jsxs(S, {
+            textAlign: "center",
+            direction: "column",
+            alignItems: "center",
+            minHeight: c ? "" : "118px",
+            minWidth: "132px",
+            children: [e.jsxs(N, {
+                position: "relative",
+                children: [e.jsx(If, {
+                    src: (u == null ? void 0 : u.image) || d || a,
+                    alt: "Astrology Icon"
+                }), l && e.jsx(y, {
+                    fontSize: "2.625rem",
+                    fontWeight: "bold",
+                    position: "absolute",
+                    margin: "auto",
+                    top: "13px",
+                    color: "primary",
+                    display: "flex",
+                    justifyContent: "space-around",
+                    width: "100%",
+                    children: n
+                })]
+            }), !r && e.jsx(Ef, {
+                variant: "h5",
+                children: m || i
+            }), r && e.jsx(qf, {
+                id: "astrology-compatability-select",
+                value: o || wn.value,
+                options: C,
+                onChange: s,
+                renderValue: v => {
+                    const L = zn.find(g => g.value === v);
+                    return (L == null ? void 0 : L.display) || ""
+                },
+                IconComponent: ho,
+                MenuProps: {
+                    PaperProps: {
+                        sx: {
+                            maxHeight: "211px"
+                        }
+                    }
+                }
+            })]
+        })
+    }, is = ({
+        value: t,
+        selectValue: a,
+        onChangeCallback: n,
+        standaloneVersion: i
+    }) => {
+        function r(o) {
+            n(o.target.value)
+        }
+        return e.jsxs(S, {
+            justifyContent: "center",
+            flexDirection: "row",
+            mt: 2,
+            zIndex: "1",
+            alignItems: "center",
+            children: [e.jsx(pa, {
+                sign: t,
+                standaloneVersion: i
+            }), e.jsx(y, {
+                variant: "h2",
+                children: "+"
+            }), e.jsx(pa, {
+                sign: a,
+                selectValue: a,
+                enableSelect: !0,
+                onSelectChange: r
+            })]
+        })
+    }, Rf = ({
+        menuOptions: t,
+        astrologyUser: a,
+        activeHeaderMenuOption: n,
+        setActiveHeaderMenuOption: i,
+        resetAstrologyUser: r,
+        zodiacSign: o,
+        compatibilitySign: s,
+        setCompatibilitySign: c,
+        lifepathNumber: u,
+        personalityNumber: l,
+        ascendantSign: d,
+        disableResetCta: C
+    }) => {
+        const {
+            trackEvent: m
+        } = h.useContext(ce), v = n.value === Ut.compatibility.value, L = n.value === Ut.lifepath.value, g = n.value === Ut.personality.value, b = L || g, f = n.value === Ut.ascendant.value, w = !v && !b && !f, p = g ? l : u;
+
+        function P() {
+            m("feature reset", "engagement click", "astrology"), r()
+        }
+        return e.jsxs(e.Fragment, {
+            children: [e.jsxs(S, {
+                zIndex: "1",
+                direction: "row",
+                justifyContent: "space-between",
+                gap: 1,
+                minHeight: 40,
+                children: [!C && e.jsx(_f, {
+                    startIcon: e.jsx(Yn, {}),
+                    onClick: P,
+                    children: "Reset"
+                }), e.jsx(Pf, {
+                    variant: C ? "solid" : "",
+                    enabledMenuOptions: t,
+                    onChangeCallback: i,
+                    value: n.value
+                })]
+            }), w && e.jsxs(S, {
+                justifyContent: "space-between",
+                direction: "row",
+                mt: 2,
+                zIndex: "1",
+                children: [e.jsx(Wn, {
+                    title: n.category,
+                    name: (a == null ? void 0 : a.name) || "",
+                    dob: (a == null ? void 0 : a.dob) || ""
+                }), e.jsx(pa, {
+                    sign: o
+                })]
+            }), b && e.jsxs(S, {
+                justifyContent: "space-between",
+                direction: "row",
+                mt: 2,
+                zIndex: "1",
+                children: [e.jsx(Wn, {
+                    title: n.category,
+                    name: (a == null ? void 0 : a.name) || "",
+                    dob: (a == null ? void 0 : a.dob) || ""
+                }), e.jsx(pa, {
+                    bottomText: n.display,
+                    number: p
+                })]
+            }), v && e.jsx(is, {
+                value: o,
+                selectValue: s,
+                onChangeCallback: q => c(q)
+            }), f && e.jsxs(S, {
+                justifyContent: "space-between",
+                direction: "row",
+                mt: 2,
+                zIndex: "1",
+                children: [e.jsx(Wn, {
+                    title: n.category,
+                    name: (a == null ? void 0 : a.name) || "",
+                    dob: (a == null ? void 0 : a.dob) || ""
+                }), d ? e.jsx(pa, {
+                    sign: d,
+                    bottomText: "Ascendant"
+                }) : e.jsx(pa, {
+                    image: Ro
+                })]
+            })]
+        })
+    }, Df = O(ue)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(1.25),
+        marginBottom: t.spacing(1),
+        justifyContent: "flex-start",
+        color: "rgb(0, 0, 0)",
+        flex: "0 0 49%",
+        ".MuiButton-startIcon": {
+            color: t.palette.primary.main
+        },
+        ".MuiButton-endIcon": {
+            marginLeft: "auto",
+            ">*:nth-of-type(1)": {
+                fontSize: "1.5rem"
+            }
+        },
+        [t.breakpoints.up("sm")]: {
+            marginBottom: 0
+        }
+    })), Ff = O(N)`
+  width: 32px;
+  height: 32px;
+  background-color: rgba(240, 238, 249, 1);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`, Bf = O(S)(({
+        theme: t
+    }) => ({
+        [t.breakpoints.up("sm")]: {
+            gap: t.spacing(1),
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "space-between"
+        }
+    })), Mf = ({
+        options: t,
+        zodiacSignData: a,
+        onOptionClick: n,
+        lifepathNumber: i,
+        personalityNumber: r
+    }) => {
+        const {
+            trackEvent: o
+        } = h.useContext(ce);
+
+        function s(l) {
+            o("initial selection", `engamenent click ${l.value}`, "astrology"), n(l)
+        }
+        const c = ts(["summary"], t);
+
+        function u(l) {
+            const d = l.startIconUrl || (a == null ? void 0 : a.smallImage);
+            return d && l.value !== "lifepath" && l.value !== "personality" ? e.jsx("img", {
+                src: d,
+                alt: "Summary horoscope icon",
+                style: {
+                    maxHeight: "23px",
+                    maxWidth: "23px"
+                }
+            }) : e.jsx(y, {
+                fontWeight: "bold",
+                children: l.value === "lifepath" ? i : r
+            })
+        }
+        return e.jsxs(e.Fragment, {
+            children: [a && e.jsx(y, {
+                mb: 2,
+                children: a.summary
+            }), e.jsx(Bf, {
+                children: Object.entries(c).map(([l, d]) => e.jsx(Df, {
+                    variant: "outlined",
+                    startIcon: e.jsx(Ff, {
+                        children: u(d)
+                    }),
+                    endIcon: e.jsx(io, {}),
+                    onClick: () => s(d),
+                    sx: {
+                        order: d.order
+                    },
+                    children: d.summaryDisplay
+                }, `option-${d.value}`))
+            })]
+        })
+    }, Nf = {
+        sx: {
+            textDecoration: "none",
+            padding: 0,
+            margin: "0 10px",
+            minHeight: "20px",
+            fontWeight: "bold",
+            '&[data-active-tab="true"]': {
+                borderBottom: "none",
+                padding: 0,
+                margin: "0 10px"
+            }
+        }
+    }, Of = O(N)`
+  .MuiTabs-root {
+    min-height: 35px;
+  }
+`, Bn = O(N)(({
+        theme: t
+    }) => ({
+        marginTop: t.spacing(2),
+        padding: `0 ${t.spacing(3.5)} ${t.spacing(2.5)} ${t.spacing(2.5)}`,
+        maxHeight: "295px",
+        lineHeight: "22px",
+        overflowX: "hidden",
+        overflowY: "scroll"
+    })), rs = ({
+        yesterdayContent: t,
+        todayContent: a,
+        tomorrowContent: n,
+        monthlyContent: i,
+        standaloneVersion: r
+    }) => {
+        const o = l => l ? Object.values(l).filter(d => typeof d == "string").join(" ") : "",
+            s = o(t || {}),
+            c = o(n || {}),
+            u = [{
+                label: "Yesterday",
+                content: e.jsx(Bn, {
+                    children: s
+                })
+            }, {
+                label: "Today",
+                content: e.jsx(Bn, {
+                    children: a
+                })
+            }, {
+                label: "Tomorrow",
+                content: e.jsx(Bn, {
+                    children: c
+                })
+            }, {
+                label: "Monthly",
+                content: e.jsx(Bn, {
+                    children: i == null ? void 0 : i.map((l, d) => e.jsx(y, {
+                        sx: {
+                            lineHeight: "22px"
+                        },
+                        children: l
+                    }, d))
+                })
+            }].filter(Boolean);
+        return e.jsx(Mi, {
+            tabs: u,
+            tabProps: Nf,
+            container: Of,
+            sx: {
+                marginInline: "20px",
+                minHeight: "35px",
+                borderBottom: r ? "1px solid #E2E2E2" : "none"
+            }
+        })
+    }, Si = O(N)`
+  height: 10px;
+  width: 100%;
+
+  &.first {
+    background-color: #d1cde8;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+  &.second {
+    background-color: #9d95c6;
+  }
+  &.third {
+    background-color: #6a5da4;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+`, Vf = ({
+        compatibilityNumber: t
+    }) => {
+        function a(n) {
+            return n <= 45 ? "start" : n >= 75 ? "end" : "center"
+        }
+        return e.jsxs(S, {
+            direction: "column",
+            mb: 2.5,
+            children: [e.jsxs(S, {
+                direction: "row",
+                justifyContent: "space-between",
+                mb: .5,
+                children: [e.jsx(y, {
+                    fontSize: "0.75rem",
+                    children: "LOW"
+                }), e.jsx(y, {
+                    fontSize: "0.75rem",
+                    children: "HIGH"
+                })]
+            }), e.jsxs(S, {
+                direction: "row",
+                pb: 1,
+                position: "relative",
+                children: [e.jsx(Si, {
+                    className: "line first",
+                    mr: .5
+                }), e.jsx(Si, {
+                    className: "line second",
+                    mr: .5
+                }), e.jsx(Si, {
+                    className: "line third"
+                }), e.jsx(N, {
+                    display: "flex",
+                    position: "absolute",
+                    width: "100%",
+                    justifyContent: a(t || 50),
+                    children: e.jsx(Ts, {
+                        sx: {
+                            fontSize: "2rem",
+                            color: "rgba(159, 141, 225, 1)"
+                        }
+                    })
+                })]
+            })]
+        })
+    }, os = ({
+        zodiacSign: t,
+        compatibilitySign: a,
+        children: n
+    }) => {
+        const i = be("oar-1107");
+        if (!t || !a) return null;
+        const r = t.toLowerCase(),
+            s = ff(i)[r],
+            c = s == null ? void 0 : s[a.toLowerCase()];
+        return a !== "default" ? e.jsxs(e.Fragment, {
+            children: [e.jsx(Vf, {
+                compatibilityNumber: c == null ? void 0 : c.compatibility
+            }), n ? Ga.cloneElement(n, {
+                content: c == null ? void 0 : c.summary
+            }) : e.jsx(y, {
+                mt: 3.75,
+                children: c == null ? void 0 : c.summary
+            })]
+        }) : e.jsx(y, {
+            textAlign: "center",
+            mt: 3.75,
+            children: "Please select an option from above."
+        })
+    }, Hf = t => a => e.jsx(os, {
+        zodiacSign: a.zodiacSign,
+        compatibilitySign: a.compatibilitySign,
+        children: e.jsx(t, {
+            ...a
+        })
+    }), zf = O(N)(({
+        theme: t
+    }) => ({
+        marginTop: t.spacing(1.25),
+        maxHeight: "360px",
+        lineHeight: "22px",
+        overflowX: "hidden",
+        overflowY: "scroll"
+    })), Ri = ({
+        data: t,
+        children: a
+    }) => e.jsx(e.Fragment, {
+        children: a ? Ga.cloneElement(a, {
+            content: t == null ? void 0 : t.join(`
+
+`)
+        }) : t == null ? void 0 : t.map((n, i) => e.jsx(zf, {
+            children: e.jsx(y, {
+                sx: {
+                    lineHeight: "22px"
+                },
+                mb: 1.25,
+                children: n
+            })
+        }, i))
+    }), Wf = t => a => e.jsx(Ri, {
+        data: a.data,
+        children: e.jsx(t, {
+            ...a
+        })
+    }), Gf = O("form")(({
+        theme: t
+    }) => ({
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        gap: t.spacing(1.5),
+        marginBottom: t.spacing(1.5),
+        [t.breakpoints.up("sm")]: {
+            flexDirection: "row",
+            alignItems: "flex-end"
+        }
+    })), Ci = O(sa)(({
+        theme: t
+    }) => ({
+        color: t.palette.text.primary,
+        fontWeight: "bold",
+        fontSize: ".875rem",
+        marginBottom: t.spacing(1)
+    })), Yf = O(y)(({
+        theme: t
+    }) => ({
+        color: t.palette.text.secondary,
+        fontSize: ".75rem",
+        marginTop: t.spacing(1.5)
+    })), Uf = O(ue)(({
+        theme: t
+    }) => ({
+        width: "100%",
+        [t.breakpoints.up("sm")]: {
+            maxWidth: 110
+        }
+    })), Ti = O(y)(({
+        theme: t
+    }) => ({
+        color: t.palette.error.main,
+        fontSize: ".875rem",
+        display: "flex",
+        gap: 1,
+        marginTop: t.spacing(.5)
+    })), ss = ({
+        date: t,
+        month: a,
+        year: n,
+        onSubmitCallback: i
+    }) => {
+        const [r, o] = h.useState({}), {
+            logError: s
+        } = h.useContext(ce), {
+            register: c,
+            handleSubmit: u,
+            getValues: l,
+            formState: {
+                errors: d
+            }
+        } = jn({
+            mode: "onSubmit",
+            resolver: Sn(am)
+        }), C = !Object.values(r).length, {
+            data: m,
+            error: v,
+            isSuccess: L,
+            isLoading: g
+        } = uc({
+            enabled: !C,
+            data: {
+                cityState: r.cityState,
+                country: r.country,
+                date: t,
+                month: a,
+                year: n
+            },
+            shouldSuspendExecution: C
+        }), b = h.useCallback(async () => {
+            if (!(m != null && m.data) || v) return;
+            const {
+                lat: P,
+                lon: q,
+                offset: _
+            } = m.data;
+            xf({
+                hour: l("birthHour"),
+                minute: l("birthMinute"),
+                city_state: r.cityState,
+                country: r.country,
+                lat: P,
+                lon: q,
+                timezone_offset: _
+            });
+            const E = Kn(s);
+            i(E)
+        }, [m, g]);
+        h.useEffect(() => {
+            m && L && !v && !g && b()
+        }, [m, g]);
+        const f = P => {
+                if (!P) return {
+                    cityState: "",
+                    country: ""
+                };
+                const [q, _] = P.split(",").map(E => E.trim());
+                return {
+                    cityState: q,
+                    country: _
+                }
+            },
+            w = P => {
+                const {
+                    cityState: q,
+                    country: _
+                } = f(P);
+                o({
+                    cityState: q,
+                    country: _
+                })
+            },
+            p = P => {
+                const {
+                    birthLocation: q
+                } = P;
+                w(q)
+            };
+        return e.jsxs(N, {
+            children: [e.jsx(y, {
+                mb: 2.5,
+                children: "Please fill in the datapoints below:"
+            }), e.jsxs(Gf, {
+                onSubmit: u(p),
+                children: [e.jsxs(S, {
+                    gap: 1.5,
+                    direction: "row",
+                    children: [e.jsxs(S, {
+                        flexBasis: "100%",
+                        children: [e.jsx(Ci, {
+                            htmlFor: "birth-hour",
+                            children: "Birth Hour"
+                        }), e.jsx(Ie, {
+                            id: "birth-hour",
+                            type: "number",
+                            placeholder: "e.g. 12",
+                            ...c("birthHour"),
+                            error: !!d.birthHour
+                        })]
+                    }), e.jsxs(S, {
+                        flexBasis: "100%",
+                        children: [e.jsx(Ci, {
+                            htmlFor: "birth-min",
+                            children: "Birth Minute"
+                        }), e.jsx(Ie, {
+                            id: "birth-min",
+                            type: "number",
+                            placeholder: "e.g. 34",
+                            ...c("birthMinute"),
+                            error: !!d.birthMinute
+                        })]
+                    })]
+                }), e.jsxs(S, {
+                    flexBasis: "100%",
+                    children: [e.jsx(Ci, {
+                        htmlFor: "birth-location",
+                        children: "Location"
+                    }), e.jsx(Ie, {
+                        id: "birth-location",
+                        placeholder: "City, Country",
+                        ...c("birthLocation"),
+                        error: !!d.birthLocation
+                    })]
+                }), e.jsx(Uf, {
+                    variant: "contained",
+                    type: "submit",
+                    children: "Submit"
+                })]
+            }), d.birthHour && e.jsxs(Ti, {
+                children: [e.jsx(pi, {
+                    fontSize: "inherit"
+                }), d.birthHour.message]
+            }), d.birthMinute && e.jsxs(Ti, {
+                children: [e.jsx(pi, {
+                    fontSize: "inherit"
+                }), d.birthMinute.message]
+            }), d.birthLocation && e.jsxs(Ti, {
+                children: [e.jsx(pi, {
+                    fontSize: "inherit"
+                }), d.birthLocation.message]
+            }), e.jsx(Yf, {
+                children: "Please try to provide as accurate responses as possible to improve the accuracy of the ascendant report generated*"
+            })]
+        })
+    }, $f = ({
+        date: t,
+        month: a,
+        year: n,
+        ascendantResult: i,
+        setAstrologyUserCallback: r
+    }) => e.jsx(N, {
+        children: !i || Object.keys(i).length === 0 ? e.jsx(ss, {
+            date: t,
+            month: a,
+            year: n,
+            onSubmitCallback: r
+        }) : e.jsx(y, {
+            children: i.report
+        })
+    }), Kf = O(S)(({
+        theme: t
+    }) => ({
+        alignItems: "center",
+        padding: t.spacing(4.5),
+        width: "fit-content",
+        margin: "auto",
+        [t.breakpoints.up("sm")]: {
+            alignItems: "flex-start"
+        }
+    })), Qf = () => e.jsxs(Kf, {
+        className: "ast-error-container",
+        children: [e.jsx(Xo, {}), e.jsx(y, {
+            variant: "h2",
+            mb: 1.75,
+            mt: 2.5,
+            color: "error",
+            children: "Oops! Something Went Awry.."
+        }), e.jsx(y, {
+            variant: "h5",
+            fontWeight: "normal",
+            children: "Please refresh the page or try again later."
+        })]
+    }), Mn = (t, a, n) => {
+        const i = Za[t],
+            {
+                keys: {
+                    astrologyUser: r,
+                    astrologyKey: o
+                }
+            } = h.useContext(Tn),
+            {
+                logError: s,
+                trackEvent: c
+            } = h.useContext(ce),
+            u = {
+                user: r,
+                key: o
+            },
+            l = a == null ? void 0 : a.toLowerCase(),
+            d = function(_) {
+                const E = localStorage.getItem(i);
+                if (!E || !_) return !1;
+                const x = JSON.parse(E);
+                return x == null ? void 0 : x[_]
+            },
+            C = function(_) {
+                const E = localStorage.getItem(i),
+                    x = E ? JSON.parse(E) : {},
+                    I = new Date,
+                    H = I.getMonth() + 1,
+                    M = I.getDate(),
+                    D = I.getFullYear();
+                _.requested_date = `${H}-${M}-${D}`, x[_.sun_sign.toLowerCase()] = _, localStorage.setItem(i, JSON.stringify(x))
+            },
+            m = function(_) {
+                if (!(_ != null && _.prediction_date)) return null;
+                const E = _.prediction_date.split("-"),
+                    [x, I, H] = E,
+                    M = `${I}-${x}-${H}`;
+                return new Date(M)
+            };
+
+        function v(_) {
+            const E = m(_);
+            if (!E) return !0;
+            const x = new Date,
+                I = new Date(x.getFullYear(), x.getMonth(), x.getDate());
+            return E.getTime() < I.getTime()
+        }
+
+        function L(_) {
+            const E = m(_);
+            if (!E) return !0;
+            const x = new Date;
+            x.setDate(x.getDate() - 1);
+            const I = new Date(x.getFullYear(), x.getMonth(), x.getDate());
+            return E.getTime() < I.getTime()
+        }
+
+        function g(_) {
+            const E = m(_);
+            if (!E) return !0;
+            const x = new Date;
+            x.setDate(x.getDate() + 1);
+            const I = new Date(x.getFullYear(), x.getMonth(), x.getDate());
+            return E.getTime() < I.getTime()
+        }
+
+        function b(_) {
+            if (!(_ != null && _.requested_date)) return !0;
+            const E = new Date(_.requested_date),
+                x = E.getMonth() + 1,
+                I = E.getFullYear(),
+                H = x !== new Date().getMonth() + 1,
+                M = I !== new Date().getFullYear();
+            return H || M
+        }
+        const f = function(_) {
+                if (i === Za.today) return v(_);
+                if (i === Za.yesterday) return L(_);
+                if (i === Za.tomorrow) return g(_);
+                if (i === Za.monthly) return b(_)
+            },
+            w = async () => {
+                if (!l) return Promise.resolve({});
+                const _ = d(l),
+                    E = f(_);
+                if (_ && !E) return Promise.resolve(_);
+                const x = await Ji.fetchAstrology({
+                    credentials: u,
+                    queryType: t,
+                    params: {
+                        sign: l
+                    }
+                });
+                return C(x), Promise.resolve(x)
+            }, p = n && !!l, P = Ht({
+                queryKey: [i],
+                queryFn: w,
+                enabled: p,
+                cacheTime: 0,
+                onError: _ => {
+                    s(`${i} generation failed`, _)
+                }
+            }), q = p ? P.isLoading : !1;
+        return {
+            ...P,
+            isLoading: q
+        }
+    }, Ur = (t, a, n, i) => {
+        const r = rn[t],
+            {
+                keys: {
+                    astrologyUser: o,
+                    astrologyKey: s
+                }
+            } = h.useContext(Tn),
+            {
+                logError: c
+            } = h.useContext(ce),
+            u = {
+                user: o,
+                key: s
+            },
+            l = new Date(`${n==null?void 0:n.month}-${n==null?void 0:n.date}-${n==null?void 0:n.year}`),
+            d = function(w) {
+                const p = localStorage.getItem(r);
+                if (!p || !w) return !1;
+                const P = JSON.parse(p);
+                return P == null ? void 0 : P[w]
+            },
+            C = function(w) {
+                const p = localStorage.getItem(r),
+                    P = p ? JSON.parse(p) : {},
+                    q = new Date,
+                    _ = q.getMonth() + 1,
+                    E = q.getDate(),
+                    x = q.getFullYear();
+                w.requested_date = `${_}-${E}-${x}`, w != null && w.name && delete w.name, w != null && w.birth_date && delete w.birth_date, P[a] = w, localStorage.setItem(r, JSON.stringify(P))
+            };
+
+        function m(w, p) {
+            const P = w.getMonth(),
+                q = w.getFullYear(),
+                _ = p.getMonth(),
+                E = p.getDate();
+            let I = p.getFullYear() - q;
+            I < 0 && (I = 0);
+            let H = _ - P + I * 12;
+            return H === 0 && I > 0 && E > new Date(q, P + 1, 0).getDate() && (H += 1), H >= 3
+        }
+
+        function v(w) {
+            if (!w.requested_date) return !0;
+            const p = new Date(w.requested_date);
+            return m(p, new Date)
+        }
+        const L = async () => {
+            if (!l || !(n != null && n.full_name) || !a) return Promise.resolve({});
+            const w = d(a);
+            if (w && !v(w)) return Promise.resolve(w);
+            const p = await Ji.fetchAstrology({
+                credentials: u,
+                queryType: t,
+                params: n
+            });
+            return C(p), Promise.resolve(p)
+        }, g = i && !!a && !!n, b = Ht({
+            queryKey: [r],
+            queryFn: L,
+            enabled: g,
+            cacheTime: 0,
+            onError: w => {
+                c(`${r} generation failed`, w)
+            }
+        }), f = g ? b.isLoading : !1;
+        return {
+            ...b,
+            isLoading: f
+        }
+    }, Nn = O(S)(({
+        theme: t
+    }) => ({
+        flexDirection: "row",
+        alignItems: "center",
+        gap: t.spacing(.5),
+        animation: "fade 1s infinite",
+        "@keyframes fade": {
+            "0%": {
+                opacity: 0
+            },
+            "50%": {
+                opacity: 1
+            },
+            "100%": {
+                opacity: 0
+            }
+        }
+    })), Jf = O(N)(({
+        standaloneVersion: t
+    }) => ({
+        position: "absolute",
+        bottom: -16,
+        left: 0,
+        right: 0,
+        height: "54%",
+        background: t ? "linear-gradient(180deg, #ffffff70 9.66%, #FFFFFF 85.75%)" : "linear-gradient(180deg, #eceaf945 9.66%, #eceaf9b0 85.75%)"
+    })), On = ({
+        children: t,
+        ...a
+    }) => e.jsx(y, {
+        component: "span",
+        ...a,
+        fontSize: "18px",
+        children: t
+    }), Zf = O("img")(({
+        theme: t
+    }) => ({
+        width: "168px",
+        marginBottom: t.spacing(2.5)
+    })), $r = ({
+        standaloneVersion: t
+    }) => e.jsxs(S, {
+        bgcolor: a => t ? a.palette.background.paper : a.palette.background.light,
+        width: "100%",
+        height: "100%",
+        minHeight: "inherit",
+        alignItems: "center",
+        gap: 2.5,
+        p: {
+            xs: 5,
+            lg: 2
+        },
+        children: [e.jsx(Zf, {
+            src: gt.images.astrology.imgAstrologyNumerologyLoading,
+            alt: "Astrology Numerology Insights Loading"
+        }), e.jsxs(S, {
+            alignItems: "center",
+            mb: 1,
+            children: [e.jsx(y, {
+                variant: "h2",
+                mb: 0,
+                children: "Gathering"
+            }), e.jsx(y, {
+                variant: "h2",
+                mb: 0,
+                children: "Astro-Numerical"
+            }), e.jsx(y, {
+                variant: "h2",
+                mb: 0,
+                children: "Insights.."
+            })]
+        }), e.jsx(An, {
+            count: 3
+        }), e.jsxs(S, {
+            gap: 1,
+            alignItems: "start",
+            position: "relative",
+            children: [e.jsxs(Nn, {
+                children: [e.jsx(Dn, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }), e.jsx(On, {
+                    children: "Horoscope"
+                })]
+            }), e.jsxs(Nn, {
+                children: [e.jsx(Dn, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }), e.jsx(On, {
+                    children: "Compatibility"
+                })]
+            }), e.jsxs(Nn, {
+                children: [e.jsx(Dn, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }), e.jsx(On, {
+                    children: "Numerology Lifepath"
+                })]
+            }), e.jsxs(Nn, {
+                children: [e.jsx(Dn, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }), e.jsx(On, {
+                    children: "Numerology Personality Trait"
+                })]
+            }), e.jsx(Jf, {
+                standaloneVersion: t
+            })]
+        })]
+    }), Xf = O(N)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(.5),
+        border: `1px solid ${t.palette.divider}`,
+        borderRadius: "12px",
+        marginTop: t.spacing(2.5),
+        [t.breakpoints.up("sm")]: {
+            marginTop: t.spacing(3)
+        }
+    })), ey = O(S)(({
+        theme: t
+    }) => ({
+        position: "relative",
+        borderRadius: "8px",
+        padding: t.spacing(2),
+        width: "100%",
+        background: "linear-gradient(180deg, #FFFFFF 0%, #E2DFFF 100%)",
+        [t.breakpoints.up("sm")]: {
+            "&::before": {
+                content: '""',
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                background: `url(${gt.images.astrologyStandalone.imgOnboardingBg})`,
+                backgroundPosition: "center center",
+                backgroundSize: "cover"
+            }
+        }
+    })), ty = O("img")(({
+        theme: t
+    }) => ({
+        marginBottom: "0.5rem",
+        alignSelf: "center",
+        minWidth: "124px",
+        maxWidth: "138px",
+        width: "100%"
+    })), Zi = () => e.jsxs(S, {
+        direction: "row",
+        alignItems: "center",
+        gap: 1.5,
+        children: [e.jsx(ks, {}), e.jsx(y, {
+            variant: "h2",
+            fontSize: "1.875rem",
+            m: 0,
+            children: "Astrology"
+        })]
+    }), ki = ({
+        header: t,
+        children: a,
+        headerAction: n,
+        customStyles: i
+    }) => e.jsxs(N, {
+        border: "1px solid #E2E2E2",
+        borderRadius: "8px",
+        overflow: "hidden",
+        bgcolor: "#e2dfff66",
+        sx: i,
+        children: [e.jsxs(S, {
+            direction: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: 2,
+            p: 2,
+            height: "100%",
+            maxHeight: "58px",
+            borderBottom: "1px solid #E2E2E2",
+            bgcolor: r => r.palette.background.paper,
+            children: [e.jsx(y, {
+                variant: "h4",
+                fontSize: "1.25rem",
+                m: 0,
+                children: t
+            }), n]
+        }), a]
+    }), Xi = ({
+        content: t,
+        rows: a = 5,
+        fullWidth: n
+    }) => e.jsx(hc, {
+        value: t,
+        inputProps: {
+            readOnly: !0
+        },
+        rows: a,
+        fullWidth: n
+    }), Di = O(ue)(({
+        theme: t
+    }) => ({
+        color: t.palette.text.primary,
+        fontSize: "0.75rem",
+        maxWidth: "85px",
+        padding: 0,
+        ".MuiButton-startIcon": {
+            marginRight: t.spacing(1),
+            marginLeft: 0,
+            fontSize: "1rem"
+        }
+    })), ay = ({
+        onSubmitCallback: t
+    }) => e.jsxs(e.Fragment, {
+        children: [e.jsx(Zi, {}), e.jsx(Xf, {
+            children: e.jsxs(ey, {
+                alignItems: "center",
+                direction: "column",
+                width: "100%",
+                children: [e.jsx(ty, {
+                    src: gt.images.astrology.imgAstrologyNumerology,
+                    alt: "Astrology Insights"
+                }), e.jsx(y, {
+                    variant: "h3",
+                    mb: 1,
+                    children: "Astrological Insights"
+                }), e.jsx(y, {
+                    mb: 2.5,
+                    maxWidth: 376,
+                    textAlign: "center",
+                    children: "Get personalized daily horoscopes for guidance in work, love, and personal growth."
+                }), e.jsx(N, {
+                    maxWidth: 532,
+                    width: "100%",
+                    children: e.jsx(as, {
+                        onSubmitCallback: t,
+                        standaloneVersion: !0
+                    })
+                })]
+            })
+        })]
+    }), ny = ({
+        content: t
+    }) => e.jsx(Xi, {
+        content: t,
+        rows: 5
+    }), iy = Hf(ny), ry = ({
+        zodiacSign: t,
+        compatibilitySign: a,
+        setCompatibilitySign: n
+    }) => e.jsxs(S, {
+        p: 1.5,
+        children: [e.jsx(is, {
+            value: t,
+            selectValue: a,
+            onChangeCallback: i => n(i),
+            standaloneVersion: !0
+        }), e.jsx(iy, {
+            zodiacSign: t,
+            compatibilitySign: a
+        })]
+    }), oy = ({
+        date: t,
+        month: a,
+        year: n,
+        ascendantResult: i,
+        ascendantSign: r,
+        setAstrologyUserCallback: o
+    }) => {
+        const s = c => {
+            o(c), window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            })
+        };
+        return e.jsxs(S, {
+            direction: {
+                md: "row"
+            },
+            gap: 2.5,
+            p: 2.5,
+            sx: {
+                ".MuiTypography-h5": {
+                    display: r ? "" : "none"
+                }
+            },
+            children: [r ? e.jsx(pa, {
+                sign: r
+            }) : e.jsx(pa, {
+                image: Ro,
+                standaloneVersion: !0
+            }), !i || Object.keys(i).length === 0 ? e.jsx(ss, {
+                date: t,
+                month: a,
+                year: n,
+                onSubmitCallback: s
+            }) : e.jsx(Xi, {
+                content: i.report,
+                rows: 9,
+                fullWidth: !0
+            })]
+        })
+    }, sy = O(N)`
+  background: linear-gradient(to top, #e2dfff66 40%, white 100%);
+`, cy = O(N)`
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  border: 1px solid #e2e2e2;
+  background-color: white;
+  width: 100%;
+  overflow-x: auto;
+`, ly = ({
+        onClick: t
+    }) => e.jsx(Di, {
+        startIcon: e.jsx(Yn, {}),
+        onClick: t,
+        sx: a => ({
+            zIndex: "1",
+            justifyContent: "flex-start",
+            color: a.palette.primary.contrastText
+        }),
+        children: "Reset"
+    }), dy = ({
+        astrologyUser: t,
+        zodiacSign: a,
+        zodiacSignData: n,
+        yesterdayContent: i,
+        todayContent: r,
+        tomorrowContent: o,
+        monthlyContent: s,
+        resetAstrologyUser: c
+    }) => e.jsxs(bn, {
+        p: 0,
+        sx: {
+            borderRadius: "8px"
+        },
+        children: [e.jsxs(ns, {
+            p: 2.5,
+            pt: 2.75,
+            sx: {
+                "&::before, &::after": {
+                    borderRadius: "8px"
+                }
+            },
+            children: [e.jsx(ly, {
+                onClick: c
+            }), e.jsxs(S, {
+                justifyContent: "space-between",
+                direction: "row",
+                mt: 2,
+                zIndex: "1",
+                children: [e.jsx(Wn, {
+                    title: e.jsx(Zi, {}),
+                    name: (t == null ? void 0 : t.name) || "",
+                    dob: (t == null ? void 0 : t.dob) || "",
+                    standaloneVersion: !0
+                }), e.jsx(pa, {
+                    sign: a
+                })]
+            })]
+        }), e.jsxs(sy, {
+            padding: 2.5,
+            pt: 1,
+            sx: {
+                borderRadius: "8px"
+            },
+            children: [e.jsx(y, {
+                mb: "23px",
+                ml: "20px",
+                mr: "20px",
+                children: n == null ? void 0 : n.summary
+            }), e.jsxs(cy, {
+                children: [e.jsx("h2", {
+                    style: {
+                        paddingLeft: "20px"
+                    },
+                    children: "Your Horoscope"
+                }), e.jsx(rs, {
+                    yesterdayContent: i,
+                    todayContent: r,
+                    tomorrowContent: o,
+                    monthlyContent: s,
+                    standaloneVersion: !0
+                })]
+            })]
+        })]
+    }), uy = O(la)(({
+        theme: t
+    }) => ({
+        fontSize: "14px",
+        fontWeight: "bold",
+        color: t.palette.primary.main
+    })), hy = ({
+        menuOptions: t,
+        activeHeaderMenuOption: a,
+        setActiveHeaderMenuOption: n
+    }) => {
+        const {
+            trackEvent: i
+        } = h.useContext(ce), r = c => {
+            i("dropdown menu", `engagement click ${c.target.value}`, "Standalone Astrology"), n(t[c.target.value])
+        }, o = {
+            lifepath: t.lifepath,
+            personality: t.personality
+        }, s = [o.lifepath.value, o.personality.value].includes(a.value) ? a : o.lifepath;
+        return e.jsx(S, {
+            width: "100%",
+            maxWidth: "160px",
+            children: e.jsx(uy, {
+                id: "astrology-menu-select",
+                value: s.value,
+                options: Object.keys(o).map(c => {
+                    const u = o[c],
+                        l = c === "lifepath" ? `${u.display} Number` : u.display;
+                    return {
+                        value: u.value,
+                        display: l
+                    }
+                }),
+                autoWidth: !0,
+                onChange: r
+            })
+        })
+    }, my = ({
+        content: t
+    }) => e.jsx(Xi, {
+        content: t,
+        rows: 6
+    }), Kr = Wf(my), py = ({
+        menuOptions: t,
+        activeHeaderMenuOption: a,
+        personalityNumberData: n,
+        lifepathNumberData: i
+    }) => {
+        var u, l;
+        const r = {
+                lifepath: t.lifepath,
+                personality: t.personality
+            },
+            o = [r.lifepath.value, r.personality.value].includes(a.value) ? a : r.lifepath,
+            c = a.value === r.personality.value ? ((u = n == null ? void 0 : n.personality_number) == null ? void 0 : u.toString()) ?? "" : ((l = i == null ? void 0 : i.lifepath_number) == null ? void 0 : l.toString()) ?? "";
+        return e.jsxs(S, {
+            gap: 2,
+            p: 1.5,
+            mt: 2,
+            spacing: 2,
+            children: [e.jsx(pa, {
+                bottomText: `${o.display} Number ${c}`,
+                number: c
+            }), o.value === r.lifepath.value && e.jsx(Kr, {
+                data: i == null ? void 0 : i.report
+            }), o.value === r.personality.value && e.jsx(Kr, {
+                data: n == null ? void 0 : n.report
+            })]
+        })
+    }, gy = ({
+        zodiacSign: t,
+        compatibilitySign: a,
+        birthDate: n,
+        birthMonth: i,
+        birthYear: r,
+        ascendantResult: o,
+        ascendantSign: s,
+        resetAstrologyUser: c,
+        setCompatibilitySign: u,
+        yesterdayContent: l,
+        todayContent: d,
+        tomorrowContent: C,
+        monthlyContent: m,
+        astrologyUser: v,
+        zodiacSignData: L,
+        menuOptions: g,
+        activeHeaderMenuOption: b,
+        setActiveHeaderMenuOption: f,
+        personalityNumberData: w,
+        lifepathNumberData: p,
+        setAstrologyUserCallback: P,
+        resetAscendantData: q
+    }) => {
+        const _ = () => {
+            u(wn.value)
+        };
+        return e.jsxs(S, {
+            gap: 2,
+            children: [e.jsx(dy, {
+                astrologyUser: v,
+                zodiacSign: t,
+                zodiacSignData: L,
+                yesterdayContent: l,
+                todayContent: d,
+                tomorrowContent: C,
+                monthlyContent: m,
+                resetAstrologyUser: c
+            }), e.jsxs(S, {
+                gap: 2,
+                direction: "row",
+                flexWrap: "wrap",
+                minHeight: "394px",
+                maxHeight: "max-content",
+                children: [e.jsx(ki, {
+                    header: "Compatibility",
+                    headerAction: e.jsx(Di, {
+                        startIcon: e.jsx(Yn, {}),
+                        onClick: _,
+                        children: "Reset"
+                    }),
+                    customStyles: {
+                        flex: "1 1 377px"
+                    },
+                    children: e.jsx(ry, {
+                        zodiacSign: t,
+                        compatibilitySign: a,
+                        setCompatibilitySign: u
+                    })
+                }), e.jsx(ki, {
+                    header: "Numerology",
+                    customStyles: {
+                        flex: "1 1 377px"
+                    },
+                    headerAction: e.jsx(hy, {
+                        menuOptions: g,
+                        activeHeaderMenuOption: b,
+                        setActiveHeaderMenuOption: f
+                    }),
+                    children: e.jsx(py, {
+                        menuOptions: g,
+                        activeHeaderMenuOption: b,
+                        personalityNumberData: w,
+                        lifepathNumberData: p
+                    })
+                })]
+            }), e.jsx(ki, {
+                header: "Rising Sign (Ascendant)",
+                headerAction: !o || Object.keys(o).length === 0 ? e.jsx(e.Fragment, {}) : e.jsx(Di, {
+                    startIcon: e.jsx(Yn, {}),
+                    onClick: q,
+                    children: "Reset"
+                }),
+                children: e.jsx(oy, {
+                    date: n,
+                    month: i,
+                    year: r,
+                    ascendantResult: o,
+                    ascendantSign: s,
+                    setAstrologyUserCallback: P
+                })
+            })]
+        })
+    }, mb = ({
+        user: t,
+        identifier: a,
+        enableOnboarding: n,
+        disableOptions: i = [],
+        disableResetCta: r,
+        standaloneVersion: o
+    }) => {
+        const [s, c] = h.useState(!1), {
+            logError: u
+        } = h.useContext(ce), l = ts(i), [d, C] = h.useState(t || null), [m, v] = h.useState(Ut.summary), [L, g] = h.useState(wn.value), b = d ? kf(d) : "", f = zn.find(G => G.value === b.toLowerCase());
+        let w, p;
+        if (d && n) {
+            const {
+                date: G = "",
+                month: ne = "",
+                year: Re = "",
+                name: _e,
+                location: V,
+                time: Z
+            } = d, le = parseInt(G), ve = parseInt(ne), J = parseInt(Re);
+            if (w = {
+                    date: le,
+                    month: ve,
+                    year: J,
+                    full_name: _e
+                }, V && Z) {
+                const {
+                    lat: me = 0,
+                    lon: Fe = 0,
+                    timezone_offset: re = "0"
+                } = V, {
+                    hour: Le = 0,
+                    minute: He = 0
+                } = Z;
+                p = {
+                    day: le,
+                    month: ve,
+                    year: J,
+                    hour: Le,
+                    min: He,
+                    lat: me,
+                    lon: Fe,
+                    tzone: parseFloat(re)
+                }
+            }
+        }
+        const {
+            data: P,
+            isError: q,
+            isLoading: _
+        } = Mn("yesterday", b, !!b), {
+            data: E,
+            isError: x,
+            isLoading: I
+        } = Mn("today", b, !!b), {
+            data: H,
+            isError: M,
+            isLoading: D
+        } = Mn("tomorrow", b, !!b), {
+            data: j,
+            isError: R,
+            isLoading: W
+        } = Mn("monthly", b, !!b), {
+            data: F,
+            isError: $,
+            isLoading: oe
+        } = Ur("personality", a, w, !!w && !!n), {
+            data: Q,
+            isError: z,
+            isLoading: ee
+        } = Ur("lifepath", a, w, !!w && !!n), {
+            data: X,
+            isError: se,
+            isLoading: k,
+            remove: te
+        } = Hg(a, p, !!p && !!n);
+        h.useEffect(() => {
+            if (!t && n) {
+                const G = Kn(u);
+                C(G)
+            }
+            ge()
+        }, []);
+        const he = G => {
+                ge(), C(G)
+            },
+            T = _ || I || D || W || oe || ee || k || s,
+            xe = q || x || M || R || $ || se || z;
+        if (xe) return e.jsx(bn, {
+            children: e.jsx(Qf, {})
+        });
+        if (T && !xe) return o ? e.jsxs(e.Fragment, {
+            children: [e.jsx(Zi, {}), e.jsx($r, {
+                standaloneVersion: o
+            })]
+        }) : e.jsx(bn, {
+            children: e.jsx($r, {})
+        });
+        if (!d && n) return o ? e.jsx(ay, {
+            onSubmitCallback: he
+        }) : e.jsx(bn, {
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            children: e.jsx(Af, {
+                onSubmitCallback: he
+            })
+        });
+
+        function ge() {
+            c(!0), setTimeout(() => {
+                c(!1)
+            }, 2e3)
+        }
+        const K = () => {
+            vf(u), Tf(a, u), te()
+        };
+
+        function A() {
+            Cf(a, u), K(), wf(), C(null), v(Ut.summary), g(wn.value)
+        }
+        const Se = () => {
+            K();
+            const G = Kn(u);
+            C(G)
+        };
+
+        function qe(G) {
+            v(G)
+        }
+
+        function Ae() {
+            return m.value === Ut.horoscope.value ? e.jsx(rs, {
+                yesterdayContent: P == null ? void 0 : P.prediction,
+                todayContent: E == null ? void 0 : E.prediction,
+                tomorrowContent: H == null ? void 0 : H.prediction,
+                monthlyContent: j == null ? void 0 : j.prediction
+            }) : m.value === Ut.compatibility.value ? e.jsx(os, {
+                zodiacSign: b,
+                compatibilitySign: L
+            }) : m.value === Ut.personality.value ? e.jsx(Ri, {
+                data: F == null ? void 0 : F.report
+            }) : m.value === Ut.lifepath.value ? e.jsx(Ri, {
+                data: Q == null ? void 0 : Q.report
+            }) : m.value === Ut.ascendant.value ? e.jsx($f, {
+                date: d == null ? void 0 : d.date,
+                month: d == null ? void 0 : d.month,
+                year: d == null ? void 0 : d.year,
+                ascendantResult: X,
+                setAstrologyUserCallback: he
+            }) : e.jsx(Mf, {
+                options: l,
+                zodiacSignData: f,
+                onOptionClick: qe,
+                lifepathNumber: (Q == null ? void 0 : Q.lifepath_number.toString()) || "",
+                personalityNumber: (F == null ? void 0 : F.personality_number.toString()) || ""
+            })
+        }
+        return o ? e.jsx(gy, {
+            zodiacSign: b,
+            compatibilitySign: L,
+            birthDate: d == null ? void 0 : d.date,
+            birthMonth: d == null ? void 0 : d.month,
+            birthYear: d == null ? void 0 : d.year,
+            ascendantResult: X,
+            ascendantSign: X == null ? void 0 : X.ascendant,
+            setAstrologyUserCallback: he,
+            resetAstrologyUser: A,
+            setCompatibilitySign: g,
+            yesterdayContent: P == null ? void 0 : P.prediction,
+            todayContent: E == null ? void 0 : E.prediction,
+            tomorrowContent: H == null ? void 0 : H.prediction,
+            monthlyContent: j == null ? void 0 : j.prediction,
+            astrologyUser: d,
+            zodiacSignData: f,
+            menuOptions: l,
+            activeHeaderMenuOption: m,
+            setActiveHeaderMenuOption: v,
+            personalityNumberData: F,
+            lifepathNumberData: Q,
+            resetAscendantData: Se
+        }) : e.jsxs(bn, {
+            p: 0,
+            children: [e.jsx(ns, {
+                p: 2.5,
+                pt: 2.75,
+                children: e.jsx(Rf, {
+                    menuOptions: l,
+                    astrologyUser: d,
+                    activeHeaderMenuOption: m,
+                    setActiveHeaderMenuOption: v,
+                    resetAstrologyUser: A,
+                    zodiacSign: b,
+                    compatibilitySign: L,
+                    setCompatibilitySign: g,
+                    ascendantSign: X == null ? void 0 : X.ascendant,
+                    lifepathNumber: (Q == null ? void 0 : Q.lifepath_number.toString()) || "",
+                    personalityNumber: (F == null ? void 0 : F.personality_number.toString()) || "",
+                    disableResetCta: r
+                })
+            }), e.jsx(N, {
+                padding: 2.5,
+                pt: 1,
+                children: Ae()
+            })]
+        })
+    };
+O(ga)(({
+    theme: t
+}) => ({
+    padding: t.spacing(2.5),
+    marginBottom: t.spacing(2.5),
+    boxShadow: "0 1px 2px 0 rgb(0 0 0 / 50%)",
+    display: "flex",
+    flexDirection: "column",
+    ".ast-header-light": {
+        [t.breakpoints.up("sm")]: {
+            flexDirection: "row"
+        },
+        ".image": {
+            [t.breakpoints.down("sm")]: {
+                alignSelf: "start"
+            }
+        },
+        ".description": {
+            [t.breakpoints.down("sm")]: {
+                textAlign: "left"
+            }
+        }
+    },
+    ".ast-error-container": {
+        alignItems: "start"
+    },
+    [t.breakpoints.up("sm")]: {
+        flexDirection: "row"
+    }
+}));
+O(sa)(({
+    theme: t
+}) => ({
+    color: t.palette.text.primary,
+    fontWeight: "bold",
+    mb: 1
+}));
+O("form")(({
+    theme: t
+}) => ({
+    background: t.palette.background.light,
+    width: "100%",
+    padding: "1rem",
+    borderRadius: "4px"
+}));
+O(lo)(({
+    theme: t
+}) => ({
+    background: t.palette.background.paper,
+    width: "100%",
+    height: "100%",
+    maxHeight: "40px",
+    ".MuiInputBase-root": {
+        maxHeight: "40px"
+    },
+    ".MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+        borderColor: t.palette.primary.main
+    },
+    ".MuiButtonBase-root": {
+        color: t.palette.primary.main
+    }
+}));
+O(uo)(({
+    theme: t
+}) => ({
+    "&.MuiButtonBase-root.MuiPickersDay-root": {
+        fontSize: t.typography.body2.fontSize
+    },
+    "&.MuiButtonBase-root.MuiPickersDay-root.Mui-selected": {
+        backgroundColor: t.palette.text.primary
+    }
+}));
+O(ue)(({
+    theme: t
+}) => ({
+    minWidth: "max-content",
+    flexGrow: 1,
+    maxHeight: "36px",
+    margin: "auto",
+    width: "100%",
+    [t.breakpoints.up("sm")]: {
+        marginLeft: t.spacing(1),
+        maxWidth: "172px",
+        width: "inherit"
+    }
+}));
+O("img")(({
+    theme: t
+}) => ({
+    marginBottom: "0.5rem",
+    alignSelf: "center",
+    "&.left-variant": {
+        alignSelf: "left"
+    },
+    [t.breakpoints.up("sm")]: {
+        alignSelf: "start"
+    }
+}));
+O(S)(({
+    theme: t
+}) => ({
+    textAlign: "center",
+    [t.breakpoints.up("sm")]: {
+        textAlign: "left"
+    }
+}));
+const fy = O("img")({
+        width: "min-content",
+        height: "15px"
+    }),
+    yy = O(N)(({
+        theme: t
+    }) => {
+        var a, n;
+        return {
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            border: "1px solid #E2E2E2",
+            borderRadius: t.spacing(1),
+            padding: t.spacing(1),
+            margin: t.spacing(1),
+            justifyContent: "space-between",
+            width: "185px",
+            height: "124px",
+            cursor: "pointer",
+            ":hover": {
+                border: `1px solid ${(a=t.palette.progress)==null?void 0:a.main}`,
+                boxShadow: `0px 0px 5px 0px ${(n=t.palette.progress)==null?void 0:n.main}`
+            }
+        }
+    }),
+    by = ({
+        reward: t,
+        cardClick: a
+    }) => e.jsxs(yy, {
+        onClick: a,
+        children: [e.jsx(fy, {
+            src: t.logo
+        }), e.jsx(y, {
+            textAlign: "center",
+            children: t.collapsed.title
+        }), e.jsx(y, {
+            color: n => {
+                var i;
+                return (i = n.palette.progress) == null ? void 0 : i.main
+            },
+            children: t.collapsed.cta
+        })]
+    }),
+    xy = O("div")(({
+        theme: t
+    }) => ({
+        width: "100%",
+        ".carousel-div-wrapper": {
+            width: "100%"
+        }
+    })),
+    vy = ({
+        rewards: t
+    }) => {
+        const a = Kt(),
+            n = () => {
+                a("/dashboard/rewards")
+            },
+            i = t.map(o => e.jsx(by, {
+                reward: o,
+                cardClick: n
+            }, o.name)),
+            r = () => e.jsx(xy, {
+                children: e.jsx(pc, {
+                    elements: i,
+                    config: {
+                        slidesPerView: 4,
+                        spaceBetween: 100,
+                        speed: 500,
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev"
+                        },
+                        modules: [gc],
+                        className: "default-carousel",
+                        loop: !0,
+                        breakpoints: {
+                            992: {
+                                slidesPerView: 4
+                            },
+                            768: {
+                                slidesPerView: 3
+                            },
+                            320: {
+                                slidesPerView: 2
+                            }
+                        }
+                    }
+                })
+            });
+        return e.jsx(mc, {
+            title: "Member Perks",
+            hasContent: t.length > 0,
+            sectionId: "member-perks",
+            children: e.jsx(N, {
+                sx: {
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "100%",
+                    flexDirection: "row"
+                },
+                children: t && r()
+            })
+        })
+    },
+    wy = ["vivint", "sunday", "tidy", "clearestate"];
+
+function pb({
+    permalink: t
+}) {
+    var Qe, it, Ve, ke, ze, We, Y, Ce, st, ct, Ge, Ye, Je, Ze, lt, dt, rt, we, Xe, et, tt, at, Ue, ut, Be, ot, ht, Me, vt, kt, wt, jt, St, qt, U, De, At, Rt, Dt, Ft, fe, Ct, Bt, Mt, Nt, bt, Pt, Jt, Zt, Xt, ea, ta, aa, na, ja, Sa, Ca, Ta, ka, Aa, _a, La, Pa, Ia, Ea, qa, Ra, Da, Fa;
+    const {
+        reportIsMonitored: a
+    } = da(), [n, i] = h.useState([]), r = Wt(t), o = cn(t), s = o && {
+        ...o,
+        data: (Qe = o.data) == null ? void 0 : Qe.data
+    }, c = !o.isError && a, u = Kt(), {
+        data: l
+    } = fc(), d = be("prop-1877"), C = be("prop-2296"), m = be("prop-2561"), v = be("prop-2559"), L = be("prop-2834"), g = c ? s : r;
+    h.useEffect(() => {
+        if (l) {
+            const de = l.rewards.filter(nt => wy.includes(nt.name));
+            i(de)
+        }
+    }, [l]);
+    const b = Gt(g),
+        [f, w] = h.useState(""),
+        [p, P] = h.useState(""),
+        q = Ui(),
+        {
+            hash: _
+        } = Lt();
+    ha(_, g);
+    const E = jy(q),
+        x = (ke = (Ve = (it = g == null ? void 0 : g.data) == null ? void 0 : it.entities) == null ? void 0 : Ve.properties) == null ? void 0 : ke[0],
+        {
+            userProfile: I,
+            homeDataSet: H,
+            homeAdditions: M,
+            setupUserProfile: D,
+            createUserProfile: j
+        } = xo(),
+        {
+            session: R
+        } = Yt(),
+        [W, F] = h.useState(!1),
+        $ = H,
+        [oe, Q] = h.useState(null),
+        [z, ee] = h.useState(!1),
+        [X, se] = h.useState(null),
+        k = M(oe) || {
+            data: null
+        },
+        [te, he] = h.useState(!1),
+        T = {
+            dd_plan: "byram",
+            rentals_limit: "10",
+            pfc_limit: "10",
+            listings_limit: "10",
+            city: f,
+            state: p,
+            brand: "nw"
+        };
+    let {
+        data: xe = []
+    } = yc(T, !!(f && p));
+    if (h.useEffect(() => {
+            var de, nt;
+            w((nt = (de = x == null ? void 0 : x.parcel_address) == null ? void 0 : de.parsed) == null ? void 0 : nt.city), P(x == null ? void 0 : x.state)
+        }, [(We = (ze = x == null ? void 0 : x.parcel_address) == null ? void 0 : ze.parsed) == null ? void 0 : We.city, x == null ? void 0 : x.state]), h.useEffect(() => {
+            !x || z || te || he(!0)
+        }, [x, z]), h.useEffect(() => {
+            var de, nt, ae, pe, ye, Pe, je, mt, xt, _t, ia;
+            if (te) {
+                if (I.isError && !z && !((de = I == null ? void 0 : I.data) != null && de.user_profile) && (ae = (nt = R == null ? void 0 : R.account) == null ? void 0 : nt.account) != null && ae.user_info) {
+                    const Tt = D(R.account.account.user_info, x.mailing_address);
+                    Tt.record_search = {
+                        address: (pe = x == null ? void 0 : x.parcel_address) == null ? void 0 : pe.full,
+                        city: (Pe = (ye = x == null ? void 0 : x.parcel_address) == null ? void 0 : ye.parsed) == null ? void 0 : Pe.city,
+                        state: (mt = (je = x == null ? void 0 : x.parcel_address) == null ? void 0 : je.parsed) == null ? void 0 : mt.state,
+                        zip_code: (_t = (xt = x == null ? void 0 : x.parcel_address) == null ? void 0 : xt.parsed) == null ? void 0 : _t.zip5
+                    }, j.mutate({
+                        userProfile: {
+                            user_profile: Tt,
+                            record_search: Tt.record_search
+                        }
+                    }), ee(!0)
+                }
+                I.isSuccess && ((ia = I.data) != null && ia.user_profile) && (Q(t), se(I.data.user_profile))
+            }
+        }, [te, I, R, x, j]), h.useEffect(() => {
+            var de;
+            I.isSuccess && ((de = I.data) != null && de.user_profile) && (Q(t), se(I.data.user_profile))
+        }, [I, t]), g.isLoading || g.isError) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    if (b) return e.jsx(Oe, {});
+    const ge = () => {
+            F(!W)
+        },
+        K = new bc(g == null ? void 0 : g.data);
+    if (!K) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    const A = K.data.properties[0],
+        Se = (((st = (Ce = (Y = K.data) == null ? void 0 : Y.meta) == null ? void 0 : Ce.counts) == null ? void 0 : st.properties) ?? 0) > 0 && ((Ge = (ct = g == null ? void 0 : g.data) == null ? void 0 : ct.meta) == null ? void 0 : Ge.no_entities) === null,
+        qe = ((Je = (Ye = g == null ? void 0 : g.data) == null ? void 0 : Ye.meta) == null ? void 0 : Je.no_entities) || ((lt = (Ze = g == null ? void 0 : g.data) == null ? void 0 : Ze.meta) == null ? void 0 : lt.no_entities) === null;
+    if (!Se && qe) {
+        const de = (rt = (dt = g == null ? void 0 : g.data) == null ? void 0 : dt.entities) == null ? void 0 : rt.options,
+            nt = q.get("from") || "";
+        return e.jsx(xc, {
+            permalink: t,
+            reportType: "property",
+            children: e.jsx(B, {
+                sx: {
+                    bgcolor: "background.default",
+                    flexDirection: "column",
+                    paddingBottom: "20px",
+                    px: 2
+                },
+                container: !0,
+                children: e.jsx(vc, {
+                    searchAddress: ((we = K == null ? void 0 : K.data) == null ? void 0 : we.address) || E,
+                    options: de,
+                    fromDashboard: nt,
+                    pageOptions: {
+                        disableSubheadline: ((Xe = de == null ? void 0 : de.properties) == null ? void 0 : Xe.length) < 1
+                    }
+                })
+            })
+        })
+    }
+    const Ae = X || D((tt = (et = R.account) == null ? void 0 : et.account) == null ? void 0 : tt.user_info, A == null ? void 0 : A.mailing_address);
+    let G = (at = A == null ? void 0 : A.buildings) == null ? void 0 : at[0];
+    if (X && ((ut = (Ue = k == null ? void 0 : k.data) == null ? void 0 : Ue.user_data_sets) != null && ut.user_property_detail_data_set)) {
+        const de = ((Me = (ht = (ot = (Be = k == null ? void 0 : k.data) == null ? void 0 : Be.user_data_sets) == null ? void 0 : ot.user_property_detail_data_set) == null ? void 0 : ht.custom_attributes) == null ? void 0 : Me.beds) + ((jt = (wt = (kt = (vt = k == null ? void 0 : k.data) == null ? void 0 : vt.user_data_sets) == null ? void 0 : kt.user_property_detail_data_set) == null ? void 0 : wt.custom_attributes) == null ? void 0 : jt.baths);
+        G = {
+            ...G,
+            rooms: {
+                ...G == null ? void 0 : G.rooms,
+                bed: (De = (U = (qt = (St = k == null ? void 0 : k.data) == null ? void 0 : St.user_data_sets) == null ? void 0 : qt.user_property_detail_data_set) == null ? void 0 : U.custom_attributes) == null ? void 0 : De.beds,
+                baths: {
+                    ...(At = G == null ? void 0 : G.rooms) == null ? void 0 : At.baths,
+                    total: (fe = (Ft = (Dt = (Rt = k == null ? void 0 : k.data) == null ? void 0 : Rt.user_data_sets) == null ? void 0 : Dt.user_property_detail_data_set) == null ? void 0 : Ft.custom_attributes) == null ? void 0 : fe.baths
+                },
+                total: de
+            },
+            area: (Nt = (Mt = (Bt = (Ct = k == null ? void 0 : k.data) == null ? void 0 : Ct.user_data_sets) == null ? void 0 : Bt.user_property_detail_data_set) == null ? void 0 : Mt.custom_attributes) == null ? void 0 : Nt.sqft
+        }
+    }
+    const ne = K.data.address || E,
+        Re = {
+            street: ((Pt = (bt = A == null ? void 0 : A.parcel_address) == null ? void 0 : bt.parts) == null ? void 0 : Pt.street) || "",
+            city: ((Zt = (Jt = A == null ? void 0 : A.parcel_address) == null ? void 0 : Jt.parts) == null ? void 0 : Zt.city) || "",
+            state: ((ea = (Xt = A == null ? void 0 : A.parcel_address) == null ? void 0 : Xt.parts) == null ? void 0 : ea.state) || "",
+            zip5: ((aa = (ta = A == null ? void 0 : A.parcel_address) == null ? void 0 : ta.parts) == null ? void 0 : aa.zip) || ""
+        },
+        _e = A.market,
+        V = nm(_e),
+        Z = im(A),
+        le = rm(A),
+        ve = um(A == null ? void 0 : A.owners.length, A == null ? void 0 : A.residents.length, A != null && A.building_permits ? A == null ? void 0 : A.building_permits.length : 0, A == null ? void 0 : A.deeds.length, A == null ? void 0 : A.courts.civils.length, Z || 0, le || 0, ((Ca = (Sa = (ja = (na = K == null ? void 0 : K.data) == null ? void 0 : na.properties) == null ? void 0 : ja[0]) == null ? void 0 : Sa.equities) == null ? void 0 : Ca.length) || 0, ((ka = (Ta = K == null ? void 0 : K.data) == null ? void 0 : Ta.schools) == null ? void 0 : ka.length) || 0),
+        J = xe == null ? void 0 : xe.listing_teaser,
+        me = (J == null ? void 0 : J.preforeclosures) || [],
+        Fe = ((La = (_a = (Aa = J == null ? void 0 : J.meta) == null ? void 0 : Aa.available) == null ? void 0 : _a.market) == null ? void 0 : La.preforeclosures) || 0,
+        re = (de, nt) => {
+            var je;
+            const {
+                city: ae,
+                state: pe,
+                zip5: ye
+            } = ((je = de == null ? void 0 : de.parcel_address) == null ? void 0 : je.parsed) || {
+                city: "",
+                state: "",
+                zip5: ""
+            }, Pe = `/search/listing?city=${ae}&state=${pe}&zip5=${ye}&search_type=${nt||"pre_foreclosures"}`;
+            u(Pe)
+        },
+        Le = [wc({
+            property: A,
+            data: A.comparables
+        }), jc({
+            property: A,
+            data: me,
+            navigateAction: re,
+            totalDataValues: Fe
+        })],
+        He = new va,
+        Ke = (Pa = K.data.meta) != null && Pa.updated_at ? He.parseDateFromString((Ia = K.data.meta) == null ? void 0 : Ia.updated_at, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ") : "";
+    document.title = `${ne} - BeenVerified`;
+    const Ee = () => {
+        var nt, ae, pe, ye, Pe, je, mt, xt, _t, ia, Tt, Ot, Vt, ra, oa, pt, ma, un, ya, hn, mn, pn, $a, tr, ar, nr;
+        const de = {
+            permalink: t,
+            full_address: K.data.address || E,
+            street: ((ae = (nt = A == null ? void 0 : A.parcel_address) == null ? void 0 : nt.parts) == null ? void 0 : ae.street) || "",
+            city: ((ye = (pe = A == null ? void 0 : A.parcel_address) == null ? void 0 : pe.parts) == null ? void 0 : ye.city) || "",
+            state: ((je = (Pe = A == null ? void 0 : A.parcel_address) == null ? void 0 : Pe.parts) == null ? void 0 : je.state) || "",
+            zip5: ((xt = (mt = A == null ? void 0 : A.parcel_address) == null ? void 0 : mt.parts) == null ? void 0 : xt.zip) || ""
+        };
+        if ((Tt = (ia = (_t = A == null ? void 0 : A.buildings) == null ? void 0 : _t[0]) == null ? void 0 : ia.rooms) != null && Tt.bed && (de.beds = (ra = (Vt = (Ot = A == null ? void 0 : A.buildings) == null ? void 0 : Ot[0]) == null ? void 0 : Vt.rooms) == null ? void 0 : ra.bed), (un = (ma = (pt = (oa = A == null ? void 0 : A.buildings) == null ? void 0 : oa[0]) == null ? void 0 : pt.rooms) == null ? void 0 : ma.baths) != null && un.total && (de.baths = (pn = (mn = (hn = (ya = A == null ? void 0 : A.buildings) == null ? void 0 : ya[0]) == null ? void 0 : hn.rooms) == null ? void 0 : mn.baths) == null ? void 0 : pn.total), (tr = ($a = A == null ? void 0 : A.buildings) == null ? void 0 : $a[0]) != null && tr.area && (de.sqft = (nr = (ar = A == null ? void 0 : A.buildings) == null ? void 0 : ar[0]) == null ? void 0 : nr.area), _e && _e.length) {
+            const Ka = Uc(_e, ["bk", "ca", "arch"]);
+            de.estimated_value = (Ka == null ? void 0 : Ka.maxRange) || 0
+        }
+        return A.owners && A.owners.length && (de.owners = A.owners.map(hi => {
+            var Ka, ir, rr, or, sr, cr;
+            return {
+                first_name: ((rr = (ir = (Ka = hi.names) == null ? void 0 : Ka[0]) == null ? void 0 : ir.parsed) == null ? void 0 : rr.first) || "",
+                last_name: ((cr = (sr = (or = hi.names) == null ? void 0 : or[0]) == null ? void 0 : sr.parsed) == null ? void 0 : cr.last) || ""
+            }
+        })), de
+    };
+    return e.jsxs(wo, {
+        llmData: A,
+        llmType: "property",
+        children: [e.jsxs(B, {
+            container: !0,
+            direction: "row",
+            columns: 12,
+            spacing: 7,
+            children: [e.jsx(B, {
+                item: !0,
+                sm: 12,
+                md: 4,
+                lg: 4,
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "block",
+                        lg: "block"
+                    }
+                },
+                children: e.jsx(jo, {
+                    navLinkData: ve,
+                    reportDataPoint: ne,
+                    permalink: t
+                })
+            }), e.jsxs(B, {
+                item: !0,
+                sm: 12,
+                md: 8,
+                lg: 8,
+                marginTop: {
+                    xs: 0,
+                    md: .5
+                },
+                sx: {
+                    "&.MuiGrid-item": {
+                        paddingTop: {
+                            xs: 3.75,
+                            md: 7
+                        }
+                    }
+                },
+                children: [a && e.jsx(_n, {
+                    permalink: t,
+                    navLinkData: ve
+                }), e.jsxs(e.Fragment, {
+                    children: [e.jsx(N, {
+                        sx: {
+                            height: 30,
+                            backgroundColor: "#f8f8f8",
+                            position: "sticky",
+                            marginBottom: "-10px",
+                            marginX: -1,
+                            top: 52,
+                            zIndex: 10,
+                            display: {
+                                xs: "none",
+                                sm: "block",
+                                md: "block",
+                                lg: "block"
+                            }
+                        }
+                    }), e.jsx(Ya, {
+                        reportType: "property",
+                        reportTitle: "Property",
+                        dateUpdated: Ke,
+                        reportUpgraded: !1,
+                        reportDataForListV2: L ? Ee() : void 0
+                    })]
+                }), e.jsx(Sc, {
+                    propertyReportData: A,
+                    permalink: t,
+                    canEditProperty: !0,
+                    updatedBuilding: G,
+                    setIsEditModalOpen: ge,
+                    useStreetViewToggle: !0,
+                    marketValues: _e,
+                    dontAllowMonitor: !0,
+                    dontShowSaleOrPfc: !0
+                }), e.jsx(Cc, {
+                    parsedPropertyAddress: Re,
+                    propertyFullAddress: ne
+                }), e.jsx(Tc, {
+                    propertyReportData: A,
+                    permalink: t,
+                    reportType: "property"
+                }), C && e.jsx(kc, {
+                    reportData: K.data
+                }), e.jsx(Ac, {
+                    owners: A.owners,
+                    propertyAddress: ne,
+                    permalink: t,
+                    ownerSearchAddress: m ? {
+                        city: ((qa = (Ea = A == null ? void 0 : A.parcel_address) == null ? void 0 : Ea.parsed) == null ? void 0 : qa.city) || "",
+                        state: ((Da = (Ra = A == null ? void 0 : A.parcel_address) == null ? void 0 : Ra.parsed) == null ? void 0 : Da.state) || ""
+                    } : void 0
+                }), m && e.jsx(Lu, {}), e.jsx(_c, {
+                    owners: A.owners,
+                    deeds: A.deeds,
+                    propertyAddress: ne,
+                    permalink: t
+                }), e.jsx(Lc, {
+                    owners: A.owners,
+                    residents: A.residents,
+                    propertyAddress: ne,
+                    permalink: t
+                }), e.jsx(Pc, {
+                    propertyAddress: ne,
+                    property: A,
+                    canEditProperty: !0,
+                    updatedBuilding: G,
+                    setIsEditModalOpen: ge,
+                    permalink: t
+                }), e.jsx(Ic, {
+                    propertyAddress: ne,
+                    property: A,
+                    permalink: t
+                }), e.jsx(Ec, {
+                    propertyAddress: ne,
+                    hoas: A.hoas
+                }), e.jsx(qc, {
+                    propertyAddress: ne,
+                    property: A,
+                    permalink: t,
+                    useTaxHistory: d
+                }), e.jsx(Rc, {
+                    propertyReportData: A,
+                    permalink: t
+                }), e.jsx(Dc, {
+                    propertyAddress: ne,
+                    property: A,
+                    permalink: t
+                }), e.jsx(Fc, {
+                    propertyAddress: ne,
+                    deeds: A.deeds,
+                    permalink: t
+                }), e.jsx(Bc, {
+                    propertyAddress: ne,
+                    liens: A.courts,
+                    permalink: t
+                }), e.jsx(Mc, {
+                    property: A,
+                    propertyAddress: ne,
+                    marketValues: _e,
+                    rentalValues: ((Fa = A.values) == null ? void 0 : Fa.rental) || [],
+                    avmsPartners: V,
+                    permalink: t
+                }), e.jsx(Nc, {
+                    propertyAddress: ne,
+                    property: K.data,
+                    permalink: t
+                }), e.jsx(Oc, {
+                    propertyAddress: ne,
+                    tabs: Le.filter(de => !!de)
+                }), e.jsx(Vc, {
+                    propertyAddress: ne,
+                    property: K.data,
+                    reward: v ? n.filter(de => de.name === "vivint")[0] : void 0
+                }), v && e.jsx(vy, {
+                    rewards: n
+                }), e.jsx(Hc, {
+                    property: A,
+                    propertyAddress: ne
+                }), e.jsx(zc, {
+                    propertyAddress: ne,
+                    property: A
+                }), e.jsx(Wc, {
+                    permalink: t
+                }), e.jsx(Gc, {
+                    permalink: t
+                }), e.jsx(Oi, {
+                    permalink: t
+                }), e.jsx(Yc, {
+                    open: W,
+                    setIsOpen: ge,
+                    building: G,
+                    permalink: t,
+                    userProfile: Ae,
+                    postHomeData: $,
+                    propertyAddress: ne
+                })]
+            })]
+        }), e.jsx(Vi, {
+            navLinkData: ve
+        }), e.jsx(Qt, {
+            menuItems: K.data.rawData.debug_menu
+        })]
+    })
+}
+
+function jy(t) {
+    const a = t.get("address") || "",
+        n = t.get("city") || "",
+        i = t.get("state") || "",
+        r = t.get("zipcode") || "";
+    return `${a} ${n}, ${i} ${r}`
+}
+const Sy = () => [{
+        navSection: "Overview",
+        sections: [{
+            nameToDisplay: "Smart Insights",
+            nameToRecord: "smart_insights",
+            checked: !1
+        }]
+    }, {
+        navSection: "Damage History",
+        sections: [{
+            nameToDisplay: "Accidents Reported",
+            nameToRecord: "accidents_reported",
+            checked: !1
+        }, {
+            nameToDisplay: "Damage Reported",
+            nameToRecord: "damage_reported",
+            checked: !1
+        }, {
+            nameToDisplay: "Repair Quotes",
+            nameToRecord: "repair_quotes",
+            checked: !1
+        }, {
+            nameToDisplay: "Salvage Records",
+            nameToRecord: "salvage_records",
+            checked: !1
+        }]
+    }, {
+        navSection: "Title History",
+        sections: [{
+            nameToDisplay: "Ownership History",
+            nameToRecord: "ownership_history",
+            checked: !1
+        }, {
+            nameToDisplay: "Title Records",
+            nameToRecord: "title_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Title Brands",
+            nameToRecord: "title_brands",
+            checked: !1
+        }, {
+            nameToDisplay: "Lien Records",
+            nameToRecord: "lien_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Impound Records",
+            nameToRecord: "impound_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Export Records",
+            nameToRecord: "export_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Theft Records",
+            nameToRecord: "theft_records",
+            checked: !1
+        }]
+    }, {
+        navSection: "Market Value",
+        sections: [{
+            nameToDisplay: "Market Value",
+            nameToRecord: "market_value",
+            checked: !1
+        }, {
+            nameToDisplay: "Ownership Costs",
+            nameToRecord: "ownership_costs",
+            checked: !1
+        }, {
+            nameToDisplay: "Sale Listings",
+            nameToRecord: "sales",
+            checked: !1
+        }, {
+            nameToDisplay: "Auctions",
+            nameToRecord: "auctions",
+            checked: !1
+        }]
+    }, {
+        navSection: "Maintenance & Repairs",
+        sections: [{
+            nameToDisplay: "Service and Repairs",
+            nameToRecord: "service_and_repairs",
+            checked: !1
+        }, {
+            nameToDisplay: "Inspections",
+            nameToRecord: "inspections",
+            checked: !1
+        }, {
+            nameToDisplay: "Self Inspection",
+            nameToRecord: "self_inspection",
+            checked: !1
+        }, {
+            nameToDisplay: "Maintenance Schedule",
+            nameToRecord: "maintenance_schedule",
+            checked: !1
+        }, {
+            nameToDisplay: "Recalls",
+            nameToRecord: "recalls",
+            checked: !1
+        }, {
+            nameToDisplay: "Detailed History",
+            nameToRecord: "detailed_history",
+            checked: !1
+        }]
+    }, {
+        navSection: "Vehicle Specs",
+        sections: [{
+            nameToDisplay: "Specs",
+            nameToRecord: "specifications",
+            checked: !1
+        }]
+    }, {
+        navSection: "Additional Info",
+        sections: [{
+            nameToDisplay: "Warranties",
+            nameToRecord: "warranties",
+            checked: !1
+        }, {
+            nameToDisplay: "Vehicle Safety",
+            nameToRecord: "vehicle_safety",
+            checked: !1
+        }]
+    }],
+    Qr = ({
+        vehicleReport: t
+    }) => be("bump-4403") ? e.jsx($c, {
+        vehicleReport: t
+    }) : e.jsx(Kc, {
+        vehicleReport: t
+    }),
+    Cy = () => [{
+        navSection: "Overview",
+        sections: [{
+            nameToDisplay: "Smart Insights",
+            nameToRecord: "smart_insights",
+            checked: !1
+        }]
+    }, {
+        navSection: "Vehicle History",
+        sections: [{
+            nameToDisplay: "Detailed History",
+            nameToRecord: "detailed_history",
+            checked: !1
+        }, {
+            nameToDisplay: "Ownership History",
+            nameToRecord: "ownership_history",
+            checked: !1
+        }, {
+            nameToDisplay: "Title Records",
+            nameToRecord: "title_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Title Brands",
+            nameToRecord: "title_brands",
+            checked: !1
+        }, {
+            nameToDisplay: "Lien Records",
+            nameToRecord: "lien_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Impound Records",
+            nameToRecord: "impound_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Export Records",
+            nameToRecord: "export_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Theft Records",
+            nameToRecord: "theft_records",
+            checked: !1
+        }, {
+            nameToDisplay: "Accidents and Damages",
+            nameToRecord: "accidents_and_damages",
+            checked: !1
+        }, {
+            nameToDisplay: "Repair Quotes",
+            nameToRecord: "repair_quotes",
+            checked: !1
+        }, {
+            nameToDisplay: "Salvage Records",
+            nameToRecord: "salvage_records",
+            checked: !1
+        }]
+    }, {
+        navSection: "Market Value",
+        sections: [{
+            nameToDisplay: "Market Value",
+            nameToRecord: "market_value",
+            checked: !1
+        }, {
+            nameToDisplay: "Ownership Costs",
+            nameToRecord: "ownership_costs",
+            checked: !1
+        }, {
+            nameToDisplay: "Sale Listings",
+            nameToRecord: "sales",
+            checked: !1
+        }, {
+            nameToDisplay: "Auctions",
+            nameToRecord: "auctions",
+            checked: !1
+        }]
+    }, {
+        navSection: "Maintenance & Repairs",
+        sections: [{
+            nameToDisplay: "Service and Repairs",
+            nameToRecord: "service_and_repairs",
+            checked: !1
+        }, {
+            nameToDisplay: "Inspections",
+            nameToRecord: "inspections",
+            checked: !1
+        }, {
+            nameToDisplay: "Self Inspection",
+            nameToRecord: "self_inspection",
+            checked: !1
+        }, {
+            nameToDisplay: "Maintenance Schedule",
+            nameToRecord: "maintenance_schedule",
+            checked: !1
+        }, {
+            nameToDisplay: "Recalls",
+            nameToRecord: "recalls",
+            checked: !1
+        }]
+    }, {
+        navSection: "Vehicle Specs",
+        sections: [{
+            nameToDisplay: "Specs",
+            nameToRecord: "specifications",
+            checked: !1
+        }]
+    }, {
+        navSection: "Additional Info",
+        sections: [{
+            nameToDisplay: "Warranties",
+            nameToRecord: "warranties",
+            checked: !1
+        }, {
+            nameToDisplay: "Vehicle Safety",
+            nameToRecord: "vehicle_safety",
+            checked: !1
+        }]
+    }],
+    Ty = (t, a, n) => {
+        const {
+            logError: i
+        } = h.useContext(ce);
+        return {
+            ...Ht({
+                queryKey: ["vehicleComplaints"],
+                queryFn: () => Cl(t, a, n),
+                enabled: !!t && !!a && !!n,
+                onError: o => {
+                    i("Error fetching vehicle complaints", o)
+                }
+            })
+        }
+    },
+    ky = () => {
+        const {
+            logError: t
+        } = h.useContext(ce);
+        return {
+            ...Ht({
+                queryKey: ["statesContact"],
+                queryFn: () => Tl(),
+                onError: n => {
+                    t("Error fetching vehicle complaints", n)
+                }
+            })
+        }
+    };
+
+function gb({
+    permalink: t
+}) {
+    var ve, J, me, Fe, re, Le, He, Ke, Ee, Qe, it, Ve, ke, ze, We, Y, Ce, st, ct, Ge, Ye, Je, Ze, lt, dt, rt, we, Xe, et, tt, at, Ue, ut, Be, ot, ht, Me, vt, kt, wt, jt, St, qt, U, De, At, Rt, Dt, Ft, fe, Ct, Bt, Mt, Nt, bt, Pt, Jt, Zt, Xt, ea, ta, aa, na, ja, Sa, Ca, Ta, ka, Aa, _a, La, Pa, Ia, Ea, qa, Ra, Da, Fa, de, nt, ae, pe, ye, Pe, je, mt, xt, _t, ia;
+    const {
+        reportIsMonitored: a
+    } = da(t), n = Wt(t), i = cn(t), r = be("bump-4397"), o = be("bump-4414"), s = be("bump-4464"), c = be("prop-2834"), u = be("bump-4457"), l = be("bump-4461"), d = i && {
+        ...i,
+        data: (ve = i.data) == null ? void 0 : ve.data
+    }, C = !i.isError && a, {
+        data: m
+    } = Ni(!0), [v, L] = h.useState(!1), g = Sy(), b = u ? Cy() : s ? [...g.filter(Tt => Tt.navSection !== "Damage History"), {
+        navSection: "Damage History",
+        sections: [{
+            nameToDisplay: "Accidents and Damages",
+            nameToRecord: "accidents_and_damages",
+            checked: !1
+        }, {
+            nameToDisplay: "Repair Quotes",
+            nameToRecord: "repair_quotes",
+            checked: !1
+        }, {
+            nameToDisplay: "Salvage Records",
+            nameToRecord: "salvage_records",
+            checked: !1
+        }]
+    }] : g, [f, w] = h.useState(b), p = ((J = m == null ? void 0 : m.account) == null ? void 0 : J.user_report_preferences.hidden_sections.vehicle_report) || [], P = C ? d : n;
+    h.useEffect(() => {
+        p && w(Tt => Tt.map(Ot => ({
+            ...Ot,
+            sections: Ot.sections.map(Vt => ({
+                ...Vt,
+                checked: !p.includes(Vt.nameToRecord)
+            }))
+        })))
+    }, [m]);
+    const {
+        hash: q
+    } = Lt();
+    ha(q, P);
+    const _ = Gt(P),
+        [E, x] = h.useState(""),
+        [I, H] = h.useState(""),
+        [M, D] = h.useState(""),
+        [j, R] = h.useState(!1),
+        [W, F] = h.useState([]),
+        [$, oe] = h.useState(!1),
+        [Q, z] = h.useState(""),
+        {
+            data: ee
+        } = Ty(E, I, M),
+        X = Qc(t),
+        {
+            data: se
+        } = ky(),
+        k = h.useMemo(() => {
+            var Tt, Ot, Vt, ra, oa, pt, ma;
+            if (!P.isLoading && !P.isError && P.data && !P.isFetching) {
+                const un = new Jc(P.data),
+                    ya = un.data;
+                if (ya.automobiles) {
+                    const hn = ((Ot = (Tt = ya.automobiles[0]) == null ? void 0 : Tt.year) == null ? void 0 : Ot.toString()) || "",
+                        mn = ((Vt = ya.automobiles[0]) == null ? void 0 : Vt.make) || "",
+                        pn = ((ra = ya.automobiles[0]) == null ? void 0 : ra.model) || "",
+                        $a = ((pt = (oa = ya.automobiles[0]) == null ? void 0 : oa.vehicleYMM) == null ? void 0 : pt.toUpperCase()) || ((ma = ya.meta) == null ? void 0 : ma.metaName) || "";
+                    hn !== E && x(hn), mn !== I && H(mn), pn !== M && D(pn), $a !== Q && z($a), document.title = `${$a||"Search"} - Beenverified`
+                }
+                return un
+            }
+            return null
+        }, [P, E, I, M, Q]),
+        te = hm((k == null ? void 0 : k.data) || null, ((me = ee == null ? void 0 : ee.complaints) == null ? void 0 : me.length) || 0),
+        he = mm((k == null ? void 0 : k.data) || null, ((Fe = ee == null ? void 0 : ee.complaints) == null ? void 0 : Fe.length) || 0);
+    if (P.isLoading || P.isError) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    if (_) return e.jsx(Oe, {});
+    if (!k && (X.isSuccess || X.isLoading)) return e.jsx(ur, {});
+    if (!k) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    const T = k.data;
+    if (T.automobiles.length === 0) return e.jsx(Oe, {});
+    const xe = Zc(T),
+        ge = ((re = T.meta) == null ? void 0 : re.search_by) === "ymm",
+        K = [E, I, M].filter(Boolean),
+        A = K.length === 3,
+        Se = K.join(" "),
+        qe = ge ? "" : (Le = T.meta) == null ? void 0 : Le.metaName,
+        Ae = () => {
+            X.mutate({
+                permalink: t
+            }), oe(!0)
+        },
+        G = () => {
+            R(!j), oe(!$)
+        },
+        ne = () => {
+            L(!v)
+        };
+    k && $ && X.isSuccess && !j && (F(Xc(T)), R(!0));
+    const Re = new va,
+        _e = (He = k.data.meta) != null && He.updated_at ? Re.parseDateFromString((Ke = k.data.meta) == null ? void 0 : Ke.updated_at, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ") : "",
+        V = T.report_upgraded && ((Ee = T.automobiles[0]) == null ? void 0 : Ee.nmvtis_success),
+        Z = () => {
+            var Ot, Vt, ra, oa;
+            return {
+                permalink: t,
+                year: E || "",
+                make: I || "",
+                model: M || "",
+                market_value: ((oa = (ra = (Vt = (Ot = T == null ? void 0 : T.automobiles) == null ? void 0 : Ot[0]) == null ? void 0 : Vt.valuation) == null ? void 0 : ra.clean_retail) == null ? void 0 : oa.adjusted) || 0
+            }
+        },
+        le = {
+            vehicleAccidentsList: (it = (Qe = T == null ? void 0 : T.automobiles) == null ? void 0 : Qe[0]) == null ? void 0 : it.accidents,
+            vehicleRecallsList: (ke = (Ve = T == null ? void 0 : T.automobiles) == null ? void 0 : Ve[0]) == null ? void 0 : ke.recalls,
+            vehicleServiceRepairsList: (We = (ze = T == null ? void 0 : T.automobiles) == null ? void 0 : ze[0]) == null ? void 0 : We.service_repairs,
+            vehicleTheftsList: (Ce = (Y = T == null ? void 0 : T.automobiles) == null ? void 0 : Y[0]) == null ? void 0 : Ce.thefts,
+            vehicleLiensList: (ct = (st = T == null ? void 0 : T.automobiles) == null ? void 0 : st[0]) == null ? void 0 : ct.liens,
+            vehicleImpoundsList: (Ye = (Ge = T == null ? void 0 : T.automobiles) == null ? void 0 : Ge[0]) == null ? void 0 : Ye.impounds,
+            vehicleTitleBrandsList: (Ze = (Je = T == null ? void 0 : T.automobiles) == null ? void 0 : Je[0]) == null ? void 0 : Ze.title_checks,
+            vehicleTitleRecordsList: (dt = (lt = T == null ? void 0 : T.automobiles) == null ? void 0 : lt[0]) == null ? void 0 : dt.title_registrations,
+            vehicleAuctionsDamageList: (we = (rt = T == null ? void 0 : T.automobiles) == null ? void 0 : rt[0]) == null ? void 0 : we.auctions,
+            vehicleSalvagesList: (et = (Xe = T == null ? void 0 : T.automobiles) == null ? void 0 : Xe[0]) == null ? void 0 : et.salvage,
+            vehicleRepairQuotesList: (Ue = (at = (tt = T == null ? void 0 : T.automobiles) == null ? void 0 : tt[0]) == null ? void 0 : at.damage_history) == null ? void 0 : Ue.repair_quotes,
+            nmvtisSuccess: ((Be = (ut = T == null ? void 0 : T.automobiles) == null ? void 0 : ut[0]) == null ? void 0 : Be.nmvtis_success) || !1,
+            reportUpgraded: T.report_upgraded,
+            handleFreeUpgrade: Ae
+        };
+    return e.jsx(So, {
+        reportType: "vehicle_report",
+        children: e.jsxs(wo, {
+            llmData: T.automobiles[0],
+            llmType: "vehicle",
+            children: [X.isLoading && e.jsx(ur, {}), e.jsx(el, {
+                recordsFound: W,
+                showModal: j,
+                handleOnClose: G
+            }), e.jsxs(B, {
+                container: !0,
+                direction: "row",
+                columns: 12,
+                spacing: 7,
+                children: [e.jsx(B, {
+                    item: !0,
+                    sm: 12,
+                    md: 4,
+                    lg: 4,
+                    sx: {
+                        display: {
+                            xs: "none",
+                            sm: "none",
+                            md: "block",
+                            lg: "block"
+                        }
+                    },
+                    children: e.jsx(Ua, {
+                        reportType: "Vehicle Report",
+                        headerTitle: Q || qe || "",
+                        subheaderTitle: qe || "",
+                        menuItems: te,
+                        customTitleStyle: {
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                            color: "#0A0B0D"
+                        }
+                    })
+                }), e.jsxs(B, {
+                    item: !0,
+                    sm: 12,
+                    md: 8,
+                    lg: 8,
+                    marginTop: {
+                        xs: 0,
+                        md: .5
+                    },
+                    sx: {
+                        "&.MuiGrid-item": {
+                            paddingTop: {
+                                xs: 3.75,
+                                md: 7
+                            }
+                        }
+                    },
+                    children: [a && e.jsx(_n, {
+                        permalink: t,
+                        navLinkData: he
+                    }), e.jsxs(e.Fragment, {
+                        children: [e.jsx(N, {
+                            sx: {
+                                height: 30,
+                                backgroundColor: "#f8f8f8",
+                                position: "sticky",
+                                marginBottom: "-10px",
+                                marginX: -1,
+                                top: 52,
+                                zIndex: 10,
+                                display: {
+                                    xs: "none",
+                                    sm: "block",
+                                    md: "block",
+                                    lg: "block"
+                                }
+                            }
+                        }), e.jsx(Ya, {
+                            reportTitle: "Vehicle",
+                            reportType: "vehicle",
+                            dateUpdated: _e,
+                            reportUpgraded: !1,
+                            reportDataForListV2: c ? Z() : void 0
+                        })]
+                    }), ge && e.jsx(tl, {
+                        year: E,
+                        make: I,
+                        model: M
+                    }), e.jsx(al, {
+                        reportType: "vehicle-report",
+                        vehicleReportData: T,
+                        permalink: t,
+                        nmvtisSuccess: (ot = T.automobiles[0]) == null ? void 0 : ot.nmvtis_success,
+                        reportUpgraded: T.report_upgraded,
+                        handleFreeUpgrade: Ae,
+                        hasBadge: !1
+                    }), !ge && A && e.jsx(ie, {
+                        nameToDisplay: "Smart Insights",
+                        nameToRecord: "smart_insights",
+                        id: "smart-insights",
+                        children: e.jsx(N, {
+                            mb: 2.5,
+                            children: e.jsx(nl, {
+                                reportData: T
+                            })
+                        })
+                    }), e.jsx(il, {
+                        sectionId: "get-most-out",
+                        claimed: ((ht = T.meta) == null ? void 0 : ht.tag) === "self",
+                        meta: T.meta
+                    }), e.jsxs(e.Fragment, {
+                        children: [!ge && e.jsxs(e.Fragment, {
+                            children: [u && e.jsx(hr, {
+                                children: ((Me = T.automobiles[0]) == null ? void 0 : Me.detailedHistory) && e.jsx(ie, {
+                                    nameToDisplay: "Detailed History",
+                                    nameToRecord: "detailed_history",
+                                    id: "detailed-history",
+                                    children: r ? e.jsx(mr, {
+                                        detailedHistory: (vt = T.automobiles[0]) == null ? void 0 : vt.detailedHistory,
+                                        ymm: Se
+                                    }) : e.jsx(pr, {
+                                        detailedHistory: (kt = T.automobiles[0]) == null ? void 0 : kt.detailedHistory,
+                                        ymm: Se
+                                    })
+                                })
+                            }), e.jsx(ie, {
+                                nameToDisplay: "Ownership History",
+                                nameToRecord: "ownership_history",
+                                id: "vehicle-ownership-history",
+                                children: e.jsx(rl, {
+                                    vehicleOwnershipHistories: (wt = T.automobiles[0]) == null ? void 0 : wt.ownership_history
+                                })
+                            }), o ? e.jsxs(e.Fragment, {
+                                children: [e.jsx(ie, {
+                                    nameToDisplay: "Title Summary",
+                                    nameToRecord: "title_summary",
+                                    id: "vehicle-title-summary",
+                                    children: e.jsx(ol, {
+                                        vehicleTitleRegistrationsList: (St = (jt = T == null ? void 0 : T.automobiles) == null ? void 0 : jt[0]) == null ? void 0 : St.title_registrations,
+                                        vehicleTitleBrandsList: (U = (qt = T == null ? void 0 : T.automobiles) == null ? void 0 : qt[0]) == null ? void 0 : U.title_checks,
+                                        vehicleLiensList: (At = (De = T == null ? void 0 : T.automobiles) == null ? void 0 : De[0]) == null ? void 0 : At.liens,
+                                        vehicleImpoundList: (Dt = (Rt = T == null ? void 0 : T.automobiles) == null ? void 0 : Rt[0]) == null ? void 0 : Dt.impounds,
+                                        statesContact: se == null ? void 0 : se.states_contact,
+                                        nmvtisSuccess: ((fe = (Ft = T == null ? void 0 : T.automobiles) == null ? void 0 : Ft[0]) == null ? void 0 : fe.nmvtis_success) || !1,
+                                        reportUpgraded: T.report_upgraded,
+                                        handleFreeUpgrade: Ae
+                                    })
+                                }), e.jsx(gr, {})]
+                            }) : e.jsxs(e.Fragment, {
+                                children: [e.jsx(ie, {
+                                    nameToDisplay: "Title Records",
+                                    nameToRecord: "title_records",
+                                    id: "vehicle-title-records",
+                                    children: V ? e.jsx(sl, {
+                                        vehicleTitleRegistrationsList: (Ct = T.automobiles[0]) == null ? void 0 : Ct.title_registrations,
+                                        statesContact: (se == null ? void 0 : se.states_contact) || []
+                                    }) : e.jsx(fr, {
+                                        showTopBar: !0,
+                                        sectionId: "vehicle-title-records",
+                                        sectionName: "Title Records",
+                                        nmvtisSuccess: (Bt = T.automobiles[0]) == null ? void 0 : Bt.nmvtis_success,
+                                        reportUpgraded: T.report_upgraded,
+                                        handleFreeUpgrade: Ae
+                                    })
+                                }), e.jsx(gr, {}), e.jsx(ie, {
+                                    nameToDisplay: "Title Brands",
+                                    nameToRecord: "title_brands",
+                                    id: "vehicle-title-brands",
+                                    children: V ? e.jsx(cl, {
+                                        vehicleTitleBrandsList: (Mt = T.automobiles[0]) == null ? void 0 : Mt.title_checks,
+                                        statesContact: (se == null ? void 0 : se.states_contact) || []
+                                    }) : e.jsx(fr, {
+                                        showTopBar: !0,
+                                        sectionId: "vehicle-title-brands",
+                                        sectionName: "Title Brands",
+                                        nmvtisSuccess: (Nt = T.automobiles[0]) == null ? void 0 : Nt.nmvtis_success,
+                                        reportUpgraded: T.report_upgraded,
+                                        handleFreeUpgrade: Ae
+                                    })
+                                }), e.jsx(ie, {
+                                    nameToDisplay: "Lien Records",
+                                    nameToRecord: "lien_records",
+                                    id: "vehicle-liens-report-section",
+                                    children: e.jsx(ll, {
+                                        vehicleLiensList: (bt = T.automobiles[0]) == null ? void 0 : bt.liens
+                                    })
+                                }), e.jsx(ie, {
+                                    nameToDisplay: "Impound Records",
+                                    nameToRecord: "impound_records",
+                                    id: "vehicle-impound",
+                                    children: e.jsx(dl, {
+                                        vehicleImpoundList: (Pt = T.automobiles[0]) == null ? void 0 : Pt.impounds
+                                    })
+                                })]
+                            }), e.jsx(ie, {
+                                nameToDisplay: "Export Records",
+                                nameToRecord: "export_records",
+                                id: "vehicle-exports",
+                                children: e.jsx(ul, {
+                                    vehicleExportList: (Jt = T.automobiles[0]) == null ? void 0 : Jt.exports
+                                })
+                            }), u && e.jsxs(e.Fragment, {
+                                children: [e.jsx(ie, {
+                                    nameToDisplay: "Theft Records",
+                                    nameToRecord: "theft_records",
+                                    id: "vehicle-thefts",
+                                    children: e.jsx(yr, {
+                                        vehicleTheftsList: (Zt = T.automobiles[0]) == null ? void 0 : Zt.thefts
+                                    })
+                                }), e.jsx(ie, {
+                                    nameToDisplay: "Damage History",
+                                    nameToRecord: "damage_history",
+                                    id: "vehicle-damage-history",
+                                    children: s ? e.jsx(br, {
+                                        ...le
+                                    }) : e.jsx(xr, {
+                                        ...le
+                                    })
+                                })]
+                            })]
+                        }), !u && e.jsx(ie, {
+                            nameToDisplay: "Specs",
+                            nameToRecord: "specifications",
+                            id: "vehicle-specs",
+                            children: l ? e.jsx(vr, {
+                                vehicleSpecs: xe,
+                                vehicleDesign: (Xt = T.automobiles[0]) == null ? void 0 : Xt.design,
+                                firstVehicleImage: (ta = (ea = T.automobiles[0]) == null ? void 0 : ea.images) == null ? void 0 : ta[0]
+                            }) : e.jsx(wr, {
+                                vehicleSpecs: xe,
+                                vehicleDesign: (aa = T.automobiles[0]) == null ? void 0 : aa.design
+                            })
+                        })]
+                    }), !ge && e.jsxs(e.Fragment, {
+                        children: [!u && e.jsx(hr, {
+                            children: ((na = T.automobiles[0]) == null ? void 0 : na.detailedHistory) && e.jsx(ie, {
+                                nameToDisplay: "Detailed History",
+                                nameToRecord: "detailed_history",
+                                id: "detailed-history",
+                                children: r ? e.jsx(mr, {
+                                    detailedHistory: (ja = T.automobiles[0]) == null ? void 0 : ja.detailedHistory,
+                                    ymm: Se
+                                }) : e.jsx(pr, {
+                                    detailedHistory: (Sa = T.automobiles[0]) == null ? void 0 : Sa.detailedHistory,
+                                    ymm: Se
+                                })
+                            })
+                        }), u && e.jsxs(e.Fragment, {
+                            children: [e.jsx(ie, {
+                                nameToDisplay: "Market Value",
+                                nameToRecord: "market_value",
+                                id: "vehicle-market",
+                                children: e.jsx(Qr, {
+                                    vehicleReport: T
+                                })
+                            }), e.jsx(ie, {
+                                nameToDisplay: "Ownership Costs",
+                                nameToRecord: "ownership_costs",
+                                id: "vehicle-ownership-cost",
+                                children: e.jsx(jr, {
+                                    vehicleOwnershipCosts: (Ca = T.automobiles[0]) == null ? void 0 : Ca.ownership_costs,
+                                    vehicleYMM: ((Ta = T.automobiles[0]) == null ? void 0 : Ta.vehicleYMM) || ""
+                                })
+                            })]
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Sale Listings",
+                            nameToRecord: "sales",
+                            id: "vehicle-sales",
+                            children: e.jsx(hl, {
+                                vehicleSalesList: (ka = T.automobiles[0]) == null ? void 0 : ka.sales
+                            })
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Auctions",
+                            nameToRecord: "auctions",
+                            id: "vehicle-auctions",
+                            children: e.jsx(ml, {
+                                vehicleAuctionsList: (Aa = T.automobiles[0]) == null ? void 0 : Aa.auctions,
+                                vehicleYMM: ((_a = T.automobiles[0]) == null ? void 0 : _a.vehicleYMM) || ""
+                            })
+                        }), !u && e.jsxs(e.Fragment, {
+                            children: [e.jsx(ie, {
+                                nameToDisplay: "Damage History",
+                                nameToRecord: "damage_history",
+                                id: "vehicle-damage-history",
+                                children: s ? e.jsx(br, {
+                                    ...le
+                                }) : e.jsx(xr, {
+                                    ...le
+                                })
+                            }), e.jsx(ie, {
+                                nameToDisplay: "Theft Records",
+                                nameToRecord: "theft_records",
+                                id: "vehicle-thefts",
+                                children: e.jsx(yr, {
+                                    vehicleTheftsList: (La = T.automobiles[0]) == null ? void 0 : La.thefts
+                                })
+                            })]
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Service and Repairs",
+                            nameToRecord: "service_and_repairs",
+                            id: "vehicle-service-and-repairs",
+                            children: e.jsx(pl, {
+                                repairs: ((Pa = T.automobiles[0]) == null ? void 0 : Pa.repairs) || []
+                            })
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Inspections",
+                            nameToRecord: "inspections",
+                            id: "vehicle-inspections",
+                            children: e.jsx(gl, {
+                                inspectionEvents: (Ia = T.automobiles[0]) == null ? void 0 : Ia.inspection_events
+                            })
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Maintenance Schedule",
+                            nameToRecord: "maintenance_schedule",
+                            id: "vehicle-maintenance",
+                            children: e.jsx(fl, {
+                                vehicleMaintenanceSchedules: ((Ea = T.automobiles[0]) == null ? void 0 : Ea.maintenances) || []
+                            })
+                        })]
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Recalls",
+                        nameToRecord: "recalls",
+                        id: "vehicle-recalls",
+                        children: e.jsx(yl, {
+                            vehicleRecallList: [...(qa = T.automobiles[0]) == null ? void 0 : qa.openRecalls, ...ge ? (Ra = T.automobiles[0]) == null ? void 0 : Ra.otherRecalls : (Da = T.automobiles[0]) == null ? void 0 : Da.closedRecalls]
+                        })
+                    }), u && e.jsx(ie, {
+                        nameToDisplay: "Specs",
+                        nameToRecord: "specifications",
+                        id: "vehicle-specs",
+                        children: l ? e.jsx(vr, {
+                            vehicleSpecs: xe,
+                            vehicleDesign: (Fa = T.automobiles[0]) == null ? void 0 : Fa.design,
+                            firstVehicleImage: (nt = (de = T.automobiles[0]) == null ? void 0 : de.images) == null ? void 0 : nt[0]
+                        }) : e.jsx(wr, {
+                            vehicleSpecs: xe,
+                            vehicleDesign: (ae = T.automobiles[0]) == null ? void 0 : ae.design
+                        })
+                    }), !u && e.jsxs(e.Fragment, {
+                        children: [e.jsx(ie, {
+                            nameToDisplay: "Market Value",
+                            nameToRecord: "market_value",
+                            id: "vehicle-market",
+                            children: e.jsx(Qr, {
+                                vehicleReport: T
+                            })
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Ownership Costs",
+                            nameToRecord: "ownership_costs",
+                            id: "vehicle-ownership-cost",
+                            children: e.jsx(jr, {
+                                vehicleOwnershipCosts: (pe = T.automobiles[0]) == null ? void 0 : pe.ownership_costs,
+                                vehicleYMM: ((ye = T.automobiles[0]) == null ? void 0 : ye.vehicleYMM) || ""
+                            })
+                        })]
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Warranties",
+                        nameToRecord: "warranties",
+                        id: "vehicle-warranty",
+                        children: e.jsx(bl, {
+                            vehicleWarrantyList: (Pe = T.automobiles[0]) == null ? void 0 : Pe.warranties
+                        })
+                    }), e.jsxs(ie, {
+                        nameToDisplay: "Vehicle Safety",
+                        nameToRecord: "vehicle_safety",
+                        id: "vehicle-warranty",
+                        children: [e.jsx(xl, {
+                            vehicleSafetyRatingsList: ((je = T.automobiles[0]) == null ? void 0 : je.safety_ratings) || [],
+                            vehicleYMM: ((mt = T.automobiles[0]) == null ? void 0 : mt.vehicleYMM) || "",
+                            complaintsCount: ((xt = ee == null ? void 0 : ee.complaints) == null ? void 0 : xt.length) || 0
+                        }), e.jsx(vl, {
+                            ymm: ((_t = T.automobiles[0]) == null ? void 0 : _t.vehicleYMM) || "",
+                            complaints: ee == null ? void 0 : ee.complaints
+                        })]
+                    }), e.jsx(Oi, {
+                        permalink: t
+                    }), e.jsx(wl, {
+                        permalink: t,
+                        rating: ((ia = T.meta) == null ? void 0 : ia.rating) || null
+                    }), e.jsx(jl, {})]
+                })]
+            }), e.jsx(ln, {
+                reportType: "Vehicle Report",
+                headerTitle: Q || qe || "",
+                subheaderTitle: qe || "",
+                menuItems: te,
+                customTitleStyle: {
+                    whiteSpace: "normal",
+                    wordWrap: "break-word",
+                    color: "#0A0B0D"
+                }
+            }), e.jsx(Qt, {
+                menuItems: k.data.rawData.debug_menu
+            }), v && e.jsx(Sl, {
+                sectionsToHide: f,
+                handleOnClose: ne
+            })]
+        })
+    })
+}
+
+function cs({
+    searchParams: t
+}) {
+    var c;
+    const {
+        redirectToSearchPersonUrlv2: a
+    } = ua(), n = t.deathYear || t.birthYear && parseInt(t.birthYear) < 1925 ? !0 : void 0, i = {
+        ...t,
+        isDeceased: n,
+        advancedSearch: !0,
+        source: [Hi.FAMILY_SEARCH]
+    }, r = `${t.fName} ${t.lName}`, o = () => {
+        a(i)
+    }, s = n ? "Find out more about their story. FamilySearch users." : "Search through data and information provided by millions of FamilySearch users.";
+    return e.jsx(zi, {
+        title: `Search for ${r} on`,
+        description: s,
+        buttonText: "Go to Ancestor Report",
+        imageSrc: Hh,
+        isDeceased: n,
+        logoSrc: (c = gt.images.familyTreeImages) == null ? void 0 : c.imgFamilySearch,
+        onButtonClick: o
+    })
+}
+
+function ls({
+    searchParams: t
+}) {
+    const {
+        redirectToSearchPersonUrlv2: a
+    } = ua(), n = t.deathYear || t.birthYear && parseInt(t.birthYear) < 1925 ? !0 : void 0, i = {
+        ...t,
+        isDeceased: n,
+        advancedSearch: !0,
+        source: [Hi.PUBLIC_RECORDS]
+    }, r = t.fName || t.lName || "this person", o = () => {
+        a(i)
+    };
+    return e.jsx(zi, {
+        title: `Search for ${r}'s Person Report`,
+        description: "Look for more information in our public records data.",
+        buttonText: "Go to Person Search",
+        imageSrc: zh,
+        isDeceased: n,
+        onButtonClick: o
+    })
+}
+const er = O(S)(({
+    theme: t
+}) => ({
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "16px",
+    marginBottom: t.spacing(2.5),
+    paddingBottom: t.spacing(2.5),
+    [t.breakpoints.up("lg")]: {
+        flexDirection: "row"
+    }
+}));
+
+function Jr(t) {
+    if (!t) return !1;
+    const [a, n, i] = t.split("/").map(Number);
+    return {
+        full: t,
+        parsed: {
+            year: i,
+            month: a,
+            day: n
+        }
+    }
+}
+const Ay = O(N)(({
+        theme: t
+    }) => ({
+        margin: "auto",
+        padding: t.spacing(2),
+        borderRadius: "20px",
+        backgroundColor: "#fff",
+        width: "100%",
+        [t.breakpoints.up("sm")]: {
+            padding: "20px"
+        }
+    })),
+    _y = O(ga)(({
+        theme: t
+    }) => ({
+        boxShadow: "none",
+        backgroundRepeat: "repeat",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        padding: "0",
+        [t.breakpoints.up("sm")]: {
+            paddingTop: "80px",
+            paddingLeft: "40px",
+            paddingRight: "40px",
+            paddingBottom: "20px"
+        }
+    })),
+    Ly = "detailed_person_report";
+
+function fb({
+    permalink: t
+}) {
+    var V, Z, le, ve, J, me, Fe, re, Le, He, Ke, Ee, Qe, it, Ve, ke, ze, We, Y, Ce, st, ct, Ge, Ye, Je, Ze, lt, dt, rt, we, Xe, et, tt, at, Ue, ut, Be, ot, ht;
+    const {
+        data: {
+            brandName: a
+        }
+    } = Co(), n = Wt(t), i = Gt(n), {
+        hash: r
+    } = Lt(), {
+        trackEvent: o
+    } = h.useContext(ce), s = new kl(n == null ? void 0 : n.data), c = s.data.obituaries[0], [u, l] = h.useState(!0), [d, C] = h.useState(""), {
+        currentMonitors: m,
+        reportMonitorIsLoading: v
+    } = da(), {
+        data: L
+    } = To({
+        permalink: d,
+        bodyOptions: {
+            report_type: ["ObituaryReport"],
+            placeholders_excluded: !0
+        }
+    }), g = Kt();
+    h.useEffect(() => {
+        if (m) {
+            const Me = $i(m, Ly);
+            Me.length > 0 && C(Me[0].permalink)
+        }
+    }, [m]);
+    const {
+        data: b,
+        error: f,
+        isLoading: w
+    } = Al({
+        enabled: !!c,
+        obituary: c,
+        customSufixStorageKey: "obituaryParser",
+        shouldSuspendExecution: !gt.featureFlags.obituaryParserEnabled || !c
+    }), p = ((V = b == null ? void 0 : b.data) == null ? void 0 : V.accomplishments) || [], P = ((Z = b == null ? void 0 : b.data) == null ? void 0 : Z.educationLevel) || [], q = ((le = b == null ? void 0 : b.data) == null ? void 0 : le.jobs) || [], _ = ((ve = b == null ? void 0 : b.data) == null ? void 0 : ve.age) || "", E = ((me = (J = b == null ? void 0 : b.data) == null ? void 0 : J.nicknames) == null ? void 0 : me.join("")) || "", x = ((Fe = b == null ? void 0 : b.data) == null ? void 0 : Fe.relatives) || [], I = ((re = b == null ? void 0 : b.data) == null ? void 0 : re.service) || null, H = ((Le = b == null ? void 0 : b.data) == null ? void 0 : Le.visitation) || null, M = ((He = b == null ? void 0 : b.data) == null ? void 0 : He.donations) || [], D = ((Ke = b == null ? void 0 : b.data) == null ? void 0 : Ke.activities) || [], j = ((Ee = b == null ? void 0 : b.data) == null ? void 0 : Ee.hobbies) || [], R = ((Qe = b == null ? void 0 : b.data) == null ? void 0 : Qe.miscellaneous) || [], W = Jr((it = b == null ? void 0 : b.data) == null ? void 0 : it.dateOfBirth) || null, F = Jr((Ve = b == null ? void 0 : b.data) == null ? void 0 : Ve.dateOfDeath) || null, $ = ((ke = b == null ? void 0 : b.data) == null ? void 0 : ke.location) || null, oe = ((ze = b == null ? void 0 : b.data) == null ? void 0 : ze.placeOfBirth) || null;
+    if (h.useEffect(() => {
+            (b || f) && l(!1)
+        }, [b, f]), ha(r, n), o("view full report", "view", "obituary search"), n.isLoading || n.isError || v) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (i) return e.jsx(Oe, {});
+    if (!s) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (!((We = s == null ? void 0 : s.data) != null && We.obituaries) && !((Ce = (Y = s == null ? void 0 : s.data) == null ? void 0 : Y.obituaries) != null && Ce.length)) return e.jsx(Oe, {});
+    const {
+        id: Q,
+        name: z,
+        dob: ee,
+        dod: X,
+        funeralHome: se,
+        funeralHomeAddress: k,
+        funeralHomeUrl: te,
+        message: he,
+        photoUrl: T,
+        nickname: xe,
+        personUrl: ge,
+        recentCity: K,
+        recentRegion: A
+    } = c;
+    document.title = `${z} - ${a}`;
+    const Se = d ? L != null && L.reports ? !!((st = L == null ? void 0 : L.reports) != null && st.some(Me => "obituary_id" in Me && Me.obituary_id === Q)) : void 0 : !1,
+        qe = K && A ? `${K}, ${A}` : $ || "",
+        Ae = c.rawData.person.identity,
+        G = {
+            fullName: z,
+            fName: ((Ye = (Ge = (ct = Ae == null ? void 0 : Ae.names) == null ? void 0 : ct[0]) == null ? void 0 : Ge.parsed) == null ? void 0 : Ye.first) || "",
+            lName: ((lt = (Ze = (Je = Ae == null ? void 0 : Ae.names) == null ? void 0 : Je[0]) == null ? void 0 : Ze.parsed) == null ? void 0 : lt.last) || "",
+            birthMonth: ((rt = (dt = ee == null ? void 0 : ee.parsed) == null ? void 0 : dt.month) == null ? void 0 : rt.toString().padStart(2, "0")) || (W == null ? void 0 : W.parsed.month.toString().padStart(2, "0")) || null,
+            birthYear: ((Xe = (we = ee == null ? void 0 : ee.parsed) == null ? void 0 : we.year) == null ? void 0 : Xe.toString()) || (W == null ? void 0 : W.parsed.year.toString()) || null,
+            deathMonth: ((tt = (et = X == null ? void 0 : X.parsed) == null ? void 0 : et.month) == null ? void 0 : tt.toString().padStart(2, "0")) || (F == null ? void 0 : F.parsed.month.toString().padStart(2, "0")) || null,
+            deathYear: ((Ue = (at = X == null ? void 0 : X.parsed) == null ? void 0 : at.year) == null ? void 0 : Ue.toString()) || (F == null ? void 0 : F.parsed.year.toString()) || null,
+            city: K,
+            state: A,
+            location: qe,
+            country: ((ut = k == null ? void 0 : k.parsed) == null ? void 0 : ut.country) || ""
+        },
+        ne = pm(b == null ? void 0 : b.data),
+        Re = () => {
+            if (!c) return null;
+            if (Se) {
+                localStorage.setItem("familyTreeMemberId", JSON.stringify(_e)), g("/family-tree");
+                return
+            }
+            localStorage.setItem("familyTreeRelativeToAdd", JSON.stringify(om(Q, z, ee || W, X || F, K, A, t, T))), g("/family-tree")
+        },
+        _e = Se ? (ot = (Be = L == null ? void 0 : L.reports) == null ? void 0 : Be.find(Me => "obituary_id" in Me && Me.obituary_id === Q)) == null ? void 0 : ot.member_id : void 0;
+    return e.jsxs(e.Fragment, {
+        children: [e.jsxs(B, {
+            container: !0,
+            direction: "row",
+            columns: 12,
+            spacing: 7,
+            children: [e.jsx(B, {
+                item: !0,
+                sm: 12,
+                md: 4,
+                lg: 4,
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "block",
+                        lg: "block"
+                    }
+                },
+                children: e.jsx(jo, {
+                    navLinkData: ne,
+                    reportDataPoint: z,
+                    permalink: t
+                })
+            }), e.jsxs(B, {
+                item: !0,
+                sm: 12,
+                md: 8,
+                lg: 8,
+                marginTop: 3,
+                children: [e.jsx(_y, {
+                    id: "obituary-overview",
+                    style: {
+                        backgroundImage: `url(${gt.images.imgTreeOfLife})`
+                    },
+                    children: e.jsxs(Ay, {
+                        children: [e.jsx(_l, {
+                            personName: z,
+                            nickname: xe || E,
+                            personImage: T,
+                            age: _,
+                            dob: ee || W,
+                            dod: X || F,
+                            funeralHome: se,
+                            funeralHomeAddress: k,
+                            funeralHomeUrl: te,
+                            photoUrl: T,
+                            personUrl: ge
+                        }), e.jsx(Ll, {
+                            permalink: t,
+                            reportInFamilyTree: Se,
+                            addRelativeToFamilyTree: Re
+                        }), e.jsx(Pl, {
+                            dob: ee || W,
+                            dod: X || F,
+                            placeOfBirth: oe,
+                            location: qe,
+                            imgInfinity: gt.images.imgInfinity,
+                            isLoading: w
+                        })]
+                    })
+                }), e.jsx(Il, {
+                    text: he,
+                    personName: z
+                }), w && e.jsx(El, {}), e.jsx(ql, {
+                    isLoading: w
+                }), e.jsx(Rl, {
+                    relatives: x,
+                    name: z
+                }), e.jsxs(er, {
+                    children: [e.jsx(cs, {
+                        searchParams: {
+                            ...G,
+                            state: ((ht = G.country) == null ? void 0 : ht.toLowerCase()) === "united states" ? G.state : "",
+                            birthYear: "",
+                            deathYear: ""
+                        }
+                    }), e.jsx(ls, {
+                        searchParams: G
+                    })]
+                }), e.jsx(Dl, {
+                    llmAccomplishments: p,
+                    llmEducation: P,
+                    llmCareer: q,
+                    name: z
+                }), e.jsx(Fl, {
+                    activies: D,
+                    hobbies: j,
+                    miscellaneous: R,
+                    personName: z
+                }), e.jsx(Bl, {
+                    service: I,
+                    visitation: H,
+                    donations: M,
+                    funeralHomeUrl: te
+                }), e.jsx(Ml, {
+                    image: gt.images.imgPersonSearch,
+                    personName: z,
+                    location: qe
+                })]
+            })]
+        }), e.jsx(Vi, {
+            navLinkData: ne
+        }), e.jsx(Qt, {
+            menuItems: s.data.rawData.debug_menu
+        })]
+    })
+}
+const ci = Qn("div")(({
+        theme: t
+    }) => ({
+        padding: t.spacing(4, 1, 1),
+        borderRadius: t.shape.borderRadius,
+        [t.breakpoints.up("md")]: {
+            border: `1px solid ${Cn(t.palette.primary.main,.1)}`,
+            padding: t.spacing(3, 2)
+        }
+    })),
+    li = Qn("div")(({
+        theme: t
+    }) => ({
+        backgroundColor: t.palette.background.paper,
+        padding: t.spacing(0, 1),
+        [t.breakpoints.up("md")]: {
+            padding: t.spacing(2, 2, 0),
+            marginTop: t.spacing(3.5)
+        }
+    })),
+    di = Qn(Xa)(({
+        theme: t
+    }) => ({
+        padding: t.spacing(1),
+        margin: t.spacing(1),
+        backgroundColor: t.palette.background.paper,
+        [t.breakpoints.up("md")]: {
+            padding: t.spacing(0, 2, 2),
+            margin: 0
+        }
+    })),
+    ui = Qn(As)(({
+        theme: t
+    }) => ({
+        borderRadius: t.shape.borderRadius,
+        wordBreak: "break-word",
+        [t.breakpoints.up("md")]: {
+            marginTop: t.spacing(2.5),
+            padding: t.spacing(2, 2, 0),
+            border: `1px solid ${Cn(t.palette.primary.main,.1)}`
+        }
+    }));
+
+function yb({
+    permalink: t,
+    onSearchSuccess: a,
+    onSearchError: n
+}) {
+    var ee, X, se, k;
+    const i = Wt(t),
+        r = Gt(i),
+        [o, s] = h.useState("email"),
+        {
+            hash: c,
+            search: u
+        } = Lt();
+    if (ha(c, i), i.isLoading || i.isError) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (r) return e.jsx(Oe, {});
+    const l = new Nl(i == null ? void 0 : i.data),
+        C = new URLSearchParams(u).get("email") || "",
+        {
+            address: m,
+            fraudScore: v,
+            isSuspect: L,
+            isShared: g,
+            isDisposable: b,
+            isCatchAll: f,
+            isFrequentComplainer: w,
+            activity: p,
+            isLeaked: P,
+            firstSeen: q,
+            deliverability: _,
+            validityScore: E,
+            isHoneypot: x,
+            isRecentAbuse: I,
+            domain: H,
+            name: M,
+            spamTrapScore: D
+        } = l.data,
+        {
+            trust: j,
+            isRiskyTld: R,
+            isDmarcRecord: W,
+            isSpfRecord: F,
+            isDnsValid: $,
+            mxRecords: oe,
+            suggestedDomain: Q
+        } = H || {},
+        z = (m == null ? void 0 : m.toLowerCase()) ?? C;
+    return document.title = `${z} - BeenVerified`, l ? (ee = l == null ? void 0 : l.data) != null && ee.isEmpty ? e.jsx(Oe, {}) : e.jsxs(e.Fragment, {
+        children: [e.jsx(li, {
+            children: e.jsxs(ci, {
+                children: [e.jsx(y, {
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h2",
+                    color: "success",
+                    children: "FraudScan"
+                }), e.jsx(y, {
+                    mb: te => ({
+                        xs: te.spacing(1),
+                        md: te.spacing(3)
+                    }),
+                    "data-cy": "fraud-check-form-subtitle",
+                    variant: "body2",
+                    children: si(o)
+                }), e.jsx(Xn, {
+                    initialTab: "email",
+                    onSearchSuccess: a,
+                    onSearchError: n,
+                    onSearchChange: s
+                })]
+            })
+        }), e.jsxs(di, {
+            sx: {
+                width: "fit-content"
+            },
+            container: !0,
+            direction: "row",
+            columns: 12,
+            children: [e.jsxs(ui, {
+                my: 3,
+                width: "100%",
+                children: [e.jsx(y, {
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h3",
+                    color: "success",
+                    mb: 1.5,
+                    children: "Email Verification"
+                }), e.jsx(N, {
+                    padding: 1,
+                    mb: 4,
+                    sx: te => ({
+                        backgroundColor: Cn(te.palette.text.primary, .04)
+                    }),
+                    children: e.jsxs(y, {
+                        variant: "h5",
+                        component: "p",
+                        fontWeight: 700,
+                        m: 0,
+                        children: ["Results for: ", z]
+                    })
+                })]
+            }), e.jsxs(B, {
+                item: !0,
+                xs: 12,
+                mb: 4,
+                children: [e.jsx(Ol, {
+                    fraudScore: v,
+                    isValid: !0,
+                    isSuspect: L
+                }), e.jsx(N, {
+                    mt: 4,
+                    children: e.jsx(ko, {
+                        email: z,
+                        reportType: "email"
+                    })
+                })]
+            }), e.jsx(Te, {
+                sx: {
+                    mt: 4
+                }
+            }), e.jsx(B, {
+                item: !0,
+                xs: 12,
+                mb: 4,
+                children: e.jsx(Vl, {
+                    isRecentAbuse: I,
+                    isRiskyTld: R,
+                    isHoneyPot: x,
+                    spamTrapScore: D,
+                    domainTrust: j
+                })
+            }), e.jsx(Te, {
+                sx: {
+                    mt: 4
+                }
+            }), e.jsx(B, {
+                item: !0,
+                xs: 12,
+                children: e.jsx(Hl, {
+                    isDMARC: W,
+                    isSPF: F,
+                    isDnsValid: $,
+                    sMTP: String(E),
+                    isGenericRole: g,
+                    mxRecords: oe,
+                    deliverability: _,
+                    userActivity: p,
+                    isDisposable: b,
+                    typo: Q,
+                    isCatchAll: f,
+                    year: (X = q == null ? void 0 : q.parsed) == null ? void 0 : X.year,
+                    month: (se = q == null ? void 0 : q.parsed) == null ? void 0 : se.month,
+                    isFrequentComplainer: w,
+                    firstName: (k = M == null ? void 0 : M.parsed) == null ? void 0 : k.first,
+                    isLeaked: P
+                })
+            })]
+        }), e.jsx(Qt, {
+            menuItems: l.data.rawData.debug_menu
+        })]
+    }) : e.jsx(Ne, {
+        menuItems: 2
+    })
+}
+
+function bb({
+    permalink: t,
+    onSearchSuccess: a,
+    onSearchError: n
+}) {
+    var R;
+    const i = Wt(t),
+        r = Gt(i),
+        o = h.useRef(null),
+        [s, c] = Ga.useState("phone"),
+        l = new URLSearchParams(window.location.search).get("phone") || "",
+        d = () => {
+            o.current && o.current.scrollIntoView({
+                behavior: "smooth"
+            })
+        };
+    if (i.isLoading || i.isError) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (r) return e.jsx(Oe, {});
+    const C = new zl(i == null ? void 0 : i.data);
+    if (!C) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if ((R = C == null ? void 0 : C.data) != null && R.isEmpty) return e.jsx(Oe, {});
+    const {
+        carrier: m,
+        fraudScore: v,
+        isActive: L,
+        isDoNotCall: g,
+        isLeaked: b,
+        isPrepaid: f,
+        isRecentAbuse: w,
+        isRisky: p,
+        isSpammer: P,
+        isVOIP: q,
+        isValid: _,
+        lineType: E,
+        location: x,
+        userActivity: I,
+        activeStatus: H,
+        number: M
+    } = C.data, D = M ?? l;
+    document.title = `${ca(D)} - BeenVerified`;
+    const j = x == null ? void 0 : x.timezone;
+    return e.jsxs(e.Fragment, {
+        children: [e.jsx(li, {
+            children: e.jsxs(ci, {
+                children: [e.jsx(y, {
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h2",
+                    color: "success",
+                    children: "FraudScan"
+                }), e.jsx(y, {
+                    mb: W => ({
+                        xs: W.spacing(1),
+                        md: W.spacing(3)
+                    }),
+                    "data-cy": "fraud-check-form-subtitle",
+                    variant: "body2",
+                    children: si(s)
+                }), e.jsx(Xn, {
+                    initialTab: "phone",
+                    onSearchSuccess: a,
+                    onSearchError: n,
+                    onSearchChange: c
+                })]
+            })
+        }), e.jsx(di, {
+            sx: {
+                width: "fit-content"
+            },
+            container: !0,
+            direction: "row",
+            columns: 12,
+            children: e.jsxs(ui, {
+                mt: 3,
+                children: [e.jsxs(S, {
+                    mb: 1.5,
+                    flexDirection: {
+                        sm: "row"
+                    },
+                    justifyContent: {
+                        sm: "space-between"
+                    },
+                    children: [e.jsx(y, {
+                        "data-cy": "fraud-check-form-title",
+                        variant: "h3",
+                        color: "success",
+                        children: "Phone Number Verification"
+                    }), e.jsx(ue, {
+                        sx: W => ({
+                            paddingLeft: {
+                                xs: 0,
+                                md: W.spacing(1)
+                            },
+                            width: "fit-content"
+                        }),
+                        onClick: () => d(),
+                        variant: "text",
+                        children: e.jsx(y, {
+                            mb: {
+                                xs: 2.5,
+                                sm: 0
+                            },
+                            sx: {
+                                textDecoration: "underline"
+                            },
+                            variant: "body2",
+                            children: "Report Number"
+                        })
+                    })]
+                }), e.jsx(N, {
+                    padding: 1,
+                    mb: 4,
+                    sx: W => ({
+                        backgroundColor: Cn(W.palette.text.primary, .04)
+                    }),
+                    children: e.jsxs(y, {
+                        variant: "h5",
+                        component: "p",
+                        fontWeight: 700,
+                        m: 0,
+                        children: ["Results for: ", ca(D)]
+                    })
+                }), e.jsx(Wl, {
+                    carrier: m,
+                    isVOIP: q,
+                    userActivity: I,
+                    lineType: E,
+                    isPrepaid: f,
+                    isLeaked: b,
+                    activeStatus: H,
+                    isValid: _,
+                    isActive: L,
+                    isDoNotCall: g
+                }), e.jsx(N, {
+                    mt: 4,
+                    children: e.jsx(ko, {
+                        number: D,
+                        reportType: "phone"
+                    })
+                }), e.jsx(N, {
+                    mt: 4,
+                    mb: 4,
+                    children: e.jsx(Gl, {
+                        fraudScore: v,
+                        isRisky: p,
+                        isSpammer: P,
+                        isRecentAbuse: w
+                    })
+                }), e.jsx(Te, {}), e.jsx(N, {
+                    mt: 4,
+                    mb: 4,
+                    children: e.jsx(Yl, {
+                        phoneNumber: D,
+                        timeZone: j
+                    })
+                }), e.jsx(N, {
+                    ref: o,
+                    mt: 4,
+                    mb: 4,
+                    children: e.jsx(Te, {})
+                }), e.jsx(Ao, {
+                    permalink: t,
+                    reportData: C.data
+                })]
+            })
+        }), e.jsx(Qt, {
+            menuItems: C.data.rawData.debug_menu
+        })]
+    })
+}
+
+function xb({
+    onSearchSuccess: t,
+    onSearchError: a,
+    permalink: n
+}) {
+    var T, xe, ge;
+    const i = Wt(n),
+        r = Gt(i),
+        [o, s] = h.useState("url"),
+        c = new URLSearchParams(window.location.search);
+    if (i.isLoading || i.isError) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (r) return e.jsx(Oe, {});
+    const u = new Ul(i == null ? void 0 : i.data);
+    if (!u) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if ((T = u == null ? void 0 : u.data) != null && T.isEmpty) return e.jsx(Oe, {});
+    let l = u.data.url || c.get("url") || "";
+    l.toLowerCase().startsWith("www.") && (l = l.replace("www.", "https://")), l.toLowerCase().startsWith("http") || (l = `https://${l}`);
+    const {
+        hostname: d
+    } = new URL(l);
+    document.title = `${d} - BeenVerified`;
+    const {
+        domain: C,
+        isSuspicious: m,
+        isUnsafe: v,
+        isAdult: L,
+        isHostedContent: g,
+        isPhishing: b,
+        isSpam: f,
+        countryCode: w,
+        pageTitle: p,
+        pageSize: P,
+        category: q,
+        isRedirected: _,
+        isMalware: E,
+        statusCode: x,
+        isShortLinkRedirect: I,
+        technologies: H,
+        contentType: M,
+        server: D,
+        riskScore: j,
+        display: R,
+        extended: W
+    } = u.data, {
+        domain: F,
+        isRiskyTld: $,
+        age: oe,
+        isParked: Q,
+        trust: z,
+        isDmarcRecord: ee,
+        isSpfRecord: X,
+        domainRank: se,
+        isDnsValid: k,
+        mxRecords: te,
+        nsRecords: he
+    } = C;
+    return e.jsxs(e.Fragment, {
+        children: [e.jsx(li, {
+            children: e.jsxs(ci, {
+                children: [e.jsx(y, {
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h2",
+                    color: "success",
+                    children: "FraudScan"
+                }), e.jsx(y, {
+                    mb: K => ({
+                        xs: K.spacing(1),
+                        md: K.spacing(3)
+                    }),
+                    "data-cy": "fraud-check-form-subtitle",
+                    variant: "body2",
+                    children: si(o)
+                }), e.jsx(Xn, {
+                    initialTab: "url",
+                    onSearchSuccess: t,
+                    onSearchError: a,
+                    onSearchChange: s
+                })]
+            })
+        }), e.jsxs(di, {
+            sx: {
+                width: "fit-content"
+            },
+            container: !0,
+            direction: "row",
+            columns: 12,
+            children: [e.jsxs(ui, {
+                mt: 3,
+                mb: 3,
+                width: "100%",
+                children: [e.jsx(y, {
+                    mb: 1.5,
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h3",
+                    color: "success",
+                    children: "Malicious URL Scanning"
+                }), e.jsx(N, {
+                    padding: 1,
+                    mb: 4,
+                    sx: K => ({
+                        backgroundColor: Na(K.palette.text.primary, .04)
+                    }),
+                    children: e.jsxs(y, {
+                        variant: "h5",
+                        component: "p",
+                        fontWeight: 700,
+                        m: 0,
+                        children: ["Results for: ", l]
+                    })
+                })]
+            }), e.jsx($l, {
+                domain: F,
+                isSuspicious: m,
+                isUnsafe: v,
+                ipCountryCode: w,
+                pageTitle: p,
+                siteCategory: q,
+                isRedirected: _,
+                finalUrl: R || W || l
+            }), e.jsx(N, {
+                my: 3,
+                width: "100%",
+                children: e.jsx(Kl, {
+                    riskScore: j,
+                    domainTrust: z,
+                    isMalware: E,
+                    isPhishing: b,
+                    isParked: Q,
+                    isSpam: f,
+                    statusCode: x,
+                    isShortLinkRedirect: I,
+                    isRiskyTld: $,
+                    isAdult: L
+                })
+            }), e.jsx(Ql, {
+                isHostedContent: g,
+                technologies: H,
+                isDmarcRecord: ee,
+                isSpfRecord: X,
+                year: (xe = oe == null ? void 0 : oe.parsed) == null ? void 0 : xe.year,
+                month: (ge = oe == null ? void 0 : oe.parsed) == null ? void 0 : ge.month,
+                contentType: M,
+                pageSize: P,
+                server: D,
+                domainRank: se,
+                isDnsValid: k,
+                mxRecords: te,
+                nsRecords: he
+            })]
+        }), e.jsx(Qt, {
+            menuItems: u.data.rawData.debug_menu
+        })]
+    })
+}
+
+function ds({
+    searchParams: t
+}) {
+    const {
+        redirectToSearchPersonUrlv2: a
+    } = ua(), n = t.deathYear || t.birthYear && parseInt(t.birthYear) < 1925 ? !0 : void 0, i = {
+        ...t,
+        isDeceased: n,
+        advancedSearch: !0,
+        source: [Hi.OBITUARIES]
+    }, r = t.fName || t.lName || "this person", o = () => {
+        a(i)
+    };
+    return e.jsx(zi, {
+        title: `Look for ${r}'s Obituary`,
+        description: "Find out more about their story.",
+        buttonText: "Search Obituary",
+        imageSrc: Wh,
+        isDeceased: n,
+        onButtonClick: o
+    })
+}
+const Py = ["Death", "Birth", "Burial"],
+    Iy = "detailed_person_report",
+    vb = ({
+        permalink: t
+    }) => {
+        var G, ne, Re, _e, V, Z, le, ve, J, me, Fe, re, Le, He, Ke, Ee, Qe, it, Ve, ke, ze, We, Y, Ce, st, ct, Ge, Ye, Je, Ze, lt, dt, rt, we, Xe, et, tt, at, Ue, ut, Be, ot, ht, Me, vt, kt, wt, jt, St, qt;
+        const a = yt(),
+            {
+                data: {
+                    brandName: n
+                }
+            } = Co(),
+            {
+                isMobile: i
+            } = fa(),
+            r = Wt(t),
+            o = Gt(r),
+            {
+                hash: s
+            } = Lt(),
+            [c, u] = h.useState(""),
+            [l, d] = h.useState(),
+            [C, m] = h.useState("");
+        h.useState(!1);
+        const {
+            currentMonitors: v,
+            reportMonitorIsLoading: L
+        } = da(), g = Kt(), {
+            trackEventGA4: b
+        } = h.useContext(ce), {
+            data: f
+        } = To({
+            permalink: c,
+            bodyOptions: {
+                report_type: ["AncestorReport"],
+                placeholders_excluded: !0
+            }
+        });
+        if (ha(s, r), h.useEffect(() => {
+                if (v) {
+                    const U = $i(v, Iy);
+                    U.length > 0 && u(U[0].permalink)
+                }
+            }, [v]), r.isLoading || r.isError || L) return e.jsx(Ne, {
+            menuItems: 2
+        });
+        const w = xa.create(r == null ? void 0 : r.data, "person"),
+            p = (ne = (G = w == null ? void 0 : w.data) == null ? void 0 : G.people) == null ? void 0 : ne[0];
+        if (o || !p) return e.jsx(Oe, {});
+        const P = (Re = p == null ? void 0 : p.identity) == null ? void 0 : Re.fs_ids[0],
+            q = c ? f != null && f.reports ? !!((_e = f == null ? void 0 : f.reports) != null && _e.some(U => "family_search_id" in U && U.family_search_id === P)) : void 0 : !1,
+            _ = q ? (Z = (V = f == null ? void 0 : f.reports) == null ? void 0 : V.find(U => "family_search_id" in U && U.family_search_id === P)) == null ? void 0 : Z.member_id : void 0,
+            E = (J = (ve = (le = p == null ? void 0 : p.identity) == null ? void 0 : le.names) == null ? void 0 : ve[0]) == null ? void 0 : J.full,
+            x = (Fe = (me = p == null ? void 0 : p.identity) == null ? void 0 : me.names) == null ? void 0 : Fe[0],
+            I = (He = (Le = (re = p == null ? void 0 : p.identity) == null ? void 0 : re.names) == null ? void 0 : Le.slice(1)) == null ? void 0 : He.map(U => U.full).join(", "),
+            H = (Qe = (Ee = (Ke = p == null ? void 0 : p.identity) == null ? void 0 : Ke.dobs) == null ? void 0 : Ee[0]) == null ? void 0 : Qe.date,
+            M = (ke = (Ve = (it = p == null ? void 0 : p.identity) == null ? void 0 : it.dods) == null ? void 0 : Ve[0]) == null ? void 0 : ke.date,
+            D = (Y = (We = (ze = p == null ? void 0 : p.facts) == null ? void 0 : ze.find(U => {
+                var De;
+                return ((De = U == null ? void 0 : U.type) == null ? void 0 : De.toLowerCase()) == "birth"
+            })) == null ? void 0 : We.place) == null ? void 0 : Y.full,
+            j = (ct = (st = (Ce = p == null ? void 0 : p.facts) == null ? void 0 : Ce.find(U => {
+                var De;
+                return ((De = U == null ? void 0 : U.type) == null ? void 0 : De.toLowerCase()) == "death"
+            })) == null ? void 0 : st.place) == null ? void 0 : ct.full,
+            R = (Ge = p == null ? void 0 : p.facts) == null ? void 0 : Ge.find(U => {
+                var De;
+                return ((De = U == null ? void 0 : U.type) == null ? void 0 : De.toLowerCase()) == "burial"
+            }),
+            W = (Je = (Ye = p == null ? void 0 : p.contact) == null ? void 0 : Ye.addresses) == null ? void 0 : Je[0],
+            F = _o(W == null ? void 0 : W.full),
+            $ = {
+                fullName: E || "",
+                fName: ((Ze = x == null ? void 0 : x.parsed) == null ? void 0 : Ze.first) || "",
+                lName: ((lt = x == null ? void 0 : x.parsed) == null ? void 0 : lt.last) || "",
+                city: (F == null ? void 0 : F.city) || "",
+                state: (F == null ? void 0 : F.state) || "",
+                country: (F == null ? void 0 : F.country) || "",
+                birthMonth: ((we = (rt = (dt = H == null ? void 0 : H.parsed) == null ? void 0 : dt.month) == null ? void 0 : rt.toString()) == null ? void 0 : we.padStart(2, "0")) || "",
+                birthYear: ((et = (Xe = H == null ? void 0 : H.parsed) == null ? void 0 : Xe.year) == null ? void 0 : et.toString()) || "",
+                deathMonth: ((Ue = (at = (tt = M == null ? void 0 : M.parsed) == null ? void 0 : tt.month) == null ? void 0 : at.toString()) == null ? void 0 : Ue.padStart(2, "0")) || "",
+                deathYear: ((Be = (ut = M == null ? void 0 : M.parsed) == null ? void 0 : ut.year) == null ? void 0 : Be.toString()) || "",
+                location: (W == null ? void 0 : W.full) || ""
+            };
+        $.age = Jl($);
+        const oe = R == null ? void 0 : R.date,
+            Q = (ot = R == null ? void 0 : R.place) == null ? void 0 : ot.full,
+            z = (p == null ? void 0 : p.images) || [],
+            ee = Array.isArray(p == null ? void 0 : p.facts) ? (ht = p == null ? void 0 : p.facts) == null ? void 0 : ht.filter(U => !Py.includes((U == null ? void 0 : U.type) || "")) : [],
+            X = ((vt = (Me = p == null ? void 0 : p.rawData) == null ? void 0 : Me.genealogy) == null ? void 0 : vt.memories) || [];
+        document.title = `${E??"Ancestor Report"} - ${n}`;
+        const se = () => {
+                if (b({
+                        event_name: "report_element_engagement",
+                        report_type: "ancestor",
+                        type: "add_family",
+                        interacted_from: "overview"
+                    }), q) {
+                    localStorage.setItem("familyTreeMemberId", JSON.stringify(_)), g("/family-tree");
+                    return
+                }
+                localStorage.setItem("familyTreeRelativeToAdd", JSON.stringify(sm(p, t, D || j || Q || ""))), g("/family-tree")
+            },
+            k = Zl(p, t, D || j || Q || ""),
+            te = ((jt = (wt = (kt = p == null ? void 0 : p.rawData) == null ? void 0 : kt.connections) == null ? void 0 : wt.relatives) == null ? void 0 : jt.filter(U => {
+                var De, At, Rt, Dt, Ft;
+                return !Xl(((Rt = (At = (De = U == null ? void 0 : U.identity) == null ? void 0 : De.names) == null ? void 0 : At[0]) == null ? void 0 : Rt.full) || "") && ((Dt = U == null ? void 0 : U.identity) == null ? void 0 : Dt.fs_ids.length) && ((Ft = U == null ? void 0 : U.identity) == null ? void 0 : Ft.fs_ids[0]) !== "UNKNOWN"
+            })) || [],
+            T = (({
+                factsCount: U,
+                relationshipsCount: De
+            }) => [{
+                href: "#ancestor-overview",
+                labelText: "Overview",
+                reportItemsCount: null,
+                icons: [e.jsx(_s, {
+                    sx: {
+                        color: a.palette.primary.main
+                    },
+                    fontSize: "large"
+                })]
+            }, {
+                href: "#ancestor-facts",
+                labelText: "Facts",
+                reportItemsCount: U,
+                icons: [e.jsx(Ls, {
+                    sx: {
+                        color: a.palette.primary.main
+                    },
+                    fontSize: "small"
+                })]
+            }, {
+                href: "#ancestor-relationships",
+                labelText: "Relationships",
+                reportItemsCount: De,
+                icons: [e.jsx(Ps, {
+                    sx: {
+                        color: a.palette.primary.main
+                    },
+                    fontSize: "small"
+                })]
+            }, {
+                href: "#ancestor-memories",
+                labelText: "Memories",
+                reportItemsCount: X.length,
+                icons: [e.jsx(Is, {
+                    sx: {
+                        color: a.palette.primary.main
+                    },
+                    fontSize: "small"
+                })]
+            }])({
+                factsCount: ee.length,
+                relationshipsCount: (te == null ? void 0 : te.length) || 0
+            }),
+            xe = () => {
+                d(void 0), m(""), setTimeout(() => {
+                    const U = document.getElementById("ancestor-memories");
+                    U == null || U.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    })
+                }, 1e3)
+            },
+            ge = async U => {
+                const At = await (await fetch(U.url)).text();
+                m(At), d(U)
+            }, K = l == null ? void 0 : l.media_type.includes("text");
+        if (l && i) return e.jsx(Sr, {
+            memory: l,
+            onClose: () => xe(),
+            isPureText: K,
+            text: C
+        });
+        const A = (St = M == null ? void 0 : M.parsed) == null ? void 0 : St.year,
+            Se = (qt = H == null ? void 0 : H.parsed) == null ? void 0 : qt.year,
+            qe = A && A >= 1960 || !A && Se && Se >= 1850,
+            Ae = A && A >= 2e3 || !A && Se && Se >= 1900;
+        return e.jsxs(N, {
+            children: [l && !i && e.jsx(Sr, {
+                memory: l,
+                onClose: () => xe(),
+                isPureText: K,
+                text: C
+            }), e.jsxs(B, {
+                container: !0,
+                direction: "row",
+                columns: 12,
+                spacing: 20,
+                children: [e.jsx(B, {
+                    item: !0,
+                    sm: 12,
+                    md: 3,
+                    lg: 3,
+                    sx: {
+                        display: {
+                            xs: "none",
+                            sm: "none",
+                            md: "block",
+                            lg: "block"
+                        }
+                    },
+                    children: e.jsx(Ua, {
+                        reportType: "Ancestor Report",
+                        headerTitle: E || "",
+                        menuItems: T
+                    })
+                }), e.jsxs(B, {
+                    item: !0,
+                    sm: 12,
+                    md: 9,
+                    lg: 9,
+                    marginTop: 3,
+                    ml: 0,
+                    width: "100%",
+                    children: [e.jsx(ed, {
+                        familySearchId: P || "",
+                        permalink: t,
+                        fullName: E || "",
+                        otherNames: I || "",
+                        dateOfBirth: H,
+                        birthAddress: D || "",
+                        dateOfDeath: M,
+                        deathAddress: j || "",
+                        dateOfBurial: oe,
+                        burialAddress: Q || "",
+                        reportInFamilyTree: q,
+                        addRelativeToFamilyTree: se,
+                        hasFamilyTreeCreated: !!(f != null && f.reports),
+                        photos: z
+                    }), e.jsx(td, {
+                        facts: ee
+                    }), e.jsx(ad, {
+                        relatives: te,
+                        ancestorReportsInTree: f == null ? void 0 : f.reports,
+                        bulkAddSubject: k
+                    }), e.jsx(nd, {
+                        memories: X,
+                        onMemorySelect: U => d(U),
+                        onDocumentSelect: U => ge(U)
+                    }), e.jsxs(er, {
+                        children: [Ae && e.jsx(ds, {
+                            searchParams: $
+                        }), qe && e.jsx(ls, {
+                            searchParams: $
+                        })]
+                    })]
+                })]
+            }), e.jsx(ln, {
+                reportType: "Ancestor Report",
+                headerTitle: E || "",
+                menuItems: T
+            })]
+        })
+    };
+
+function wb({
+    permalink: t
+}) {
+    var g, b;
+    const a = Ui(),
+        n = Wt(t),
+        i = Gt(n),
+        {
+            hash: r
+        } = Lt(),
+        {
+            trackEvent: o
+        } = h.useContext(ce),
+        [s, c] = h.useState([]),
+        u = new id(n == null ? void 0 : n.data),
+        l = (g = u.data.meta) == null ? void 0 : g.search_data,
+        d = a.get("first_name") || (l == null ? void 0 : l.first_name) || "",
+        C = a.get("last_name") || (l == null ? void 0 : l.last_name) || "",
+        m = a.get("state") || (l == null ? void 0 : l.state) || "",
+        v = ((b = a.get("states")) == null ? void 0 : b.split(",")) || [],
+        L = !!a.get("multi_state_search");
+    return h.useEffect(() => {
+        s.length || (L && v.length ? c(v) : m && c([m]))
+    }, [L, m, v, s.length]), ha(r, n), o("view full report", "view", "unclaimed money search"), n.isLoading || n.isError ? e.jsx(Cr, {
+        variation: "query",
+        topImage: gi,
+        firstName: d,
+        lastName: C,
+        stateList: s
+    }) : i ? e.jsx(Oe, {}) : u ? e.jsx(e.Fragment, {
+        children: e.jsx(rd, {
+            permalink: t,
+            isLoading: n.isLoading,
+            loadingImage: Gh,
+            noResultsImage: Yh,
+            mainReport: u,
+            topImage: gi,
+            multiStateSearch: L,
+            firstName: d,
+            lastName: C,
+            state: m,
+            modalImage: Uh,
+            stateList: s
+        })
+    }) : e.jsx(Cr, {
+        variation: "query",
+        topImage: gi,
+        firstName: d,
+        lastName: C,
+        stateList: s
+    })
+}
+
+function jb({
+    onSearchSuccess: t,
+    onSearchError: a,
+    permalink: n
+}) {
+    var M, D, j, R;
+    const i = Wt(n),
+        r = Gt(i),
+        [o, s] = Ga.useState("ip"),
+        c = new URLSearchParams(window.location.search);
+    if (i.isLoading || i.isError) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if (r) return e.jsx(Oe, {});
+    const u = new od(i == null ? void 0 : i.data),
+        l = c.get("ip_address") || ((M = u.data) == null ? void 0 : M.ip);
+    if (document.title = `${l} - BeenVerified`, !u) return e.jsx(Ne, {
+        menuItems: 2
+    });
+    if ((D = u == null ? void 0 : u.data) != null && D.isEmpty) return e.jsx(Oe, {});
+    const {
+        isp: d,
+        asn: C,
+        host: m,
+        isVpn: v,
+        isTor: L,
+        isProxy: g,
+        isCrawler: b,
+        isDynamicConnection: f,
+        isSharedConnection: w
+    } = u.data, {
+        fraudScore: p,
+        isRecentAbuse: P,
+        isFrequentAbuser: q,
+        isHighRiskAttack: _,
+        abuseVelocity: E
+    } = u.data.security, {
+        state: x,
+        country: I,
+        city: H
+    } = ((R = (j = u.data) == null ? void 0 : j.address) == null ? void 0 : R.parsed) || {};
+    return e.jsxs(e.Fragment, {
+        children: [e.jsx(li, {
+            children: e.jsxs(ci, {
+                children: [e.jsx(y, {
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h2",
+                    color: "success",
+                    children: "FraudScan"
+                }), e.jsx(y, {
+                    mb: W => ({
+                        xs: W.spacing(1),
+                        md: W.spacing(3)
+                    }),
+                    "data-cy": "fraud-check-form-subtitle",
+                    variant: "body2",
+                    children: si(o)
+                }), e.jsx(Xn, {
+                    initialTab: "ip",
+                    onSearchSuccess: t,
+                    onSearchError: a,
+                    onSearchChange: s
+                })]
+            })
+        }), e.jsx(di, {
+            sx: {
+                width: "fit-content"
+            },
+            container: !0,
+            direction: "row",
+            columns: 12,
+            children: e.jsxs(ui, {
+                mt: 3,
+                children: [e.jsx(y, {
+                    mb: 1.5,
+                    "data-cy": "fraud-check-form-title",
+                    variant: "h3",
+                    color: "success",
+                    children: "IP Verification"
+                }), e.jsx(N, {
+                    padding: 1,
+                    mb: 4,
+                    sx: W => ({
+                        backgroundColor: Cn(W.palette.text.primary, .04)
+                    }),
+                    children: e.jsxs(y, {
+                        variant: "h5",
+                        component: "p",
+                        fontWeight: 700,
+                        m: 0,
+                        children: ["Results for: ", l]
+                    })
+                }), e.jsx(sd, {
+                    isp: d,
+                    city: H || "Unknown",
+                    region: x || "Unknown",
+                    country: I || "Unknown"
+                }), e.jsx(N, {
+                    mt: 4,
+                    mb: 4,
+                    children: e.jsx(cd, {
+                        fraudScore: p || 0,
+                        isVpn: v,
+                        isRecentAbuse: P,
+                        isFrequentAbuser: q,
+                        isHighRiskAttack: _,
+                        abuseVelocity: E,
+                        isTor: L,
+                        isSuspectedProxy: g
+                    })
+                }), e.jsx(Te, {}), e.jsx(N, {
+                    mt: 4,
+                    mb: 4,
+                    children: e.jsx(ld, {
+                        isDynamicConnection: f,
+                        isSharedConnection: w,
+                        host: m,
+                        asn: C,
+                        isCrawler: b
+                    })
+                })]
+            })
+        }), e.jsx(Qt, {
+            menuItems: u.data.rawData.debug_menu
+        })]
+    })
+}
+const Ai = "person";
+
+function Sb({
+    permalink: t
+}) {
+    var wt, jt, St, qt, U, De, At, Rt, Dt, Ft, fe, Ct, Bt, Mt, Nt, bt, Pt, Jt, Zt, Xt, ea, ta, aa, na, ja, Sa, Ca, Ta, ka, Aa, _a, La, Pa, Ia, Ea, qa, Ra, Da, Fa, de, nt;
+    const {
+        session: {
+            account: a
+        }
+    } = Yt(), n = (wt = a == null ? void 0 : a.account) == null ? void 0 : wt.user_info, i = Kt();
+    ua();
+    const {
+        trackEvent: r,
+        trackEventGA4: o
+    } = h.useContext(ce), s = be("OAR-1183"), c = be("OAR-1571"), u = be("RFRSH-2959"), {
+        currentMonitors: l,
+        reportIsMonitored: d
+    } = da(t), C = Wt(t), m = cn(t), v = m && {
+        ...m,
+        data: (jt = m.data) == null ? void 0 : jt.data
+    }, g = !m.isError && (d || s || c || u) ? v : C, b = Gt(g), {
+        hash: f
+    } = Lt(), p = localStorage.getItem("emailVerificationSelected") ? 500 : void 0;
+    ha(f, g, p);
+    const [P, q] = h.useState(!1), [_, E] = h.useState(!1), [x, I] = h.useState(!1), [H, M] = h.useState({
+        userCode: n == null ? void 0 : n.user_code,
+        potentialOwnerIndex: 0,
+        hideContactInfo: !1,
+        showHighConfidenceDataOnly: !1,
+        higherConfidenceThreshold: gt.config.higherConfidenceThreshold
+    }), [D, j] = h.useState(!1), [R, W] = h.useState(!1), [F, $] = h.useState("");
+    h.useEffect(() => {
+        W(l == null ? void 0 : l.some(ae => ae.report_type === "detailed_person_report" && ae.is_claimed && t !== ae.permalink)), j(l == null ? void 0 : l.some(ae => ae.permalink === t && ae.is_claimed))
+    }, [l, t]);
+    const [oe, Q] = h.useState(), [z, ee] = h.useState(null), [X, se] = h.useState(""), [k, te] = h.useState([]), [he, T] = h.useState(null), xe = be("RFRSH-2803"), ge = be("OAR-1463"), K = be("prop-2834"), Se = be("OAR-1569") ? "Possible Locations" : void 0, qe = new va, Ae = sn();
+    h.useEffect(() => {
+        M(ae => ({
+            ...ae,
+            userCode: n == null ? void 0 : n.user_code
+        }))
+    }, []);
+    const {
+        data: G
+    } = dd({
+        permalink: F,
+        enabledOnStart: !0,
+        logNotFoundErrorEnabled: !1
+    });
+    h.useEffect(() => {
+        var ae;
+        g.isSuccess && g.data && (Ae.invalidateQueries(["request", "bbq"]), localStorage.removeItem("OAR-1569"), (ae = g == null ? void 0 : g.data) != null && ae.entities ? ee(xa.create(g == null ? void 0 : g.data, "person")) : ee(xa.create(g == null ? void 0 : g.data.data, "person")))
+    }, [g.data, g.isSuccess, H]), h.useEffect(() => {
+        var ye, Pe, je;
+        const ae = (ye = l == null ? void 0 : l.find(mt => mt.permalink === t)) == null ? void 0 : ye.updated_at,
+            pe = (je = (Pe = z == null ? void 0 : z.data) == null ? void 0 : Pe.meta) == null ? void 0 : je.updated_at;
+        d && ae ? Q(qe.parseDateFromString(ae, "yyyy-MM-dd")) : pe && Q(qe.parseDateFromString(pe, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ"))
+    }, [(qt = (St = z == null ? void 0 : z.data) == null ? void 0 : St.meta) == null ? void 0 : qt.updated_at, l, t, d]), h.useEffect(() => {
+        if (!l) return;
+        const pe = $i(l, "detailed_person_report");
+        if (pe.length) {
+            const ye = pe[0].permalink;
+            $(ye)
+        } else F !== "" && $("")
+    }, [l, F]), h.useEffect(() => {
+        var ae, pe, ye, Pe;
+        if (z) {
+            const je = z.getOwner(H);
+            je && (T(je), te(je.relatives || []));
+            const mt = (ye = (pe = (ae = z == null ? void 0 : z.data) == null ? void 0 : ae.meta) == null ? void 0 : pe.request_info) == null ? void 0 : ye.query_parameters;
+            if (mt) {
+                const xt = mt.find(_t => _t.name === "bvid");
+                se(((Pe = xt == null ? void 0 : xt.values) == null ? void 0 : Pe[0]) || "")
+            }
+        }
+    }, [z, H]), h.useEffect(() => {
+        if (G != null && G.indis && k.length > 0) {
+            const pe = G.indis.map(Pe => Pe.bvid),
+                ye = k.filter(Pe => !pe.includes(Pe.bvId));
+            ye.length !== k.length && te(ye)
+        }
+    }, [G, k]);
+    const ne = a == null ? void 0 : a.account.user_settings.hide_criminal_records;
+    if (g.isLoading || g.isError) return e.jsx(Ne, {
+        menuItems: 14
+    });
+    if (b) return e.jsx(Oe, {});
+    const Re = (De = (U = g == null ? void 0 : g.data) == null ? void 0 : U.meta) == null ? void 0 : De.report_upgraded,
+        _e = _ && !x;
+    if (n != null && n.first_name && n.last_name && (z != null && z.personName.includes(n.first_name)) && (z != null && z.personName.includes(n.last_name)), !he || !z) return e.jsx(Ne, {
+        menuItems: 14
+    });
+    if (!((At = z == null ? void 0 : z.data) != null && At.people) && !((Dt = (Rt = z == null ? void 0 : z.data) == null ? void 0 : Rt.people) != null && Dt.length)) return e.jsx(Oe, {});
+    const {
+        ownerName: V,
+        nameInfo: Z,
+        emails: le,
+        phones: ve,
+        educations: J,
+        jobs: me,
+        profiles: Fe,
+        usernames: re,
+        addresses: Le,
+        ownedAssets: He,
+        marital: Ke,
+        relatives: Ee,
+        associates: Qe,
+        neighbors: it,
+        courts: Ve,
+        obituary: ke,
+        grave: ze,
+        bonusData: We,
+        location: Y,
+        identity: Ce
+    } = he, st = ud(We), ct = (G == null ? void 0 : G.indis) || [];
+    gm(he, _, P, ne, Re, st.length, Ee || [], ct);
+    const Ge = fm(he, ne, _e, Ee || [], ct),
+        Ye = ((Nt = (Mt = (Bt = (Ct = (fe = (Ft = he.identity) == null ? void 0 : Ft.dobs) == null ? void 0 : fe[0]) == null ? void 0 : Ct.date) == null ? void 0 : Bt.parsed) == null ? void 0 : Mt.year) == null ? void 0 : Nt.toString()) ?? "",
+        Ze = !!(((Jt = (Pt = (bt = he.identity) == null ? void 0 : bt.dods[0]) == null ? void 0 : Pt.date) == null ? void 0 : Jt.full) || ""),
+        lt = !!(ke != null && ke.funeralHome),
+        dt = Ze && !lt;
+    document.title = `${z.personName} - BeenVerified`;
+    const rt = () => {
+            var pe, ye, Pe;
+            return {
+                permalink: t,
+                first_name: ba(((pe = Z == null ? void 0 : Z.parsed) == null ? void 0 : pe.first) ?? ""),
+                last_name: ba(((ye = Z == null ? void 0 : Z.parsed) == null ? void 0 : ye.last) ?? ""),
+                middle_name: ba(((Pe = Z == null ? void 0 : Z.parsed) == null ? void 0 : Pe.middle) ?? ""),
+                person_id: X || "",
+                age: String(Ld(Ye)) || "",
+                addresses: Le.map(je => {
+                    var mt, xt, _t;
+                    return {
+                        full_adddress: (je == null ? void 0 : je.full) || "",
+                        street: je.parsed ? Pd(je.parsed).street : "",
+                        city: ((mt = je.parsed) == null ? void 0 : mt.city) || "",
+                        state: ((xt = je.parsed) == null ? void 0 : xt.state) || "",
+                        zip5: ((_t = je.parsed) == null ? void 0 : _t.zip5) || ""
+                    }
+                }),
+                phones: ve.map(je => ({
+                    number: je.number || ""
+                })),
+                emails: le.map(je => ({
+                    address: je.address || ""
+                }))
+            }
+        },
+        we = F ? G != null && G.indis ? !!G.indis.some(ae => {
+            var pe;
+            return ae.placeholder ? !1 : (pe = ae.reports) == null ? void 0 : pe.some(ye => "bvid" in ye && ye.bvid === X)
+        }) : void 0 : !1,
+        Xe = we ? (Xt = (Zt = G == null ? void 0 : G.indis) == null ? void 0 : Zt.find(ae => "bvid" in ae && ae.bvid === X)) == null ? void 0 : Xt.id : void 0,
+        et = ba(V),
+        Ue = {
+            ...(() => {
+                var pe, ye, Pe, je, mt, xt, _t, ia, Tt, Ot, Vt, ra, oa;
+                const ae = pt => pt ? ["United States", "USA", "United States of America", "America", "US", "U.S.", "U.S.A."].includes(pt) : !1;
+                if ((pe = Y == null ? void 0 : Y.parsed) != null && pe.state || ae((ye = Y == null ? void 0 : Y.parsed) == null ? void 0 : ye.country)) {
+                    const pt = [(Pe = Y == null ? void 0 : Y.parsed) == null ? void 0 : Pe.city, (je = Y == null ? void 0 : Y.parsed) == null ? void 0 : je.state].filter(Boolean).join(", ");
+                    return {
+                        city: ((mt = Y == null ? void 0 : Y.parsed) == null ? void 0 : mt.city) || "",
+                        country: ae((xt = Y == null ? void 0 : Y.parsed) == null ? void 0 : xt.country) ? "United States" : ((_t = Y == null ? void 0 : Y.parsed) == null ? void 0 : _t.country) || "United States",
+                        state: ((ia = Y == null ? void 0 : Y.parsed) == null ? void 0 : ia.state) || "",
+                        location: pt
+                    }
+                } else if ((Tt = Y == null ? void 0 : Y.parsed) != null && Tt.country) {
+                    const pt = [(Ot = Y == null ? void 0 : Y.parsed) == null ? void 0 : Ot.city, (Vt = Y == null ? void 0 : Y.parsed) == null ? void 0 : Vt.country].filter(Boolean).join(", ");
+                    return {
+                        city: ((ra = Y == null ? void 0 : Y.parsed) == null ? void 0 : ra.city) || "",
+                        country: ((oa = Y == null ? void 0 : Y.parsed) == null ? void 0 : oa.country) || "",
+                        location: pt
+                    }
+                } else if (Y != null && Y.full) {
+                    const pt = _o(Y.full),
+                        ma = [pt.city, pt.state, pt.country].filter(Boolean).join(", ");
+                    return {
+                        city: pt.city || "",
+                        country: pt.country || "",
+                        state: pt.state || "",
+                        location: ma
+                    }
+                }
+                return {
+                    city: "",
+                    country: "",
+                    location: ""
+                }
+            })(),
+            fullName: et || "",
+            fName: ba(((ea = Z == null ? void 0 : Z.parsed) == null ? void 0 : ea.first) || ""),
+            lName: ba(((ta = Z == null ? void 0 : Z.parsed) == null ? void 0 : ta.last) || ""),
+            isDeceased: !0,
+            birthMonth: ((Ca = (Sa = (ja = (na = (aa = Ce == null ? void 0 : Ce.dobs) == null ? void 0 : aa[0]) == null ? void 0 : na.date) == null ? void 0 : ja.parsed) == null ? void 0 : Sa.month) == null ? void 0 : Ca.toString().padStart(2, "0")) || null,
+            birthYear: Ye || null,
+            deathYear: ((La = (_a = (Aa = (ka = (Ta = Ce == null ? void 0 : Ce.dods) == null ? void 0 : Ta[0]) == null ? void 0 : ka.date) == null ? void 0 : Aa.parsed) == null ? void 0 : _a.year) == null ? void 0 : La.toString()) || null,
+            deathMonth: ((Ra = (qa = (Ea = (Ia = (Pa = Ce == null ? void 0 : Ce.dods) == null ? void 0 : Pa[0]) == null ? void 0 : Ia.date) == null ? void 0 : Ea.parsed) == null ? void 0 : qa.month) == null ? void 0 : Ra.toString().padStart(2, "0")) || null
+        },
+        ut = () => {
+            var pe, ye;
+            o({
+                event_name: "report_element_engagement",
+                report_type: "people",
+                type: "add_family",
+                interacted_from: "overview"
+            });
+            const ae = (pe = z.data.people) == null ? void 0 : pe[0];
+            if (!ae) return null;
+            if (we) {
+                localStorage.setItem("familyTreeMemberId", JSON.stringify(Xe)), i("/family-tree");
+                return
+            }
+            localStorage.setItem("familyTreeRelativeToAdd", JSON.stringify(_r(ae, t, ae.identity.ids[0] || "", ((ye = Le[0]) == null ? void 0 : ye.parsed) || ""))), i(`/family-tree?from=${t}`)
+        },
+        Be = ae => {
+            var ye;
+            o({
+                event_name: "report_element_engagement",
+                report_type: "people",
+                type: "add_family",
+                interacted_from: "possible_relatives"
+            });
+            const pe = Ee == null ? void 0 : Ee.find(Pe => Pe.identity.ids[0] === ae);
+            if (!pe) return null;
+            localStorage.setItem("familyTreeRelativeToAdd", JSON.stringify(_r(pe, null, ae, ((ye = pe.addresses[0]) == null ? void 0 : ye.parsed) || ""))), i(`/family-tree?from=${t}`)
+        },
+        ot = 1e3;
+
+    function ht() {
+        I(!0), setTimeout(() => {
+            I(!1), E(!0)
+        }, ot * 7)
+    }
+    const Me = `${window.location}`,
+        vt = Ye ? parseInt(Ye, 10) : null,
+        kt = vt && vt < 1900;
+    return e.jsx(So, {
+        reportType: "detailed_person_report",
+        children: e.jsxs(N, {
+            children: [e.jsxs(S, {
+                direction: "row",
+                children: [e.jsx(N, {
+                    sx: {
+                        display: {
+                            xs: "none",
+                            sm: "none",
+                            md: "none",
+                            lg: "block"
+                        }
+                    },
+                    children: e.jsx(Ua, {
+                        reportType: "Person Report",
+                        headerTitle: V,
+                        menuItems: Ge
+                    })
+                }), e.jsxs(N, {
+                    marginTop: 0,
+                    children: [e.jsx(N, {
+                        sx: {
+                            height: 30,
+                            backgroundColor: "#f8f8f8",
+                            position: "sticky",
+                            marginBottom: "-10px",
+                            top: 52,
+                            zIndex: 10,
+                            display: {
+                                xs: "none",
+                                sm: "none",
+                                md: "block",
+                                lg: "block"
+                            }
+                        }
+                    }), e.jsx(Ya, {
+                        reportType: Ai,
+                        reportTitle: "Person",
+                        dateUpdated: oe,
+                        permalink: t,
+                        navLinkData: Ge,
+                        reportUpgraded: Re,
+                        reportDataForListV2: K ? rt() : void 0,
+                        isConfirmed: _
+                    }), e.jsx(hd, {
+                        isConfirmed: _,
+                        reportType: Ai,
+                        owner: he,
+                        personName: V,
+                        personOverviewItemsData: {
+                            hideCriminalBJLData: ne,
+                            phones: ve,
+                            emails: le,
+                            addresses: Le,
+                            relatives: Ee,
+                            images: he.images,
+                            profiles: Fe,
+                            usernames: re,
+                            jobs: me,
+                            educations: J
+                        },
+                        dateUpdated: oe,
+                        permalink: t,
+                        navLinkData: Ge,
+                        reportUpgraded: Re,
+                        familyTreeCTA: !0,
+                        hasFamilyTreeCreated: !!((Da = G == null ? void 0 : G.indis) != null && Da.length),
+                        reportInFamilyTree: we,
+                        addRelativeToFamilyTree: ut,
+                        isInPersonReportSummaryVariation: ge,
+                        reportDataForListV2: K ? rt() : void 0
+                    }), dt && e.jsx(md, {
+                        image: $h
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Phone Numbers",
+                        nameToRecord: "possible_phone_numbers",
+                        id: "phone-numbers-section",
+                        children: e.jsx(Ln, {
+                            personName: V,
+                            phoneList: ve,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Email Addresses",
+                        nameToRecord: "possible_email_addresses",
+                        id: "email-section",
+                        children: e.jsx(Pn, {
+                            personName: V,
+                            emailList: le,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Address History",
+                        nameToRecord: "possible_address_history",
+                        id: "address-history-section",
+                        children: e.jsx(In, {
+                            addresses: Le,
+                            personName: V,
+                            permalink: t,
+                            alternateTitle: Se
+                        })
+                    }), xe ? e.jsxs(e.Fragment, {
+                        children: [e.jsx(ie, {
+                            nameToDisplay: "Possible Social Media",
+                            nameToRecord: "possible_social_media",
+                            id: "possible-social-media",
+                            children: e.jsx(pd, {
+                                personName: V,
+                                profiles: Fe,
+                                permalink: t
+                            })
+                        }), e.jsx(ie, {
+                            nameToDisplay: "Possible Usernames",
+                            nameToRecord: "usernames-section",
+                            id: "possible-usernames",
+                            children: e.jsx(gd, {
+                                personName: V,
+                                usernames: re
+                            })
+                        })]
+                    }) : e.jsx(ie, {
+                        nameToDisplay: "Possible Social Media",
+                        nameToRecord: "possible_social_media",
+                        id: "possible-social-media",
+                        children: e.jsx(En, {
+                            personName: V,
+                            profiles: Fe,
+                            usernames: re,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Names & Ancestry",
+                        nameToRecord: "names_and_ancestry",
+                        id: "names-ancestry-section",
+                        children: e.jsx(fd, {
+                            firstName: ba(((Fa = Z == null ? void 0 : Z.parsed) == null ? void 0 : Fa.first) ?? null),
+                            surName: ba(((de = Z == null ? void 0 : Z.parsed) == null ? void 0 : de.last) ?? null),
+                            yearOfBirth: Ye
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Family Tree",
+                        nameToRecord: "family_tree",
+                        id: "family-tree-section",
+                        children: e.jsx(yd, {
+                            permalink: t,
+                            familyTreeData: G,
+                            personName: V
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Relatives",
+                        nameToRecord: "possible_relatives",
+                        id: "relatives-section",
+                        children: e.jsx(bd, {
+                            personName: V,
+                            relatives: Ee || [],
+                            permalink: t,
+                            familyTreeData: G,
+                            addRelativeToFamilyTree: Be
+                        })
+                    }), e.jsxs(e.Fragment, {
+                        children: [lt && e.jsx(xd, {
+                            obituary: ke,
+                            permalink: t
+                        }), ze && e.jsx(vd, {
+                            grave: ze,
+                            permalink: t
+                        })]
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Marriage & Divorce Records",
+                        nameToRecord: "possible_marriage_divorce_records",
+                        id: "marital-records-section",
+                        children: e.jsx(wd, {
+                            personName: V,
+                            marital: Ke,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Associates",
+                        nameToRecord: "possible_associates",
+                        id: "associates-section",
+                        children: e.jsx(jd, {
+                            personName: V,
+                            associates: Qe || [],
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Neighbors",
+                        nameToRecord: "possible_neighbors",
+                        id: "neighbors-section",
+                        children: e.jsx(Sd, {
+                            personName: V,
+                            neighbors: it || [],
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Court Orders",
+                        nameToRecord: "court_orders",
+                        id: "criminal-or-traffic-section",
+                        children: !ne && e.jsx(e.Fragment, {
+                            children: _e ? e.jsxs(e.Fragment, {
+                                children: [e.jsx(Cd, {
+                                    criminalOrTrafficData: Ve.criminal || [],
+                                    personName: V
+                                }), e.jsx(Td, {
+                                    personName: V,
+                                    bankruptcyData: Ve.bankruptcy || []
+                                }), e.jsx(kd, {
+                                    personName: V,
+                                    bonusData: We
+                                })]
+                            }) : e.jsx(e.Fragment, {
+                                children: x ? e.jsx(Ad, {
+                                    personName: V,
+                                    delayDuration: ot
+                                }) : e.jsx(_d, {
+                                    handleCourtRecordsLoadingScreen: ht,
+                                    redirectUrl: Me
+                                })
+                            })
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Jobs",
+                        nameToRecord: "possible_jobs",
+                        id: "jobs-section",
+                        children: e.jsx(ei, {
+                            personName: V,
+                            jobs: me,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Education",
+                        nameToRecord: "possible_education",
+                        id: "education-section",
+                        children: e.jsx(qn, {
+                            personName: V,
+                            educations: J,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Possible Owned Assets",
+                        nameToRecord: "possible_owned_assets",
+                        id: "possible-owned-assets-section",
+                        children: e.jsx(Wi, {
+                            personName: V,
+                            ownedAssets: He,
+                            permalink: t
+                        })
+                    }), e.jsx(ie, {
+                        nameToDisplay: "notes",
+                        nameToRecord: "notes",
+                        id: "Notes-section",
+                        children: e.jsx(ti, {
+                            permalink: t
+                        })
+                    }), (Ze || kt) && e.jsxs(er, {
+                        children: [e.jsx(ds, {
+                            searchParams: Ue
+                        }), e.jsx(cs, {
+                            searchParams: Ue
+                        })]
+                    }), e.jsx(ie, {
+                        nameToDisplay: "Related Reports",
+                        nameToRecord: "related_reports",
+                        id: "related-reports-section",
+                        children: e.jsx(ai, {
+                            reportType: "person",
+                            personName: V,
+                            potentialOwners: z.data.people,
+                            relatives: Ee,
+                            addresses: Le,
+                            phones: ve,
+                            emails: le,
+                            usernames: re
+                        })
+                    }), e.jsx(Rn, {
+                        rating: ((nt = z.data.meta) == null ? void 0 : nt.rating) || null,
+                        report_type: Ai
+                    })]
+                })]
+            }), e.jsx(ln, {
+                reportType: "Person Report",
+                headerTitle: V,
+                menuItems: Ge
+            }), e.jsx(Qt, {
+                menuItems: z.data.rawData.debug_menu
+            })]
+        })
+    })
+}
+const Vn = "username";
+
+function Cb({
+    permalink: t
+}) {
+    var M, D, j, R, W, F, $, oe;
+    const {
+        redirectToSearchContactUrl: a
+    } = ua(), {
+        trackEvent: n
+    } = h.useContext(ce), i = Wt(t), r = Gt(i), {
+        hash: o
+    } = Lt();
+    ha(o, i);
+    const s = be("prop-2834"),
+        [c, u] = h.useState({
+            potentialOwnerIndex: 0,
+            showHighConfidenceDataOnly: !0,
+            higherConfidenceThreshold: gt.config.higherConfidenceThreshold
+        }),
+        l = Q => {
+            u({
+                ...c,
+                ...Q
+            })
+        };
+    if (i.isLoading || i.isError) return e.jsx(Ne, {
+        menuItems: 9
+    });
+    if (r) return e.jsx(Oe, {});
+    const d = xa.create(i == null ? void 0 : i.data, "username");
+    if (!d) return e.jsx(Ne, {
+        menuItems: 9
+    });
+    if (!((M = d == null ? void 0 : d.data) != null && M.people) && !((j = (D = d == null ? void 0 : d.data) == null ? void 0 : D.people) != null && j.length)) return e.jsx(Oe, {});
+    const C = d.getOwner(c),
+        {
+            ownerName: m,
+            emails: v,
+            phones: L,
+            educations: g,
+            jobs: b,
+            profiles: f,
+            usernames: w,
+            addresses: p,
+            images: P,
+            relatives: q
+        } = C,
+        _ = ym(C, ((W = (R = d == null ? void 0 : d.data) == null ? void 0 : R.people) == null ? void 0 : W.length) ?? 0),
+        E = new va,
+        x = (F = d.data.meta) != null && F.updated_at ? E.parseDateFromString(($ = d.data.meta) == null ? void 0 : $.updated_at, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ") : "";
+    document.title = `${d.username} - BeenVerified`;
+    const I = () => {
+            var z, ee, X, se;
+            const Q = {
+                permalink: t,
+                username: d.username || ""
+            };
+            return (z = d == null ? void 0 : d.data) != null && z.people && ((X = (ee = d == null ? void 0 : d.data) == null ? void 0 : ee.people) != null && X.length) && (Q.owners = ((se = d == null ? void 0 : d.data) == null ? void 0 : se.people).map(k => {
+                var te, he, T, xe, ge, K, A, Se;
+                return {
+                    first_name: ((xe = (T = (he = (te = k == null ? void 0 : k.identity) == null ? void 0 : te.names) == null ? void 0 : he[0]) == null ? void 0 : T.parsed) == null ? void 0 : xe.first) || "",
+                    last_name: ((Se = (A = (K = (ge = k == null ? void 0 : k.identity) == null ? void 0 : ge.names) == null ? void 0 : K[0]) == null ? void 0 : A.parsed) == null ? void 0 : Se.last) || ""
+                }
+            })), Q
+        },
+        H = () => {
+            n("username report promo", "navigation click", "contact search"), a({})
+        };
+    return e.jsxs(N, {
+        children: [e.jsxs(S, {
+            direction: "row",
+            children: [e.jsx(N, {
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "none",
+                        lg: "block"
+                    }
+                },
+                children: e.jsx(Ua, {
+                    reportType: "Social Report",
+                    headerTitle: m || d.username,
+                    menuItems: _
+                })
+            }), e.jsxs(N, {
+                marginTop: 0,
+                children: [e.jsx(N, {
+                    sx: {
+                        height: 30,
+                        backgroundColor: "#f8f8f8",
+                        position: "sticky",
+                        marginBottom: "-10px",
+                        marginX: -1,
+                        top: 52,
+                        zIndex: 10,
+                        display: {
+                            xs: "none",
+                            sm: "block",
+                            md: "block",
+                            lg: "block"
+                        }
+                    }
+                }), e.jsx(Ya, {
+                    reportType: Vn,
+                    reportTitle: "Username",
+                    dateUpdated: x,
+                    reportUpgraded: !1,
+                    reportDataForListV2: s ? I() : void 0
+                }), e.jsx(Id, {
+                    dateUpdated: x,
+                    reportType: Vn,
+                    username: d.username,
+                    showHighConfidenceToggle: !0,
+                    showHighConfidenceDataOnly: c.showHighConfidenceDataOnly,
+                    setShowHighConfidenceDataOnly: Q => l({
+                        showHighConfidenceDataOnly: Q
+                    }),
+                    reportDataForListV2: s ? I() : void 0
+                }), e.jsx(N, {
+                    mt: 2.5,
+                    children: e.jsx(Gi, {
+                        potentialOwners: d.data.people || [],
+                        potentialOwnerIndex: c.potentialOwnerIndex,
+                        setPotentialOwnerIndex: Q => {
+                            l({
+                                potentialOwnerIndex: Q
+                            })
+                        },
+                        personName: m || d.username,
+                        permalink: t,
+                        reportType: Vn
+                    })
+                }), e.jsx(Ln, {
+                    personName: m || d.username,
+                    phoneList: L,
+                    permalink: t
+                }), e.jsx(Pn, {
+                    personName: m || d.username,
+                    emailList: v,
+                    permalink: t
+                }), e.jsx(In, {
+                    addresses: p,
+                    personName: m || d.username,
+                    permalink: t
+                }), e.jsx(En, {
+                    personName: m || d.username,
+                    profiles: f,
+                    usernames: w,
+                    permalink: t
+                }), e.jsx(ei, {
+                    personName: m || d.username,
+                    jobs: b,
+                    permalink: t
+                }), e.jsx(Lo, {
+                    image: Do,
+                    onBeginSearchClick: H
+                }), e.jsx(qn, {
+                    personName: m || d.username,
+                    educations: g,
+                    permalink: t
+                }), e.jsx(ti, {
+                    permalink: t
+                }), e.jsx(ai, {
+                    reportType: "username",
+                    personName: m || d.username,
+                    potentialOwners: d.data.people,
+                    relatives: q,
+                    addresses: p,
+                    phones: L,
+                    emails: v,
+                    usernames: w
+                }), e.jsx(Rn, {
+                    rating: ((oe = d.data.meta) == null ? void 0 : oe.rating) || null,
+                    report_type: Vn
+                })]
+            })]
+        }), e.jsx(ln, {
+            reportType: "Social Report",
+            headerTitle: m || d.username,
+            menuItems: _
+        }), e.jsx(Qt, {
+            menuItems: d.data.rawData.debug_menu
+        })]
+    })
+}
+const gn = "phone";
+
+function Tb({
+    permalink: t
+}) {
+    var tt, at, Ue, ut, Be, ot, ht, Me, vt, kt, wt, jt, St, qt, U, De, At, Rt, Dt, Ft;
+    const {
+        session: {
+            account: a
+        }
+    } = Yt();
+    ua();
+    const {
+        trackEvent: n,
+        logError: i
+    } = h.useContext(ce), {
+        currentMonitors: r,
+        reportIsMonitored: o
+    } = da(t), [s, c] = h.useState(!1), u = Ed("RFRSH-2790", ""), l = u === "RFRSH-2790_variation_3", d = u === "RFRSH-2790_variation_2", C = be("OAR-1352"), m = be("prop-2834"), v = qd(), L = sn(), [g, b] = h.useState(!1), {
+        data: f
+    } = Rd({
+        report_type: "reverse_phone_report"
+    }, {
+        enabled: g
+    }), w = h.useMemo(() => (f == null ? void 0 : f.reports) ?? [], [f == null ? void 0 : f.reports]), p = Wt(t, o), P = cn(t), q = P && {
+        ...P,
+        data: (tt = P.data) == null ? void 0 : tt.data
+    }, _ = (at = a == null ? void 0 : a.account) == null ? void 0 : at.user_info, x = !P.isError && o ? q : p, I = Gt(x), {
+        hash: H,
+        search: M
+    } = Lt();
+    ha(H, x);
+    const D = be("RFRSH-2523"),
+        [j, R] = h.useState({
+            potentialOwnerIndex: 0,
+            showHighConfidenceDataOnly: !!D,
+            higherConfidenceThreshold: gt.config.higherConfidenceThreshold
+        }),
+        W = fe => {
+            R({
+                ...j,
+                ...fe
+            })
+        },
+        [F, $] = h.useState(!1),
+        [oe, Q] = h.useState(!1),
+        {
+            data: z
+        } = Dd(i, (Be = (ut = (Ue = x == null ? void 0 : x.data) == null ? void 0 : Ue.meta) == null ? void 0 : ut.search_data) == null ? void 0 : Be.phone_number);
+    h.useEffect(() => {
+        Q(r == null ? void 0 : r.some(fe => fe.permalink === t && fe.is_claimed))
+    }, [r, t]);
+    const [ee, X] = h.useState(), se = new va, k = h.useMemo(() => {
+        var fe;
+        return !x.isSuccess || !x.data ? null : (fe = x == null ? void 0 : x.data) != null && fe.entities ? xa.create(x == null ? void 0 : x.data, "phone") : xa.create(x == null ? void 0 : x.data.data, "phone")
+    }, [x.data, x.isSuccess]), te = h.useMemo(() => x.isLoading || x.isError || !k, [x.isLoading, x.isError, k]), he = Fd((k == null ? void 0 : k.phone) || "");
+    h.useEffect(() => {
+        if (x.isSuccess && x.data) {
+            L.invalidateQueries(["request", "bbq"]);
+            const fe = setTimeout(() => {
+                L.invalidateQueries(["request", "bbq"]), b(!0)
+            }, 3e3);
+            return () => clearTimeout(fe)
+        }
+    }, [x.data, x.isSuccess, j]);
+    const T = C && cm(_ == null ? void 0 : _.join_date) && w.length == 1;
+    if (h.useEffect(() => {
+            var fe, Ct;
+            !T || w.length != 1 || ((Ct = (fe = k == null ? void 0 : k.data) == null ? void 0 : fe.people) == null ? void 0 : Ct.length) === 0 || v.mutate({
+                permalink: t,
+                update_type: "phone"
+            })
+        }, [T, w]), h.useEffect(() => {
+            var Bt, Mt, Nt, bt;
+            const fe = (Bt = r == null ? void 0 : r.find(Pt => Pt.permalink === t)) == null ? void 0 : Bt.updated_at,
+                Ct = (Nt = (Mt = k == null ? void 0 : k.data) == null ? void 0 : Mt.meta) == null ? void 0 : Nt.updated_at;
+            if (o && fe ? X(se.parseDateFromString(fe, "yyyy-MM-dd")) : Ct && X(se.parseDateFromString(Ct, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ")), k) {
+                const Pt = Bd(k == null ? void 0 : k.data, (bt = a == null ? void 0 : a.account) == null ? void 0 : bt.user_info.phone_number);
+                c(Pt)
+            }
+        }, [(ht = (ot = k == null ? void 0 : k.data) == null ? void 0 : ot.meta) == null ? void 0 : ht.updated_at, r, t, o]), te || x.isLoading || x.isError) return e.jsx(Ne, {
+        menuItems: 15
+    });
+    if (I) return e.jsx(Oe, {});
+    const ge = Ha((_ == null ? void 0 : _.phone_number) || "") === (k == null ? void 0 : k.phone) ? e.jsx(Po, {
+        permalink: t,
+        reportType: gn,
+        reportIsMonitoredAndClaimed: oe
+    }) : e.jsx(Io, {
+        permalink: t,
+        reportType: gn
+    });
+    if (!k) return e.jsx(Ne, {
+        menuItems: 15
+    });
+    if (!((Me = k == null ? void 0 : k.data) != null && Me.people) && !((kt = (vt = k == null ? void 0 : k.data) == null ? void 0 : vt.people) != null && kt.length)) return e.jsx(Oe, {});
+    const K = k.getOwner(j),
+        {
+            ownerName: A,
+            emails: Se,
+            educations: qe,
+            jobs: Ae,
+            profiles: G,
+            usernames: ne,
+            phones: Re,
+            addresses: _e,
+            ownedAssets: V,
+            relatives: Z
+        } = K,
+        {
+            risk: le,
+            connectivity: ve,
+            is_valid: J
+        } = k.supportingPhone || {},
+        {
+            fraud_score: me,
+            is_prepaid: Fe,
+            is_voip: re,
+            is_risky: Le,
+            is_recent_abuse: He,
+            is_do_not_call: Ke
+        } = le || {},
+        Ee = ve == null ? void 0 : ve.is_active,
+        Qe = k.supportingPhone != null && le != null && ve != null,
+        Ve = new URLSearchParams(M).get("phone") || "",
+        ke = ca(k.phone) ?? ca(Ve),
+        ze = Re.filter(fe => fe.number !== Ve && fe.number !== k.phone),
+        We = (St = (jt = (wt = k == null ? void 0 : k.data) == null ? void 0 : wt.rawData) == null ? void 0 : jt.entities) == null ? void 0 : St.businesses[0],
+        Y = ((qt = We == null ? void 0 : We.names[0]) == null ? void 0 : qt.name) ?? "";
+    let Ce = 0;
+    k.data.people.length > 0 ? Ce = k.data.people.length : Y && (Ce = 1), m && (Ce = 1);
+    const {
+        main_line_type: st,
+        num_searches: ct,
+        spam_score: Ge,
+        spam_reports_count: Ye
+    } = k.data, Je = (z == null ? void 0 : z.total_volume) || ct || 0, Ze = bm(K, {
+        potentialOwnersLength: Ce,
+        searchVolumeLength: Je > 0 ? 1 : 0,
+        commentsLength: ((U = k.data.comments) == null ? void 0 : U.length) ?? 0,
+        neighborSpoofingLength: s ? 1 : 0,
+        spamReportsCount: k.data.spam_reports_count ?? 0
+    }), lt = xm(K, {
+        potentialOwnersLength: Ce,
+        searchVolumeLength: Je > 0 ? 1 : 0,
+        commentsLength: ((De = k.data.comments) == null ? void 0 : De.length) ?? 0,
+        neighborSpoofingLength: s ? 1 : 0,
+        spamReportsCount: k.data.spam_reports_count ?? 0
+    }), dt = k.data.comments || [], rt = (Rt = (At = k.data.meta) == null ? void 0 : At.search_data) == null ? void 0 : Rt.carrier;
+    document.title = `${ca(ke)} - BeenVerified`;
+    const we = () => {
+            var Ct, Bt, Mt, Nt;
+            const fe = {
+                permalink: t,
+                phone_number: (k == null ? void 0 : k.phone) || "",
+                type: st || "",
+                carrier: rt || "",
+                area_code_location: he[1] || ""
+            };
+            return (Ct = k == null ? void 0 : k.data) != null && Ct.people && ((Mt = (Bt = k == null ? void 0 : k.data) == null ? void 0 : Bt.people) != null && Mt.length) && (fe.owners = ((Nt = k == null ? void 0 : k.data) == null ? void 0 : Nt.people).map(bt => {
+                var Pt, Jt, Zt, Xt, ea, ta, aa, na;
+                return {
+                    first_name: ((Xt = (Zt = (Jt = (Pt = bt == null ? void 0 : bt.identity) == null ? void 0 : Pt.names) == null ? void 0 : Jt[0]) == null ? void 0 : Zt.parsed) == null ? void 0 : Xt.first) || "",
+                    last_name: ((na = (aa = (ta = (ea = bt == null ? void 0 : bt.identity) == null ? void 0 : ea.names) == null ? void 0 : ta[0]) == null ? void 0 : aa.parsed) == null ? void 0 : na.last) || ""
+                }
+            })), fe
+        },
+        Xe = be("RFRSH-2911"),
+        et = d || l ? (Dt = k.data.people) == null ? void 0 : Dt.slice(0, 1) : k.data.people;
+    return e.jsxs(N, {
+        children: [e.jsxs(S, {
+            direction: "row",
+            children: [e.jsx(N, {
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "none",
+                        lg: "block"
+                    }
+                },
+                children: e.jsx(Ua, {
+                    reportType: "Phone Report",
+                    headerTitle: ca(ke),
+                    menuItems: Ze
+                })
+            }), e.jsxs(N, {
+                marginTop: 0,
+                children: [F && e.jsx(_n, {
+                    permalink: t,
+                    navLinkData: lt
+                }), e.jsx(N, {
+                    sx: {
+                        height: 30,
+                        backgroundColor: "#f8f8f8",
+                        position: "sticky",
+                        marginBottom: "-10px",
+                        marginX: -1,
+                        top: 52,
+                        zIndex: 10,
+                        display: {
+                            xs: "none",
+                            sm: "block",
+                            md: "block",
+                            lg: "block"
+                        }
+                    }
+                }), e.jsx(Ya, {
+                    reportType: gn,
+                    reportTitle: "Phone",
+                    dateUpdated: ee,
+                    permalink: t,
+                    navLinkData: Ze,
+                    reportUpgraded: !1,
+                    reportDataForListV2: m ? we() : void 0
+                }), Ce === 0 && e.jsx(Md, {}), e.jsx(Nd, {
+                    reportType: gn,
+                    phone: ca(ke),
+                    personName: A || Y,
+                    neighborSpoofed: s,
+                    phoneOverviewItemsData: {
+                        comments: dt,
+                        mainLineType: st,
+                        numSearches: Je,
+                        spamScore: Ge,
+                        carrier: rt,
+                        peopleCount: Ce,
+                        spamReportsCount: Ye
+                    },
+                    Monitoring: ge,
+                    showHighConfidenceToggle: !D,
+                    showHighConfidenceDataOnly: j.showHighConfidenceDataOnly,
+                    setShowHighConfidenceDataOnly: fe => {
+                        W({
+                            showHighConfidenceDataOnly: fe
+                        })
+                    },
+                    isInPhoneReportSummaryVariation: Xe
+                }), e.jsxs(e.Fragment, {
+                    children: [e.jsx(Gi, {
+                        potentialOwners: et || [],
+                        potentialOwnerIndex: j.potentialOwnerIndex,
+                        setPotentialOwnerIndex: fe => {
+                            W({
+                                potentialOwnerIndex: fe
+                            })
+                        },
+                        personName: A || k.data.formatted_number,
+                        permalink: t,
+                        business: We,
+                        showHighConfidenceDataOnly: j.showHighConfidenceDataOnly,
+                        setShowHighConfidenceDataOnly: fe => {
+                            W({
+                                showHighConfidenceDataOnly: fe
+                            })
+                        },
+                        hidePersonSection: T
+                    }), d || l ? e.jsx(Od, {
+                        potentialOwners: k.data.people.slice(1),
+                        phoneNumber: ke || k.data.formatted_number,
+                        permalink: t
+                    }) : e.jsxs(e.Fragment, {
+                        children: [e.jsx(Ln, {
+                            personName: A || k.data.formatted_number,
+                            phoneList: ze,
+                            permalink: t,
+                            alternateTitle: "Other Phone Numbers"
+                        }), e.jsx(Pn, {
+                            personName: A || k.data.formatted_number,
+                            emailList: Se,
+                            permalink: t
+                        }), e.jsx(In, {
+                            addresses: _e,
+                            personName: A || k.data.formatted_number,
+                            permalink: t
+                        }), e.jsx(En, {
+                            personName: A || k.data.formatted_number,
+                            profiles: G,
+                            usernames: ne,
+                            permalink: t
+                        }), e.jsx(ei, {
+                            personName: A || k.data.formatted_number,
+                            jobs: Ae,
+                            permalink: t
+                        }), e.jsx(qn, {
+                            personName: A || k.data.formatted_number,
+                            educations: qe,
+                            permalink: t
+                        }), e.jsx(Wi, {
+                            personName: A || k.data.formatted_number,
+                            ownedAssets: V,
+                            permalink: t
+                        })]
+                    })]
+                }), l ? e.jsxs(e.Fragment, {
+                    children: [e.jsx(Vd, {
+                        searchCount: Je,
+                        spamScore: Ge,
+                        neighborSpoofed: s,
+                        complaints: k.data.spam_reports_count,
+                        comments: dt.length,
+                        alternateTitle: "Summary"
+                    }), e.jsx(Ao, {
+                        reportData: k.data,
+                        permalink: t
+                    }), e.jsx(Hd, {
+                        phoneNumber: ke,
+                        alternateTitle: "Area Code Location Details"
+                    })]
+                }) : e.jsxs(e.Fragment, {
+                    children: [e.jsx(zd, {
+                        fraudScore: me,
+                        validStatus: J,
+                        prepaid: Fe,
+                        voip: re,
+                        risky: Le,
+                        recentAbuse: He,
+                        active: Ee,
+                        doNotCall: Ke,
+                        phoneNumber: ke,
+                        showPhoneFraudScan: Qe,
+                        showReportCTA: !0
+                    }), e.jsx(Wd, {
+                        phoneReportData: k.data
+                    }), e.jsx(Gd, {
+                        searchCount: Je
+                    }), e.jsx(Yd, {
+                        reportData: k.data,
+                        callerSourceMap: {
+                            telemarketer: Kh,
+                            questionable: Qh,
+                            legit: Jh
+                        }
+                    }), e.jsx(Ud, {
+                        reportData: k.data,
+                        permalink: t
+                    })]
+                }), e.jsx(ti, {
+                    permalink: t
+                }), e.jsx(ai, {
+                    reportType: "phone",
+                    personName: A || k.data.formatted_number,
+                    potentialOwners: k.data.people,
+                    relatives: Z,
+                    addresses: _e,
+                    phones: Re,
+                    emails: Se,
+                    usernames: ne,
+                    hidePersonSection: T
+                }), e.jsx(Rn, {
+                    rating: ((Ft = k.data.meta) == null ? void 0 : Ft.rating) || null,
+                    report_type: gn
+                })]
+            })]
+        }), e.jsx(ln, {
+            reportType: "Phone Report",
+            headerTitle: ca(ke),
+            menuItems: Ze
+        }), e.jsx(Qt, {
+            menuItems: k.data.rawData.debug_menu
+        })]
+    })
+}
+const fn = "email";
+
+function kb({
+    permalink: t
+}) {
+    var Ke, Ee, Qe, it, Ve, ke, ze, We, Y, Ce, st, ct, Ge, Ye, Je, Ze, lt, dt, rt;
+    const {
+        currentMonitors: a,
+        reportIsMonitored: n
+    } = da(t), i = Wt(t, n), r = cn(t), o = r && {
+        ...r,
+        data: (Ke = r.data) == null ? void 0 : Ke.data
+    }, {
+        session: {
+            account: s
+        }
+    } = Yt(), {
+        redirectToSearchContactUrl: c
+    } = ua(), {
+        trackEvent: u
+    } = h.useContext(ce), l = be("prop-2834"), d = (Ee = s == null ? void 0 : s.account) == null ? void 0 : Ee.user_info, m = !r.isError && n ? o : i, v = Gt(m), {
+        hash: L,
+        search: g
+    } = Lt();
+    ha(L, m);
+    const [b, f] = h.useState({
+        potentialOwnerIndex: 0,
+        showHighConfidenceDataOnly: !0,
+        higherConfidenceThreshold: gt.config.higherConfidenceThreshold
+    }), w = we => {
+        f({
+            ...b,
+            ...we
+        })
+    }, [p, P] = h.useState(!1), [q, _] = h.useState(!1), [E, x] = h.useState(!1), [I, H] = h.useState(!1), [M, D] = h.useState(), [j, R] = h.useState(null), W = new va, {
+        data: F
+    } = vo({
+        email: j == null ? void 0 : j.emailAddress
+    }), $ = ((Qe = F == null ? void 0 : F.data) == null ? void 0 : Qe.breaches) ?? [], oe = (ke = (Ve = (it = F == null ? void 0 : F.data) == null ? void 0 : it.rawData) == null ? void 0 : Ve.meta) == null ? void 0 : ke.updated_at, Q = I && !E, z = 1e3;
+
+    function ee() {
+        x(!0), setTimeout(() => {
+            x(!1), H(!0)
+        }, z * 10)
+    }
+    if (h.useEffect(() => {
+            _(a.some(we => we.permalink === t && we.is_claimed))
+        }, [a, t]), h.useEffect(() => {
+            var we;
+            m.isSuccess && m.data && ((we = m == null ? void 0 : m.data) != null && we.entities ? R(xa.create(m == null ? void 0 : m.data, "email")) : R(xa.create(m == null ? void 0 : m.data.data, "email")), H(!1))
+        }, [m.data, m.isSuccess, b]), h.useEffect(() => {
+            var et, tt, at;
+            const we = (et = a == null ? void 0 : a.find(Ue => Ue.permalink === t)) == null ? void 0 : et.updated_at,
+                Xe = (at = (tt = j == null ? void 0 : j.data) == null ? void 0 : tt.meta) == null ? void 0 : at.updated_at;
+            n && we ? D(W.parseDateFromString(we, "yyyy-MM-dd")) : Xe && D(W.parseDateFromString(Xe, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ"))
+        }, [(We = (ze = j == null ? void 0 : j.data) == null ? void 0 : ze.meta) == null ? void 0 : We.updated_at, a, t, n]), m.isLoading || m.isError) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    if (v) return e.jsx(Oe, {});
+    if (!j) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    if (!((Y = j == null ? void 0 : j.data) != null && Y.people) && !((st = (Ce = j == null ? void 0 : j.data) == null ? void 0 : Ce.people) != null && st.length)) return e.jsx(Oe, {});
+    const se = ((ct = d == null ? void 0 : d.email) == null ? void 0 : ct.toLowerCase()) === ((Ge = j == null ? void 0 : j.emailAddress) == null ? void 0 : Ge.toLowerCase()) ? e.jsx(Po, {
+            permalink: t,
+            reportType: fn,
+            reportIsMonitoredAndClaimed: q
+        }) : e.jsx(Io, {
+            permalink: t,
+            reportType: fn
+        }),
+        k = j.getOwner(b),
+        {
+            ownerName: te,
+            emails: he,
+            phones: T,
+            educations: xe,
+            jobs: ge,
+            profiles: K,
+            usernames: A,
+            addresses: Se,
+            ownedAssets: qe,
+            images: Ae,
+            userIds: G,
+            relatives: ne
+        } = k,
+        {
+            supportingEmail: Re
+        } = j,
+        {
+            fraud_score: _e,
+            deliverability: V,
+            recent_abuse: Z,
+            is_leaked: le
+        } = Re || {},
+        ve = vm(((Ye = j == null ? void 0 : j.data.people) == null ? void 0 : Ye.length) || 0, k),
+        J = wm(((Je = j == null ? void 0 : j.data.people) == null ? void 0 : Je.length) || 0, k),
+        Fe = new URLSearchParams(g).get("email") || "",
+        re = ((Ze = j == null ? void 0 : j.emailAddress) == null ? void 0 : Ze.toLowerCase()) ?? Fe;
+    document.title = `${re} - BeenVerified`;
+    const Le = () => {
+            var et, tt, at, Ue, ut;
+            const we = ((et = he.find(Be => Be.address === re || {})) == null ? void 0 : et.type) || null,
+                Xe = {
+                    permalink: t,
+                    email: re || "",
+                    type: we || "Personal"
+                };
+            return (tt = j == null ? void 0 : j.data) != null && tt.people && ((Ue = (at = j == null ? void 0 : j.data) == null ? void 0 : at.people) != null && Ue.length) && (Xe.owners = ((ut = j == null ? void 0 : j.data) == null ? void 0 : ut.people).map(Be => {
+                var ot, ht, Me, vt, kt, wt, jt, St;
+                return {
+                    first_name: ((vt = (Me = (ht = (ot = Be == null ? void 0 : Be.identity) == null ? void 0 : ot.names) == null ? void 0 : ht[0]) == null ? void 0 : Me.parsed) == null ? void 0 : vt.first) || "",
+                    last_name: ((St = (jt = (wt = (kt = Be == null ? void 0 : Be.identity) == null ? void 0 : kt.names) == null ? void 0 : wt[0]) == null ? void 0 : jt.parsed) == null ? void 0 : St.last) || ""
+                }
+            })), Xe
+        },
+        He = () => {
+            u("email report promo", "navigation click", "contact search"), c({})
+        };
+    return e.jsxs(N, {
+        children: [e.jsxs(S, {
+            direction: "row",
+            children: [e.jsx(N, {
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "none",
+                        lg: "block"
+                    }
+                },
+                children: e.jsx(Ua, {
+                    reportType: "Email Report",
+                    headerTitle: re,
+                    menuItems: ve
+                })
+            }), e.jsxs(N, {
+                marginTop: 0,
+                children: [p && e.jsx(_n, {
+                    permalink: t,
+                    navLinkData: J
+                }), e.jsxs(e.Fragment, {
+                    children: [e.jsx(N, {
+                        sx: {
+                            height: 30,
+                            backgroundColor: "#f8f8f8",
+                            position: "sticky",
+                            marginBottom: "-10px",
+                            marginX: -1,
+                            top: 52,
+                            zIndex: 10,
+                            display: {
+                                xs: "none",
+                                sm: "block",
+                                md: "block",
+                                lg: "block"
+                            }
+                        }
+                    }), e.jsx(Ya, {
+                        reportType: fn,
+                        reportTitle: "Email",
+                        dateUpdated: M,
+                        permalink: t,
+                        navLinkData: ve,
+                        reportUpgraded: !1,
+                        reportDataForListV2: l ? Le() : void 0
+                    })]
+                }), e.jsx($d, {
+                    reportType: fn,
+                    email: re,
+                    showHighConfidenceToggle: !0,
+                    showHighConfidenceDataOnly: b.showHighConfidenceDataOnly,
+                    setShowHighConfidenceDataOnly: we => {
+                        w({
+                            showHighConfidenceDataOnly: we
+                        })
+                    },
+                    personName: te || re,
+                    emailOverviewItemsData: {
+                        ownerName: te,
+                        emails: he,
+                        jobs: ge,
+                        educations: xe,
+                        phones: T,
+                        profiles: K,
+                        usernames: A,
+                        userIds: G,
+                        peopleCount: (lt = j.data.people) == null ? void 0 : lt.length
+                    },
+                    Monitoring: se
+                }), e.jsx(Kd, {
+                    fraudScore: _e,
+                    deliverability: V,
+                    abusiveBehavior: Z,
+                    leaked: le,
+                    showEmailFraudScan: Re != null,
+                    emailAddress: re,
+                    showReportCTA: !0
+                }), e.jsx(Gi, {
+                    potentialOwners: j.data.people || [],
+                    potentialOwnerIndex: b.potentialOwnerIndex,
+                    setPotentialOwnerIndex: we => {
+                        w({
+                            potentialOwnerIndex: we
+                        })
+                    },
+                    personName: te || re,
+                    permalink: t
+                }), e.jsx(Ln, {
+                    personName: te || re,
+                    phoneList: T,
+                    permalink: t
+                }), e.jsx(Pn, {
+                    personName: te || re,
+                    emailList: he,
+                    permalink: t
+                }), e.jsx(In, {
+                    addresses: Se,
+                    personName: te || re,
+                    permalink: t
+                }), e.jsx(En, {
+                    personName: te || re,
+                    profiles: K,
+                    usernames: A,
+                    permalink: t
+                }), e.jsx(e.Fragment, {
+                    children: Q ? ($ == null ? void 0 : $.length) > 0 ? e.jsx(Qd, {
+                        email: re ?? te,
+                        breaches: $,
+                        lastUpdated: oe ?? "",
+                        permalink: t
+                    }) : e.jsx(Jd, {
+                        email: re ?? te,
+                        lastUpdated: oe ?? "",
+                        permalink: t
+                    }) : e.jsx(e.Fragment, {
+                        children: E ? e.jsx(Zd, {
+                            email: re,
+                            delayDuration: z
+                        }) : e.jsx(Xd, {
+                            email: re,
+                            handleDarkWebLoadingScreen: ee
+                        })
+                    })
+                }), e.jsx(ei, {
+                    personName: te || re,
+                    jobs: ge,
+                    permalink: t
+                }), e.jsx(Lo, {
+                    image: Do,
+                    onBeginSearchClick: He
+                }), e.jsx(qn, {
+                    personName: te || re,
+                    educations: xe,
+                    permalink: t
+                }), e.jsx(Wi, {
+                    personName: te || re,
+                    ownedAssets: qe,
+                    permalink: t
+                }), e.jsx(ti, {
+                    permalink: t
+                }), e.jsx(ai, {
+                    reportType: "email",
+                    personName: te || re,
+                    potentialOwners: (dt = j == null ? void 0 : j.data) == null ? void 0 : dt.people,
+                    relatives: ne,
+                    addresses: Se,
+                    phones: T,
+                    emails: he,
+                    usernames: A
+                }), e.jsx(Rn, {
+                    report_type: fn,
+                    rating: ((rt = j.data.meta) == null ? void 0 : rt.rating) || null
+                })]
+            })]
+        }), e.jsx(ln, {
+            reportType: "Email Report",
+            headerTitle: re,
+            menuItems: ve
+        }), e.jsx(Qt, {
+            menuItems: j.data.rawData.debug_menu
+        })]
+    })
+}
+const Zr = "contact";
+
+function Ab({
+    permalink: t
+}) {
+    var Ae, G, ne, Re, _e, V, Z, le, ve;
+    const {
+        routingUtils: a,
+        trackEvent: n
+    } = h.useContext(ce), {
+        redirectToSearchContactUrl: i
+    } = ua(), {
+        reportIsMonitored: r
+    } = da(t), o = Wt(t), s = cn(t), c = s && {
+        ...s,
+        data: (Ae = s.data) == null ? void 0 : Ae.data
+    }, l = !s.isError && r ? c : o;
+    yt();
+    const d = Gt(l),
+        {
+            hash: C
+        } = Lt();
+    ha(C, l);
+    const [m, v] = h.useState({
+        potentialOwnerIndex: 0,
+        showHighConfidenceDataOnly: !0,
+        higherConfidenceThreshold: gt.config.higherConfidenceThreshold
+    }), L = J => {
+        v({
+            ...m,
+            ...J
+        })
+    };
+    let g = null;
+    l != null && l.data && (g = xa.create(l.data, "contact"), l.data.meta.report_upgraded);
+    let b = {},
+        f, w;
+    g && (b = g.getOwner(m), document.title = `${g.contact} - BeenVerified`);
+    const {
+        ownerName: p,
+        emails: P,
+        phones: q,
+        educations: _,
+        jobs: E,
+        profiles: x,
+        addresses: I,
+        identity: H,
+        usernames: M
+    } = b;
+    E == null || E.sort((J, me) => {
+        var Ee, Qe, it, Ve, ke, ze;
+        const Fe = (Qe = (Ee = J.period) == null ? void 0 : Ee.start_date) != null && Qe.full ? new Date(J.period.start_date.full) : new Date(0),
+            Le = ((Ve = (it = me.period) == null ? void 0 : it.start_date) != null && Ve.full ? new Date(me.period.start_date.full) : new Date(0)).getTime() - Fe.getTime();
+        if (Le !== 0) return Le;
+        const He = ((ke = J.company) == null ? void 0 : ke.toLowerCase()) || "",
+            Ke = ((ze = me.company) == null ? void 0 : ze.toLowerCase()) || "";
+        return He == "" && Ke == "" ? 0 : He == "" ? 1 : Ke == "" ? -1 : He.localeCompare(Ke)
+    });
+    const D = I ? I.filter(J => J.parsed !== null) : [];
+    let j = !1,
+        R = !1;
+    const W = E == null ? void 0 : E[0],
+        F = W ? W == null ? void 0 : W.company : "",
+        $ = W ? eu(W, "") : "",
+        oe = H ? H.names.map(J => ba(J.full)) : [];
+    oe.shift(), $ !== "" && (R = !0), F !== "" && (j = !0);
+    let {
+        data: Q = [],
+        isFetched: z
+    } = Tr({
+        contactSearchParams: {
+            company: F
+        }
+    });
+    Q = Q;
+    const ee = ((G = Q == null ? void 0 : Q.contacts) == null ? void 0 : G.filter(J => {
+        var me;
+        return J.id !== ((me = H == null ? void 0 : H.source_ids) == null ? void 0 : me[0])
+    })) || [];
+    g && (f = jm(b, ee.length, z), w = Sm(b));
+    let X = {
+            title: $
+        },
+        {
+            data: se = [],
+            isFetched: k
+        } = Tr({
+            contactSearchParams: X
+        });
+    se = se;
+    const te = ((ne = se == null ? void 0 : se.contacts) == null ? void 0 : ne.filter(J => {
+            var me;
+            return J.id !== ((me = H == null ? void 0 : H.source_ids) == null ? void 0 : me[0])
+        })) || [],
+        he = J => a.searchContactUrl({
+            company: J
+        }),
+        T = J => {
+            if (typeof J == "string") {
+                i({
+                    company: J
+                });
+                return
+            }
+            i({
+                company: J.name
+            })
+        },
+        xe = J => {
+            n(`related contacts_same ${J}`, "search", "contact search")
+        },
+        ge = (J, me) => {
+            if (typeof J == "string") {
+                xe(me), i({
+                    company: J
+                });
+                return
+            }
+            xe(me), i({
+                company: J.name
+            })
+        },
+        K = (J, me) => {
+            xe(me), nu({
+                contact_id: J,
+                searchType: "contact"
+            }, gt.links.baseUrl)
+        },
+        A = J => {
+            let me = J.filter(Fe => {
+                var re, Le;
+                return ((re = Fe.parsed) == null ? void 0 : re.city) || ((Le = Fe.parsed) == null ? void 0 : Le.state)
+            });
+            return me == null ? void 0 : me[0]
+        };
+    if (l.isLoading || l.isError) return e.jsx(Ne, {
+        menuItems: 10
+    });
+    if (d) return e.jsx(Oe, {});
+    if (!g) return e.jsx(Ne, {
+        menuItems: 14
+    });
+    if (!((Re = g == null ? void 0 : g.data) != null && Re.people) && !((V = (_e = g == null ? void 0 : g.data) == null ? void 0 : _e.people) != null && V.length)) return e.jsx(Oe, {});
+    const Se = new va,
+        qe = (Z = g.data.meta) != null && Z.updated_at ? Se.parseDateFromString((le = g.data.meta) == null ? void 0 : le.updated_at, "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss ZZZ") : "";
+    return e.jsxs(e.Fragment, {
+        children: [e.jsxs(B, {
+            container: !0,
+            direction: "row",
+            columns: 12,
+            spacing: 7,
+            children: [e.jsx(B, {
+                item: !0,
+                sm: 12,
+                md: 4,
+                lg: 4,
+                sx: {
+                    display: {
+                        xs: "none",
+                        sm: "none",
+                        md: "block",
+                        lg: "block"
+                    }
+                },
+                children: w && e.jsx(Ua, {
+                    reportType: "Contact Report",
+                    headerTitle: p,
+                    menuItems: w
+                })
+            }), e.jsxs(B, {
+                item: !0,
+                sm: 12,
+                md: 8,
+                lg: 8,
+                marginTop: {
+                    xs: 0,
+                    md: .5
+                },
+                sx: {
+                    "&.MuiGrid-item": {
+                        paddingTop: {
+                            xs: 3.75,
+                            md: 7
+                        }
+                    }
+                },
+                children: [r && f && e.jsx(_n, {
+                    permalink: t,
+                    navLinkData: f
+                }), e.jsxs(e.Fragment, {
+                    children: [e.jsx(N, {
+                        sx: {
+                            height: 30,
+                            backgroundColor: "#f8f8f8",
+                            position: "sticky",
+                            marginBottom: "-10px",
+                            marginX: -1,
+                            top: 52,
+                            zIndex: 10,
+                            display: {
+                                xs: "none",
+                                sm: "block",
+                                md: "block",
+                                lg: "block"
+                            }
+                        }
+                    }), e.jsx(Ya, {
+                        reportType: Zr,
+                        reportTitle: "Contact",
+                        dateUpdated: qe,
+                        reportUpgraded: !1
+                    })]
+                }), e.jsx(tu, {
+                    personName: p,
+                    showHighConfidenceToggle: !0,
+                    showHighConfidenceDataOnly: m.showHighConfidenceDataOnly,
+                    setShowHighConfidenceDataOnly: J => {
+                        L({
+                            showHighConfidenceDataOnly: J
+                        })
+                    },
+                    onCompanyClick: T,
+                    getCompanyUrl: he,
+                    contactOverviewItemsData: {
+                        job: E[0],
+                        address: A(I),
+                        emails: P,
+                        phones: q,
+                        profiles: x,
+                        education: _[0],
+                        identity: oe
+                    }
+                }), e.jsx(Ln, {
+                    personName: p,
+                    phoneList: q,
+                    permalink: t
+                }), e.jsx(Pn, {
+                    personName: p,
+                    emailList: P,
+                    permalink: t
+                }), e.jsx(In, {
+                    addresses: D,
+                    personName: p,
+                    permalink: t,
+                    showCityAndStateAddress: !0
+                }), e.jsx(En, {
+                    personName: p,
+                    usernames: M,
+                    profiles: x,
+                    permalink: t
+                }), e.jsx(au, {
+                    personName: p,
+                    permalink: t,
+                    jobs: E
+                }), e.jsx(qn, {
+                    personName: p,
+                    educations: _,
+                    permalink: t
+                }), e.jsx(kr, {
+                    companyName: F || "",
+                    personName: p,
+                    hasResults: j,
+                    isLoading: !z,
+                    contacts: ee,
+                    showSingleCompany: !0,
+                    onCompanyClick: ge,
+                    onViewReport: K,
+                    sectionId: "key-contacts-section",
+                    subsection: "company"
+                }), e.jsx(kr, {
+                    personName: p,
+                    hasResults: R,
+                    isLoading: !z,
+                    contacts: te,
+                    showSingleCompany: !0,
+                    onCompanyClick: ge,
+                    onViewReport: K,
+                    sectionId: "key-contacts-similar-section",
+                    subsection: "title"
+                }), e.jsx(Oi, {
+                    permalink: t
+                }), e.jsx(Rn, {
+                    rating: ((ve = g.data.meta) == null ? void 0 : ve.rating) || null,
+                    report_type: Zr
+                })]
+            })]
+        }), f && e.jsx(Vi, {
+            navLinkData: f
+        }), e.jsx(Qt, {
+            menuItems: g.data.rawData.debug_menu
+        })]
+    })
+}
+const Ey = ({
+        initialNotificationVisible: t,
+        setInitialNotificationVisible: a,
+        capitalizeFullName: n,
+        setIsChatbotOpen: i
+    }) => {
+        var s, c, u, l, d;
+        const {
+            isDesktop: r
+        } = fa(), o = yt();
+        return e.jsxs(S, {
+            sx: {
+                position: "absolute",
+                top: r ? 0 : -50,
+                right: r ? 170 : 0,
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                borderRadius: "24px",
+                zIndex: t ? 1200 : -1,
+                gap: 1,
+                opacity: t ? 1 : 0,
+                transition: "opacity 0.3s ease-in-out",
+                cursor: "pointer"
+            },
+            children: [e.jsx(S, {
+                component: "button",
+                sx: {
+                    background: "none",
+                    border: "none",
+                    color: o.palette.text.secondary,
+                    fontSize: 22,
+                    cursor: "pointer",
+                    lineHeight: 1,
+                    width: 28,
+                    height: 28,
+                    borderRadius: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    transition: "background 0.2s",
+                    backgroundColor: o.palette.background.paper,
+                    boxShadow: `0 5px 5px -3px ${Na(o.palette.success.dark,.2)}, 0 8px 10px 1px ${Na(o.palette.primary.main,.14)} `,
+                    "&:hover": {
+                        background: (c = (s = o.palette) == null ? void 0 : s.rats) == null ? void 0 : c.light
+                    }
+                },
+                "aria-label": "Dismiss",
+                onClick: () => {
+                    a(!1)
+                },
+                children: e.jsx(on, {})
+            }), e.jsxs(y, {
+                fontSize: 14,
+                color: "#222",
+                variant: "caption",
+                width: "210px",
+                sx: {
+                    background: (u = o.palette) == null ? void 0 : u.background.paper,
+                    margin: 0,
+                    padding: "8px 4px 8px 12px",
+                    boxShadow: `0 5px 5px -3px ${Na(o.palette.success.dark,.2)}, 0 8px 10px 1px ${Na(o.palette.primary.main,.14)} `,
+                    borderRadius: "24px",
+                    "&:hover": {
+                        backgroundColor: (d = (l = o.palette) == null ? void 0 : l.rats) == null ? void 0 : d.light
+                    }
+                },
+                onClick: () => {
+                    i(ni.OPEN), a(!1)
+                },
+                children: ["Need help finding", " ", e.jsxs("b", {
+                    children: [n != null && n.trim() ? n : "someone", "?"]
+                })]
+            })]
+        })
+    },
+    Xr = [{
+        key: "age",
+        label: "Age"
+    }, {
+        key: "city",
+        label: "City"
+    }, {
+        key: "state",
+        label: "State"
+    }, {
+        key: "company",
+        label: "Company"
+    }, {
+        key: "industry",
+        label: "Industry"
+    }, {
+        key: "title",
+        label: "Job Title or level"
+    }, {
+        key: "mName",
+        label: "Middle Name"
+    }, {
+        key: "birthMonth",
+        label: "Birth Month"
+    }, {
+        key: "birthYear",
+        label: "Birth Year"
+    }],
+    qy = {
+        fullName: "Full Name",
+        fName: "First Name",
+        mName: "Middle Name/Initials",
+        lName: "Last Name",
+        age: "Age",
+        company: "Company",
+        company_size_min: "Company Size Min",
+        company_size_max: "Company Size Max",
+        birthMonth: "Birth Month",
+        birthYear: "Birth Year",
+        deathMonth: "Death Month",
+        deathYear: "Death Year",
+        title: "Job Title or level",
+        industry: "Industry",
+        country: "Country",
+        location: "Location (City, State)",
+        number: "Number",
+        street: "Street",
+        city: "City",
+        state: "State",
+        level: "Level",
+        address: "Address",
+        isDeceased: "Is Deceased"
+    },
+    $e = {
+        age: "age",
+        location: "location",
+        city: "city",
+        state: "state",
+        country: "country",
+        address: "address",
+        company: "company",
+        company_size_min: "company_size_min",
+        company_size_max: "company_size_max",
+        fullName: "fullName",
+        fName: "fName",
+        mName: "mName",
+        lName: "lName",
+        title: "title",
+        industry: "industry",
+        deathYear: "deathYear",
+        deathMonth: "deathMonth",
+        birthYear: "birthYear",
+        birthMonth: "birthMonth",
+        advanced_search: "advancedSearch",
+        source: "source"
+    },
+    Et = {
+        plain: "plain",
+        filters: "filters",
+        suggestions: "suggestions",
+        results: "results"
+    },
+    zt = {
+        user: "user",
+        assistant: "assistant"
+    },
+    Fi = {
+        confirm: "confirm",
+        viewResults: "viewResults"
+    },
+    eo = ({
+        onConfirm: t,
+        disabled: a,
+        variant: n
+    }) => {
+        const i = yt();
+        return e.jsx(N, {
+            mb: 2,
+            children: e.jsx(ue, {
+                onClick: t,
+                disabled: a,
+                sx: {
+                    backgroundColor: i.palette.background.paper,
+                    width: "100%",
+                    maxWidth: "400px",
+                    height: "40px",
+                    border: a ? `1px solid ${i.palette.background.paper}` : `1px solid ${i.palette.primary.main}`,
+                    borderRadius: "16px",
+                    fontSize: "14px",
+                    padding: "4px 12px",
+                    textTransform: "none",
+                    boxShadow: "none",
+                    opacity: a ? .7 : 1,
+                    "&:hover": {
+                        boxShadow: "none"
+                    }
+                },
+                children: n === Fi.confirm ? "Apply filters" : "View results"
+            })
+        })
+    };
+
+function Ry(t) {
+    return t.charAt(0).toUpperCase() + t.slice(1)
+}
+
+function Dy({
+    filters: t
+}) {
+    return !t || Object.keys(t).length === 0 ? null : e.jsx(N, {
+        sx: {
+            marginY: .5
+        },
+        children: e.jsx("ul", {
+            style: {
+                margin: 0,
+                paddingLeft: 24
+            },
+            children: Object.entries(t).map(([a, n]) => e.jsxs("li", {
+                style: {
+                    fontSize: 13.5,
+                    margin: 2
+                },
+                children: [e.jsx("b", {
+                    children: qy[a] || Ry(a)
+                }), ": ", n]
+            }, a))
+        })
+    })
+}
+
+function Fy({
+    suggestions: t
+}) {
+    const a = yt();
+    return !t || t.length === 0 ? null : e.jsxs(N, {
+        sx: {
+            backgroundColor: a.palette.background.default,
+            borderRadius: "8px",
+            padding: "16px",
+            gap: "10px"
+        },
+        children: [e.jsx(N, {
+            sx: {
+                fontWeight: 500,
+                fontSize: 14
+            },
+            children: "You can also add more details to narrow your search:"
+        }), e.jsx("ul", {
+            children: t.map(n => e.jsx("li", {
+                style: {
+                    fontSize: 14,
+                    marginBottom: 4
+                },
+                children: n
+            }, n))
+        })]
+    })
+}
+
+function By({
+    text: t,
+    role: a
+}) {
+    const n = yt();
+    return t ? e.jsx(N, {
+        sx: {
+            fontSize: 14,
+            lineHeight: 1.5,
+            color: a === zt.assistant ? "text.primary" : n.palette.primary.contrastText
+        },
+        children: t
+    }) : null
+}
+
+function My({
+    blocks: t,
+    setChatbotOpen: a,
+    chatbotIcon: n,
+    role: i,
+    timestamp: r,
+    expandContent: o,
+    onConfirmFilters: s,
+    shouldShowConfirmChip: c,
+    shouldShowViewResultsChip: u
+}) {
+    const [l, d] = h.useState(!1), C = h.useMemo(() => `${r}`, [r]), {
+        isDesktop: m
+    } = fa(), v = () => {
+        d(!0), s && s(C)
+    }, L = () => {
+        a(ni.CLOSE)
+    }, g = {
+        [Et.plain]: (f, w) => {
+            const {
+                text: p
+            } = f;
+            return e.jsx(By, {
+                text: p,
+                role: i
+            }, w)
+        },
+        [Et.filters]: (f, w) => {
+            const {
+                filters: p
+            } = f;
+            return e.jsx(Dy, {
+                filters: p
+            }, w)
+        },
+        [Et.suggestions]: (f, w) => {
+            const {
+                suggestions: p
+            } = f;
+            return e.jsx(Fy, {
+                suggestions: p
+            }, w)
+        }
+    }, b = e.jsx(e.Fragment, {
+        children: t.map((f, w) => g[f.type] ? g[f.type](f, w) : null)
+    });
+    return e.jsx(N, {
+        alignSelf: i === zt.assistant ? "flex-start" : "flex-end",
+        "data-testid": "chat-message",
+        maxWidth: o ? "100%" : "70%",
+        children: e.jsxs(S, {
+            direction: "row",
+            alignItems: "flex-start",
+            children: [i === zt.assistant && n && e.jsx("img", {
+                src: n,
+                alt: "searchpal",
+                style: {
+                    width: "32px",
+                    height: "32px",
+                    marginRight: "10px"
+                }
+            }), e.jsxs(S, {
+                direction: "column",
+                children: [e.jsxs(S, {
+                    direction: "row",
+                    spacing: 1,
+                    alignItems: "flex-end",
+                    marginBottom: .5,
+                    children: [e.jsx(y, {
+                        color: "text.primary",
+                        variant: "caption",
+                        fontSize: "12px",
+                        children: i === zt.assistant ? "Search Assistant" : "Me"
+                    }), e.jsx(y, {
+                        color: "text.secondary",
+                        variant: "caption",
+                        fontSize: "11px",
+                        children: r
+                    })]
+                }), e.jsx(ga, {
+                    sx: f => ({
+                        width: "fit-content",
+                        backgroundColor: i === zt.assistant ? f.palette.background.paper : f.palette.primary.main,
+                        alignSelf: i === zt.assistant ? "flex-start" : "flex-end",
+                        boxShadow: "none",
+                        borderRadius: i === zt.assistant ? "16px 16px 16px 4px" : "16px 16px 4px 16px",
+                        padding: f.spacing(2),
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between"
+                    }),
+                    children: b
+                }), c && e.jsx(eo, {
+                    onConfirm: v,
+                    disabled: l,
+                    variant: Fi.confirm
+                }), u && !m && e.jsx(eo, {
+                    onConfirm: L,
+                    variant: Fi.viewResults
+                })]
+            })]
+        })
+    })
+}
+const Ny = () => {
+    const t = iu`
+    0%, 80%, 100% { opacity: 0; transform: scale(0.8); }
+    40% { opacity: 1; transform: scale(1); }
+  `;
+    return e.jsx(S, {
+        direction: "row",
+        spacing: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 1,
+        children: [0, 1, 2].map(a => e.jsx(N, {
+            sx: {
+                width: "8px",
+                height: "8px",
+                borderRadius: "50%",
+                backgroundColor: "text.primary",
+                animation: `${t} 1.4s infinite ease-in-out both`,
+                animationDelay: `${a*.16}s`
+            }
+        }, a))
+    })
+};
+
+function Oy({
+    expandContent: t,
+    messages: a,
+    isGeneratingResponse: n,
+    messagesEndRef: i,
+    applyPendingFilters: r,
+    setChatbotOpen: o,
+    isDrawer: s
+}) {
+    const c = yt(),
+        u = bo(c.breakpoints.up("md"));
+    return h.useEffect(() => {
+        (i && i.current || n) && i.current.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest"
+        })
+    }, [a, i, n]), e.jsx(N, {
+        sx: {
+            height: u && s ? "97%" : "100%",
+            display: "flex",
+            flexDirection: "column",
+            "@media (max-height:600px)": {
+                maxHeight: "50vh"
+            }
+        },
+        children: e.jsxs(S, {
+            direction: "column",
+            sx: l => ({
+                flexGrow: 1,
+                overflowY: "auto",
+                padding: l.spacing(2),
+                minHeight: 0
+            }),
+            children: [a.map((l, d) => e.jsx(My, {
+                blocks: l.blocks,
+                chatbotIcon: Ii,
+                role: l.role,
+                setChatbotOpen: o,
+                timestamp: l.timestamp,
+                expandContent: t,
+                shouldShowConfirmChip: l.shouldShowConfirmChip,
+                shouldShowViewResultsChip: l.shouldShowViewResultsChip,
+                onConfirmFilters: async () => {
+                    await r()
+                }
+            }, `${l.timestamp}-${d}`)), n && e.jsx(N, {
+                alignSelf: "flex-start",
+                "data-testid": "chat-message",
+                maxWidth: "70%",
+                children: e.jsxs(S, {
+                    direction: "row",
+                    alignItems: "flex-start",
+                    children: [e.jsx("img", {
+                        src: Ii,
+                        alt: "searchpal",
+                        style: {
+                            width: "32px",
+                            height: "32px",
+                            marginRight: "8px"
+                        }
+                    }), e.jsx(ga, {
+                        sx: l => ({
+                            backgroundColor: l.palette.background.paper,
+                            borderRadius: "16px 16px 16px 4px",
+                            boxShadow: "none",
+                            marginBottom: l.spacing(4)
+                        }),
+                        children: e.jsx(Ny, {})
+                    })]
+                })
+            }), e.jsx(N, {
+                ref: i
+            })]
+        })
+    })
+}
+
+function Vy({
+    onClose: t
+}) {
+    const a = yt();
+    return e.jsxs(S, {
+        direction: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        position: "sticky",
+        top: 0,
+        zIndex: 3e3,
+        sx: n => ({
+            backgroundColor: n.palette.background.paper,
+            borderBottom: `1px solid ${n.palette.divider}`,
+            boxShadow: "0 0 1px -2px rgba(0, 0, 0, 0.2)",
+            borderRadius: "16px 16px 0 0"
+        }),
+        children: [e.jsxs(S, {
+            "data-testid": "searchpal-header",
+            direction: "row",
+            justifyContent: "flex-start",
+            spacing: 1,
+            py: 1,
+            pl: 1,
+            pb: 1,
+            width: "100%",
+            children: [e.jsx("img", {
+                src: Ii,
+                alt: "searchpal"
+            }), e.jsxs(S, {
+                direction: "column",
+                alignItems: "flex-start",
+                children: [e.jsx(y, {
+                    variant: "h5",
+                    marginTop: 1,
+                    marginBottom: 0,
+                    color: a.palette.premium.contrastText,
+                    children: "Search Assistant"
+                }), e.jsx(S, {
+                    direction: "row",
+                    children: e.jsx(y, {
+                        variant: "caption",
+                        fontSize: "0.7rem",
+                        color: a.palette.premium.contrastText,
+                        children: "Refine your search results"
+                    })
+                })]
+            })]
+        }), e.jsx(N, {
+            sx: {
+                display: "flex",
+                justifyContent: "flex-end",
+                p: 1
+            },
+            children: e.jsx(Yi, {
+                "aria-label": "Close Chatbot",
+                onClick: t,
+                children: e.jsx(on, {})
+            })
+        })]
+    })
+}
+const Hy = t => ({
+        overflow: "hidden",
+        "& .MuiInputBase-input": {
+            minHeight: "48px",
+            maxHeight: "200px",
+            boxSizing: "border-box",
+            padding: "12px 48px 12px 12px",
+            whiteSpace: "pre-wrap",
+            wordBreak: "break-word",
+            overflowY: "auto",
+            width: "100%",
+            resize: "none",
+            lineHeight: "24px",
+            margin: 0,
+            fontSize: "14px"
+        },
+        "& .MuiInputBase-root": {
+            minHeight: "48px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-start",
+            borderRadius: "32px",
+            border: `1px solid ${Na(t.palette.barChart.contrastText,.12)}`,
+            padding: 0,
+            position: "relative",
+            width: "100%",
+            boxSizing: "border-box",
+            overflow: "hidden",
+            "& .MuiInputBase-input": {
+                height: "auto",
+                minHeight: "24px",
+                padding: "12px 48px 12px 12px"
+            }
+        },
+        "& .MuiInputBase-inputMultiline": {
+            padding: 0
+        },
+        ".MuiOutlinedInput-notchedOutline": {
+            display: "none"
+        }
+    }),
+    zy = {
+        position: "relative",
+        width: "100%",
+        boxSizing: "border-box",
+        padding: "16px",
+        display: "flex",
+        alignItems: "center"
+    },
+    Wy = {
+        position: "absolute",
+        right: "24px",
+        top: "50%",
+        transform: "translateY(-50%)",
+        color: "primary.main",
+        zIndex: 1,
+        "&:hover": {
+            backgroundColor: "transparent"
+        }
+    },
+    Gy = {
+        position: "absolute",
+        bottom: "100%",
+        right: "100%",
+        backgroundColor: t => t.palette.background.paper,
+        color: "text.primary",
+        borderRadius: "24px",
+        padding: "8px 16px",
+        fontSize: "14px",
+        fontWeight: 500,
+        zIndex: 2,
+        boxShadow: t => `0 4px 12px ${Na(t.palette.barChart.contrastText,.08)}`,
+        display: "flex",
+        alignItems: "center",
+        gap: "8px",
+        whiteSpace: "nowrap",
+        maxWidth: "300px",
+        marginBottom: "4px",
+        marginRight: "4px"
+    },
+    _b = O(S)(({
+        isChatbotOpen: t
+    }) => ({
+        position: "fixed",
+        height: "100%",
+        bottom: 0,
+        right: 0,
+        zIndex: 2e3,
+        width: "100%",
+        transition: "all 0.3s ease-in-out",
+        transform: t ? "translateY(0)" : "translateY(100%)"
+    }));
+
+function Yy({
+    inputValue: t,
+    handleInputChange: a,
+    handleKeyDown: n,
+    disabledConditions: i,
+    onSend: r,
+    showNotification: o,
+    notificationContent: s,
+    handleReset: c
+}) {
+    const u = yt();
+    return e.jsxs(e.Fragment, {
+        children: [e.jsxs(N, {
+            sx: zy,
+            children: [e.jsx(Ie, {
+                fullWidth: !0,
+                multiline: !0,
+                "data-testid": "input-message",
+                value: t,
+                onChange: a,
+                onKeyDown: n,
+                placeholder: "Type additional details here...",
+                disabled: i,
+                sx: Hy
+            }), r && e.jsxs(N, {
+                sx: {
+                    position: "absolute",
+                    right: 10
+                },
+                children: [o && e.jsx(N, {
+                    sx: Gy,
+                    children: s
+                }), e.jsx(Yi, {
+                    onClick: r,
+                    disabled: i || !t.trim(),
+                    sx: Wy,
+                    children: e.jsx(Es, {})
+                })]
+            })]
+        }), e.jsxs(S, {
+            direction: "column",
+            gap: 2,
+            pb: 2,
+            children: [e.jsx(y, {
+                variant: "caption",
+                color: "text.secondary",
+                sx: {
+                    fontStyle: "italic",
+                    m: 0
+                },
+                children: 'Example: "35 years old, lives in Boston, works at Tech Corp"'
+            }), e.jsxs(y, {
+                variant: "h6",
+                color: "text.secondary",
+                sx: {
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 1,
+                    cursor: "pointer",
+                    fontWeight: "bold",
+                    fontSize: "14px",
+                    color: u.palette.primary.main,
+                    "&:hover": {
+                        textDecoration: "none"
+                    }
+                },
+                children: [e.jsx(qs, {
+                    sx: {
+                        fontSize: "20px",
+                        ml: 2,
+                        mr: 1
+                    },
+                    onClick: c
+                }), " ", "Clear & Start Over"]
+            })]
+        })]
+    })
+}
+const za = () => new Date().toLocaleTimeString("es-ES", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    }),
+    Uy = t => ({
+        fullName: t.fullName || "",
+        fName: t.fName || "",
+        mName: t.mName || "",
+        lName: t.lName || "",
+        title: t.title || "",
+        company: t.company || "",
+        level: t.level || "",
+        industry: t.industry || "",
+        company_size_min: t.company_size_min || "1",
+        company_size_max: t.company_size_max || "9",
+        birthMonth: t.birthMonth || "",
+        birthYear: t.birthYear || "",
+        deathMonth: t.deathMonth || "",
+        deathYear: t.deathYear || "",
+        address: t.address || "",
+        city: t.city || "",
+        state: t.state || "",
+        age: t.age || 0,
+        isDeceased: !!t.deathYear,
+        location: t.location || (t.city && t.state ? `${t.city}, ${t.state}` : ""),
+        country: t.country || "",
+        eventType: t.eventType || ou.NONE,
+        eventMonth: t.eventMonth || "",
+        eventYear: t.eventYear || "",
+        advancedSearch: t.advancedSearch === !0 || t.advancedSearch === "true",
+        selectedSources: {
+            [t.source]: !0
+        }
+    }),
+    to = {
+        fullname: "fullName",
+        fname: "fName",
+        mn: "mName",
+        ln: "lName",
+        title: "title",
+        company: "company",
+        industry: "industry",
+        level: "level",
+        companySizeMin: "company_size_min",
+        companSizeMax: "company_size_max",
+        birthMonth: "birthMonth",
+        birthYear: "birthYear",
+        deathMonth: "deathMonth",
+        deathYear: "deathYear",
+        address: "address",
+        isDeceased: "isDeceased",
+        location: "location",
+        country: "country",
+        city: "city",
+        state: "state",
+        age: "age"
+    },
+    $y = () => {
+        const {
+            redirectToSearchPersonUrlv2: t
+        } = ua(), {
+            routingUtils: a
+        } = h.useContext(ce), n = () => {
+            const s = i();
+            return Object.fromEntries(Object.entries(s).filter(([c, u]) => u != null && u !== "" && u !== "0"))
+        }, i = () => {
+            const s = new URLSearchParams(a.location.search),
+                c = {};
+            return Array.from(s.entries()).forEach(([u, l]) => {
+                const d = to[u] || u;
+                c[d] ? Array.isArray(c[d]) ? c[d].push(l) : c[d] = [c[d], l] : c[d] = l
+            }), c
+        };
+        return {
+            getNonEmptyFilters: n,
+            getCurrentFilters: i,
+            applyFilters: s => {
+                let c = i();
+                Object.entries(s).forEach(([d, C]) => {
+                    const m = to[d] || d;
+                    C == null ? delete c[m] : typeof C == "number" || typeof C == "boolean" ? c[m] = String(C) : c[m] = C
+                });
+                const u = Uy(c),
+                    l = ru(u);
+                return t(l), l
+            },
+            resetFilters: () => {
+                t({})
+            }
+        }
+    },
+    tn = (t, a, n) => {
+        const i = t.fullName && t.fullName !== "" && t.fullName !== "0";
+        let r = [$e.age, $e.location, $e.city, $e.state, $e.country, $e.address, $e.company];
+        return n || (r.push($e.source), r.push($e.advanced_search)), i && a ? r.push($e.fullName) : r.push($e.fName, $e.mName, $e.lName), a || r.push($e.company, $e.industry, $e.title, $e.deathYear, $e.deathMonth, $e.birthYear, $e.birthMonth, $e.city, $e.state), Object.entries(t).filter(([o, s]) => r.includes(o) && s !== "" && s !== "0" && s !== 0).reduce((o, [s, c]) => ({
+            ...o,
+            [s]: c
+        }), {})
+    },
+    Ky = () => {
+        const {
+            applyFilters: t,
+            getNonEmptyFilters: a,
+            resetFilters: n
+        } = $y(), [i, r] = h.useState(null), [o, s] = h.useState(null), c = () => a(), u = c();
+        return {
+            getCurrentFilters: c,
+            processResponseForFunctionCalls: async v => {
+                var w;
+                let L;
+                try {
+                    if (!((w = v == null ? void 0 : v.data) != null && w.answer)) return {
+                        isFunction: !1,
+                        response: v
+                    };
+                    L = JSON.parse(v.data.answer)
+                } catch {
+                    return {
+                        isFunction: !1,
+                        response: v
+                    }
+                }
+                const {
+                    tool: g,
+                    parameters: b
+                } = L || {};
+                if (g !== "createFilterParams" || !b || Object.keys(b).length === 0) return {
+                    isFunction: !1,
+                    response: v
+                };
+                const f = {
+                    ...u,
+                    ...b
+                };
+                return r(f), s({
+                    name: g,
+                    arguments: JSON.stringify(b),
+                    call_id: v.context_id
+                }), {
+                    isFunction: !0,
+                    filters: f
+                }
+            },
+            pendingFilters: i,
+            pendingFunctionCall: o,
+            applyPendingFilters: async v => {
+                if (!i || !o) return null;
+                const L = tn(u, !1),
+                    g = tn(i, !1),
+                    b = {
+                        ...L,
+                        ...g
+                    };
+                try {
+                    v || t(b), r(v ? i : null), s(null)
+                } catch (f) {
+                    return console.error("Failed to apply filters:", f), null
+                }
+            },
+            clearPendingFilters: () => {
+                r(null), s(null)
+            },
+            setPendingFilters: r,
+            setPendingFunctionCall: s,
+            handleResetFilters: async () => {
+                r(null), s(null), n()
+            }
+        }
+    },
+    Qy = () => {
+        const [t, a] = h.useState([]), [n, i] = h.useState(!1), [r, o] = h.useState(!1), s = h.useRef(null), {
+            pendingFunctionCall: c,
+            applyPendingFilters: u,
+            processResponseForFunctionCalls: l,
+            pendingFilters: d,
+            setPendingFilters: C,
+            getCurrentFilters: m,
+            handleResetFilters: v
+        } = Ky(), L = su({
+            shouldSuspendExecution: !1
+        }), g = P => {
+            a(q => [...q, P])
+        }, b = async P => {
+            c && await u(!0), i(!0);
+            try {
+                const q = await L.mutateAsync({
+                    userInput: P
+                });
+                if (q) {
+                    const _ = await l(q);
+                    if (_.isFunction && _.filters) {
+                        const E = {
+                            ...tn(d ?? {}, !1, !0),
+                            ...tn(_.filters, !1, !0)
+                        };
+                        C(E);
+                        const I = {
+                                ...tn(m(), !1),
+                                ...E
+                            },
+                            H = Xr.filter(({
+                                key: D
+                            }) => !I[D]),
+                            M = [{
+                                type: Et.plain,
+                                text: "Your new filters:"
+                            }, {
+                                type: Et.filters,
+                                filters: E
+                            }, {
+                                type: Et.plain,
+                                text: "Would you like to apply these filters now?"
+                            }];
+                        H.length > 0 && M.push({
+                            type: Et.suggestions,
+                            suggestions: H.map(D => D.label).slice(0, 5)
+                        }), g({
+                            blocks: M,
+                            role: zt.assistant,
+                            timestamp: za(),
+                            shouldShowConfirmChip: !0
+                        })
+                    } else g({
+                        blocks: [{
+                            type: Et.plain,
+                            text: "I couldn't detect a valid filter. Can you give me some context about that filter?"
+                        }],
+                        role: zt.assistant,
+                        timestamp: za(),
+                        shouldShowConfirmChip: !1
+                    })
+                }
+                return q
+            } catch (q) {
+                return console.error("Error sending message:", q), g({
+                    blocks: [{
+                        type: Et.plain,
+                        text: "Sorry, I encountered an error. Please try again."
+                    }],
+                    role: zt.assistant,
+                    timestamp: za(),
+                    shouldShowConfirmChip: !1
+                }), null
+            } finally {
+                i(!1)
+            }
+        }, f = () => {
+            if (r) return;
+            const P = tn(m(), !0);
+            if (o(!0), Object.keys(P).length === 0) {
+                g({
+                    blocks: [{
+                        type: Et.plain,
+                        text: "Welcome! I'm your search assistant. How can I help you find someone today?"
+                    }],
+                    role: zt.assistant,
+                    timestamp: za(),
+                    shouldShowConfirmChip: !1
+                });
+                return
+            }
+            const q = Xr.filter(({
+                    key: E
+                }) => !P[E]),
+                _ = [{
+                    type: Et.plain,
+                    text: "You have set the following filters:"
+                }, {
+                    type: Et.filters,
+                    filters: P
+                }];
+            q.length > 0 && _.push({
+                type: Et.suggestions,
+                suggestions: q.map(E => E.label).slice(0, 5)
+            }), g({
+                blocks: _,
+                role: zt.assistant,
+                timestamp: za(),
+                shouldShowConfirmChip: !1
+            })
+        }, w = async P => {
+            i(!0), await u(P), g({
+                blocks: [{
+                    type: Et.plain,
+                    text: "We found results based on your filters. You can review them now or add more filters to narrow it down further."
+                }],
+                role: zt.assistant,
+                timestamp: za(),
+                shouldShowConfirmChip: !1,
+                shouldShowViewResultsChip: !0
+            }), i(!1)
+        }, p = async () => {
+            a([]), C({}), await v(), o(!1)
+        };
+        return h.useEffect(() => {
+            r || f()
+        }, [r]), {
+            pendingFilters: d,
+            messages: t,
+            isGeneratingResponse: n,
+            initialMessageSent: r,
+            messagesEndRef: s,
+            addMessage: g,
+            handleUserMessage: b,
+            handleInitialMessage: f,
+            applyPendingFilters: w,
+            handleReset: p
+        }
+    };
+
+function Lb({
+    resultsCount: t,
+    setInitialNotificationVisible: a,
+    isOpen: n,
+    setChatbotOpen: i,
+    isDrawer: r
+}) {
+    const [o, s] = h.useState(""), {
+        isGeneratingResponse: c,
+        addMessage: u,
+        handleUserMessage: l,
+        messages: d,
+        messagesEndRef: C,
+        applyPendingFilters: m,
+        handleReset: v,
+        initialMessageSent: L
+    } = Qy();
+    h.useEffect(() => {
+        L && !n && a(!0)
+    }, [L]);
+    const g = yt(),
+        {
+            isDesktop: b,
+            isMedium: f,
+            isMobile: w
+        } = fa(),
+        p = _ => {
+            s(_.target.value)
+        },
+        P = _ => {
+            _.key === "Enter" && o.trim() && (_.preventDefault(), q())
+        },
+        q = async () => {
+            if (!o.trim()) return;
+            const _ = o;
+            u({
+                blocks: [{
+                    type: Et.plain,
+                    text: _
+                }],
+                role: zt.user,
+                shouldShowConfirmChip: !1,
+                timestamp: za()
+            }), s(""), await l(_)
+        };
+    return e.jsx(e.Fragment, {
+        children: e.jsxs(N, {
+            sx: () => ({
+                display: "flex",
+                flexDirection: "column",
+                borderRadius: b ? "16px" : 0,
+                border: `1px solid ${g.palette.divider}`,
+                boxShadow: "0 0 1px -2px rgba(0, 0, 0, 0.2)",
+                p: 0,
+                m: 0,
+                position: "relative",
+                boxSizing: "border-box",
+                height: b ? "97%" : "100%",
+                minWidth: (f || w) && !r ? "100vw" : "unset",
+                marginRight: b ? 1 : 0
+            }),
+            children: [e.jsx(Vy, {
+                onClose: () => i(ni.CLOSE)
+            }), e.jsx(N, {
+                sx: {
+                    flex: 1,
+                    minHeight: 0,
+                    display: "flex",
+                    flexDirection: "column"
+                },
+                children: e.jsx(N, {
+                    sx: {
+                        flex: 1,
+                        minHeight: 1,
+                        height: "100%",
+                        width: "100%",
+                        position: "relative",
+                        backgroundColor: g.palette.background.default
+                    },
+                    children: e.jsx(Oy, {
+                        expandContent: !0,
+                        resultsCount: t,
+                        messages: d,
+                        isGeneratingResponse: c,
+                        messagesEndRef: C,
+                        applyPendingFilters: m,
+                        setChatbotOpen: i,
+                        isDrawer: r
+                    })
+                })
+            }), e.jsx(N, {
+                sx: {
+                    position: "sticky",
+                    bottom: 0,
+                    zIndex: 2,
+                    px: 2,
+                    boxShadow: "0 -2px 8px rgba(0,0,0,0.04)",
+                    borderRadius: "0 0 16px 16px",
+                    backgroundColor: g.palette.background.paper
+                },
+                children: e.jsx(Yy, {
+                    inputValue: o,
+                    handleInputChange: p,
+                    handleKeyDown: P,
+                    disabledConditions: c,
+                    onSend: q,
+                    handleReset: v
+                })
+            })]
+        })
+    })
+}
+
+function Pb({
+    initialNotificationVisible: t,
+    setInitialNotificationVisible: a,
+    capitalizeFullName: n,
+    setIsChatbotOpen: i
+}) {
+    var o, s;
+    const r = yt();
+    return e.jsxs(N, {
+        sx: {
+            position: "fixed",
+            bottom: 35,
+            right: 25,
+            zIndex: 1e3,
+            cursor: "pointer",
+            display: "flex"
+        },
+        children: [e.jsx(N, {
+            sx: {
+                width: "56px",
+                height: "56px",
+                transition: "box-shadow 0.2s",
+                "&:hover": {
+                    boxShadow: `5px ${Na((s=(o=r.palette)==null?void 0:o.barChart)==null?void 0:s.contrastText,.25)}`
+                }
+            },
+            onClick: () => {
+                i(ni.OPEN), a(!1)
+            },
+            children: e.jsx("img", {
+                src: Zh,
+                alt: "Searchpal"
+            })
+        }), e.jsx(Ey, {
+            initialNotificationVisible: t,
+            setInitialNotificationVisible: a,
+            capitalizeFullName: n,
+            setIsChatbotOpen: i
+        })]
+    })
+}
+const Ib = ({
+    isAuthenticated: t
+}) => {
+    const {
+        session: {
+            account: a
+        }
+    } = Yt(), {
+        enqueueSnackbar: n,
+        closeSnackbar: i
+    } = Eo(), [r, o] = h.useState(), [s, c] = h.useState(!1), [u, l] = h.useState(!1), [d, C] = h.useState(!1), m = () => c(f => !f), v = () => l(f => !f), L = () => {
+        C(!d), u || v()
+    }, {
+        isMobile: g
+    } = fa();
+    h.useEffect(() => {
+        var P;
+        if (!t) return;
+        const f = () => {
+                const q = n(e.jsxs(S, {
+                    direction: "row",
+                    alignItems: "center",
+                    children: [e.jsxs(y, {
+                        children: [e.jsx("b", {
+                            children: "Payment Method Update Required"
+                        }), " ", e.jsx("br", {}), " Please update your payment method on file to continue accessing"]
+                    }), g && e.jsx(lr, {
+                        id: "close-snackbar-mobile",
+                        size: "small",
+                        "aria-label": "close",
+                        color: "inherit",
+                        onClick: () => {
+                            q && i(q)
+                        },
+                        children: e.jsx(dr, {
+                            fontSize: "small"
+                        })
+                    })]
+                }), {
+                    variant: "error",
+                    hideIconVariant: !0,
+                    persist: !0,
+                    action: e.jsxs(S, {
+                        gap: 1,
+                        flexDirection: "row",
+                        alignItems: "center",
+                        children: [e.jsx(ue, {
+                            onClick: v,
+                            variant: "outlined",
+                            size: "small",
+                            fullWidth: !0,
+                            sx: _ => ({
+                                fontsize: _.spacing(.75),
+                                maxHeight: "40px",
+                                color: `${_.palette.error.dark} !important`,
+                                borderColor: "white",
+                                backgroundColor: "white",
+                                "&:hover": {
+                                    backgroundColor: "white",
+                                    color: `${_.palette.error.dark}`,
+                                    borderColor: "black"
+                                }
+                            }),
+                            children: "Update Billing Info"
+                        }), !g && e.jsx(lr, {
+                            size: "small",
+                            "aria-label": "close",
+                            color: "inherit",
+                            onClick: () => {
+                                q && i(q)
+                            },
+                            children: e.jsx(dr, {
+                                fontSize: "small"
+                            })
+                        })]
+                    })
+                });
+                return q
+            },
+            w = (P = a == null ? void 0 : a.account.user_info) == null ? void 0 : P.user_in_recycling;
+        if (w === void 0) return;
+        const p = new URLSearchParams(window.location.search);
+        if (w && (p.get("bvppcanc") || p.get("bvpp") || p.get("token"))) {
+            const q = f();
+            o(q);
+            return
+        }
+        if (w && !r) {
+            c(!0);
+            const q = f();
+            o(q);
+            return
+        }!w && r && (c(!1), i(r))
+    }, [a, t]), h.useEffect(() => {
+        if (!t) return;
+        const f = () => {
+                m()
+            },
+            w = p => {
+                n(p.detail.message, {
+                    variant: p.detail.variant
+                })
+            };
+        return window.addEventListener("openRecyclingModal", f), window.addEventListener("openRecyclingFeedbackSnackbar", w), () => {
+            window.removeEventListener("openRecyclingModal", f), window.removeEventListener("openRecyclingFeedbackSnackbar", w)
+        }
+    }, [t]);
+
+    function b() {
+        l(!1), C(!0)
+    }
+    return e.jsx(e.Fragment, {
+        children: t ? e.jsxs(e.Fragment, {
+            children: [e.jsx(cu, {
+                open: s,
+                onClose: m,
+                openUpdatePayment: v
+            }), e.jsx(lu, {
+                open: u,
+                onClose: v,
+                onAddPaymentMethod: b,
+                cta: "Use This Payment Method",
+                isRecycling: !0
+            }), e.jsx(du, {
+                isOpen: d,
+                onCloseHandle: L
+            })]
+        }) : e.jsx(e.Fragment, {})
+    })
+};
+
+function Eb({
+    children: t,
+    handleLogout: a,
+    trackEventGA4: n,
+    setTosState: i
+}) {
+    const [r] = h.useState(new uu({
+        defaultOptions: {
+            queries: {
+                onError: f => {
+                    b(f)
+                },
+                refetchOnWindowFocus: !1
+            },
+            mutations: {
+                onError: f => {
+                    b(f)
+                }
+            }
+        }
+    })), o = Kt(), {
+        enqueueSnackbar: s
+    } = Eo(), c = {
+        451: C,
+        426: v,
+        401: m,
+        423: L,
+        429: g,
+        400: u,
+        404: d,
+        403: l
+    };
+
+    function u(f) {
+        n({
+            response: "400",
+            message: "BAD_REQUEST",
+            event_name: "whoops"
+        }), o("/error", {
+            state: f
+        })
+    }
+
+    function l() {
+        a()
+    }
+
+    function d(f) {
+        n({
+            response: "404",
+            message: "PAGE_NOT_FOUND",
+            event_name: "whoops"
+        }), o("/error", {
+            state: f
+        })
+    }
+
+    function C(f, w) {
+        n({
+            response: "451",
+            message: "LEGAL_REQUIRED",
+            event_name: "whoops"
+        }), i({
+            modalOpen: !0,
+            requestData: w.body
+        })
+    }
+
+    function m(f) {
+        a(() => n({
+            response: "401",
+            message: "UNAUTHORIZED",
+            event_name: "whoops"
+        }))
+    }
+
+    function v(f) {
+        n({
+            response: "426",
+            message: "UPDATE_REQUIRED",
+            event_name: "whoops"
+        }), o("/upgrade/plan")
+    }
+
+    function L(f) {
+        n({
+            response: "423",
+            message: "SESSION_BLOCKED",
+            event_name: "whoops"
+        }), m(), s("It looks like you've been logged out because your account is being used by another person or device", {
+            variant: "error"
+        }), lm("https://www.beenverified.com")
+    }
+
+    function g(f, w) {
+        n({
+            response: "429",
+            message: "RATE_LIMIT",
+            event_name: "whoops"
+        }), o("/captcha", {
+            state: {
+                requestData: w
+            }
+        })
+    }
+    async function b(f) {
+        var P, q;
+        const w = ((P = f == null ? void 0 : f.response) == null ? void 0 : P.status) || null;
+        if (!w || w >= 200 && w < 300 || f.passthrough) return;
+        const p = c[w];
+        if (p) {
+            let _;
+            try {
+                _ = await ((q = f.response) == null ? void 0 : q.json())
+            } catch {
+                _ = {
+                    errors: ["Failed to parse response body global error handler fn"]
+                }
+            }
+            const E = f.request;
+            p(_, E)
+        } else o("/error")
+    }
+    return e.jsx(hu, {
+        client: r,
+        children: e.jsxs(e.Fragment, {
+            children: [e.jsx(mu, {}), t]
+        })
+    })
+}
+var Jy = {
+    VITE_RECAPTCHA_DEV_PROXY_TOKEN: "",
+    VITE_FORM_HCAPTCHA_REPORT_VELOCITY_TOKEN: "0bd38479-4d47-4681-b5f5-5d012fa225c4",
+    VITE_APM_URL: "https://gap01.beenverified.com/collect",
+    VITE_HCAPTCHA_SITE_KEY: "2004a996-692e-457d-acb1-aea3de47d963",
+    VITE_RECAPTCHA_SITE_KEY: "",
+    VITE_ASTROLOGY_API_KEY: "8aacd98ff1f872397e6f49f9ee87752a497159e8",
+    VITE_ASTROLOGY_API_USER: "628813",
+    VITE_PATH_PREFIX: "/rf",
+    VITE_TARGET_ENV: "production",
+    VITE_TURNSTILE_SITE_KEY: "0x4AAAAAAANy10csBBDGj3lU",
+    VITE_APM_KEY: "d1a8d2e0-ca0b-03fd-a3f1-9c5a0a0cb959",
+    BASE_URL: "/rf",
+    MODE: "production",
+    DEV: !1,
+    PROD: !0,
+    SSR: !1
+};
+
+function ao({
+    children: t,
+    isGbReady: a
+}) {
+    const [n, i] = h.useState(!1);
+    h.useEffect(() => {
+        if (!pu()) {
+            i(!1);
+            return
+        }
+        if (!a) {
+            i(!0), setTimeout(() => {
+                i(!1)
+            }, 1e4);
+            return
+        }
+        i(!1)
+    }, [a]);
+    const r = Jy.VITE_IS_TEST;
+    return e.jsx(gu, {
+        theme: Cm,
+        children: n && !r ? e.jsx(fu, {
+            message: e.jsx(y, {
+                variant: "h5",
+                children: "Fetching account"
+            }),
+            sx: {
+                backgroundColor: "white"
+            }
+        }) : e.jsx(e.Fragment, {
+            children: t
+        })
+    })
+}
+var Zy = {
+    VITE_RECAPTCHA_DEV_PROXY_TOKEN: "",
+    VITE_FORM_HCAPTCHA_REPORT_VELOCITY_TOKEN: "0bd38479-4d47-4681-b5f5-5d012fa225c4",
+    VITE_APM_URL: "https://gap01.beenverified.com/collect",
+    VITE_HCAPTCHA_SITE_KEY: "2004a996-692e-457d-acb1-aea3de47d963",
+    VITE_RECAPTCHA_SITE_KEY: "",
+    VITE_ASTROLOGY_API_KEY: "8aacd98ff1f872397e6f49f9ee87752a497159e8",
+    VITE_ASTROLOGY_API_USER: "628813",
+    VITE_PATH_PREFIX: "/rf",
+    VITE_TARGET_ENV: "production",
+    VITE_TURNSTILE_SITE_KEY: "0x4AAAAAAANy10csBBDGj3lU",
+    VITE_APM_KEY: "d1a8d2e0-ca0b-03fd-a3f1-9c5a0a0cb959",
+    BASE_URL: "/rf",
+    MODE: "production",
+    DEV: !1,
+    PROD: !0,
+    SSR: !1
+};
+
+function qb({
+    children: t
+}) {
+    const a = Zy.VITE_IS_TEST,
+        {
+            session: {
+                account: n
+            }
+        } = Yt(),
+        {
+            isMobile: i
+        } = fa(),
+        r = i ? "web-mobile" : "desktop",
+        [o, s] = h.useState({}),
+        [c, u] = h.useState(!1);
+    return h.useEffect(() => {
+        n && s({
+            "device-type": r
+        })
+    }, [n]), a ? e.jsx(ao, {
+        isGbReady: c,
+        children: t
+    }) : e.jsx(yu, {
+        enableDevMode: !0,
+        apiHost: "https://gbbv.beenverified.com",
+        clientKey: "sdk-sH9Cly3zfuFM9mdc",
+        decryptionKey: "nZwGIW+xki4yOM6qBBx8Kg==",
+        subscribeToChanges: !1,
+        customAttributes: o,
+        setIsGbReady: u,
+        brandName: "beenverified",
+        children: e.jsx(ao, {
+            isGbReady: c,
+            children: t
+        })
+    })
+}
+const Hn = "view",
+    _i = "email verification result modal";
+
+function Rb({
+    children: t
+}) {
+    const a = Lt(),
+        {
+            data: n
+        } = Ni(!0),
+        [i, r] = Rs("status", Ds),
+        {
+            trackEvent: o
+        } = h.useContext(ce),
+        s = be("mb5k-81"),
+        [c, u] = h.useState(!1),
+        [l, d] = h.useState(!1),
+        [C, m] = h.useState(!1),
+        [v, L] = h.useState(!1),
+        g = a.pathname.includes("/onboarding");
+    return h.useEffect(() => {
+        var f;
+        if (!n) return;
+        g && m(!1);
+        const b = (f = n == null ? void 0 : n.account.user_info) == null ? void 0 : f.verified_email;
+        b && i === "success" ? (r(void 0, "replaceIn"), d(!0), o("email verification success", Hn, _i)) : !b && i === "expired" ? (r(void 0, "replaceIn"), u(!0), o("email verification expired", Hn, _i)) : !b && i === "invalid" ? (r(void 0, "replaceIn"), L(!0), o("email verification invalid", Hn, _i)) : !b && s && !c && !v && !g && (m(!0), o("view blocker", Hn, "email verification blocker"))
+    }, [n, i, r, s, g]), e.jsxs("div", {
+        children: [s && e.jsx(bu, {
+            open: C
+        }), e.jsx(xu, {
+            open: c,
+            onClose: () => u(!1)
+        }), e.jsx(vu, {
+            open: l,
+            onClose: () => d(!1)
+        }), e.jsx(wu, {
+            open: v,
+            onClose: () => L(!1)
+        }), t]
+    })
+}
+const Db = ({
+        handleSearchSuccess: t,
+        changeSingleReportVariation: a,
+        changeOwnerSearchVariation: n,
+        changeIsInAstrologyStandaloneVariation: i,
+        changeInternationalLanguageTest: r,
+        changeInternationalVinTest: o,
+        changeListV2Variation: s,
+        changeIsInSideMenuReorganizationVariation: c
+    }) => {
+        const u = be("prop-2561"),
+            l = be("oar-1164"),
+            d = be("prop-2834"),
+            C = be("OAR-1442"),
+            {
+                planName: m
+            } = dm(),
+            {
+                isInSingleReportVariation: v,
+                isInternationalVinTest: L,
+                isInInternationalLanguageTest: g
+            } = Fo(m);
+        return h.useEffect(() => {
+            a(v)
+        }, [v]), h.useEffect(() => {
+            n(u)
+        }, [u]), h.useEffect(() => {
+            i(l)
+        }, [l]), h.useEffect(() => {
+            r(g)
+        }, [g]), h.useEffect(() => {
+            o(L)
+        }, [L]), h.useEffect(() => {
+            s(d)
+        }, [d]), h.useEffect(() => {
+            c(C)
+        }, [C]), e.jsx(ju, {
+            onSearchSuccess: t
+        })
+    },
+    Xy = O("div")(({
+        theme: t
+    }) => ({
+        margin: "70px 8px 0 8px",
+        backgroundColor: t.palette.background.default,
+        paddingBottom: t.spacing(.25),
+        [t.breakpoints.up("md")]: {
+            margin: "55px 0 0 0"
+        }
+    }));
+
+function Fb({
+    children: t
+}) {
+    const a = Lt(),
+        {
+            isDesktop: n
+        } = fa(),
+        {
+            isUserInTest: i
+        } = Su(),
+        r = a.pathname.includes("/report/"),
+        o = (be("RTRN-68") || i) && n ? "app-container" : void 0;
+    return e.jsx(Xy, {
+        id: o,
+        sx: {
+            marginX: r ? 0 : null,
+            marginTop: r ? "70px" : "80px"
+        },
+        children: e.jsx(N, {
+            children: t
+        })
+    })
+}
+const no = O(Fs)(({
+    theme: t,
+    ga4EventType: a
+}) => ({
+    color: t.palette.text.primary,
+    fontSize: t.typography.fontSize * 1.125,
+    display: "flex",
+    alignItems: "center",
+    svg: {
+        marginRight: t.spacing(1)
+    },
+    width: "100%"
+}));
+
+function Bb({
+    children: t,
+    trackEventGA4: a,
+    trackEvent: n,
+    logError: i,
+    handleLogoutClick: r,
+    isInInternationalLanguageTest: o,
+    isInInternationalVinTest: s,
+    isInOwnerSearchVariation: c,
+    isInSingleReportVariation: u,
+    isInAstrologyStandaloneVariation: l,
+    isInSideMenuReorganizationVariation: d
+}) {
+    const C = Lt(),
+        m = Kt(),
+        v = ku(),
+        L = be("OAR-1448");
+
+    function g(x) {
+        return x.flatMap(({
+            childItems: I,
+            ...H
+        }) => [H, ...I != null && I.length ? g(I) : []])
+    }
+    const f = g(gt.config.sideMenuItems.filter(x => !(x.name === "importList" || u && x.isLocked || !c && x.name === "owner_search" || !l && x.name === "astrology"))).map(x => e.jsxs(no, {
+            to: x.route,
+            "data-cy": `menu_${x["data-cy"]}`,
+            ga4EventType: x.ga4EventType,
+            children: [x.icon, " ", x.text]
+        })),
+        w = ["personal-growth", "my-profile"],
+        p = h.useMemo(() => Tm(l, d), [l, d]);
+    let P;
+    s ? P = Lr : o ? P = Lr.filter(x => w.includes(x.name)) : P = p, L && (P = P.map(x => x.name === "monitoring-hub" && x.childItems ? {
+        ...x,
+        childItems: x.childItems.map(I => I.name === "idMonitor" ? {
+            ...I,
+            text: "Personal Reports",
+            route: "/dashboard/personal-reports"
+        } : I)
+    } : x));
+
+    function q(x, I) {
+        const H = window.lh;
+        H && typeof H < "u" && x && I && H("submit", x || null, {
+            lkey: I || null
+        })
+    }
+    const _ = {
+            ...v,
+            routingUtils: {
+                ...v.routingUtils,
+                navigate: m,
+                location: C,
+                useSearchParams: Bs
+            },
+            logError: i,
+            trackEvent: n,
+            trackEventGA4: a,
+            trackListhub: q
+        },
+        E = {
+            ...gt,
+            config: {
+                ...gt.config,
+                menuItems: [...f, e.jsx(no, {
+                    to: "#",
+                    onClick: () => r(),
+                    "data-cy": "menu_log_out_btn",
+                    children: "Log Out"
+                })],
+                sideMenuItems: [...P, {
+                    route: "",
+                    icon: "",
+                    text: "Logout",
+                    name: "logout",
+                    state: "",
+                    "data-cy": "menu_log_out_btn",
+                    action: r
+                }]
+            }
+        };
+    return e.jsx(Cu, {
+        maxSnack: 3,
+        preventDuplicate: !0,
+        autoHideDuration: 5e3,
+        children: e.jsx(Tu.Provider, {
+            value: km,
+            children: e.jsx(ce.Provider, {
+                value: _,
+                children: e.jsx(Tn.Provider, {
+                    value: E,
+                    children: t
+                })
+            })
+        })
+    })
+}
+const Mb = () => {
+    const t = "hasDismissedMobileDownloadGlobalBanner",
+        a = be("OAR-1526"),
+        {
+            isMobile: n
+        } = fa(),
+        i = Lt(),
+        {
+            trackEventGA4: r
+        } = h.useContext(ce),
+        o = sessionStorage.getItem(t) === "true",
+        [s, c] = h.useState(!1),
+        [u, l] = h.useState(a && n && !o);
+    h.useEffect(() => {
+        const v = () => {
+            c(!0)
+        };
+        if (document.readyState === "complete") v();
+        else return window.addEventListener("load", v), () => window.removeEventListener("load", v)
+    }, []);
+    const d = () => {
+            r({
+                event_name: "navigation click",
+                section_name: "app_banner",
+                type: "app_banner_download",
+                interacted_from: "beenverified_mobile"
+            }), window.location.href = "https://beenverified.onelink.me/5mdJ/kbh4s7u9"
+        },
+        C = () => {
+            r({
+                event_name: "modal_closed",
+                section_name: "app_banner",
+                type: "app_banner_close",
+                interacted_from: "beenverified_mobile"
+            }), l(!1), sessionStorage.setItem(t, "true")
+        };
+    return u && s && i.pathname !== "/reactivation" ? e.jsxs(S, {
+        width: "100%",
+        height: "50px",
+        bgcolor: "#EEF3FF",
+        top: 0,
+        left: 0,
+        zIndex: 2e3,
+        direction: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        paddingX: 1.5,
+        sx: {
+            borderBottom: "1px solid #DADCE0"
+        },
+        children: [e.jsxs(S, {
+            direction: "row",
+            alignItems: "center",
+            ml: 2,
+            spacing: 1,
+            onClick: d,
+            children: [e.jsx("img", {
+                src: gt.images.bvMobileBannerIcon,
+                alt: "BeenVerified Mobile Banner Icon"
+            }), e.jsxs(S, {
+                spacing: .25,
+                children: [e.jsx(y, {
+                    fontSize: "14px",
+                    fontWeight: 700,
+                    lineHeight: 1.2,
+                    children: "View in The BeenVerified App"
+                }), e.jsx(y, {
+                    fontSize: "12px",
+                    color: "text.secondary",
+                    fontWeight: 500,
+                    lineHeight: 1.2,
+                    children: "Rated 4.6 by 24k+ users"
+                })]
+            })]
+        }), e.jsxs(S, {
+            direction: "row",
+            alignItems: "center",
+            spacing: 1,
+            children: [e.jsx(Au, {
+                sx: {
+                    fontSize: "0.875rem",
+                    color: "primary.main",
+                    padding: 0,
+                    minWidth: 0
+                },
+                onClick: d,
+                children: "View"
+            }), e.jsx(Yi, {
+                onClick: C,
+                size: "small",
+                sx: {
+                    width: 28,
+                    height: 28,
+                    backgroundColor: "#E0E0E0",
+                    "&:hover": {
+                        backgroundColor: "#D6D6D6"
+                    }
+                },
+                children: e.jsx(on, {
+                    sx: {
+                        fontSize: "16px"
+                    }
+                })
+            })]
+        })]
+    }) : null
+};
+
+function Nb() {
+    const t = Lt();
+    return h.useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [t]), null
+}
+export {
+    Fb as A, rn as B, sb as C, Rb as E, qb as G, Db as H, lb as I, Bb as L, Mb as M, db as N, cb as O, Sb as P, Eb as Q, Ib as R, ob as S, wb as U, gb as V, Nb as a, Ym as b, ub as c, hb as d, ii as e, mb as f, si as g, Am as h, Tb as i, pb as j, kb as k, Cb as l, Ab as m, yb as n, bb as o, jb as p, fb as q, vb as r, Wo as s, xb as t, wa as u, Ey as v, Lb as w, _b as x, Pb as y
+};
+//# sourceMappingURL=components-DLWMNWaF.js.map

@@ -1,0 +1,6213 @@
+import {
+    j as e,
+    a1 as vt,
+    a2 as St,
+    a3 as jt,
+    a4 as _t,
+    a5 as Ft,
+    a6 as Lt,
+    a7 as G,
+    a8 as xe,
+    E as Ne,
+    a9 as kt,
+    aa as Tt,
+    ab as be,
+    ac as ye,
+    ad as le,
+    ae as ze,
+    F as Ze,
+    af as Ue,
+    ag as Ge,
+    n as Ie,
+    ah as Mt,
+    ai as ve,
+    aj as We,
+    ak as qe,
+    al as W,
+    M as U,
+    am as $e,
+    an as Ye,
+    O as Ke,
+    ao as Je,
+    ap as Qe,
+    aq as Rt,
+    Q as Xe,
+    ar as J,
+    as as At,
+    at as Pt,
+    au as wt,
+    av as z,
+    aw as Et,
+    ax as Bt,
+    ay as Vt,
+    az as Ht,
+    aA as re,
+    aB as Dt,
+    aC as Nt,
+    aD as zt,
+    aE as Zt,
+    aF as Se,
+    aG as Ut,
+    aH as Gt,
+    aI as Wt,
+    z as qt,
+    g as $t,
+    Z as _e,
+    _ as Fe,
+    r as b,
+    aJ as Yt,
+    aK as r,
+    aL as Kt,
+    aM as Jt,
+    R as Qt,
+    aN as Xt,
+    aO as Ot,
+    aP as e1
+} from "./vndr-C-rNLSX8.js";
+import {
+    e2 as A,
+    j as D,
+    e3 as Z,
+    H as E,
+    v as Q,
+    e4 as t1,
+    y as K,
+    e5 as s1,
+    e6 as Oe,
+    d9 as et,
+    e7 as tt,
+    e8 as i1,
+    e9 as a1,
+    l as ce,
+    F as o1,
+    C as n1,
+    dQ as ue,
+    ea as r1,
+    eb as l1,
+    ec as c1,
+    ed as d1,
+    ee as m1,
+    ef as h1,
+    eg as p1,
+    eh as C1,
+    ei as u1,
+    ej as f1,
+    ek as x1,
+    el as g1,
+    em as b1,
+    en as y1,
+    eo as I1,
+    ep as v1,
+    eq as S1,
+    er as j1,
+    es as _1,
+    et as F1,
+    eu as L1,
+    ev as k1,
+    ew as T1,
+    ex as M1,
+    ey as R1,
+    ez as A1,
+    eA as P1,
+    eB as w1,
+    eC as E1,
+    eD as B1
+} from "./refresh-B4OVI0m0.js";
+import {
+    N as V1,
+    E as H1,
+    A as c,
+    F as D1,
+    P as Le,
+    L as N1,
+    R as z1,
+    D as Z1,
+    a as U1,
+    b as G1,
+    c as W1,
+    d as q1,
+    e as $1,
+    g as Y1,
+    h as K1,
+    i as J1,
+    M as Q1,
+    I as ke,
+    j as Te,
+    k as Me,
+    l as X1,
+    m as O1,
+    n as es,
+    U as ts,
+    B as ss,
+    o as is,
+    p as as,
+    q as os,
+    r as ns,
+    S as fe,
+    s as rs,
+    t as ls,
+    u as cs,
+    v as ds,
+    w as ms,
+    x as hs
+} from "./routes-ar-CVVbN.js";
+import {
+    at as ps,
+    au as Cs,
+    av as us,
+    aw as fs,
+    ax as xs,
+    ay as gs,
+    az as bs,
+    aA as ys,
+    aB as Is,
+    aC as vs,
+    aD as Ss,
+    aE as js,
+    aF as _s,
+    aG as Fs,
+    aH as Ls,
+    aI as ks,
+    aJ as Ts,
+    aK as Ms,
+    aL as Rs,
+    aM as As,
+    aN as Ps,
+    aO as ws,
+    aP as Es,
+    aQ as Bs,
+    aR as Vs,
+    aS as Hs,
+    aT as Ds,
+    aU as Ns,
+    aV as zs,
+    aW as Zs,
+    aX as Us,
+    aY as Gs,
+    aZ as Ws,
+    a_ as qs,
+    a$ as $s,
+    b0 as Ys,
+    b1 as Ks,
+    b2 as Js,
+    b3 as Qs,
+    b4 as Xs,
+    b5 as Os,
+    b6 as ei,
+    b7 as ti,
+    b8 as si,
+    b9 as ii,
+    ba as ai,
+    bb as oi,
+    bc as ni,
+    bd as ri,
+    be as li,
+    bf as ci,
+    bg as di,
+    bh as mi,
+    bi as hi,
+    bj as pi,
+    bk as Ci,
+    bl as ui,
+    bm as fi,
+    bn as xi,
+    bo as gi,
+    bp as bi,
+    bq as yi,
+    br as Ii,
+    bs as vi,
+    bt as Si,
+    bu as ji,
+    bv as _i,
+    bw as Fi,
+    bx as Li,
+    by as ki,
+    bz as Ti,
+    bA as Mi,
+    bB as Ri,
+    bC as Ai,
+    bD as Pi,
+    bE as wi,
+    bF as Ei,
+    bG as Bi,
+    bH as Vi,
+    bI as Re,
+    bJ as Ae,
+    bK as Hi,
+    bL as Di,
+    bM as Pe,
+    bN as Ni,
+    bO as zi,
+    bP as Zi,
+    bQ as Ui,
+    bR as Gi,
+    bS as Wi,
+    bT as qi,
+    bU as $i,
+    bV as Yi,
+    bW as Ki,
+    bX as Ji,
+    bY as Qi,
+    bZ as Xi,
+    b_ as Oi,
+    b$ as ea,
+    c0 as ta,
+    c1 as sa,
+    c2 as ia,
+    c3 as aa,
+    c4 as oa,
+    c5 as na,
+    c6 as ra,
+    c7 as la,
+    c8 as ca,
+    c9 as da,
+    ca as ma,
+    cb as ha,
+    cc as pa,
+    cd as Ca,
+    ce as ua,
+    cf as fa,
+    cg as xa,
+    ch as ga,
+    al as ba,
+    ci as ya,
+    cj as Ia,
+    ck as va,
+    cl as Sa,
+    cm as ja,
+    cn as _a,
+    co as Fa,
+    cp as La,
+    cq as ka,
+    cr as Ta,
+    cs as Ma,
+    ct as Ra,
+    cu as Aa,
+    cv as Pa,
+    cw as wa,
+    cx as Ea,
+    cy as Ba,
+    cz as Va,
+    cA as Ha,
+    cB as Da,
+    cC as Na,
+    cD as za,
+    cE as Za,
+    cF as Ua,
+    cG as Ga,
+    cH as Wa,
+    cI as qa,
+    cJ as $a,
+    cK as Ya,
+    cL as Ka,
+    cM as Ja,
+    cN as Qa,
+    cO as Xa,
+    cP as Oa,
+    cQ as eo,
+    cR as to,
+    cS as so,
+    cT as io,
+    cU as ao,
+    cV as oo,
+    cW as no,
+    cX as ro,
+    cY as lo,
+    cZ as co,
+    c_ as mo,
+    ab as ho,
+    P as po,
+    a7 as Co,
+    X as uo,
+    R as fo,
+    Z as xo,
+    a9 as go,
+    $ as bo,
+    a5 as yo,
+    a3 as Io,
+    V as vo,
+    M as So,
+    a1 as jo,
+    L as _o,
+    ad as Fo,
+    Q as Lo,
+    a8 as ko,
+    Y as To,
+    S as Mo,
+    _ as Ro,
+    aa as Ao,
+    a0 as Po,
+    a6 as wo,
+    a4 as Eo,
+    W as Bo,
+    N as Vo,
+    a2 as Ho,
+    ac as Do,
+    c$ as No,
+    d0 as zo,
+    d1 as Zo,
+    d2 as Uo,
+    d3 as Go,
+    d4 as Wo,
+    d5 as qo,
+    d6 as we,
+    d7 as Ee,
+    d8 as Be,
+    d9 as $o,
+    da as Yo,
+    db as Ko,
+    dc as Jo,
+    dd as Qo,
+    de as Xo,
+    df as Oo,
+    dg as en,
+    dh as tn,
+    di as sn,
+    dj as an,
+    dk as on,
+    dl as nn,
+    dm as rn,
+    dn as ln,
+    dp as cn,
+    dq as dn,
+    dr as mn,
+    ds as hn,
+    dt as pn,
+    du as Cn,
+    dv as un,
+    dw as fn,
+    dx as xn,
+    dy as gn,
+    dz as bn,
+    dA as yn,
+    dB as In,
+    dC as vn,
+    dD as Sn,
+    dE as jn,
+    dF as _n,
+    dG as Fn,
+    dH as Ln,
+    dI as kn,
+    dJ as Tn,
+    dK as Mn,
+    ar as Rn,
+    dL as An,
+    dM as Pn,
+    dN as wn,
+    dO as En,
+    dP as Bn,
+    dQ as Vn,
+    dR as Hn,
+    dS as Dn,
+    dT as Nn,
+    dU as zn,
+    dV as Zn,
+    dW as Un,
+    dX as Gn,
+    dY as Wn,
+    dZ as qn,
+    d_ as $n,
+    d$ as Yn,
+    e0 as Kn,
+    e1 as Jn,
+    e2 as Qn,
+    e3 as Xn,
+    e4 as On,
+    e5 as e2,
+    e6 as t2,
+    e7 as s2,
+    e8 as i2,
+    e9 as a2,
+    ea as o2,
+    eb as n2,
+    ec as r2
+} from "./images-CdFzsLB1.js";
+import {
+    Q as l2,
+    G as c2,
+    L as d2,
+    E as m2,
+    M as h2,
+    H as p2,
+    A as C2,
+    R as u2,
+    B as Ve,
+    a as f2
+} from "./components-DLWMNWaF.js";
+import {
+    o as x2,
+    m as g2
+} from "./utils-CMJtqSu6.js";
+import "./index-DWb1yUZw.js";
+(function() {
+    const a = document.createElement("link").relList;
+    if (a && a.supports && a.supports("modulepreload")) return;
+    for (const s of document.querySelectorAll('link[rel="modulepreload"]')) n(s);
+    new MutationObserver(s => {
+        for (const o of s)
+            if (o.type === "childList")
+                for (const l of o.addedNodes) l.tagName === "LINK" && l.rel === "modulepreload" && n(l)
+    }).observe(document, {
+        childList: !0,
+        subtree: !0
+    });
+
+    function i(s) {
+        const o = {};
+        return s.integrity && (o.integrity = s.integrity), s.referrerPolicy && (o.referrerPolicy = s.referrerPolicy), s.crossOrigin === "use-credentials" ? o.credentials = "include" : s.crossOrigin === "anonymous" ? o.credentials = "omit" : o.credentials = "same-origin", o
+    }
+
+    function n(s) {
+        if (s.ep) return;
+        s.ep = !0;
+        const o = i(s);
+        fetch(s.href, o)
+    }
+})();
+var O2 = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {};
+
+function e0(t) {
+    return t && t.__esModule && Object.prototype.hasOwnProperty.call(t, "default") ? t.default : t
+}
+
+function t0(t) {
+    if (t.__esModule) return t;
+    var a = t.default;
+    if (typeof a == "function") {
+        var i = function n() {
+            return this instanceof n ? Reflect.construct(a, arguments, this.constructor) : a.apply(this, arguments)
+        };
+        i.prototype = a.prototype
+    } else i = {};
+    return Object.defineProperty(i, "__esModule", {
+        value: !0
+    }), Object.keys(t).forEach(function(n) {
+        var s = Object.getOwnPropertyDescriptor(t, n);
+        Object.defineProperty(i, n, s.get ? s : {
+            enumerable: !0,
+            get: function() {
+                return t[n]
+            }
+        })
+    }), i
+}
+const b2 = "modulepreload",
+    y2 = function(t) {
+        return "/rf/" + t
+    },
+    He = {},
+    s0 = function(a, i, n) {
+        let s = Promise.resolve();
+        if (i && i.length > 0) {
+            document.getElementsByTagName("link");
+            const o = document.querySelector("meta[property=csp-nonce]"),
+                l = (o == null ? void 0 : o.nonce) || (o == null ? void 0 : o.getAttribute("nonce"));
+            s = Promise.all(i.map(d => {
+                if (d = y2(d), d in He) return;
+                He[d] = !0;
+                const h = d.endsWith(".css"),
+                    C = h ? '[rel="stylesheet"]' : "";
+                if (document.querySelector(`link[href="${d}"]${C}`)) return;
+                const p = document.createElement("link");
+                if (p.rel = h ? "stylesheet" : b2, h || (p.as = "script", p.crossOrigin = ""), p.href = d, l && p.setAttribute("nonce", l), document.head.appendChild(p), h) return new Promise((u, x) => {
+                    p.addEventListener("load", u), p.addEventListener("error", () => x(new Error(`Unable to preload CSS for ${d}`)))
+                })
+            }))
+        }
+        return s.then(() => a()).catch(o => {
+            const l = new Event("vite:preloadError", {
+                cancelable: !0
+            });
+            if (l.payload = o, window.dispatchEvent(l), !l.defaultPrevented) throw o
+        })
+    },
+    I2 = "4.8.0",
+    v2 = {
+        g: "LottieFiles AE 3.4.5",
+        a: "",
+        k: "",
+        d: "",
+        tc: ""
+    },
+    S2 = 30,
+    j2 = 0,
+    _2 = 103,
+    F2 = 1080,
+    L2 = 1080,
+    k2 = "Circle Load",
+    T2 = 0,
+    M2 = [],
+    R2 = [{
+        ddd: 0,
+        ind: 1,
+        ty: 4,
+        nm: "Layer 1 Outlines",
+        sr: 1,
+        ks: {
+            o: {
+                a: 0,
+                k: 100,
+                ix: 11
+            },
+            r: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: [.667],
+                        y: [1]
+                    },
+                    o: {
+                        x: [.333],
+                        y: [0]
+                    },
+                    t: 4,
+                    s: [0]
+                }, {
+                    t: 70,
+                    s: [-360]
+                }],
+                ix: 10
+            },
+            p: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: 0,
+                        y: 1
+                    },
+                    o: {
+                        x: .333,
+                        y: 0
+                    },
+                    t: 0,
+                    s: [540, 810.915, 0],
+                    to: [0, -45.152, 0],
+                    ti: [0, 0, 0]
+                }, {
+                    i: {
+                        x: .667,
+                        y: 1
+                    },
+                    o: {
+                        x: 1,
+                        y: 0
+                    },
+                    t: 35,
+                    s: [540, 540, 0],
+                    to: [0, 0, 0],
+                    ti: [0, -45.152, 0]
+                }, {
+                    t: 73,
+                    s: [540, 810.915, 0]
+                }],
+                ix: 2
+            },
+            a: {
+                a: 0,
+                k: [540, 540, 0],
+                ix: 1
+            },
+            s: {
+                a: 0,
+                k: [100, 100, 100],
+                ix: 6
+            }
+        },
+        ao: 0,
+        shapes: [{
+            ty: "gr",
+            it: [{
+                ind: 0,
+                ty: "sh",
+                ix: 1,
+                ks: {
+                    a: 0,
+                    k: {
+                        i: [
+                            [0, -27.614],
+                            [27.614, 0],
+                            [0, 27.614],
+                            [-27.614, 0]
+                        ],
+                        o: [
+                            [0, 27.614],
+                            [-27.614, 0],
+                            [0, -27.614],
+                            [27.614, 0]
+                        ],
+                        v: [
+                            [50, 0],
+                            [0, 50],
+                            [-50, 0],
+                            [0, -50]
+                        ],
+                        c: !0
+                    },
+                    ix: 2
+                },
+                nm: "Path 1",
+                mn: "ADBE Vector Shape - Group",
+                hd: !1
+            }, {
+                ty: "fl",
+                c: {
+                    a: 0,
+                    k: [.289999988032, .352999997606, .654999976065, 1],
+                    ix: 4
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 5
+                },
+                r: 1,
+                bm: 0,
+                nm: "Fill 1",
+                mn: "ADBE Vector Graphic - Fill",
+                hd: !1
+            }, {
+                ty: "tr",
+                p: {
+                    a: 0,
+                    k: [540, 269.085],
+                    ix: 2
+                },
+                a: {
+                    a: 0,
+                    k: [0, 0],
+                    ix: 1
+                },
+                s: {
+                    a: 0,
+                    k: [100, 100],
+                    ix: 3
+                },
+                r: {
+                    a: 0,
+                    k: 0,
+                    ix: 6
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 7
+                },
+                sk: {
+                    a: 0,
+                    k: 0,
+                    ix: 4
+                },
+                sa: {
+                    a: 0,
+                    k: 0,
+                    ix: 5
+                },
+                nm: "Transform"
+            }],
+            nm: "Group 1",
+            np: 2,
+            cix: 2,
+            bm: 0,
+            ix: 1,
+            mn: "ADBE Vector Group",
+            hd: !1
+        }],
+        ip: 0,
+        op: 450,
+        st: 0,
+        bm: 0
+    }, {
+        ddd: 0,
+        ind: 2,
+        ty: 4,
+        nm: "Layer 2 Outlines",
+        sr: 1,
+        ks: {
+            o: {
+                a: 0,
+                k: 100,
+                ix: 11
+            },
+            r: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: [.667],
+                        y: [1]
+                    },
+                    o: {
+                        x: [.333],
+                        y: [0]
+                    },
+                    t: 4,
+                    s: [0]
+                }, {
+                    t: 70,
+                    s: [-360]
+                }],
+                ix: 10
+            },
+            p: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: 0,
+                        y: 1
+                    },
+                    o: {
+                        x: .333,
+                        y: 0
+                    },
+                    t: 2,
+                    s: [797.655, 623.717, 0],
+                    to: [-42.943, -13.953, 0],
+                    ti: [0, 0, 0]
+                }, {
+                    i: {
+                        x: .667,
+                        y: 1
+                    },
+                    o: {
+                        x: 1,
+                        y: 0
+                    },
+                    t: 35,
+                    s: [540, 540, 0],
+                    to: [0, 0, 0],
+                    ti: [-42.943, -13.953, 0]
+                }, {
+                    t: 73,
+                    s: [797.655, 623.717, 0]
+                }],
+                ix: 2
+            },
+            a: {
+                a: 0,
+                k: [540, 540, 0],
+                ix: 1
+            },
+            s: {
+                a: 0,
+                k: [100, 100, 100],
+                ix: 6
+            }
+        },
+        ao: 0,
+        shapes: [{
+            ty: "gr",
+            it: [{
+                ind: 0,
+                ty: "sh",
+                ix: 1,
+                ks: {
+                    a: 0,
+                    k: {
+                        i: [
+                            [0, -27.614],
+                            [27.614, 0],
+                            [0, 27.614],
+                            [-27.614, 0]
+                        ],
+                        o: [
+                            [0, 27.614],
+                            [-27.614, 0],
+                            [0, -27.614],
+                            [27.614, 0]
+                        ],
+                        v: [
+                            [50, 0],
+                            [0, 50],
+                            [-50, 0],
+                            [0, -50]
+                        ],
+                        c: !0
+                    },
+                    ix: 2
+                },
+                nm: "Path 1",
+                mn: "ADBE Vector Shape - Group",
+                hd: !1
+            }, {
+                ty: "fl",
+                c: {
+                    a: 0,
+                    k: [.941000007181, .356999984442, .258999992819, 1],
+                    ix: 4
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 5
+                },
+                r: 1,
+                bm: 0,
+                nm: "Fill 1",
+                mn: "ADBE Vector Graphic - Fill",
+                hd: !1
+            }, {
+                ty: "tr",
+                p: {
+                    a: 0,
+                    k: [282.345, 456.283],
+                    ix: 2
+                },
+                a: {
+                    a: 0,
+                    k: [0, 0],
+                    ix: 1
+                },
+                s: {
+                    a: 0,
+                    k: [100, 100],
+                    ix: 3
+                },
+                r: {
+                    a: 0,
+                    k: 0,
+                    ix: 6
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 7
+                },
+                sk: {
+                    a: 0,
+                    k: 0,
+                    ix: 4
+                },
+                sa: {
+                    a: 0,
+                    k: 0,
+                    ix: 5
+                },
+                nm: "Transform"
+            }],
+            nm: "Group 1",
+            np: 2,
+            cix: 2,
+            bm: 0,
+            ix: 1,
+            mn: "ADBE Vector Group",
+            hd: !1
+        }],
+        ip: 0,
+        op: 450,
+        st: 0,
+        bm: 0
+    }, {
+        ddd: 0,
+        ind: 3,
+        ty: 4,
+        nm: "Layer 3 Outlines",
+        sr: 1,
+        ks: {
+            o: {
+                a: 0,
+                k: 100,
+                ix: 11
+            },
+            r: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: [.667],
+                        y: [1]
+                    },
+                    o: {
+                        x: [.333],
+                        y: [0]
+                    },
+                    t: 4,
+                    s: [0]
+                }, {
+                    t: 70,
+                    s: [-360]
+                }],
+                ix: 10
+            },
+            p: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: 0,
+                        y: 1
+                    },
+                    o: {
+                        x: .333,
+                        y: 0
+                    },
+                    t: 4,
+                    s: [699.24, 320.825, 0],
+                    to: [-26.54, 36.529, 0],
+                    ti: [0, 0, 0]
+                }, {
+                    i: {
+                        x: .667,
+                        y: 1
+                    },
+                    o: {
+                        x: 1,
+                        y: 0
+                    },
+                    t: 35,
+                    s: [540, 540, 0],
+                    to: [0, 0, 0],
+                    ti: [-26.54, 36.529, 0]
+                }, {
+                    t: 73,
+                    s: [699.24, 320.825, 0]
+                }],
+                ix: 2
+            },
+            a: {
+                a: 0,
+                k: [540, 540, 0],
+                ix: 1
+            },
+            s: {
+                a: 0,
+                k: [100, 100, 100],
+                ix: 6
+            }
+        },
+        ao: 0,
+        shapes: [{
+            ty: "gr",
+            it: [{
+                ind: 0,
+                ty: "sh",
+                ix: 1,
+                ks: {
+                    a: 0,
+                    k: {
+                        i: [
+                            [0, -27.614],
+                            [27.614, 0],
+                            [0, 27.614],
+                            [-27.614, 0]
+                        ],
+                        o: [
+                            [0, 27.614],
+                            [-27.614, 0],
+                            [0, -27.614],
+                            [27.614, 0]
+                        ],
+                        v: [
+                            [50, 0],
+                            [0, 50],
+                            [-50, 0],
+                            [0, -50]
+                        ],
+                        c: !0
+                    },
+                    ix: 2
+                },
+                nm: "Path 1",
+                mn: "ADBE Vector Shape - Group",
+                hd: !1
+            }, {
+                ty: "fl",
+                c: {
+                    a: 0,
+                    k: [1, .976000019148, .842999985639, 1],
+                    ix: 4
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 5
+                },
+                r: 1,
+                bm: 0,
+                nm: "Fill 1",
+                mn: "ADBE Vector Graphic - Fill",
+                hd: !1
+            }, {
+                ty: "tr",
+                p: {
+                    a: 0,
+                    k: [380.76, 759.175],
+                    ix: 2
+                },
+                a: {
+                    a: 0,
+                    k: [0, 0],
+                    ix: 1
+                },
+                s: {
+                    a: 0,
+                    k: [100, 100],
+                    ix: 3
+                },
+                r: {
+                    a: 0,
+                    k: 0,
+                    ix: 6
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 7
+                },
+                sk: {
+                    a: 0,
+                    k: 0,
+                    ix: 4
+                },
+                sa: {
+                    a: 0,
+                    k: 0,
+                    ix: 5
+                },
+                nm: "Transform"
+            }],
+            nm: "Group 1",
+            np: 2,
+            cix: 2,
+            bm: 0,
+            ix: 1,
+            mn: "ADBE Vector Group",
+            hd: !1
+        }],
+        ip: 0,
+        op: 450,
+        st: 0,
+        bm: 0
+    }, {
+        ddd: 0,
+        ind: 4,
+        ty: 4,
+        nm: "Layer 4 Outlines",
+        sr: 1,
+        ks: {
+            o: {
+                a: 0,
+                k: 100,
+                ix: 11
+            },
+            r: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: [.667],
+                        y: [1]
+                    },
+                    o: {
+                        x: [.333],
+                        y: [0]
+                    },
+                    t: 4,
+                    s: [0]
+                }, {
+                    t: 70,
+                    s: [-360]
+                }],
+                ix: 10
+            },
+            p: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: 0,
+                        y: 1
+                    },
+                    o: {
+                        x: .333,
+                        y: 0
+                    },
+                    t: 6,
+                    s: [380.76, 320.825, 0],
+                    to: [26.54, 36.529, 0],
+                    ti: [0, 0, 0]
+                }, {
+                    i: {
+                        x: .667,
+                        y: 1
+                    },
+                    o: {
+                        x: 1,
+                        y: 0
+                    },
+                    t: 35,
+                    s: [540, 540, 0],
+                    to: [0, 0, 0],
+                    ti: [26.54, 36.529, 0]
+                }, {
+                    t: 73,
+                    s: [380.76, 320.825, 0]
+                }],
+                ix: 2
+            },
+            a: {
+                a: 0,
+                k: [540, 540, 0],
+                ix: 1
+            },
+            s: {
+                a: 0,
+                k: [100, 100, 100],
+                ix: 6
+            }
+        },
+        ao: 0,
+        shapes: [{
+            ty: "gr",
+            it: [{
+                ind: 0,
+                ty: "sh",
+                ix: 1,
+                ks: {
+                    a: 0,
+                    k: {
+                        i: [
+                            [0, -27.614],
+                            [27.614, 0],
+                            [0, 27.614],
+                            [-27.614, 0]
+                        ],
+                        o: [
+                            [0, 27.614],
+                            [-27.614, 0],
+                            [0, -27.614],
+                            [27.614, 0]
+                        ],
+                        v: [
+                            [50, 0],
+                            [0, 50],
+                            [-50, 0],
+                            [0, -50]
+                        ],
+                        c: !0
+                    },
+                    ix: 2
+                },
+                nm: "Path 1",
+                mn: "ADBE Vector Shape - Group",
+                hd: !1
+            }, {
+                ty: "fl",
+                c: {
+                    a: 0,
+                    k: [.317999985639, .685999971278, .395999983245, 1],
+                    ix: 4
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 5
+                },
+                r: 1,
+                bm: 0,
+                nm: "Fill 1",
+                mn: "ADBE Vector Graphic - Fill",
+                hd: !1
+            }, {
+                ty: "tr",
+                p: {
+                    a: 0,
+                    k: [699.24, 759.175],
+                    ix: 2
+                },
+                a: {
+                    a: 0,
+                    k: [0, 0],
+                    ix: 1
+                },
+                s: {
+                    a: 0,
+                    k: [100, 100],
+                    ix: 3
+                },
+                r: {
+                    a: 0,
+                    k: 0,
+                    ix: 6
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 7
+                },
+                sk: {
+                    a: 0,
+                    k: 0,
+                    ix: 4
+                },
+                sa: {
+                    a: 0,
+                    k: 0,
+                    ix: 5
+                },
+                nm: "Transform"
+            }],
+            nm: "Group 1",
+            np: 2,
+            cix: 2,
+            bm: 0,
+            ix: 1,
+            mn: "ADBE Vector Group",
+            hd: !1
+        }],
+        ip: 0,
+        op: 450,
+        st: 0,
+        bm: 0
+    }, {
+        ddd: 0,
+        ind: 5,
+        ty: 4,
+        nm: "Layer 5 Outlines",
+        sr: 1,
+        ks: {
+            o: {
+                a: 0,
+                k: 100,
+                ix: 11
+            },
+            r: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: [.667],
+                        y: [1]
+                    },
+                    o: {
+                        x: [.333],
+                        y: [0]
+                    },
+                    t: 4,
+                    s: [0]
+                }, {
+                    t: 70,
+                    s: [-360]
+                }],
+                ix: 10
+            },
+            p: {
+                a: 1,
+                k: [{
+                    i: {
+                        x: 0,
+                        y: 1
+                    },
+                    o: {
+                        x: .333,
+                        y: 0
+                    },
+                    t: 8,
+                    s: [282.345, 623.717, 0],
+                    to: [42.943, -13.953, 0],
+                    ti: [0, 0, 0]
+                }, {
+                    i: {
+                        x: .667,
+                        y: 1
+                    },
+                    o: {
+                        x: 1,
+                        y: 0
+                    },
+                    t: 35,
+                    s: [540, 540, 0],
+                    to: [0, 0, 0],
+                    ti: [42.943, -13.953, 0]
+                }, {
+                    t: 73,
+                    s: [282.345, 623.717, 0]
+                }],
+                ix: 2
+            },
+            a: {
+                a: 0,
+                k: [540, 540, 0],
+                ix: 1
+            },
+            s: {
+                a: 0,
+                k: [100, 100, 100],
+                ix: 6
+            }
+        },
+        ao: 0,
+        shapes: [{
+            ty: "gr",
+            it: [{
+                ind: 0,
+                ty: "sh",
+                ix: 1,
+                ks: {
+                    a: 0,
+                    k: {
+                        i: [
+                            [0, -27.614],
+                            [27.614, 0],
+                            [0, 27.614],
+                            [-27.614, 0]
+                        ],
+                        o: [
+                            [0, 27.614],
+                            [-27.614, 0],
+                            [0, -27.614],
+                            [27.614, 0]
+                        ],
+                        v: [
+                            [50, 0],
+                            [0, 50],
+                            [-50, 0],
+                            [0, -50]
+                        ],
+                        c: !0
+                    },
+                    ix: 2
+                },
+                nm: "Path 1",
+                mn: "ADBE Vector Shape - Group",
+                hd: !1
+            }, {
+                ty: "fl",
+                c: {
+                    a: 0,
+                    k: [.569000004787, .375999989229, .654999976065, 1],
+                    ix: 4
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 5
+                },
+                r: 1,
+                bm: 0,
+                nm: "Fill 1",
+                mn: "ADBE Vector Graphic - Fill",
+                hd: !1
+            }, {
+                ty: "tr",
+                p: {
+                    a: 0,
+                    k: [797.655, 456.283],
+                    ix: 2
+                },
+                a: {
+                    a: 0,
+                    k: [0, 0],
+                    ix: 1
+                },
+                s: {
+                    a: 0,
+                    k: [100, 100],
+                    ix: 3
+                },
+                r: {
+                    a: 0,
+                    k: 0,
+                    ix: 6
+                },
+                o: {
+                    a: 0,
+                    k: 100,
+                    ix: 7
+                },
+                sk: {
+                    a: 0,
+                    k: 0,
+                    ix: 4
+                },
+                sa: {
+                    a: 0,
+                    k: 0,
+                    ix: 5
+                },
+                nm: "Transform"
+            }],
+            nm: "Group 1",
+            np: 2,
+            cix: 2,
+            bm: 0,
+            ix: 1,
+            mn: "ADBE Vector Group",
+            hd: !1
+        }],
+        ip: 0,
+        op: 450,
+        st: 0,
+        bm: 0
+    }],
+    A2 = [],
+    P2 = {
+        v: I2,
+        meta: v2,
+        fr: S2,
+        ip: j2,
+        op: _2,
+        w: F2,
+        h: L2,
+        nm: k2,
+        ddd: T2,
+        assets: M2,
+        layers: R2,
+        markers: A2
+    },
+    w2 = t => e.jsxs(A, {
+        viewBox: "0 0 40 40",
+        ...t,
+        children: [e.jsx("circle", {
+            cx: "20",
+            cy: "20",
+            r: "20",
+            fill: "#EBEAF4"
+        }), e.jsx("path", {
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            d: "M7 21.1414C7 13.8937 12.9791 8 20.3519 8C27.7247 8 33.7037 13.8937 33.6431 21.1414C33.6431 26.1192 30.8556 30.4399 26.7349 32.67L27.3409 24.6657C27.3409 23.4312 26.2905 22.4356 24.9978 22.4356H15.6454C14.3526 22.4356 13.3022 23.4312 13.3022 24.6657L13.9082 32.67C9.78753 30.42 7 26.0993 7 21.1414ZM14.6962 15.9244C14.6962 19.0106 17.2414 21.4995 20.3521 21.4995C23.4628 21.4995 26.008 19.0106 26.008 15.9244C26.008 12.8382 23.4628 10.3493 20.3521 10.3493C17.2212 10.3493 14.6962 12.8581 14.6962 15.9244Z"
+        }), e.jsx("path", {
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            d: "M23.7855 29.0363L26.2424 27.4433H23.1192L22.1823 25.1943L21.2453 27.4433H18.1013L20.579 29.0363L19.3714 31.9225L22.1823 30.0859L24.9931 31.9225L23.7855 29.0363Z"
+        })]
+    }),
+    i0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "117",
+            height: "100",
+            viewBox: "0 0 117 100",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("path", {
+                d: "M55.6467 0.0976474C73.7228 -1.29706 74.8586 12.5791 88.5184 20.608C94.474 24.1097 115.435 23.6062 115.412 42.114C115.393 56.9337 98.0571 61.2968 96.0022 67.2112C93.9472 73.1294 94.5899 89.5115 78.4081 92.4874C57.059 96.4142 52.015 78.5665 39.1211 77.526C26.2273 76.4856 11.8725 75.3109 9.57843 59.0854C7.15358 41.9313 27.4117 34.7788 30.4418 25.9146C33.4719 17.0504 35.2877 1.66762 55.6467 0.0976474Z",
+                fill: "#e5eeff"
+            }), e.jsx("path", {
+                d: "M88.3228 70.8852L72.9161 55.4786C72.2207 54.7832 71.0907 54.7832 70.3988 55.4786L70.2284 55.6489L66.5845 52.005C68.9106 49.0809 70.3049 45.3813 70.3049 41.3619C70.3049 31.9219 62.6242 24.2446 53.1876 24.2446C43.751 24.2446 36.0703 31.9253 36.0703 41.3619C36.0703 50.7985 43.751 58.4792 53.1876 58.4792C57.0923 58.4792 60.691 57.1649 63.5769 54.957L67.2486 58.6287L67.0783 58.7991C66.3829 59.4945 66.3829 60.6245 67.0783 61.3165L82.4849 76.7231C82.8326 77.0708 83.288 77.2446 83.7435 77.2446C84.199 77.2446 84.6545 77.0708 85.0022 76.7231L88.3262 73.3991C89.0216 72.7037 89.0216 71.5736 88.3262 70.8817L88.3228 70.8852ZM87.0815 69.7412L81.3583 75.4644L87.0815 69.7412Z",
+                fill: "white"
+            }), e.jsx("path", {
+                d: "M87.0815 69.7412L81.3583 75.4644M88.3228 70.8852L72.9161 55.4786C72.2207 54.7832 71.0907 54.7832 70.3988 55.4786L70.2284 55.6489L66.5845 52.005C68.9106 49.0809 70.3049 45.3813 70.3049 41.3619C70.3049 31.9219 62.6242 24.2446 53.1876 24.2446C43.751 24.2446 36.0703 31.9253 36.0703 41.3619C36.0703 50.7985 43.751 58.4792 53.1876 58.4792C57.0923 58.4792 60.691 57.1649 63.5769 54.957L67.2486 58.6287L67.0783 58.7991C66.3829 59.4945 66.3829 60.6245 67.0783 61.3165L82.4849 76.7231C82.8326 77.0708 83.288 77.2446 83.7435 77.2446C84.199 77.2446 84.6545 77.0708 85.0022 76.7231L88.3262 73.3991C89.0216 72.7037 89.0216 71.5736 88.3262 70.8817L88.3228 70.8852Z",
+                stroke: "#0052FF",
+                "stroke-width": "1.2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+            }), e.jsx("path", {
+                d: "M53.1878 27.1965C45.375 27.1965 39.0225 33.5525 39.0225 41.3619C39.0225 49.1712 45.3784 55.5272 53.1878 55.5272C60.9971 55.5272 67.3531 49.1712 67.3531 41.3619C67.3531 33.5525 60.9971 27.1965 53.1878 27.1965Z",
+                fill: "white",
+                stroke: "#0052FF",
+                "stroke-width": "1.2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+            }), e.jsx("path", {
+                d: "M53.4902 29.9922C53.598 29.9991 56.178 30.2078 58.89 31.8628C61.4004 33.3962 64.495 36.5011 64.9852 42.5929",
+                fill: "white"
+            }), e.jsx("path", {
+                d: "M53.4902 29.9922C53.598 29.9991 56.178 30.2078 58.89 31.8628C61.4004 33.3962 64.495 36.5011 64.9852 42.5929",
+                stroke: "#0052FF",
+                "stroke-width": "1.2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+            }), e.jsx("path", {
+                d: "M38.9839 71.4111H24.2078C23.192 71.4111 22.3701 72.2423 22.3701 73.2581L22.3608 84.3402C22.3608 85.3561 23.192 86.1872 24.2078 86.1872H38.9839C39.9998 86.1872 40.8309 85.3561 40.8309 84.3402V73.2581C40.8309 72.2423 39.9998 71.4111 38.9839 71.4111ZM38.6145 75.336L32.0853 79.4179C31.7898 79.6026 31.402 79.6026 31.1064 79.4179L24.5773 75.336C24.3464 75.1883 24.2078 74.9389 24.2078 74.6711C24.2078 74.0524 24.882 73.683 25.4084 74.0062L31.5959 77.8757L37.7834 74.0062C38.3098 73.683 38.9839 74.0524 38.9839 74.6711C38.9839 74.9389 38.8454 75.1883 38.6145 75.336Z",
+                fill: "#0052FF"
+            }), e.jsx("path", {
+                d: "M113.459 36.7876H105.437C103.772 36.7876 102.428 38.1314 102.428 39.796V55.8409C102.428 57.5055 103.772 58.8493 105.437 58.8493H113.459C115.124 58.8493 116.467 57.5055 116.467 55.8409V39.796C116.467 38.1314 115.124 36.7876 113.459 36.7876ZM110.952 56.8437H107.944C107.663 56.8437 107.442 56.6231 107.442 56.3423C107.442 56.0615 107.663 55.8409 107.944 55.8409H110.952C111.233 55.8409 111.453 56.0615 111.453 56.3423C111.453 56.6231 111.233 56.8437 110.952 56.8437ZM114.462 53.8353H104.434V39.796H114.462V53.8353Z",
+                fill: "#0052FF"
+            }), e.jsx("path", {
+                d: "M33.8282 0.0257456C27.7212 -0.40546 22.6771 4.63865 23.1083 10.7457C23.4693 16.0506 28.1022 20.0518 33.4171 20.0518H37.1175C37.669 20.0518 38.1203 19.6005 38.1203 19.049C38.1203 18.4974 37.669 18.0462 37.1175 18.0462H33.4372C29.6967 18.0462 26.2671 15.6194 25.3345 11.9992C23.8403 6.18297 29.2555 0.757793 35.0717 2.262C38.7019 3.18458 41.1287 6.61417 41.1287 10.3546V11.4577C41.1287 12.2499 40.4167 13.0321 39.6245 13.0321C38.8322 13.0321 38.1203 12.2499 38.1203 11.4577V10.2042C38.1203 7.68717 36.3353 5.42084 33.8483 5.06985C30.4388 4.57848 27.5607 7.52673 28.1724 10.9563C28.5134 12.8717 30.0076 14.4561 31.9029 14.9074C33.748 15.3386 35.5029 14.7469 36.6562 13.5736C37.5487 14.7971 39.3337 15.4389 40.9682 14.787C42.312 14.2555 43.1343 12.8817 43.1343 11.4377V10.3446C43.1343 5.01971 39.1331 0.386755 33.8282 0.0257456ZM33.1062 13.0321C31.4416 13.0321 30.0978 11.6884 30.0978 10.0237C30.0978 8.35905 31.4416 7.0153 33.1062 7.0153C34.7709 7.0153 36.1146 8.35905 36.1146 10.0237C36.1146 11.6884 34.7709 13.0321 33.1062 13.0321Z",
+                fill: "#0052FF"
+            }), e.jsx("path", {
+                d: "M15.9647 32.0297C15.7641 31.438 15.2025 31.0168 14.5407 31.0168H3.50982C2.84797 31.0168 2.29642 31.438 2.08583 32.0297L0.110308 37.7156C0.0401121 37.9262 0 38.1468 0 38.3774V45.5575C0 46.3898 0.671879 47.0617 1.50421 47.0617C2.33653 47.0617 3.00841 46.3898 3.00841 45.5575V45.0561H15.0421V45.5575C15.0421 46.3798 15.714 47.0617 16.5463 47.0617C17.3686 47.0617 18.0505 46.3898 18.0505 45.5575V38.3774C18.0505 38.1568 18.0104 37.9262 17.9402 37.7156L15.9647 32.0297ZM3.50982 42.0477C2.67749 42.0477 2.00561 41.3758 2.00561 40.5435C2.00561 39.7112 2.67749 39.0393 3.50982 39.0393C4.34214 39.0393 5.01402 39.7112 5.01402 40.5435C5.01402 41.3758 4.34214 42.0477 3.50982 42.0477ZM14.5407 42.0477C13.7083 42.0477 13.0365 41.3758 13.0365 40.5435C13.0365 39.7112 13.7083 39.0393 14.5407 39.0393C15.373 39.0393 16.0449 39.7112 16.0449 40.5435C16.0449 41.3758 15.373 42.0477 14.5407 42.0477ZM2.00561 37.0337L3.27917 33.203C3.41956 32.8018 3.80063 32.5211 4.23184 32.5211H13.8187C14.2499 32.5211 14.6309 32.8018 14.7713 33.203L16.0449 37.0337H2.00561Z",
+                fill: "#0052FF"
+            }), e.jsx("path", {
+                d: "M77.9907 100V93.9832H82.0019V100H87.0159V91.9776H90.0244L79.9963 82.9524L69.9683 91.9776H72.9767V100H77.9907Z",
+                fill: "#0052FF"
+            }), e.jsx("path", {
+                d: "M82.3188 10.1865C84.535 10.1865 86.33 8.39148 86.33 6.17528C86.33 3.95908 84.535 2.16406 82.3188 2.16406C80.1026 2.16406 78.3076 3.95908 78.3076 6.17528C78.3076 8.39148 80.1026 10.1865 82.3188 10.1865ZM82.3188 12.1921C79.6413 12.1921 74.2964 13.5359 74.2964 16.2033V17.2061C74.2964 17.7577 74.7476 18.2089 75.2992 18.2089H89.3385C89.89 18.2089 90.3413 17.7577 90.3413 17.2061V16.2033C90.3413 13.5359 84.9963 12.1921 82.3188 12.1921Z",
+                fill: "#0052FF"
+            })]
+        })
+    }),
+    a0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "24",
+            height: "24",
+            viewBox: "0 0 32 38",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Family of Three"
+            }), e.jsxs("g", {
+                "clip-path": "url(#clip0_55_7644)",
+                children: [e.jsx("path", {
+                    d: "M2.42866 14.6336C3.53135 15.731 5.46297 15.5876 5.46297 15.5876C5.46297 15.5876 5.60705 13.6652 4.50436 12.5677C3.40167 11.4703 1.47005 11.6137 1.47005 11.6137C1.47005 11.6137 1.32597 13.5361 2.42866 14.6336Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M12.7915 13.1775C13.8942 12.0801 13.7501 10.1576 13.7501 10.1576C13.7501 10.1576 11.8185 10.0142 10.7158 11.1117C9.61308 12.2092 9.75716 14.1316 9.75716 14.1316C9.75716 14.1316 11.6888 14.275 12.7915 13.1775Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M3.0404 22.8827C4.14308 21.7852 3.999 19.8628 3.999 19.8628C3.999 19.8628 2.06738 19.7194 0.964694 20.8168C-0.137032 21.9152 0.00608688 23.8367 0.00608688 23.8367C0.00608688 23.8367 1.93771 23.9801 3.0404 22.8827Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M2.65783 18.8198C4.20236 19.032 5.65564 17.7577 5.65564 17.7577C5.65564 17.7577 4.60386 16.1392 3.05933 15.927C1.5148 15.7148 0.0615234 16.9891 0.0615234 16.9891C0.0615234 16.9891 1.1133 18.6076 2.65783 18.8198Z",
+                    fill: "#81B44C"
+                }), e.jsx("path", {
+                    d: "M8.70981 12.7973C8.92305 14.3345 7.64267 15.7809 7.64267 15.7809C7.64267 15.7809 6.01649 14.7341 5.80325 13.1969C5.59002 11.6597 6.8704 10.2133 6.8704 10.2133C6.8704 10.2133 8.49658 11.2601 8.70981 12.7973Z",
+                    fill: "#81B44C"
+                }), e.jsx("path", {
+                    d: "M11.1961 15.2062C9.65152 14.994 8.19824 16.2683 8.19824 16.2683C8.19824 16.2683 9.25002 17.8868 10.7946 18.099C12.3391 18.3112 13.7924 17.0369 13.7924 17.0369C13.7924 17.0369 12.7406 15.4184 11.1961 15.2062Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M5.14505 21.2279C4.93181 19.6907 6.2122 18.2443 6.2122 18.2443C6.2122 18.2443 7.83837 19.2911 8.05161 20.8283C8.26485 22.3655 6.98446 23.8119 6.98446 23.8119C6.98446 23.8119 5.35829 22.7651 5.14505 21.2279Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M15.1585 26.5603L16.4879 25.2372C11.8418 21.5548 5.76074 15.884 5.76074 15.884C5.76074 15.884 11.4586 21.9372 15.1585 26.5603Z",
+                    fill: "#8E715B"
+                }), e.jsx("path", {
+                    d: "M13.5271 23.4066V24.0853C11.3871 23.8444 8.36719 23.7459 8.36719 23.7459C8.36719 23.7459 11.388 23.6484 13.5271 23.4066Z",
+                    fill: "#8E715B"
+                }), e.jsx("path", {
+                    d: "M29.5717 14.6336C28.4691 15.731 26.5374 15.5876 26.5374 15.5876C26.5374 15.5876 26.3934 13.6652 27.496 12.5677C28.5987 11.4703 30.5304 11.6137 30.5304 11.6137C30.5304 11.6137 30.6744 13.5361 29.5717 14.6336Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M19.2099 13.1775C18.1072 12.0801 18.2513 10.1576 18.2513 10.1576C18.2513 10.1576 20.1829 10.0142 21.2856 11.1117C22.3883 12.2092 22.2442 14.1316 22.2442 14.1316C22.2442 14.1316 20.3126 14.275 19.2099 13.1775Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M28.9599 22.8827C27.8572 21.7852 28.0013 19.8628 28.0013 19.8628C28.0013 19.8628 29.9329 19.7194 31.0356 20.8168C32.1383 21.9143 31.9942 23.8367 31.9942 23.8367C31.9942 23.8367 30.0626 23.9801 28.9599 22.8827Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M29.3425 18.8198C27.798 19.032 26.3447 17.7577 26.3447 17.7577C26.3447 17.7577 27.3965 16.1392 28.941 15.927C30.4856 15.7148 31.9388 16.9891 31.9388 16.9891C31.9388 16.9891 30.8871 18.6076 29.3425 18.8198Z",
+                    fill: "#81B44C"
+                }), e.jsx("path", {
+                    d: "M23.2915 12.7973C23.0783 14.3345 24.3587 15.7809 24.3587 15.7809C24.3587 15.7809 25.9849 14.7341 26.1981 13.1969C26.4113 11.6597 25.1309 10.2133 25.1309 10.2133C25.1309 10.2133 23.5048 11.2601 23.2915 12.7973Z",
+                    fill: "#81B44C"
+                }), e.jsx("path", {
+                    d: "M20.8043 15.2062C22.3488 14.994 23.8021 16.2683 23.8021 16.2683C23.8021 16.2683 22.7503 17.8868 21.2058 18.099C19.6613 18.3112 18.208 17.0369 18.208 17.0369C18.208 17.0369 19.2598 15.4184 20.8043 15.2062Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M26.8553 21.2279C27.0686 19.6907 25.7882 18.2443 25.7882 18.2443C25.7882 18.2443 24.162 19.2911 23.9488 20.8283C23.7355 22.3655 25.0159 23.8119 25.0159 23.8119C25.0159 23.8119 26.6421 22.7651 26.8553 21.2279Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M16.843 26.5603L15.5137 25.2372C20.1597 21.5548 26.2409 15.884 26.2409 15.884C26.2409 15.884 20.543 21.9372 16.843 26.5603Z",
+                    fill: "#8E715B"
+                }), e.jsx("path", {
+                    d: "M18.4727 23.4066V24.0853C20.6127 23.8444 23.6326 23.7459 23.6326 23.7459C23.6326 23.7459 20.6118 23.6484 18.4727 23.4066Z",
+                    fill: "#8E715B"
+                }), e.jsx("path", {
+                    d: "M19.644 37.0742H12.3564C15.021 37.0742 16.0007 7.13599 16.0007 7.13599C16.0007 7.13599 16.9804 37.0742 19.644 37.0742Z",
+                    fill: "#8E715B"
+                }), e.jsx("path", {
+                    d: "M14.5332 3.7355C14.5332 5.28705 15.9999 6.5451 15.9999 6.5451C15.9999 6.5451 17.4667 5.28705 17.4667 3.7355C17.4667 2.18396 15.9999 0.925903 15.9999 0.925903C15.9999 0.925903 14.5332 2.18396 14.5332 3.7355Z",
+                    fill: "#638A3A"
+                }), e.jsx("path", {
+                    d: "M11.7218 7.66177C12.6632 8.8988 14.5957 9.02021 14.5957 9.02021C14.5957 9.02021 15.002 7.13599 14.0607 5.89896C13.1194 4.66193 11.1868 4.54053 11.1868 4.54053C11.1868 4.54053 10.7805 6.42475 11.7218 7.66177Z",
+                    fill: "#81B44C"
+                }), e.jsx("path", {
+                    d: "M20.2795 7.66177C19.3382 8.8988 17.4056 9.02021 17.4056 9.02021C17.4056 9.02021 16.9993 7.13599 17.9406 5.89896C18.8819 4.66193 20.8145 4.54053 20.8145 4.54053C20.8145 4.54053 21.2208 6.42475 20.2795 7.66177Z",
+                    fill: "#81B44C"
+                })]
+            }), e.jsx("defs", {
+                children: e.jsx("clipPath", {
+                    id: "clip0_55_7644",
+                    children: e.jsx("rect", {
+                        width: "32",
+                        height: "38",
+                        fill: "white"
+                    })
+                })
+            })]
+        })
+    }),
+    o0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "24",
+            height: "24",
+            viewBox: "0 0 52 52",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Unclaimed Money"
+            }), e.jsxs("g", {
+                "clip-path": "url(#clip0_55_7645)",
+                children: [e.jsx("path", {
+                    d: "M22.241 50.161L5.84391 37.36C5.65921 37.2157 5.50479 37.0364 5.3895 36.8323C5.27421 36.6283 5.20032 36.4035 5.17206 36.1708C5.1438 35.9382 5.16172 35.7022 5.2248 35.4765C5.28789 35.2508 5.39489 35.0397 5.53969 34.8554L32.3394 0.685819C32.6313 0.312815 33.0594 0.0709354 33.5296 0.0132929C33.9998 -0.0443497 34.4736 0.0869569 34.8471 0.37838L51.2442 13.1762C51.4289 13.3205 51.5833 13.4998 51.6986 13.7038C51.8139 13.9079 51.8878 14.1327 51.916 14.3653C51.9443 14.598 51.9264 14.8339 51.8633 15.0596C51.8002 15.2854 51.6932 15.4964 51.5484 15.6807L24.7455 49.8525C24.4538 50.2247 24.0264 50.4662 23.557 50.524C23.0876 50.5818 22.6144 50.4513 22.241 50.161Z",
+                    fill: "#4F8022"
+                }), e.jsx("path", {
+                    d: "M11.8876 51.2077L0.303505 33.9461C0.172826 33.7514 0.0818215 33.5328 0.0356984 33.3029C-0.0104247 33.073 -0.010761 32.8363 0.0347088 32.6063C0.0801785 32.3762 0.170562 32.1574 0.300687 31.9623C0.430812 31.7673 0.598124 31.5998 0.79305 31.4694L36.9016 7.29533C37.2945 7.03182 37.7761 6.93515 38.2403 7.02654C38.7045 7.11794 39.1134 7.38993 39.3772 7.78273L50.9613 25.0443C51.092 25.239 51.183 25.4575 51.2291 25.6875C51.2752 25.9174 51.2756 26.1541 51.2301 26.3841C51.1846 26.6142 51.0942 26.833 50.9641 27.0281C50.834 27.2231 50.6667 27.3906 50.4717 27.521L14.3632 51.6951C13.9703 51.9586 13.4887 52.0553 13.0245 51.9639C12.5603 51.8725 12.1514 51.6005 11.8876 51.2077Z",
+                    fill: "#BDE77B"
+                }), e.jsx("path", {
+                    d: "M50.9603 25.0443L39.3773 7.78273C39.1135 7.38993 38.7046 7.11794 38.2404 7.02654C37.7762 6.93515 37.2946 7.03182 36.9017 7.29533L35.4963 8.23585L46.7761 25.0443C46.9068 25.239 46.9978 25.4575 47.044 25.6875C47.0901 25.9174 47.0904 26.1541 47.045 26.3841C46.9995 26.6142 46.9091 26.833 46.779 27.0281C46.6489 27.2231 46.4815 27.3906 46.2866 27.521L11.5792 50.7545L11.8834 51.2077C12.1472 51.6005 12.5561 51.8725 13.0203 51.9639C13.4846 52.0553 13.9661 51.9586 14.359 51.6951L50.4676 27.521C50.6627 27.3909 50.8303 27.2236 50.9608 27.0286C51.0912 26.8337 51.1819 26.6149 51.2277 26.3848C51.2735 26.1548 51.2734 25.918 51.2275 25.6879C51.1816 25.4579 51.0909 25.2392 50.9603 25.0443Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M35.1347 30.063C35.4394 24.8194 31.4309 20.3212 26.1813 20.0162C20.9318 19.7111 16.4292 23.7146 16.1244 28.9582C15.8197 34.2018 19.8282 38.7 25.0778 39.005C30.3273 39.3101 34.8299 35.3066 35.1347 30.063Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M5.73462 28.1614C6.30018 29.0043 6.694 29.9505 6.89356 30.9458C7.09311 31.9411 7.09448 32.966 6.89758 33.9618C6.70068 34.9576 6.30939 35.9049 5.74608 36.7493C5.18276 37.5938 4.45849 38.3189 3.61468 38.8832L0.301411 33.9438C0.17103 33.7491 0.0803168 33.5306 0.0344623 33.3008C-0.0113921 33.071 -0.0114882 32.8344 0.0341797 32.6046C0.0798476 32.3748 0.170383 32.1562 0.300607 31.9614C0.43083 31.7666 0.598186 31.5994 0.793099 31.4693L5.73462 28.1614Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M8.58191 46.2821C10.2842 45.1373 12.3712 44.7149 14.3846 45.1075C16.3981 45.5002 18.1734 46.6758 19.3208 48.3763L14.3654 51.697C13.9722 51.9608 13.4905 52.0577 13.0259 51.9665C12.5614 51.8753 12.152 51.6035 11.8877 51.2107L8.58191 46.2821Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M45.5324 30.8331C44.9668 29.9903 44.5728 29.0442 44.3731 28.049C44.1734 27.0538 44.1718 26.029 44.3685 25.0332C44.5652 24.0374 44.9563 23.0901 45.5194 22.2456C46.0825 21.401 46.8066 20.6758 47.6503 20.1113L50.9646 25.0507C51.0948 25.2454 51.1854 25.4638 51.2311 25.6935C51.2769 25.9231 51.2769 26.1596 51.2313 26.3893C51.1856 26.619 51.0951 26.8375 50.965 27.0322C50.8349 27.2269 50.6676 27.3941 50.4729 27.5241L45.5324 30.8331Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M42.6862 12.7123C40.9839 13.857 38.8969 14.2794 36.8835 13.8868C34.87 13.4941 33.0947 12.3185 31.9473 10.6181L36.9027 7.29729C37.2959 7.03358 37.7776 6.93666 38.2422 7.02785C38.7067 7.11903 39.1161 7.39086 39.3804 7.78363L42.6862 12.7123Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M37.583 22.2805C37.4149 22.2802 37.2514 22.226 37.1164 22.1258C36.9815 22.0256 36.8822 21.8847 36.8333 21.7239C36.7844 21.5631 36.7884 21.3908 36.8446 21.2324C36.9009 21.0741 37.0065 20.9379 37.1459 20.844L40.8395 18.3706C40.9249 18.308 41.0221 18.2633 41.1253 18.2393C41.2284 18.2152 41.3354 18.2123 41.4397 18.2306C41.544 18.249 41.6435 18.2883 41.7322 18.3461C41.821 18.4039 41.8971 18.479 41.956 18.567C42.0149 18.655 42.0555 18.7541 42.0751 18.8581C42.0948 18.9622 42.0932 19.0692 42.0705 19.1726C42.0477 19.276 42.0043 19.3738 41.9428 19.46C41.8813 19.5462 41.8029 19.6191 41.7125 19.6743L38.019 22.1477C37.8901 22.2343 37.7383 22.2806 37.583 22.2805Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M9.99059 40.7535C9.82251 40.7532 9.65897 40.699 9.52402 40.5988C9.38907 40.4986 9.28983 40.3577 9.24091 40.1969C9.19198 40.0361 9.19595 39.8638 9.25223 39.7054C9.3085 39.5471 9.41411 39.4109 9.55353 39.317L13.2471 36.8436C13.3327 36.7863 13.4287 36.7464 13.5298 36.7262C13.6308 36.706 13.7348 36.7059 13.8359 36.7259C13.9369 36.7459 14.0331 36.7856 14.1188 36.8427C14.2045 36.8998 14.2781 36.9733 14.3354 37.0589C14.3928 37.1445 14.4327 37.2406 14.4529 37.3416C14.4731 37.4426 14.4732 37.5466 14.4532 37.6477C14.4332 37.7487 14.3935 37.8449 14.3363 37.9306C14.2792 38.0163 14.2057 38.0899 14.1201 38.1473L10.4266 40.6207C10.2977 40.7074 10.1459 40.7536 9.99059 40.7535Z",
+                    fill: "#6DA638"
+                }), e.jsx("path", {
+                    d: "M29.3046 33.6654C29.7928 33.1519 30.1159 32.504 30.2324 31.8052C30.3488 31.1064 30.2533 30.3887 29.9581 29.7447C29.6574 29.0366 29.1057 28.4645 28.409 28.1382C27.7122 27.812 26.9196 27.7547 26.1831 27.9772C25.9882 28.0276 25.7878 28.0768 25.5864 28.124L23.8061 25.4717C24.0726 25.3797 24.3551 25.3433 24.6363 25.3645C24.8383 25.3871 25.0411 25.3304 25.2022 25.2065C25.3633 25.0826 25.4701 24.901 25.5001 24.7C25.53 24.4989 25.4809 24.2941 25.3629 24.1286C25.245 23.963 25.0674 23.8497 24.8676 23.8123C24.1986 23.742 23.523 23.853 22.9116 24.1337L22.5667 23.6195C22.4508 23.4468 22.271 23.3272 22.0669 23.287C21.8628 23.2468 21.6511 23.2894 21.4783 23.4053C21.3056 23.5212 21.186 23.701 21.1458 23.9051C21.1056 24.1092 21.1482 24.3209 21.2641 24.4936L21.6412 25.0549C21.5801 25.1214 21.519 25.1889 21.459 25.2617C21.1182 25.6858 20.901 26.1957 20.8313 26.7353C20.7615 27.2748 20.842 27.8232 21.0638 28.32C21.2355 28.7674 21.5271 29.159 21.9064 29.4518C22.2858 29.7447 22.7384 29.9275 23.2148 29.9804C23.7697 30.0103 24.3262 29.9725 24.8719 29.8679L27.1622 33.2819C26.7024 33.5285 26.1834 33.6434 25.6625 33.614C25.4594 33.6226 25.2675 33.7097 25.1273 33.8569C24.9871 34.0041 24.9095 34.2 24.9107 34.4033C24.912 34.6066 24.992 34.8015 25.134 34.9469C25.276 35.0924 25.4689 35.1771 25.6721 35.1833H25.6818C26.5101 35.2151 27.3302 35.0087 28.0449 34.5888L28.4316 35.1651C28.489 35.2506 28.5627 35.324 28.6484 35.3811C28.7342 35.4381 28.8303 35.4777 28.9314 35.4976C29.0325 35.5175 29.1365 35.5173 29.2374 35.497C29.3384 35.4767 29.4344 35.4367 29.5199 35.3793C29.6055 35.3219 29.6789 35.2483 29.7359 35.1625C29.793 35.0767 29.8326 34.9806 29.8525 34.8795C29.8724 34.7784 29.8722 34.6745 29.8519 34.5735C29.8316 34.4725 29.7916 34.3765 29.7342 34.291L29.3046 33.6654ZM23.3283 28.4164C23.1402 28.3813 22.9648 28.2969 22.8201 28.1717C22.6753 28.0465 22.5664 27.8852 22.5046 27.7041C22.4129 27.5005 22.3699 27.2784 22.3788 27.0553C22.3877 26.8322 22.4484 26.6142 22.556 26.4186L23.8907 28.4079C23.702 28.426 23.5123 28.4303 23.323 28.4207L23.3283 28.4164ZM26.573 29.4876C26.9515 29.3625 27.3633 29.385 27.7258 29.5507C28.0884 29.7164 28.3749 30.013 28.528 30.381C28.6658 30.6859 28.7253 31.0204 28.7012 31.3541C28.6771 31.6878 28.57 32.0102 28.3898 32.2921L26.5173 29.5069L26.573 29.4876Z",
+                    fill: "#BDE77B"
+                })]
+            }), e.jsx("defs", {
+                children: e.jsx("clipPath", {
+                    id: "clip0_55_7645",
+                    children: e.jsx("rect", {
+                        width: "52",
+                        height: "52",
+                        fill: "white"
+                    })
+                })
+            })]
+        })
+    }),
+    n0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "24",
+            height: "24",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Dark Web Scan"
+            }), e.jsxs("g", {
+                "clip-path": "url(#clip0_260_313)",
+                children: [e.jsx("path", {
+                    d: "M3.62854 22.0048C3.30266 21.9088 3.0173 21.7369 2.80686 21.5099L0.757814 19.3035C0.461628 18.993 0.266918 18.6249 0.192375 18.2343C0.117833 17.8437 0.165961 17.4438 0.33214 17.073L2.1877 12.9173C2.39516 12.4473 2.78501 12.0473 3.29638 11.7797L6.01814 10.1632L17.9009 10.2901L20.7755 11.7797C21.2868 12.0473 21.6767 12.4473 21.8841 12.9173L23.7397 17.0709C23.9059 17.4417 23.954 17.8415 23.8795 18.2321C23.8049 18.6227 23.6103 18.9909 23.314 19.3013L21.2657 21.5093C21.0552 21.7364 20.7698 21.9083 20.444 22.0043L3.62854 22.0048Z",
+                    fill: "#4482C3"
+                }), e.jsx("path", {
+                    d: "M9.56154 13.096L4.45022 8.86828C4.27248 8.71851 4.14759 8.53149 4.08905 8.32731C4.03051 8.12317 4.04054 7.90966 4.11806 7.70986C4.9004 5.71735 7.54281 0 12.0363 0C16.5297 0 19.1721 5.71735 19.9544 7.70986C20.032 7.90962 20.0422 8.12308 19.9837 8.32726C19.9253 8.5314 19.8006 8.71846 19.623 8.86828L14.5103 13.096H9.56154Z",
+                    fill: "#285680"
+                }), e.jsx("path", {
+                    d: "M18.8625 21.3334H4.67337C3.96096 21.3334 3.38345 21.8109 3.38345 22.4V22.9333C3.38345 23.5225 3.96096 24 4.67337 24H18.8625C19.5749 24 20.1525 23.5225 20.1525 22.9333V22.4C20.1525 21.8109 19.5749 21.3334 18.8625 21.3334Z",
+                    fill: "#95A5A5"
+                }), e.jsx("path", {
+                    d: "M19.0405 21.281H5.03197L4.61339 14.4565C4.59829 14.2847 4.62565 14.1121 4.69382 13.9493C4.76199 13.7865 4.86954 13.6369 5.00991 13.5096C5.15027 13.3823 5.32051 13.28 5.51026 13.2089C5.7 13.1378 5.90528 13.0993 6.11358 13.0959H17.9596C18.1679 13.0993 18.3733 13.1376 18.5631 13.2087C18.7529 13.2798 18.9232 13.3821 19.0636 13.5094C19.2041 13.6367 19.3117 13.7864 19.3799 13.9492C19.4481 14.112 19.4755 14.2846 19.4604 14.4565L19.0405 21.281Z",
+                    fill: "#BDC3C7"
+                }), e.jsx("path", {
+                    d: "M15.5009 7.77436V8.56424C15.5009 9.10595 15.2411 9.6255 14.7786 10.009L13.7247 10.8805C13.5031 11.0638 13.24 11.2092 12.9505 11.3084C12.6609 11.4075 12.3506 11.4586 12.0372 11.4586C11.7238 11.4586 11.4135 11.4075 11.1239 11.3084C10.8343 11.2092 10.5712 11.0638 10.3496 10.8805L9.29447 10.0101C8.83194 9.62656 8.57219 9.10701 8.57213 8.5653V7.77436H10.5515C10.9449 7.77436 11.3223 7.64513 11.6004 7.4151C11.8787 7.18507 12.0349 6.87307 12.0349 6.54773C12.0349 6.87307 12.1912 7.18507 12.4694 7.4151C12.7476 7.64513 13.1249 7.77436 13.5184 7.77436H15.5009Z",
+                    fill: "#FDD7AD"
+                }), e.jsx("path", {
+                    d: "M15.5004 6.35206V7.77609H13.5197C13.3249 7.77609 13.132 7.74433 12.9521 7.68272C12.7721 7.62106 12.6085 7.53069 12.4708 7.41678C12.333 7.30287 12.2238 7.16764 12.1492 7.01884C12.0747 6.87 12.0363 6.71049 12.0363 6.54941V6.13873C13.1961 6.13112 14.3547 6.20247 15.5004 6.35206Z",
+                    fill: "#35495E"
+                }), e.jsx("path", {
+                    d: "M12.0362 6.13873V6.5478C12.0362 6.87313 11.8799 7.18513 11.6017 7.41521C11.3235 7.64524 10.9462 7.77447 10.5528 7.77447H8.57213V6.35206C9.71777 6.20247 10.8764 6.13112 12.0362 6.13873Z",
+                    fill: "#35495E"
+                }), e.jsx("path", {
+                    d: "M11.7679 18.6667C12.8365 18.6667 13.7028 17.9504 13.7028 17.0667C13.7028 16.183 12.8365 15.4667 11.7679 15.4667C10.6993 15.4667 9.83308 16.183 9.83308 17.0667C9.83308 17.9504 10.6993 18.6667 11.7679 18.6667Z",
+                    fill: "#ECF0F1"
+                }), e.jsx("path", {
+                    d: "M19.9648 7.73866C18.6349 6.98386 17.1029 6.50797 15.501 6.35202C14.3554 6.20238 13.1968 6.13103 12.0369 6.13865C10.8771 6.13103 9.71849 6.20238 8.57286 6.35202C6.97094 6.50797 5.43894 6.98386 4.10906 7.73866C4.11422 7.73068 4.11422 7.7184 4.11873 7.70986C4.90043 5.71735 7.54281 0 12.0369 0C16.531 0 19.1728 5.71735 19.9551 7.70986C19.9602 7.7184 19.9602 7.73068 19.9648 7.73866Z",
+                    fill: "#4482C3"
+                })]
+            }), e.jsx("defs", {
+                children: e.jsx("clipPath", {
+                    id: "clip0_260_313",
+                    children: e.jsx("rect", {
+                        width: "24",
+                        height: "24",
+                        fill: "white"
+                    })
+                })
+            })]
+        })
+    }),
+    r0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: 24,
+            height: 24,
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Identity"
+            }), e.jsx("mask", {
+                id: "mask0_260_44",
+                style: {
+                    maskType: "luminance"
+                },
+                maskUnits: "userSpaceOnUse",
+                x: 0,
+                y: 0,
+                width: 24,
+                height: 24,
+                children: e.jsx("path", {
+                    d: "M24.4918 0H0.719971V24H24.4918V0Z",
+                    fill: "white"
+                })
+            }), e.jsxs("g", {
+                mask: "url(#mask0_260_44)",
+                children: [e.jsx("path", {
+                    d: "M21.768 3.42822H3.4438C2.72158 3.42893 2.02912 3.76028 1.51843 4.34953C1.00775 4.93878 0.720581 5.73779 0.719971 6.5711V20.8571C0.720581 21.6905 1.00775 22.4895 1.51843 23.0787C2.02912 23.668 2.72158 23.9993 3.4438 24H21.768C22.4902 23.9993 23.1827 23.668 23.6934 23.0787C24.2041 22.4895 24.4912 21.6905 24.4918 20.8571V6.5711C24.4912 5.73779 24.2041 4.93878 23.6934 4.34953C23.1827 3.76028 22.4902 3.42893 21.768 3.42822Z",
+                    fill: "white"
+                }), e.jsx("path", {
+                    d: "M14.8344 0H10.3805C9.92097 0.000703311 9.48049 0.211627 9.15557 0.586518C8.83069 0.961412 8.64789 1.46967 8.64725 1.99985V4.28591C8.64789 4.81606 8.83069 5.32435 9.15557 5.69922C9.48049 6.07412 9.92097 6.28505 10.3805 6.28574H14.8344C15.2939 6.28505 15.7344 6.07412 16.0593 5.69922C16.3842 5.32435 16.567 4.81606 16.5676 4.28591V1.99985C16.567 1.46967 16.3842 0.961412 16.0593 0.586518C15.7344 0.211627 15.2939 0.000703311 14.8344 0Z",
+                    fill: "#ABB1B4"
+                }), e.jsx("path", {
+                    d: "M20.7774 10.2863H15.3297C15.1327 10.2863 14.9437 10.196 14.8044 10.0352C14.665 9.87442 14.5868 9.65639 14.5868 9.42904C14.5868 9.20169 14.665 8.98361 14.8044 8.82285C14.9437 8.6621 15.1327 8.57178 15.3297 8.57178H20.7774C20.9744 8.57178 21.1634 8.6621 21.3027 8.82285C21.442 8.98361 21.5203 9.20169 21.5203 9.42904C21.5203 9.65639 21.442 9.87442 21.3027 10.0352C21.1634 10.196 20.9744 10.2863 20.7774 10.2863Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M20.7774 14.8576H15.3297C15.1327 14.8576 14.9437 14.7673 14.8044 14.6065C14.665 14.4457 14.5868 14.2277 14.5868 14.0003C14.5868 13.773 14.665 13.5549 14.8044 13.3941C14.9437 13.2333 15.1327 13.1431 15.3297 13.1431H20.7774C20.9744 13.1431 21.1634 13.2333 21.3027 13.3941C21.442 13.5549 21.5203 13.773 21.5203 14.0003C21.5203 14.2277 21.442 14.4457 21.3027 14.6065C21.1634 14.7673 20.9744 14.8576 20.7774 14.8576Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M20.7774 19.4269H15.3297C15.1327 19.4269 14.9437 19.3366 14.8044 19.1758C14.665 19.015 14.5868 18.797 14.5868 18.5697C14.5868 18.3423 14.665 18.1242 14.8044 17.9634C14.9437 17.8027 15.1327 17.7124 15.3297 17.7124H20.7774C20.9744 17.7124 21.1634 17.8027 21.3027 17.9634C21.442 18.1242 21.5203 18.3423 21.5203 18.5697C21.5203 18.797 21.442 19.015 21.3027 19.1758C21.1634 19.3366 20.9744 19.4269 20.7774 19.4269Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M8.54124 13.291H8.54584L10.696 12.4466C10.7029 12.4033 10.7058 12.3594 10.7045 12.3155C10.7053 12.2723 10.6994 12.2294 10.6868 12.1887C10.6485 12.0601 10.5821 11.9451 10.4941 11.8547V10.7471C10.5258 10.4917 10.4939 10.2313 10.4023 9.99596C10.3107 9.76067 10.163 9.56027 9.97652 9.41802C9.81472 9.03319 9.55344 8.7157 9.22872 8.50939C8.904 8.30309 8.5318 8.21812 8.16344 8.26612C7.58832 8.30258 7.04256 8.57096 6.62152 9.02442C6.20044 9.47789 5.9308 10.0876 5.85964 10.7471C5.85964 11.152 5.8466 11.4702 5.83356 11.7129C5.83356 11.7634 5.82896 11.8095 5.82896 11.8494C5.73564 11.949 5.6688 12.0771 5.6362 12.2189C5.63088 12.2507 5.62804 12.283 5.62776 12.3155C5.65264 12.6708 5.72652 13.0193 5.8466 13.3477C5.86032 13.3911 5.8814 13.4309 5.90856 13.4648C5.93568 13.4987 5.9684 13.5261 6.0048 13.5453C6.01168 13.582 6.01452 13.6195 6.01324 13.6569C6.07364 14.159 6.29404 14.6171 6.63144 14.9418C6.60992 15.4982 6.47324 15.8827 6.28048 15.9793L4.56187 16.6377C4.32293 16.7295 4.10798 16.8895 3.93695 17.1028C3.76591 17.3161 3.64435 17.5758 3.58353 17.8578L3.35315 18.9299C3.34229 18.9859 3.34216 19.0439 3.35277 19.0999C3.36339 19.1559 3.38448 19.2086 3.41459 19.2542C3.44534 19.2996 3.48461 19.3363 3.52943 19.3616C3.57425 19.3869 3.62347 19.4002 3.67338 19.4005H8.58808C8.45208 19.2001 8.32892 18.9887 8.21948 18.7678C7.89884 18.12 7.72948 17.3872 7.728 16.6412V14.6113C7.72884 14.3207 7.8078 14.0377 7.95404 13.8012C8.10028 13.5647 8.30652 13.3864 8.54432 13.291H8.54124Z",
+                    fill: "#42A5F5"
+                }), e.jsx("path", {
+                    d: "M7.91384 13.291H7.90924L5.75904 12.4466C5.75236 12.403 5.7498 12.3588 5.75136 12.3146C5.75052 12.2714 5.75652 12.2285 5.76904 12.1879C5.80736 12.0593 5.87376 11.9443 5.96176 11.8538V10.7471C5.93012 10.4918 5.96192 10.2313 6.05356 9.99601C6.1452 9.76072 6.29284 9.56027 6.47936 9.41803C6.64112 9.03333 6.90224 8.71598 7.22684 8.50972C7.5514 8.30341 7.92344 8.2183 8.29164 8.26616C8.86676 8.30258 9.41252 8.57096 9.8336 9.02443C10.2546 9.47789 10.5243 10.0876 10.5954 10.7471C10.5954 11.1521 10.6085 11.4702 10.6216 11.7129C10.6216 11.7634 10.6262 11.8095 10.6262 11.8494C10.7194 11.949 10.7863 12.0771 10.8189 12.2189C10.8242 12.2507 10.8271 12.283 10.8274 12.3155C10.8025 12.6708 10.7286 13.0193 10.6085 13.3477C10.5948 13.3911 10.5737 13.4309 10.5466 13.4648C10.5194 13.4987 10.4867 13.5261 10.4503 13.5453C10.4434 13.582 10.4406 13.6195 10.4418 13.657C10.3814 14.159 10.161 14.6171 9.82368 14.9418C9.84516 15.4982 9.98188 15.8827 10.1746 15.9793L11.8948 16.6359C12.1337 16.7278 12.3486 16.8877 12.5197 17.1011C12.6907 17.3143 12.8123 17.5741 12.8731 17.8561L13.1035 18.9282C13.1143 18.9841 13.1145 19.0422 13.1038 19.0982C13.0932 19.1542 13.0722 19.2068 13.042 19.2525C13.0113 19.2979 12.972 19.3345 12.9272 19.3599C12.8824 19.3852 12.8332 19.3985 12.7832 19.3987H7.86852C7.99984 19.2064 7.47688 18.961 7.59056 18.7333C7.88004 18.1413 7.03456 18.3921 7.03456 17.5813L7.27952 14.9444C7.27952 14.3472 8.3984 13.4913 7.91152 13.2946L7.91384 13.291Z",
+                    fill: "#42A5F5"
+                })]
+            })]
+        })
+    }),
+    l0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "25",
+            height: "24",
+            viewBox: "0 0 25 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Monitoring"
+            }), e.jsxs("g", {
+                "clip-path": "url(#clip0_260_641)",
+                children: [e.jsx("mask", {
+                    id: "mask0_260_641",
+                    maskUnits: "userSpaceOnUse",
+                    x: "0",
+                    y: "0",
+                    width: "25",
+                    height: "24",
+                    children: e.jsx("path", {
+                        d: "M24.1677 0H0.603638V24H24.1677V0Z",
+                        fill: "white"
+                    })
+                }), e.jsxs("g", {
+                    mask: "url(#mask0_260_641)",
+                    children: [e.jsx("path", {
+                        d: "M17.0984 19.6355C17.0984 20.4986 16.822 21.3422 16.3042 22.0598C15.7863 22.7774 15.0503 23.3366 14.1892 23.6669C13.3281 23.9972 12.3805 24.0836 11.4663 23.9152C10.5522 23.7469 9.71246 23.3313 9.05342 22.721C8.39434 22.1108 7.94549 21.3333 7.76366 20.4868C7.58179 19.6404 7.67515 18.763 8.03184 17.9657C8.38853 17.1683 8.99256 16.4868 9.76752 16.0074C10.5425 15.5279 11.4537 15.272 12.3857 15.272C13.6356 15.272 14.8343 15.7317 15.7181 16.55C16.6019 17.3683 17.0984 18.4782 17.0984 19.6355Z",
+                        fill: "#FFA000"
+                    }), e.jsx("path", {
+                        d: "M20.6419 10.8226C19.3833 10.6582 18.1828 10.226 17.1349 9.55988C16.0869 8.89375 15.2199 8.01188 14.6018 6.9834C13.9837 5.95495 13.6313 4.80784 13.5724 3.63214C13.5136 2.45642 13.7496 1.28406 14.2622 0.207009C13.0527 -0.0598444 11.7936 -0.069123 10.5796 0.179868C9.36568 0.428859 8.22856 0.929631 7.25392 1.64448C6.27928 2.35932 5.49251 3.2696 4.95282 4.30677C4.41315 5.34393 4.13467 6.481 4.13834 7.63224V10.6774C4.1391 11.7447 3.88761 12.7992 3.40151 13.767C2.91541 14.7347 2.20648 15.5922 1.32447 16.2794C1.00492 16.5329 0.776832 16.871 0.670837 17.2481C0.564841 17.6252 0.586017 18.0233 0.731521 18.389C0.877027 18.7546 1.13989 19.0703 1.4848 19.2936C1.82972 19.5168 2.24016 19.637 2.66101 19.638H22.105C22.5278 19.6381 22.9403 19.5178 23.2867 19.2935C23.6332 19.0693 23.8968 18.7518 24.0419 18.3841C24.187 18.0165 24.2065 17.6165 24.0978 17.2382C23.9892 16.86 23.7576 16.5218 23.4344 16.2694C22.5771 15.5979 21.8845 14.7646 21.4029 13.8253C20.9213 12.886 20.6619 11.8622 20.6419 10.8226Z",
+                        fill: "#FFC107"
+                    }), e.jsx("path", {
+                        d: "M4.12855 10.8226C6.09108 10.5614 7.88647 9.65469 9.18622 8.26833C10.486 6.88198 11.2033 5.10869 11.2069 3.27283C11.2068 2.21703 10.9689 1.17286 10.5083 0.207034C11.7178 -0.0596538 12.9769 -0.0688125 14.1907 0.180244C15.4046 0.429301 16.5416 0.930086 17.5162 1.6449C18.4909 2.35971 19.2776 3.26992 19.8174 4.30702C20.3571 5.34411 20.6357 6.48104 20.6322 7.63229V10.6774C20.6314 11.7447 20.8829 12.7992 21.369 13.767C21.8551 14.7347 22.564 15.5922 23.4461 16.2794C23.7656 16.533 23.9937 16.871 24.0997 17.2481C24.2057 17.6252 24.1845 18.0234 24.039 18.389C23.8935 18.7546 23.6306 19.0703 23.2857 19.2936C22.9408 19.5169 22.5304 19.637 22.1095 19.6381H2.66549C2.24214 19.6387 1.82883 19.5187 1.48172 19.2943C1.1346 19.0699 0.870509 18.752 0.725299 18.3838C0.580091 18.0155 0.560814 17.6149 0.670086 17.2362C0.779358 16.8574 1.01188 16.5191 1.33607 16.267C2.1931 15.5957 2.88553 14.7628 3.36709 13.824C3.84865 12.8851 4.10826 11.8618 4.12855 10.8226Z",
+                        fill: "#FFC107"
+                    })]
+                })]
+            }), e.jsx("defs", {
+                children: e.jsx("clipPath", {
+                    id: "clip0_260_641",
+                    children: e.jsx("rect", {
+                        width: "24",
+                        height: "24",
+                        fill: "white",
+                        transform: "translate(0.333374)"
+                    })
+                })
+            })]
+        })
+    }),
+    c0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "24",
+            height: "25",
+            viewBox: "0 0 24 25",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Member Perks"
+            }), e.jsx("path", {
+                d: "M20.5652 12.7527L17.956 11.9231C17.8685 11.8944 17.7757 11.8801 17.6823 11.881H0.962756C0.856665 11.8801 0.751427 11.8977 0.653205 11.9327C0.554983 11.9677 0.465748 12.0194 0.390727 12.0849C0.315706 12.1504 0.256406 12.2283 0.216295 12.3141C0.176185 12.3998 0.156072 12.4917 0.157133 12.5843V22.4733C0.15665 22.7504 0.218819 23.0249 0.340076 23.2809C0.461333 23.537 0.639294 23.7697 0.863761 23.9656C1.08823 24.1616 1.35479 24.3169 1.64816 24.4228C1.94153 24.5286 2.25595 24.5829 2.57339 24.5825H18.6803C18.9978 24.5829 19.3122 24.5286 19.6056 24.4228C19.8989 24.3169 20.1655 24.1616 20.39 23.9656C20.6144 23.7697 20.7924 23.537 20.9137 23.2809C21.0349 23.0249 21.0971 22.7504 21.0966 22.4733V13.4133C21.0974 13.2687 21.0467 13.1275 20.9515 13.0091C20.8563 12.8908 20.7213 12.8012 20.5652 12.7527Z",
+                fill: "#FC1A40"
+            }), e.jsx("path", {
+                d: "M21.0966 13.4134V22.4728C21.097 22.7499 21.0349 23.0244 20.9136 23.2805C20.7924 23.5366 20.6144 23.7692 20.3899 23.9652C20.1655 24.1611 19.8989 24.3165 19.6055 24.4223C19.3122 24.5282 18.9977 24.5824 18.6803 24.582H10.6265V11.8816H17.6817C17.7751 11.8807 17.8679 11.895 17.9553 11.9237L20.5646 12.7533C20.7207 12.8016 20.8557 12.8911 20.9511 13.0094C21.0464 13.1276 21.0972 13.2688 21.0966 13.4134Z",
+                fill: "#C60034"
+            }), e.jsx("path", {
+                d: "M20.8064 5.17122C20.6716 4.69396 20.3975 4.25533 20.0108 3.89803C19.624 3.54074 19.1379 3.27697 18.5997 3.13242C18.0657 2.984 17.4964 2.96024 16.9486 3.06351C16.4008 3.16677 15.8936 3.39347 15.4773 3.72102L13.609 5.15522L13.2388 3.00392C13.1547 2.51806 12.9281 2.05946 12.5809 1.67268C12.2337 1.2859 11.7778 0.984113 11.2574 0.796645C11.0542 0.724618 10.8427 0.671887 10.6265 0.639363C10.1865 0.56105 9.73246 0.564391 9.29399 0.649171C8.85552 0.73395 8.44237 0.898272 8.08137 1.13147C7.60009 1.43382 7.22267 1.84529 6.98996 2.32137C6.75724 2.79745 6.67807 3.32001 6.76103 3.83252C6.84399 4.34504 7.08591 4.828 7.46062 5.22915C7.83534 5.63031 8.32858 5.93439 8.88699 6.10851L10.6265 6.6566L12.7685 7.34544H12.7844L16.5053 8.54078C16.8678 8.65141 17.2488 8.70853 17.6328 8.70979C18.1288 8.70808 18.618 8.60825 19.0635 8.4178C19.509 8.22735 19.8992 7.95123 20.2049 7.61021C20.5106 7.26918 20.7237 6.87212 20.8283 6.44885C20.9329 6.02558 20.9263 5.58712 20.8089 5.16642L20.8064 5.17122Z",
+                fill: "#FE9923"
+            }), e.jsx("path", {
+                d: "M19.8078 7.98144C19.211 8.45079 18.4367 8.71111 17.6334 8.7124C17.2494 8.71112 16.8684 8.654 16.5059 8.54339L12.785 7.34804H12.7691L10.6271 6.6592V0.641968C10.8421 0.673836 11.0526 0.725669 11.255 0.796584C11.7753 0.984052 12.2313 1.28584 12.5785 1.67262C12.9256 2.0594 13.1523 2.518 13.2364 3.00386L13.6065 5.15516L15.4749 3.72096C15.8912 3.39267 16.3987 3.16537 16.947 3.06171C17.4953 2.95806 18.0651 2.98168 18.5997 3.13022C19.1528 3.27902 19.6508 3.55355 20.0423 3.92568C20.4339 4.29781 20.7051 4.75415 20.828 5.24791C20.951 5.74166 20.9213 6.25508 20.742 6.73552C20.5627 7.21597 20.2403 7.64615 19.8078 7.98197V7.98144Z",
+                fill: "#FE8821"
+            }), e.jsx("path", {
+                d: "M23.8512 11.5579L22.7561 14.2013C22.696 14.3339 22.5917 14.4477 22.4566 14.5279C22.3216 14.6082 22.1621 14.6511 21.9987 14.6513C21.9053 14.6522 21.8125 14.6379 21.7251 14.6092L13.397 11.9658L12.6403 9.78621L10.6247 10.1797L8.85343 10.531L0.527241 7.88816C0.328828 7.82202 0.167573 7.69123 0.0774511 7.52335C-0.0126711 7.35547 -0.024624 7.16361 0.0441118 6.98819L1.15574 4.34479C1.26199 4.08345 1.42661 3.84312 1.64005 3.63771C1.85348 3.43231 2.11149 3.26593 2.39912 3.1482C2.68676 3.03047 2.9983 2.96374 3.31569 2.95187C3.63308 2.94 3.95002 2.98324 4.24813 3.07907L10.6265 5.10507L11.0614 5.24582C11.0614 5.24582 12.8009 8.00173 12.8492 8.00173C12.8815 8.00173 13.5742 7.66424 14.2503 7.34061C14.9264 7.01698 15.6032 6.68002 15.6032 6.68002L22.4006 8.84518C23.0041 9.03901 23.4956 9.43268 23.7688 9.94082C23.9056 10.1919 23.9835 10.4643 23.9976 10.7421C24.0118 11.0198 23.962 11.2972 23.8512 11.5579Z",
+                fill: "#FF3E75"
+            }), e.jsx("path", {
+                d: "M23.8506 11.5558L22.7555 14.1992C22.6953 14.3318 22.591 14.4455 22.456 14.5258C22.3209 14.606 22.1614 14.649 21.9981 14.6492C21.9047 14.6501 21.8119 14.6358 21.7245 14.6071L13.3971 11.9637L12.6403 9.78415L10.6247 10.1776V5.10461L11.0596 5.24537C11.0596 5.24537 12.7991 8.00127 12.8474 8.00127C12.8797 8.00127 13.5724 7.66378 14.2485 7.34015C14.9246 7.01652 15.6014 6.67956 15.6014 6.67956L22.3988 8.84473C23.0029 9.03856 23.495 9.43268 23.7682 9.94143C23.9046 10.1921 23.9822 10.4641 23.9964 10.7414C24.0106 11.0186 23.961 11.2956 23.8506 11.5558Z",
+                fill: "#FC1A40"
+            }), e.jsx("path", {
+                d: "M8.21092 11.8821V24.583H13.0428V11.8821H8.21092Z",
+                fill: "#FCBF29"
+            }), e.jsx("path", {
+                d: "M11.0621 5.24585L10.6272 6.28604L8.85593 10.5321L10.6272 11.0946L12.6428 11.7275L13.3995 11.9663L15.6063 6.67951L11.0621 5.24585Z",
+                fill: "#FCBF29"
+            }), e.jsx("path", {
+                d: "M13.0429 11.8815H10.6266V24.5824H13.0429V11.8815Z",
+                fill: "#FE9923"
+            }), e.jsx("path", {
+                d: "M15.6038 6.67896L13.3971 11.9636L12.6403 11.7248L10.6247 11.0919V6.28336L11.0596 5.24316L15.6038 6.67896Z",
+                fill: "#FE9923"
+            })]
+        })
+    }),
+    d0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "24",
+            height: "24",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Theft insurance"
+            }), e.jsx("mask", {
+                id: "mask0_260_234",
+                maskUnits: "userSpaceOnUse",
+                x: "0",
+                y: "0",
+                width: "25",
+                height: "25",
+                children: e.jsx("path", {
+                    d: "M24.2742 0.583008H0.72702V24.583H24.2742V0.583008Z",
+                    fill: "white"
+                })
+            }), e.jsxs("g", {
+                mask: "url(#mask0_260_234)",
+                children: [e.jsx("path", {
+                    d: "M12.3621 10.5131H12.3721L17.1782 8.84353C17.1936 8.75805 17.2 8.6711 17.1971 8.58424C17.199 8.49908 17.1856 8.4143 17.1575 8.33408C17.0717 8.08005 16.923 7.85284 16.726 7.67431V5.48436C16.726 3.86432 16.1569 3.22382 15.5681 2.85454C15.266 1.91349 14.0002 0.583008 11.5144 0.583008C10.2265 0.652357 9.00368 1.18134 8.06003 2.07728C7.11642 2.97324 6.51212 4.17902 6.35308 5.48344C6.35308 6.28245 6.32342 6.91287 6.29467 7.39301C6.29467 7.49381 6.28475 7.58362 6.28475 7.66333C6.0755 7.86092 5.92579 8.11518 5.85325 8.39639C5.84134 8.45921 5.835 8.52299 5.83437 8.58696C5.89016 9.2891 6.05557 9.97767 6.32433 10.6267C6.35499 10.7123 6.40203 10.7909 6.46267 10.8579C6.5233 10.9249 6.59639 10.979 6.67763 11.0171C6.69311 11.0895 6.69945 11.1637 6.69651 11.2379C6.83272 12.2308 7.32694 13.1363 8.0828 13.7779C8.03426 14.8775 7.72951 15.638 7.29886 15.8286L3.45376 17.1288C2.9199 17.31 2.43951 17.6255 2.05702 18.0461C1.67453 18.4667 1.4023 18.9788 1.26554 19.5351L0.745003 21.6581C0.720484 21.7687 0.720012 21.8835 0.743619 21.9943C0.767226 22.1051 0.81434 22.2093 0.881655 22.2995C0.950275 22.3892 1.03794 22.4619 1.13806 22.512C1.23819 22.5622 1.34816 22.5885 1.45972 22.5891H12.4593C12.1551 22.1934 11.8796 21.7757 11.6348 21.3393C10.918 20.06 10.5391 18.613 10.5353 17.1398V13.1227C10.5369 12.5485 10.7134 11.989 11.0405 11.5215C11.3676 11.054 11.8291 10.7016 12.3613 10.5131H12.3621Z",
+                    fill: "#806ED6"
+                }), e.jsx("path", {
+                    d: "M23.7734 12.4081L18.623 10.6231C18.4694 10.5691 18.3027 10.5691 18.1492 10.6231L12.9987 12.4081C12.8532 12.4583 12.7268 12.5537 12.6373 12.681C12.5478 12.8082 12.4997 12.9608 12.4997 13.1173V17.1354C12.4997 22.0404 17.8696 24.4218 18.0997 24.5226C18.1907 24.562 18.2886 24.5822 18.3874 24.5822C18.4862 24.5822 18.5841 24.562 18.6751 24.5226C18.9043 24.4237 24.2751 22.0404 24.2751 17.1354V13.1173C24.2747 12.9606 24.2262 12.808 24.1364 12.6808C24.0466 12.5536 23.9191 12.4582 23.7734 12.4081ZM21.6095 16.2025L18.9125 19.7019C18.8307 19.808 18.7287 19.896 18.6126 19.9609C18.4966 20.0257 18.3689 20.0659 18.2371 20.0791C18.1055 20.0923 17.9725 20.0782 17.8463 20.0376C17.7201 19.997 17.6032 19.9308 17.5028 19.8431L15.7857 18.343C15.594 18.1689 15.4771 17.9251 15.4598 17.664C15.4426 17.403 15.5265 17.1454 15.6935 16.9467C15.8604 16.7479 16.0972 16.6238 16.353 16.601C16.6087 16.5782 16.863 16.6585 17.0614 16.8247L18.0017 17.6494L20.0695 14.9701C20.1456 14.8578 20.2434 14.7627 20.3569 14.6904C20.4704 14.6182 20.5972 14.5704 20.7296 14.5499C20.8619 14.5295 20.997 14.5369 21.1264 14.5716C21.2558 14.6064 21.3769 14.6678 21.4822 14.7521C21.5875 14.8363 21.6747 14.9416 21.7385 15.0615C21.8024 15.1814 21.8414 15.3134 21.8534 15.4493C21.8653 15.5851 21.8498 15.722 21.8079 15.8516C21.766 15.9811 21.6984 16.1006 21.6095 16.2025Z",
+                    fill: "#433584"
+                })]
+            })]
+        })
+    }),
+    m0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "36",
+            height: "32",
+            viewBox: "0 0 36 32",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("title", {
+                children: "Fraud Scan"
+            }), e.jsx("path", {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                d: "M10.0455 30.4C10.4845 30.4 10.8409 30.7584 10.8409 31.2C10.8409 31.6416 10.4845 32 10.0455 32H4.47728C3.16478 32 2.09091 30.92 2.09091 29.6V24C2.09091 23.5584 2.44728 23.2 2.88637 23.2C3.32546 23.2 3.68182 23.5584 3.68182 24V29.6C3.68182 30.04 4.03978 30.4 4.47728 30.4H10.0455Z",
+                fill: "#3B3B3B"
+            }), e.jsx("path", {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                d: "M32.3182 24C32.3182 23.5584 32.6746 23.2 33.1137 23.2C33.5528 23.2 33.9091 23.5584 33.9091 24V29.6C33.9091 30.92 32.8353 32 31.5228 32H25.9546C25.5155 32 25.1591 31.6416 25.1591 31.2C25.1591 30.7584 25.5155 30.4 25.9546 30.4H31.5228C31.9603 30.4 32.3182 30.04 32.3182 29.6V24Z",
+                fill: "#3B3B3B"
+            }), e.jsx("path", {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                d: "M25.9546 1.6C25.5155 1.6 25.1591 1.2416 25.1591 0.800001C25.1591 0.3584 25.5155 0 25.9546 0H31.5228C32.8353 0 33.9091 1.08 33.9091 2.4V8.00001C33.9091 8.44161 33.5528 8.80001 33.1137 8.80001C32.6746 8.80001 32.3182 8.44161 32.3182 8.00001V2.4C32.3182 1.96 31.9603 1.6 31.5228 1.6H25.9546Z",
+                fill: "#3B3B3B"
+            }), e.jsx("path", {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                d: "M3.68182 8.00001C3.68182 8.44161 3.32546 8.80001 2.88637 8.80001C2.44728 8.80001 2.09091 8.44161 2.09091 8.00001V2.4C2.09091 1.08 3.16478 0 4.47728 0H10.0455C10.4845 0 10.8409 0.3584 10.8409 0.800001C10.8409 1.2416 10.4845 1.6 10.0455 1.6H4.47728C4.03978 1.6 3.68182 1.96 3.68182 2.4V8.00001Z",
+                fill: "#3B3B3B"
+            }), e.jsx("path", {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                d: "M1.29547 16.8C0.856379 16.8 0.500015 16.4416 0.500015 16C0.500015 15.5584 0.856379 15.2 1.29547 15.2H34.7046C35.1437 15.2 35.5 15.5584 35.5 16C35.5 16.4416 35.1437 16.8 34.7046 16.8H1.29547Z",
+                fill: "#BAB5B5"
+            }), e.jsx("path", {
+                d: "M27.7306 7.11072C26.218 6.9497 24.7293 6.61159 23.2949 6.10327C21.9789 5.63595 20.7165 5.02856 19.529 4.29145C19.2193 4.10086 18.8632 4 18.5 4C18.1368 4 17.7807 4.10086 17.471 4.29145C16.2835 5.02857 15.0211 5.63597 13.7051 6.10327C12.2707 6.6116 10.782 6.94972 9.26943 7.11075C8.78395 7.16083 8.33423 7.39015 8.00735 7.75431C7.68047 8.11846 7.49968 8.59155 7.5 9.08196V14.9719C7.50078 17.1452 8.0795 19.2788 9.17627 21.1519C10.273 23.025 11.848 24.5696 13.7382 25.6258L17.5404 27.7481C17.8333 27.9132 18.1635 27.9999 18.4994 28C18.8352 28.0001 19.1655 27.9136 19.4585 27.7487L23.2618 25.6258C25.152 24.5696 26.727 23.025 27.8237 21.1519C28.9205 19.2788 29.4992 17.1452 29.5 14.9719V9.08196C29.5003 8.59154 29.3195 8.11845 28.9927 7.75429C28.6658 7.39013 28.2161 7.1608 27.7306 7.11072Z",
+                fill: "#5095D4"
+            }), e.jsx("path", {
+                d: "M17.3613 20C17.0086 20.0004 16.6681 19.8701 16.4052 19.6339L12.9862 16.581C12.8443 16.455 12.7285 16.3021 12.6456 16.1311C12.5626 15.9601 12.514 15.7744 12.5026 15.5845C12.4912 15.3946 12.5172 15.2043 12.5791 15.0246C12.641 14.8448 12.7377 14.679 12.8634 14.5369C12.9892 14.3947 13.1417 14.2788 13.3121 14.1959C13.4825 14.113 13.6676 14.0647 13.8566 14.0538C14.0456 14.0428 14.2349 14.0695 14.4137 14.1321C14.5925 14.1948 14.7572 14.2924 14.8984 14.4191L17.2699 16.5362L22.0106 11.4562C22.2719 11.1769 22.6327 11.0131 23.014 11.0008C23.3953 10.9884 23.766 11.1285 24.0446 11.3902C24.3232 11.6527 24.4867 12.0155 24.4992 12.399C24.5117 12.7825 24.3723 13.1553 24.1114 13.4355L18.4123 19.5432C18.2778 19.688 18.1151 19.8032 17.9342 19.8818C17.7534 19.9604 17.5583 20.0006 17.3613 20Z",
+                fill: "white"
+            })]
+        })
+    }),
+    h0 = t => e.jsx(A, {
+        ...t,
+        children: e.jsxs("svg", {
+            width: "25",
+            height: "25",
+            viewBox: "0 0 25 25",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [e.jsx("mask", {
+                id: "mask0_9324_6531",
+                maskUnits: "userSpaceOnUse",
+                x: "0",
+                y: "0",
+                width: "25",
+                height: "25",
+                children: e.jsx("path", {
+                    d: "M24.7191 0.290161H0.947266V24.2902H24.7191V0.290161Z",
+                    fill: "white"
+                })
+            }), e.jsxs("g", {
+                mask: "url(#mask0_9324_6531)",
+                children: [e.jsx("path", {
+                    d: "M21.9953 3.71838H3.67109C2.94887 3.71909 2.25641 4.05044 1.74572 4.63969C1.23504 5.22894 0.947876 6.02795 0.947266 6.86126V21.1473C0.947876 21.9807 1.23504 22.7797 1.74572 23.3689C2.25641 23.9582 2.94887 24.2895 3.67109 24.2902H21.9953C22.7175 24.2895 23.41 23.9582 23.9207 23.3689C24.4314 22.7797 24.7185 21.9807 24.7191 21.1473V6.86126C24.7185 6.02795 24.4314 5.22894 23.9207 4.63969C23.41 4.05044 22.7175 3.71909 21.9953 3.71838Z",
+                    fill: "#D5E7FF"
+                }), e.jsx("path", {
+                    d: "M15.0622 0.290161H10.6082C10.1487 0.290864 9.70824 0.501788 9.38332 0.876679C9.05844 1.25157 8.87564 1.75983 8.875 2.29001V4.57607C8.87564 5.10622 9.05844 5.61451 9.38332 5.98938C9.70824 6.36428 10.1487 6.57521 10.6082 6.5759H15.0622C15.5216 6.57521 15.9621 6.36428 16.287 5.98938C16.6119 5.61451 16.7948 5.10622 16.7954 4.57607V2.29001C16.7948 1.75983 16.6119 1.25157 16.287 0.876679C15.9621 0.501788 15.5216 0.290864 15.0622 0.290161Z",
+                    fill: "#ABB1B4"
+                }), e.jsx("path", {
+                    d: "M21.0051 10.5765H15.5574C15.3604 10.5765 15.1714 10.4862 15.0321 10.3254C14.8927 10.1646 14.8145 9.94655 14.8145 9.7192C14.8145 9.49185 14.8927 9.27377 15.0321 9.11301C15.1714 8.95226 15.3604 8.86194 15.5574 8.86194H21.0051C21.2021 8.86194 21.3911 8.95226 21.5304 9.11301C21.6697 9.27377 21.748 9.49185 21.748 9.7192C21.748 9.94655 21.6697 10.1646 21.5304 10.3254C21.3911 10.4862 21.2021 10.5765 21.0051 10.5765Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M21.0051 15.1477H15.5574C15.3604 15.1477 15.1714 15.0574 15.0321 14.8966C14.8927 14.7358 14.8145 14.5178 14.8145 14.2904C14.8145 14.0631 14.8927 13.845 15.0321 13.6842C15.1714 13.5234 15.3604 13.4332 15.5574 13.4332H21.0051C21.2021 13.4332 21.3911 13.5234 21.5304 13.6842C21.6697 13.845 21.748 14.0631 21.748 14.2904C21.748 14.5178 21.6697 14.7358 21.5304 14.8966C21.3911 15.0574 21.2021 15.1477 21.0051 15.1477Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M21.0051 19.7171H15.5574C15.3604 19.7171 15.1714 19.6268 15.0321 19.466C14.8927 19.3052 14.8145 19.0872 14.8145 18.8599C14.8145 18.6325 14.8927 18.4144 15.0321 18.2536C15.1714 18.0929 15.3604 18.0026 15.5574 18.0026H21.0051C21.2021 18.0026 21.3911 18.0929 21.5304 18.2536C21.6697 18.4144 21.748 18.6325 21.748 18.8599C21.748 19.0872 21.6697 19.3052 21.5304 19.466C21.3911 19.6268 21.2021 19.7171 21.0051 19.7171Z",
+                    fill: "#607D8B"
+                }), e.jsx("path", {
+                    d: "M8.7686 13.5812H8.7732L10.9234 12.7368C10.9303 12.6935 10.9332 12.6496 10.9319 12.6057C10.9327 12.5625 10.9268 12.5196 10.9142 12.4789C10.8759 12.3503 10.8095 12.2353 10.7215 12.1449V11.0373C10.7532 10.7819 10.7213 10.5215 10.6297 10.2861C10.5381 10.0508 10.3904 9.85043 10.2039 9.70818C10.0421 9.32335 9.7808 9.00586 9.45608 8.79955C9.13136 8.59325 8.75916 8.50828 8.3908 8.55628C7.81568 8.59274 7.26992 8.86112 6.84888 9.31458C6.4278 9.76805 6.15816 10.3778 6.087 11.0373C6.087 11.4422 6.07396 11.7604 6.06092 12.0031C6.06092 12.0536 6.05632 12.0997 6.05632 12.1396C5.963 12.2392 5.89616 12.3673 5.86356 12.5091C5.85824 12.5409 5.8554 12.5732 5.85512 12.6057C5.88 12.961 5.95388 13.3095 6.07396 13.6379C6.08768 13.6813 6.10876 13.7211 6.13592 13.755C6.16304 13.7889 6.19576 13.8163 6.23216 13.8355C6.23904 13.8722 6.24188 13.9097 6.2406 13.9471C6.301 14.4492 6.5214 14.9073 6.8588 15.232C6.83728 15.7884 6.7006 16.1729 6.50784 16.2695L4.78923 16.9279C4.55029 17.0197 4.33534 17.1797 4.16431 17.393C3.99327 17.6063 3.87171 17.866 3.81089 18.148L3.58051 19.2201C3.56965 19.2761 3.56952 19.3341 3.58013 19.3901C3.59075 19.4461 3.61184 19.4988 3.64195 19.5444C3.6727 19.5898 3.71197 19.6265 3.75679 19.6518C3.80161 19.6771 3.85083 19.6904 3.90074 19.6907H8.81544C8.67944 19.4903 8.55628 19.2789 8.44684 19.058C8.1262 18.4102 7.95684 17.6774 7.95536 16.9314V14.9015C7.9562 14.6109 8.03516 14.3279 8.1814 14.0914C8.32764 13.8549 8.53388 13.6766 8.77168 13.5812H8.7686Z",
+                    fill: "#42A5F5"
+                }), e.jsx("path", {
+                    d: "M8.14144 13.5812H8.13684L5.98664 12.7368C5.97996 12.6932 5.9774 12.649 5.97896 12.6048C5.97812 12.5616 5.98412 12.5187 5.99664 12.4781C6.03496 12.3495 6.10136 12.2345 6.18936 12.144V11.0373C6.15772 10.782 6.18952 10.5215 6.28116 10.2862C6.3728 10.0509 6.52044 9.85043 6.70696 9.70819C6.86872 9.32349 7.12984 9.00614 7.45444 8.79988C7.779 8.59357 8.15104 8.50846 8.51924 8.55632C9.09436 8.59274 9.64012 8.86112 10.0612 9.31459C10.4822 9.76805 10.7519 10.3778 10.823 11.0373C10.823 11.4423 10.8361 11.7604 10.8492 12.0031C10.8492 12.0536 10.8538 12.0997 10.8538 12.1396C10.947 12.2392 11.0139 12.3673 11.0465 12.5091C11.0518 12.5409 11.0547 12.5732 11.055 12.6057C11.0301 12.961 10.9562 13.3095 10.8361 13.6379C10.8224 13.6813 10.8013 13.7211 10.7742 13.755C10.747 13.7889 10.7143 13.8163 10.6779 13.8355C10.671 13.8722 10.6682 13.9097 10.6694 13.9472C10.609 14.4492 10.3886 14.9073 10.0513 15.232C10.0728 15.7884 10.2095 16.1729 10.4022 16.2695L12.1224 16.9261C12.3613 17.018 12.5762 17.1779 12.7473 17.3913C12.9183 17.6045 13.0399 17.8643 13.1007 18.1463L13.3311 19.2184C13.3419 19.2743 13.3421 19.3324 13.3314 19.3884C13.3208 19.4444 13.2998 19.497 13.2696 19.5427C13.2389 19.5881 13.1996 19.6247 13.1548 19.6501C13.11 19.6754 13.0608 19.6887 13.0108 19.6889H8.09612C8.22744 19.4966 7.70448 19.2512 7.81816 19.0235C8.10764 18.4315 7.26216 18.6823 7.26216 17.8715L7.50712 15.2346C7.50712 14.6374 8.626 13.7815 8.13912 13.5848L8.14144 13.5812Z",
+                    fill: "#42A5F5"
+                })]
+            })]
+        })
+    });
+var E2 = {
+    VITE_RECAPTCHA_DEV_PROXY_TOKEN: "",
+    VITE_FORM_HCAPTCHA_REPORT_VELOCITY_TOKEN: "0bd38479-4d47-4681-b5f5-5d012fa225c4",
+    VITE_APM_URL: "https://gap01.beenverified.com/collect",
+    VITE_HCAPTCHA_SITE_KEY: "2004a996-692e-457d-acb1-aea3de47d963",
+    VITE_RECAPTCHA_SITE_KEY: "",
+    VITE_ASTROLOGY_API_KEY: "8aacd98ff1f872397e6f49f9ee87752a497159e8",
+    VITE_ASTROLOGY_API_USER: "628813",
+    VITE_PATH_PREFIX: "/rf",
+    VITE_TARGET_ENV: "production",
+    VITE_TURNSTILE_SITE_KEY: "0x4AAAAAAANy10csBBDGj3lU",
+    VITE_APM_KEY: "d1a8d2e0-ca0b-03fd-a3f1-9c5a0a0cb959",
+    BASE_URL: "/rf",
+    MODE: "production",
+    DEV: !1,
+    PROD: !0,
+    SSR: !1
+};
+const De = `${window.location.protocol}//${window.location.host}`,
+    B2 = {
+        detailed_person_report: {
+            id: "detailed_person_report",
+            display: "Person",
+            eventLabel: "Person"
+        },
+        reverse_phone_report: {
+            id: "reverse_phone_report",
+            display: "Phone",
+            eventLabel: "Phone"
+        },
+        property_report: {
+            id: "property_report",
+            display: "Property",
+            eventLabel: "Property"
+        },
+        vehicle_report: {
+            id: "vehicle_report",
+            display: "Vehicle",
+            eventLabel: "Vehicle"
+        },
+        social_network_report: {
+            id: "social_network_report",
+            display: "Email",
+            eventLabel: "Email"
+        },
+        username_report: {
+            id: "username_report",
+            display: "Username",
+            eventLabel: "Username"
+        },
+        sex_offender_report: {
+            id: "sex_offender_report",
+            display: "Neighborhood",
+            eventLabel: "Neighborhood"
+        },
+        obituary_report: {
+            id: "obituary_report",
+            display: "Obituary",
+            eventLabel: "Obituary"
+        },
+        ancestry_report: {
+            id: "ancestry_report",
+            display: "Ancestor",
+            eventLabel: "Ancestor"
+        },
+        unclaimed_money_report: {
+            id: "unclaimed_money_report",
+            display: "Unclaimed Money",
+            eventLabel: "Unclaimed Money"
+        },
+        contact_report: {
+            id: "contact_report",
+            display: "Contact Pro",
+            eventLabel: "Contact"
+        },
+        phone_fraud_report: {
+            id: "phone_fraud_report",
+            display: "Phone Fraud",
+            eventLabel: "Phone Fraud"
+        },
+        email_fraud_report: {
+            id: "email_fraud_report",
+            display: "Email Fraud",
+            eventLabel: "Email Fraud"
+        },
+        ip_fraud_report: {
+            id: "ip_fraud_report",
+            display: "IP Fraud",
+            eventLabel: "IP Fraud"
+        },
+        url_fraud_report: {
+            id: "url_fraud_report",
+            display: "URL Fraud",
+            eventLabel: "Url Fraud"
+        }
+    },
+    Y = {
+        images: {
+            imgClaimReport: ps,
+            imgDarkWebSection: Cs,
+            imgClaimedReport: us,
+            imgMonitoring: fs,
+            brandLogo: xs,
+            brandLogoMobile: gs,
+            imgAppleStore: bs,
+            imgGoogleStore: ys,
+            master: Is,
+            visa: vs,
+            american_express: Ss,
+            discover: js,
+            genericCreditCard: _s,
+            paypal: Fs,
+            googlePay: Ls,
+            paymentRequired: ks,
+            applePay: Ts,
+            venmo: Ms,
+            venmoButton: Rs,
+            searchLogo: As,
+            complianceLogo: Ps,
+            imgDarkWebEmail: ws,
+            imgNoProperty: Es,
+            imgExampleAircraft: Bs,
+            imgExampleWatercraft: Vs,
+            imgExampleAutomobile: Hs,
+            monitoringBell: Ds,
+            imgIdHub: Ns,
+            imgAddressGeneric: zs,
+            imgBell: Zs,
+            imgDarkWebScan: Us,
+            imgSpecializedBackgroundCheck: Gs,
+            imgSpecializedUnclaimedMoney: Ws,
+            imgReportRating: qs,
+            imgSuccessfulUpgrade: $s,
+            imgComputerLimitReached: Ys,
+            pdfLogo: Ks,
+            img24hr: Js,
+            neighborSpoofing: Qs,
+            imgAnimatedPersonMagnifying: Xs,
+            imgMagnifyingGlassNoResultsPage: Os,
+            imgMapDefaultPin: ei,
+            imgMapMainHomePin: ti,
+            imgMapSecondaryPin: si,
+            imgMonitorBanner: ii,
+            imgMobileExpIcon: ai,
+            imgCopyIcon: oi,
+            imgContactlessIcon: ni,
+            imgUpdatesIcon: ri,
+            imgEtagsLogo: li,
+            imgAddVehicle: ci,
+            imgNHFacts: di,
+            imgMarketTrends: mi,
+            imgAmenities: hi,
+            imgWhereIsVin: pi,
+            imgMyAccountVin: Ci,
+            imgWhereIsVinV2: ui,
+            imgWhatIsAVin: fi,
+            imgWhatIsAVinV2: xi,
+            imgCheckList: gi,
+            imgAppStoreBadge: bi,
+            imgGooglePlayBadge: yi,
+            imgMobileFreemium: Ii,
+            imgFraudCheck: vi,
+            bvMobileBannerIcon: Si,
+            ownershipHistoryImages: {
+                imgCircleUser: ji
+            },
+            recallImages: {
+                imgSeverityCritical: _i,
+                imgSeverityHigh: Fi,
+                imgSeverityLow: Li,
+                imgSeverityMedium: ki,
+                imgSeverityNone: Ti,
+                imgClock: Mi,
+                imgDollar: Ri,
+                imgEmission: Ai,
+                imgSafety: Pi,
+                imgCampaign: wi
+            },
+            imgPremiumBadge: Ei,
+            imgTitleRegistration: Bi,
+            imgTitleChecks: Vi,
+            accidentsCoverageMapImage: "https://bv-content.beenverified.com/fit-in/980x0/filters:format(png)/filters:quality(60)/accident_coverage_map.png",
+            rewardsBannerMobile: Re,
+            rewardsBannerDesktop: Ae,
+            myGarageCtaImage: Hi,
+            rewardsCtaImage: Di,
+            imgFallbackSexOffender: Pe,
+            verificationEmail: Ni,
+            imgMapBoxPin: zi,
+            imgAreaPin: Zi,
+            imgMailBox: Ui,
+            imgReferralsIcon: Gi,
+            imgCustomerService: Wi,
+            imgExpiredEmailLink: qi,
+            imgFallbackProperty: $i,
+            imgPlaceholderSexOffender: Pe,
+            imgNoVehicleImageProvided: Yi,
+            imgDashMoney: Ki,
+            imgDashBell: Ji,
+            imgDashHacker: Qi,
+            imgDashId: Xi,
+            imgDashPrize: Oi,
+            imgDashUser: ea,
+            imgDashFraud: ta,
+            imgNoticeLeave: sa,
+            imgMyGarage: {
+                imgMyGarageBrake: ia,
+                imgMyGarageOilChange: aa,
+                imgMyGarageSellYourCar: oa,
+                imgMyGarageStar: na,
+                imgMyGarageTireChange: ra,
+                imgMyGarageTitleCheck: la
+            },
+            nmvtisLogo: ca,
+            imgToggleToSatellite: da,
+            imgToggleToStreet: ma,
+            imgPerksBanner: Ae,
+            imgPerksBannerMob: Re,
+            imgRadialCar: ha,
+            imgDefaultContactSearchMessage: pa,
+            imgNoContactResultsFound: Ca,
+            imgContactSearchRightArrow: ua,
+            imgSaveListProperty: fa,
+            imgPremiumData: {
+                imgPremiumFrame: xa,
+                imgPremiumSearchIcon: ga,
+                imgCheckIcon: ba,
+                imgCloseIcon: ya
+            },
+            imgFlowerObituary: Ia,
+            imgCakeRounded: va,
+            familyTreeImages: {
+                imgRelativesQuickAdd: Sa,
+                imgPetCreator: ja,
+                imgRelativesSearch: _a,
+                imgFamilyTreeBackground: Fa,
+                imgFamilyTreePlaceholder: La,
+                imgFamilyTreeAddRelative: ka,
+                imgFamilyTreeDeceased: Ta,
+                imgFamilyTreePetIcon: Ma,
+                imgFamilyTreeOriginalMember: Ra,
+                imgFamilyTreeCheckIcon: Aa,
+                imgFamilyTreeMapBackground: Pa,
+                imgFamilyTreeMapPin: wa,
+                imgFamilyTreeMapDeceseased: Ea,
+                imgFamilyTreeSearch: Ba,
+                imgFamilyTree: Va,
+                imgFamilyTreeNames: Ha,
+                imgFamilyTreeMainDetails: Da,
+                imgFamilyTreeMapPinMarker: Na,
+                imgFamilySearchIcon: za,
+                imgFamilySearchTreeIcon: Za,
+                imgFamilyTreeBuilder: Ua,
+                imgFamilyTreeBuilderBlue: Ga,
+                imgFamilyTreeAILogo: Wa,
+                imgFamilyTreeStarsIcon: qa,
+                imgFamilySearch: $a,
+                imgFamilyTreeCameraIcon: Ya,
+                imgFamilyTreeCloudUploadIcon: Ka,
+                imgFamilyTreePhotoPlaceholderIcon: Ja,
+                imgFamilyAlbumEmpty: Qa,
+                bvLogoPng: Xa,
+                imgFamilyTreeViewDocument: Oa,
+                imgCreateFamilyMemberIcon: eo,
+                imgFamilyTreeDeathIndexIcon: to
+            },
+            ancestor: {
+                imgAncestorReportFamilyIcon: so
+            },
+            imgTreeOfLife: io,
+            imgSingleTree: ao,
+            imgInfinity: oo,
+            imgPersonSearch: no,
+            imgRadialProperty: ro,
+            astrology: {
+                imgAstrologyNumerology: lo,
+                imgAstrologyNumerologyV2: co,
+                imgAstrologyNumerologyLoading: mo,
+                compatibilityImg: ho,
+                aries: po,
+                taurus: Co,
+                gemini: uo,
+                cancer: fo,
+                leo: xo,
+                virgo: go,
+                libra: bo,
+                scorpio: yo,
+                sagittarius: Io,
+                capricorn: vo,
+                aquarius: So,
+                pisces: jo,
+                empty: _o,
+                emptyBackground: Fo,
+                smallAries: Lo,
+                smallTaurus: ko,
+                smallGemini: To,
+                smallCancer: Mo,
+                smallLeo: Ro,
+                smallVirgo: Ao,
+                smallLibra: Po,
+                smallScorpio: wo,
+                smallSagittarius: Eo,
+                smallCapricorn: Bo,
+                smallAquarius: Vo,
+                smallPisces: Ho,
+                smallAscendant: Do
+            },
+            astrologyStandalone: {
+                imgOnboardingBg: No,
+                AstrologyIcon: zo
+            },
+            imgRocket: Zo,
+            premiumModalCrown: Uo,
+            premiumModalBanner: Go,
+            premiumModalBannerMob1: Wo,
+            premiumModalBannerMob2: qo,
+            premiumModalPersonIcon: we,
+            premiumModalPhoneIcon: Ee,
+            premiumModalPropertyIcon: Be,
+            relativeInsightIcon: $o,
+            downsellModalBackground: Yo,
+            downsellSpecialOfferImg: Ko,
+            fourMainPersonalityTypes: Jo,
+            fourMainPersonalityTypesMobile: Qo,
+            personalityColorBanner: Xo,
+            personalityColorBar: Oo,
+            colorBar: en,
+            personalityTraitsLogo: tn,
+            errorComputer: sn,
+            personalityTraitsModal: an,
+            personalityTraitType: on,
+            personalityTraitsModalDots: nn,
+            personalityTraits: {
+                analyst: rn,
+                diplomats: ln,
+                explorers: cn,
+                sentinels: dn,
+                agreeableness: mn,
+                conscientiousness: hn,
+                extraversion: pn,
+                neuroticism: Cn,
+                openness: un,
+                stability: fn,
+                compliance: xn,
+                dominance: gn,
+                influence: bn
+            },
+            sponsoredAgentPhoto: {
+                timPhoto: yn,
+                yingPhoto: In,
+                generalPhoto: vn
+            },
+            imgSingleSignOnCta: Sn,
+            ownerSearchGenericCta: jn,
+            cancelDownsellBackground: _n,
+            cancelDownsellBackgroundMobile: Fn,
+            trustPilotIcon: Ln,
+            CourtRecordsImages: {
+                imgCriminalTraffic: kn,
+                imgBankruptcies: Tn,
+                imgLicenses: Mn
+            },
+            searchpal: Rn,
+            staypal: An,
+            staypalOnline: Pn,
+            imgBellCurve: wn,
+            imgBellCurveNull: En,
+            imgVerticalArrow: Bn,
+            imgVerticalArrowNull: Vn,
+            imgMigrationCta: Hn,
+            imgUnclaimedMoneyBannerLogo: Dn,
+            imgFamilySearchAncestor: Nn,
+            group2Icon: zn,
+            reactivationRedesignImages: {
+                reactivationFireIcon: Zn,
+                reactivationMembershipIcon: Un,
+                reactivationSwitchPlanIcon: Gn,
+                reactivationLock: Wn
+            },
+            imgCreateList: qn,
+            damageHistoryIcons: {
+                imgAccidentsIcon: $n,
+                imgDamagesIcon: Yn,
+                imgSalvagesIcon: Kn,
+                imgRepairsIcon: Jn
+            },
+            titleHistoryIcons: {
+                imgTitleBrandsIcon: Qn,
+                imgTitleRecordsIcon: Xn,
+                imgLiensIcon: On,
+                imgImpoundsIcon: e2
+            }
+        },
+        animations: {
+            personalityTraitsLoading: P2
+        },
+        links: {
+            appsFlyerLink: "https://beenverified.onelink.me/5mdJ/us28hbjx",
+            baseUrl: `${De}${"/rf".includes("/")?"/rf":"//rf"}`,
+            joinLink: "https://www.beenverified.com/lp/32fc4f/4/subscribe",
+            brandLink: E2.VITE_DEV_PROXY_SEARCH_PERSON_TEASER ? "" : `${De}`,
+            aboutLink: "https://beenverified.com/about",
+            fcraLink: "https://www.beenverified.com/about/fcra/",
+            doDontsLink: "https://www.beenverified.com/about/dos-donts/",
+            tosLink: "https://www.beenverified.com/faq/terms-conditions/",
+            privacyLink: "https://www.beenverified.com/faq/privacy/",
+            contactLink: "https://www.beenverified.com/contact/",
+            FaqLink: "https://beenverified.com/faq/",
+            dontSellInfoLink: "https://www.beenverified.com/svc/optout/search/optouts",
+            affiliateLink: "https://www.beenverified.com/affiliates",
+            peopleSearchLink: "https://www.beenverified.com/people/",
+            reversePhoneLink: "https://www.beenverified.com/reverse-phone/",
+            emailLookupLink: "https://www.beenverified.com/email-search/",
+            reverseAddressLink: "https://www.beenverified.com/reverse-address-lookup/",
+            contactForm: "https://www.beenverified.com/contact/",
+            supportLink: "http://support.beenverified.com/",
+            twitterLink: "",
+            facebookLink: "",
+            blogLink: "",
+            brandIosUrl: "https://apps.apple.com/us/app/beenverified-background-check/id342585873?utm_source=beenverified&utm_medium=internal&utm_campaign=",
+            brandAndroidUrl: "https://play.google.com/store/apps/details?id=com.beenverified.android&hl=en_US&utm_source=beenverified&utm_medium=internal&utm_campaign=",
+            rapidsLookupLink: "https://rpds.beenverified.com/rpds/lookup",
+            etagsPartnerUrl: "https://www.etags.com/app/us?utm_source=bv",
+            mrRogersBaseUrl: "/ss/mrg",
+            billingLink: "https://www.beenverified.com/faq/billing/",
+            customPlanLink: "https://docs.google.com/forms/d/e/1FAIpQLSdsuNU5p7oD3CX3VvEMrBP1kvG3AodnhSvDytnb36rDVpcpxg/viewform",
+            mapboxStyleUrl: "mapbox://styles/beenverified/cloywa73e00sd01qnb8162waw",
+            dataDeckRootURI: "hk/dd/v2",
+            marketplaceBaseUrl: "https://www.bumper.com/marketplace/",
+            accidentDisclaimerURL: "https://support.beenverified.com/hc/en-us/articles/16578808406811",
+            chatLink: "https://www.beenverified.com/chat/",
+            vehicleReportInquiryURL: "https://www.beenverified.com/contact/vehicle-history-report-inquiry/",
+            nmvtisGlossaryURL: "https://vehiclehistory.bja.ojp.gov/nmvtis_glossary",
+            nmvtisStatesURL: "https://vehiclehistory.bja.ojp.gov/nmvtis_states",
+            nmvtisDataProvidersURL: "https://vehiclehistory.bja.ojp.gov/nmvtis_vehiclehistory",
+            nmvtisVehicleHistoryURL: "http://vehiclehistory.bja.ojp.gov/",
+            topHapBaseUrl: "https://widgets.tophap.com/api/widgets",
+            monocleLeadsEndpoint: "https://www.beenverified.com/mcl/v1/leads",
+            cancelSurveyLink: "https://docs.google.com/forms/d/e/1FAIpQLSc7YnY1xB6fOht_hHjVb4jSk2Wh5JpdM7ywEAgdZrkm2ubt8Q/viewform",
+            propertySummaryFeedbackLink: "https://docs.google.com/forms/d/e/1FAIpQLScb1X-yqATHYt4_tGltJiziEKmhsk8UmIEW0EDsEyPRwvcoxQ/viewform",
+            propertySmartInsightsSurvey: "https://forms.gle/RyJoGSwCL3xqpr2v6",
+            propertyAdvertiseLink: "https://forms.gle/iBPaZhfMGbSwZpfR9",
+            setupSsoLink: "https://www.beenverified.com/sso_connections"
+        },
+        featureFlags: {
+            hasCriminalEnabled: !0,
+            hasSmartInsightsAutoLoadEnabled: !0,
+            propertyReportFlags: ["include_ca_data"],
+            enableListExport: !0,
+            familyTreeEnabled: !0,
+            personReportSummaryEnabled: !1,
+            relativesInsightsEnabled: !1,
+            obituaryParserEnabled: !0,
+            familySearchEnabled: !0,
+            hasConsolidatedSearch: !0,
+            smartPersonSearchEnabled: !0,
+            hasReportPreferencesEnabled: !0,
+            hasMobileSearchHeaderRedesignEnabled: !0,
+            hasNewMobileHeaderDesignEnabled: !0
+        },
+        data: {
+            brandName: "BeenVerified",
+            brandAbbreviation: "bv",
+            brandSupportEmail: "support@beenverified.com",
+            legalName: "BeenVerified, LLC",
+            supportPhone: "1-844-823-2869",
+            customerSupportPhone: "1-888-579-5910",
+            supportEmail: "support@beenverified.com",
+            complianceEmail: "compliance@beenverified.com",
+            pdfPrice: "$4.95",
+            rewardsDisclaimer: "Certain products and services, including vehicle purchase/sale opportunities, provided above include offers from third parties and/or external partners from whom we may receive limited compensation. Please be advised that these offers are provided as a convenience and are a sample, but do not necessarily include ALL offers, products or services available in the marketplace.",
+            carGeniusPhone: "1-877-418-2717",
+            upgradePlanCustomSolutionHeading: "Need more reports or users?",
+            upgradePlanCustomSolutionDescription: "Let’s talk",
+            limitReachedSubHeading: "We offer different solutions to match your search needs",
+            contactOptionsCustomPlanDisplay: "Request larger plan",
+            premiumModalCardData: [{
+                title: "Person Search",
+                icon: we,
+                content: "Dive deeper with possible contact information, criminal & address history, etc."
+            }, {
+                title: "Phone Search",
+                icon: Ee,
+                content: "See who might be behind the numbers"
+            }, {
+                title: "Property Search",
+                icon: Be,
+                content: "Discover more about addresses & neighborhoods"
+            }],
+            premiumModalContent: "Looks like you're missing out on key searches, like person search. Unlock premium data for access to person, phone, email, property, dark web, unclaimed money searches and more!",
+            validReportCountThreshold: 5,
+            plansWithout5ReportBlocker: ["Referral_User_0_1_month_freemium_limit3", "7_day_trial_1_00_up_front_28_79_recurring_monthly_freshness_limit_100_vin_no_pdf_vehicle_only", "7_day_trial_5_00_up_front_28_79_recurring_monthly_freshness_limit_100_vin_free_pdf_vehicle_only"],
+            blockUpgradeWindowThreshold: 24,
+            smartSearchV1FeedbackLink: "https://forms.gle/dxxWWFPH326CtnEm8",
+            copyrightText: "© 2024 BeenVerified, LLC. All rights reserved. BeenVerified® and the BeenVerified star mascot are registered trademarks of BeenVerified, LLC",
+            defaultSearchFormEventName: "openPersonSearch",
+            brandCustomerSupportSchedule: {
+                days: "Monday - Friday",
+                hours: "9am - 6pm EST"
+            },
+            customerSupportAvailabilityHours: {
+                email: "Available 24 hours a day",
+                chat: "Available 24 hours a day"
+            }
+        },
+        config: {
+            socialMedia: [{
+                textContent: "X",
+                alternateTextContent: "@BeenVerified",
+                href: "https://x.com/BeenVerified",
+                imgLogoUrl: t2,
+                icon: e.jsx(vt, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                hideOnSide: !1,
+                hideinNeedAssistanceNewDesign: !1
+            }, {
+                textContent: "Facebook",
+                alternateTextContent: "facebook.com/Beenverified",
+                href: "https://www.facebook.com/BeenVerified",
+                imgLogoUrl: s2,
+                icon: e.jsx(St, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                hideOnSide: !1,
+                hideinNeedAssistanceNewDesign: !1
+            }, {
+                textContent: "Instagram",
+                alternateTextContent: "instagram.com/BeenVerified",
+                href: "https://www.instagram.com/beenverified/",
+                imgLogoUrl: i2,
+                icon: e.jsx(jt, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                hideOnSide: !0,
+                hideinNeedAssistanceNewDesign: !1
+            }, {
+                textContent: "Linkedin",
+                alternateTextContent: "linkedin.com/company/beenverified-com",
+                href: "https://www.linkedin.com/company/beenverified-com",
+                imgLogoUrl: a2,
+                icon: e.jsx(_t, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                hideOnSide: !0,
+                hideinNeedAssistanceNewDesign: !1
+            }, {
+                textContent: "Pinterest",
+                href: "https://www.pinterest.com/beenverified/",
+                imgLogoUrl: o2,
+                icon: e.jsx(Ft, {
+                    fontSize: "small",
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                hideOnSide: !0,
+                hideinNeedAssistanceNewDesign: !1
+            }, {
+                textContent: "Beenverified Blog",
+                href: "https://www.beenverified.com/blog/",
+                imgLogoUrl: n2,
+                icon: e.jsx(w2, {
+                    fontSize: "medium",
+                    color: "primary"
+                }),
+                hideOnSide: !0,
+                hideinNeedAssistanceNewDesign: !0
+            }],
+            searchTabs: [{
+                displayName: "People",
+                id: "peopleTab",
+                icon: e.jsx(Lt, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                class: "noBorderBottom noBorderRight",
+                isLocked: !0,
+                isHidden: !0,
+                internalTabs: [{
+                    label: "Search By Name",
+                    mobileLabel: "Name",
+                    libFormComponentName: "SearchPersonForm",
+                    eventCategory: "People Search"
+                }, {
+                    label: "Search By Address",
+                    mobileLabel: "Address",
+                    libFormComponentName: "SearchPersonByAddressForm",
+                    eventCategory: "Person search by address"
+                }, {
+                    label: "Search By Job Title",
+                    mobileLabel: "Job Title",
+                    libFormComponentName: "SearchContactForm",
+                    customTrackEvent: {
+                        category: "contact search",
+                        action: "navigation click",
+                        label: "search"
+                    }
+                }]
+            }, {
+                displayName: "Phone",
+                id: "phoneTab",
+                icon: e.jsx(G, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                class: "noBorderBottom noBorderRight",
+                isLocked: !0,
+                isHidden: !0,
+                internalTabs: [{
+                    label: "Search By Phone Number",
+                    mobileLabel: "Phone Number",
+                    libFormComponentName: "SearchPhoneForm",
+                    eventCategory: "Phone Search"
+                }]
+            }, {
+                displayName: "Property",
+                id: "propertyTab",
+                icon: e.jsx(xe, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                class: "noBorderBottom",
+                isLocked: !0,
+                isHidden: !0,
+                internalTabs: [{
+                    label: "Address Report",
+                    mobileLabel: "Report",
+                    libFormComponentName: "SearchPropertyForm",
+                    eventCategory: "property"
+                }, {
+                    label: "Pre-foreclosure",
+                    mobileLabel: "Pre-foreclosure",
+                    libFormComponentName: "SearchPFCPropertiesForm",
+                    eventCategory: "Pre-Foreclosure"
+                }]
+            }, {
+                displayName: "Email",
+                id: "emailTab",
+                icon: e.jsx(Ne, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                class: "noBorderRight",
+                isLocked: !0,
+                isHidden: !0,
+                internalTabs: [{
+                    label: "Search By Email",
+                    mobileLabel: "Email",
+                    libFormComponentName: "SearchEmailForm",
+                    eventCategory: "Email Search"
+                }]
+            }, {
+                displayName: "Username",
+                id: "usernameTab",
+                icon: e.jsx(kt, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                class: "noBorderRight",
+                isLocked: !0,
+                isHidden: !0,
+                internalTabs: [{
+                    label: "Search By Username",
+                    mobileLabel: "Username",
+                    libFormComponentName: "SearchUsernameForm",
+                    eventCategory: "Username Search"
+                }]
+            }, {
+                displayName: "Vehicle",
+                id: "vehicleTab",
+                icon: e.jsx(Tt, {
+                    fontSize: "small",
+                    sx: {
+                        color: {
+                            xs: "#0052FF",
+                            md: "#0A0B0D"
+                        }
+                    }
+                }),
+                internalTabs: [{
+                    label: "VIN",
+                    mobileLabel: "VIN",
+                    libFormComponentName: "VINSearchForm"
+                }, {
+                    label: "License Plate",
+                    mobileLabel: "License Plate",
+                    libFormComponentName: "LicensePlateSearchForm"
+                }, {
+                    label: "Year, Make, Model",
+                    mobileLabel: "Year, Make, Model",
+                    libFormComponentName: "YMMSearchForm"
+                }]
+            }],
+            sideMenuItems: [{
+                route: "/dashboard",
+                icon: e.jsx(xe, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Dashboard",
+                name: "dashboard",
+                state: "",
+                "data-cy": "dashboard",
+                ga4EventType: "dashboard"
+            }, {
+                route: "/dashboard/reports",
+                icon: e.jsx(be, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Recent Reports",
+                name: "recentReports",
+                state: "",
+                "data-cy": "recent_reports",
+                ga4EventType: "recent_reports"
+            }, {
+                route: "/dashboard/lists",
+                icon: e.jsx(ye, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Saved Reports and Lists",
+                state: "",
+                name: "lists",
+                "data-cy": "saved_reports_and_list",
+                ga4EventType: "lists"
+            }, {
+                route: "/dashboard/fraud",
+                icon: e.jsx(le, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: e.jsxs(D, {
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    children: ["FraudScan", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "fraudScan",
+                ga4EventType: "fraud_scan"
+            }, {
+                route: "/dashboard/personality-traits",
+                icon: e.jsx(ze, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: e.jsxs(D, {
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    children: ["Personality Traits", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "personalityTraits",
+                "data-cy": "personality_traits",
+                ga4EventType: "personality_traits"
+            }, {
+                route: "/dashboard/astrology",
+                icon: e.jsx(Ze, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: e.jsxs(D, {
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    children: ["Astrology", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "astrology",
+                ga4EventType: "astrology"
+            }, {
+                route: "/dashboard/family-ancestry",
+                icon: e.jsx(E.FamilyTreeAncestryIcon, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Family & Ancestry",
+                state: "",
+                name: "family&ancestry",
+                ga4EventType: "family_ancestry",
+                childItems: [{
+                    route: "/family-tree",
+                    icon: e.jsx(E.FamilyTreeIcon, {
+                        sx: {
+                            color: "#0052FF"
+                        }
+                    }),
+                    text: "Family Tree",
+                    state: "",
+                    name: "familyTree",
+                    ga4EventType: "family_tree"
+                }, {
+                    route: "/dashboard/obituary",
+                    icon: e.jsx(Ue, {
+                        sx: {
+                            color: "#0052FF"
+                        }
+                    }),
+                    text: "Obituary Search",
+                    state: "",
+                    name: "obituarySearch",
+                    isLocked: !0,
+                    ga4EventType: "obituary"
+                }]
+            }, {
+                route: "/dashboard/rewards",
+                icon: e.jsx(Ge, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Member Perks",
+                state: "",
+                name: "memberPerks",
+                ga4EventType: "member_perks"
+            }, {
+                route: "/dashboard/monitoring",
+                icon: e.jsx(Ie, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Monitoring",
+                state: "",
+                name: "monitoring",
+                ga4EventType: "monitoring"
+            }, {
+                route: "/search/owner",
+                icon: e.jsx(Mt, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Owner Search",
+                state: "",
+                name: "owner_search",
+                ga4EventType: "owner_search"
+            }, {
+                route: "/dashboard/my-garage",
+                icon: e.jsx(ve, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Garage",
+                state: "",
+                name: "myGarage",
+                ga4EventType: "my_garage"
+            }, {
+                route: "/dashboard/id-monitor",
+                icon: e.jsx("img", {
+                    src: r2,
+                    style: {
+                        height: "27px",
+                        marginRight: "8px"
+                    }
+                }),
+                text: "ID Monitor",
+                state: "",
+                name: "idMonitor",
+                isLocked: !0,
+                ga4EventType: "id_monitor",
+                childItems: [{
+                    route: "/dashboard/dark-web",
+                    icon: e.jsx(E.DarkWebIcon, {
+                        color: "primary"
+                    }),
+                    text: "Dark Web",
+                    state: "",
+                    name: "darkWebScan",
+                    "data-cy": "dark_web_scan",
+                    isLocked: !0,
+                    ga4EventType: "dark_web"
+                }, {
+                    route: "/dashboard/unclaimed-money",
+                    icon: e.jsx(We, {
+                        sx: {
+                            color: "#0052FF"
+                        }
+                    }),
+                    text: "Unclaimed Money",
+                    state: "",
+                    name: "unclaimedMoney",
+                    "data-cy": "unclaimed_money",
+                    isLocked: !0,
+                    ga4EventType: "unclaimed_money"
+                }]
+            }, {
+                route: "/dashboard/neighborhood-report",
+                icon: e.jsx(qe, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Neighborhood Report",
+                state: "",
+                name: "neighborhoodReport",
+                isLocked: !0,
+                ga4EventType: "neighborhood_report"
+            }, {
+                route: "/search/contact?advancedSearch=true&source=contactSearch",
+                icon: e.jsx(W, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Contact Pro",
+                state: "",
+                name: "contactSearch",
+                isLocked: !0,
+                ga4EventType: "contact_search"
+            }, {
+                route: "/dashboard/billing",
+                icon: e.jsx(U, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Account",
+                state: "",
+                name: "myAccount",
+                "data-cy": "my_account",
+                ga4EventType: "my_account"
+            }, {
+                route: "/dashboard/referrals",
+                icon: e.jsx($e, {
+                    sx: {
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Send Invite",
+                state: "",
+                name: "referrals",
+                ga4EventType: "referrals"
+            }],
+            reportTypeFilterOptions: B2,
+            higherConfidenceThreshold: 50,
+            hardcodedPlans: [],
+            useLLMPersonMaxRetries: 2
+        },
+        keys: {
+            rapidsAPIKey: "7ZfcCjTZKz4rRGUm6ny6",
+            mapboxKey: "pk.eyJ1IjoiYmVlbnZlcmlmaWVkIiwiYSI6ImNqeXN3ejY2MDAwbXczaHFzcnp6cmo5eGUifQ.hEfUf5T6xAzgW8wghHulEA",
+            mrRogersAPIKey: "kl6x16zhIp39hszFhGt5cxAfDV1MoXId",
+            streetViewStaticApiKey: "AIzaSyB1wzcy6dXy1xh3eZ8QfjClmeVCEyaSLIo",
+            topHapApiKey: "si_MKritZu1BytMaH",
+            astrologyUser: "628813",
+            astrologyKey: "8aacd98ff1f872397e6f49f9ee87752a497159e8"
+        },
+        variationPlanNames: ["7_day_trial_1_00_up_front_28_79_recurring_monthly_freshness_limit_100_vin_no_pdf_vehicle_only", "7_day_trial_5_00_up_front_28_79_recurring_monthly_freshness_limit_100_vin_free_pdf_vehicle_only"],
+        paymentPremiumModalCardData: {
+            premiumPlan: "36_79_1_month_nofree_afill_limit_100_freepdf_upsell_alldataaccess",
+            premiumPlanAmount: "$36.79",
+            premiumPlanReports: ["Person Reports", "Property Reports", "Username, Phone & Email Reports", "Dark Web Scan"],
+            currentPlanReports: ["VIN & License Plate Lookup", "Year, Make, Model Search"],
+            premiumMessage: "to unlock additional search options of names, phones, addresses & more!"
+        },
+        downsellModalCardData: {
+            downsellPlan: "14_99_1_month_nofree_afill_limit25reports_freepdf_downsell",
+            downsellPlanAmount: "14.99"
+        },
+        internationalPlanNames: {
+            vinPlan: ["7_day_trial_1_00_up_front_22_99_recurring_monthly_limit_50_no_pdf_vehicle_international", "7_day_trial_5_00_up_front_22_99_recurring_monthly_limit_free_pdf_vehicle_international", "22_99_1_month_limit_50_freepdf_vehicle_international", "44_83_3_month_limit_50_freepdf_vehicle_international", "one_check_29_99_60day_renewal_limit_1_bv_international", "22_99_1_month_limit_50_freepdf_vehicle_international_reactivation", "44_83_3_month_limit_50_freepdf_vehicle_international_reactivation"],
+            languagePlan: ["7_day_trial_1_00_up_front_9_99_recurring_monthly_limit_0_no_pdf_language_international", "9_99_1_month_limit_0_nopdf_language_international", "19_47_3_month_limit_0_nopdf_language_international", "9_99_1_month_limit_0_nopdf_language_international_reactivation", "19_47_3_month_limit_0_nopdf_language_international_reactivation"]
+        },
+        migrationPlanNames: ["9_95_1_month_nofree_afill_limit100reports_freepdf_plan_migration", "22_86_1_month_nofree_afill_limit100reports_freepdf_plan_migration_v3"],
+        personalityTraitsColors: {
+            radioButtonColors: ["#DC0015", "#EA6672", "#808080", "#90d393", "#388E3C"],
+            radioButtonHoverColors: ["#f9d0d3", "#fbdfe1", "#d8d8d8", "#e4f4e5", "#bae4bc"]
+        }
+    },
+    p0 = (t, a) => {
+        const i = {
+                route: "/dashboard/reports",
+                icon: e.jsx(be, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Recent Reports",
+                name: "recentReports",
+                state: "",
+                "data-cy": "recent_reports"
+            },
+            n = {
+                route: "/dashboard/lists",
+                icon: e.jsx(ye, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Saved Reports and Lists",
+                state: "",
+                name: "lists",
+                "data-cy": "saved_reports_and_list"
+            },
+            s = {
+                route: "/dashboard/my-garage",
+                icon: e.jsx(ve, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Garage",
+                state: "",
+                name: "myGarage"
+            },
+            o = {
+                route: "/search/contact?advancedSearch=true&source=contactSearch",
+                icon: e.jsx(W, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Contact Pro",
+                state: "",
+                name: "contactSearch",
+                isLocked: !0
+            },
+            l = {
+                route: "/dashboard/unclaimed-money",
+                icon: e.jsx(We, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Unclaimed Money",
+                state: "",
+                name: "unclaimedMoney",
+                "data-cy": "unclaimed_money",
+                isLocked: !0
+            },
+            d = {
+                route: "/dashboard/fraud",
+                icon: e.jsx(le, {
+                    color: "primary"
+                }),
+                text: e.jsxs(D, {
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    children: ["FraudScan", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "fraudScan"
+            },
+            h = {
+                route: "/dashboard/neighborhood-report",
+                icon: e.jsx(qe, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Neighborhood Search",
+                state: "",
+                name: "neighborhoodSearch",
+                isLocked: !0
+            },
+            C = {
+                route: "/dashboard/personality-traits",
+                icon: e.jsx(ze, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: e.jsxs(D, {
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    fontSize: "1.125rem",
+                    children: ["Personality Traits", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "personalityTraits",
+                "data-cy": "personality_traits"
+            },
+            p = {
+                route: "/dashboard/astrology",
+                icon: e.jsx(Ze, {
+                    color: "primary"
+                }),
+                text: e.jsxs(D, {
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    fontSize: "1.125rem",
+                    children: ["Astrology", e.jsx(Z, {
+                        items: [{
+                            label: "New"
+                        }]
+                    })]
+                }),
+                state: "",
+                name: "astrology",
+                "data-cy": "astrology"
+            },
+            u = {
+                route: "/dashboard/family-ancestry",
+                icon: e.jsx(E.FamilyTreeAncestryIcon, {
+                    color: "primary",
+                    sx: {
+                        fontSize: "24px"
+                    }
+                }),
+                text: "Family Dashboard",
+                state: "",
+                name: "family-dashboard"
+            },
+            x = {
+                route: "/family-tree",
+                icon: e.jsx(E.FamilyTreeIcon, {
+                    color: "primary",
+                    sx: {
+                        fontSize: "24px"
+                    }
+                }),
+                text: "Family Tree",
+                state: "",
+                name: "familyTree"
+            },
+            g = {
+                route: "/dashboard/obituary",
+                icon: e.jsx(Ue, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Obituary Search",
+                state: "",
+                name: "obituarySearch",
+                isLocked: !0
+            },
+            f = {
+                route: "/dashboard/monitoring",
+                icon: e.jsx(Ie, {
+                    color: "primary",
+                    sx: {
+                        fontSize: "24px"
+                    }
+                }),
+                text: "Monitoring",
+                state: "",
+                name: "monitoring"
+            },
+            y = {
+                route: "/dashboard/id-monitor",
+                icon: e.jsx(E.IdMonitorIcon, {
+                    color: "primary",
+                    sx: {
+                        fontSize: "24px"
+                    }
+                }),
+                text: "ID Monitor",
+                state: "",
+                name: "idMonitor",
+                isLocked: !0
+            },
+            S = {
+                route: "/dashboard/dark-web",
+                icon: e.jsx(E.DarkWebIcon, {
+                    color: "primary",
+                    sx: {
+                        fontSize: "24px"
+                    }
+                }),
+                text: "Dark Web",
+                state: "",
+                name: "darkWebScan",
+                "data-cy": "dark_web_scan",
+                isLocked: !0
+            },
+            j = {
+                route: "/dashboard/billing",
+                icon: e.jsx(U, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Account",
+                state: "",
+                name: "myAccount",
+                "data-cy": "my_account"
+            },
+            v = {
+                route: "/dashboard/rewards",
+                icon: e.jsx(Ge, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Member Perks",
+                state: "",
+                name: "memberPerks"
+            },
+            I = {
+                route: "/dashboard/referrals",
+                icon: e.jsx($e, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Send Invite",
+                state: "",
+                name: "referrals"
+            },
+            L = {
+                route: "/dashboard",
+                icon: e.jsx(xe, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Dashboard",
+                name: "dashboard",
+                state: "",
+                "data-cy": "dashboard"
+            },
+            k = {
+                route: "",
+                icon: e.jsx(Ye, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Reports",
+                name: "reports",
+                state: "",
+                "data-cy": "reports",
+                childItems: [i, n, s]
+            },
+            _ = {
+                route: "",
+                icon: e.jsx(Rt, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "More Searches",
+                state: "",
+                name: "more-searches",
+                childItems: [o, l, d, h]
+            },
+            B = {
+                route: "",
+                icon: e.jsx(Ke, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Personal Growth",
+                name: "personal-growth",
+                state: "",
+                "data-cy": "personal-growth",
+                childItems: [C, ...t ? [p] : []]
+            },
+            P = {
+                route: "/dashboard/family-ancestry",
+                icon: e.jsx(Xe, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Family & Ancestry",
+                state: "",
+                name: "family&ancestry",
+                childItems: [u, x, g]
+            },
+            M = {
+                route: "",
+                icon: e.jsx(Je, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "Monitoring Hub",
+                state: "",
+                name: "monitoring-hub",
+                childItems: [f, y, S]
+            },
+            w = {
+                route: "",
+                icon: e.jsx(Qe, {
+                    sx: {
+                        fontSize: "24px",
+                        color: "#0052FF"
+                    }
+                }),
+                text: "My Profile",
+                state: "",
+                name: "my-profile",
+                childItems: [j, v, I]
+            },
+            R = [L, k, _, B, P, M, w],
+            V = [L, {
+                ...k,
+                childItems: [i, n]
+            }, {
+                ..._,
+                childItems: [l, o, {
+                    ...S,
+                    text: "Dark Web Scan"
+                }, {
+                    ...s,
+                    text: "Vehicle Search"
+                }, h, d]
+            }, {
+                ...P,
+                text: "Family Search",
+                childItems: [u, x, g]
+            }, {
+                ...w,
+                text: "My Account",
+                childItems: [{
+                    ...j,
+                    text: "My Profile"
+                }, v, ...t ? [p] : [], y, C, I]
+            }];
+        return a ? V : R
+    },
+    C0 = [{
+        route: "",
+        icon: e.jsx(Ye, {
+            sx: {
+                fontSize: "24px",
+                color: "#0052FF"
+            }
+        }),
+        text: "Reports",
+        name: "reports",
+        state: "",
+        "data-cy": "reports",
+        childItems: [{
+            route: "/dashboard/reports",
+            icon: e.jsx(be, {
+                sx: {
+                    fontSize: "24px",
+                    color: "#0052FF"
+                }
+            }),
+            text: "Recent Reports",
+            name: "recentReports",
+            state: "",
+            "data-cy": "recent_reports"
+        }, {
+            route: "/dashboard/lists",
+            icon: e.jsx(ye, {
+                sx: {
+                    fontSize: "24px",
+                    color: "#0052FF"
+                }
+            }),
+            text: "Saved Reports and Lists",
+            state: "",
+            name: "lists",
+            "data-cy": "saved_reports_and_list"
+        }, {
+            route: "/dashboard/my-garage",
+            icon: e.jsx(ve, {
+                color: "primary",
+                sx: {
+                    fontSize: "24px"
+                }
+            }),
+            text: "My Garage",
+            state: "",
+            name: "myGarage"
+        }]
+    }, {
+        route: "",
+        icon: e.jsx(Ke, {
+            sx: {
+                fontSize: "24px",
+                color: "#0052FF"
+            }
+        }),
+        text: "Personal Growth",
+        name: "personal-growth",
+        state: "",
+        "data-cy": "personal-growth"
+    }, {
+        route: "",
+        icon: e.jsx(Je, {
+            sx: {
+                fontSize: "24px",
+                color: "#0052FF"
+            }
+        }),
+        text: "Monitoring Hub",
+        state: "",
+        name: "monitoring-hub",
+        childItems: [{
+            route: "/dashboard/monitoring",
+            icon: e.jsx(Ie, {
+                sx: {
+                    fontSize: "24px",
+                    color: "#0052FF"
+                }
+            }),
+            text: "Monitoring",
+            state: "",
+            name: "monitoring"
+        }]
+    }, {
+        route: "",
+        icon: e.jsx(Qe, {
+            sx: {
+                fontSize: "24px",
+                color: "#0052FF"
+            }
+        }),
+        text: "My Profile",
+        state: "",
+        name: "my-profile",
+        childItems: [{
+            route: "/dashboard/billing",
+            icon: e.jsx(U, {
+                sx: {
+                    fontSize: "24px",
+                    color: "#0052FF"
+                }
+            }),
+            text: "My Account",
+            state: "",
+            name: "myAccount",
+            "data-cy": "my_account"
+        }]
+    }],
+    u0 = (t, a, i) => {
+        const n = t.addresses ? t.addresses.filter(l => l.parsed !== null) : [],
+            o = Math.min(10, a);
+        return [{
+            href: "#contact-overview",
+            sectionId: "#contact-overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, {
+            href: "#email-section",
+            sectionId: "#email-section",
+            text: "Email Addresses",
+            reportItemsCount: t.emails.length,
+            notificationSection: "emails"
+        }, {
+            href: "#phone-numbers-section",
+            sectionId: "#phone-numbers-section",
+            text: "Phone Numbers",
+            reportItemsCount: t.phones.length,
+            notificationSection: "phones"
+        }, {
+            href: "#social-media-section",
+            sectionId: "#social-media-section",
+            text: "Social Media",
+            reportItemsCount: t.profiles.length,
+            notificationSection: "socials"
+        }, {
+            href: "#jobs-section",
+            sectionId: "#jobs-section",
+            text: "Employment History",
+            reportItemsCount: t.jobs.length,
+            notificationSection: "jobs"
+        }, {
+            href: "#education-section",
+            sectionId: "#education-section",
+            text: "Education",
+            reportItemsCount: t.educations.length,
+            notificationSection: "educations"
+        }, {
+            href: "#address-history-section",
+            sectionId: "#address-history-section",
+            text: "Possible Address History",
+            reportItemsCount: n.length,
+            notificationSection: "addresses"
+        }, {
+            href: "#key-contacts-section",
+            sectionId: "#key-contacts-section",
+            text: "Key Contacts",
+            reportItemsCount: o,
+            hideReportItemsCount: !i
+        }]
+    },
+    f0 = t => {
+        var s;
+        const a = (s = t == null ? void 0 : t.jobs) == null ? void 0 : s[0],
+            i = a ? a == null ? void 0 : a.company : "",
+            n = Q();
+        return [{
+            href: "#contact-overview",
+            labelText: "Overview",
+            icons: [e.jsx(U, {
+                sx: {
+                    color: n.palette.primary.main,
+                    fontSize: "2.5rem"
+                }
+            })],
+            name: "contact-overview"
+        }, {
+            labelText: "Contact Information",
+            icons: [e.jsx(G, {
+                sx: {
+                    color: n.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "contact-information",
+            childItems: [{
+                href: "#phone-numbers-section",
+                labelText: "Phone Numbers",
+                reportItemsCount: t.phones.length,
+                name: "phone-numbers"
+            }, {
+                href: "#email-section",
+                labelText: "Email Addresses",
+                reportItemsCount: t.emails.length,
+                name: "email-addresses"
+            }, {
+                href: "#address-history-section",
+                labelText: "Address History",
+                reportItemsCount: t.addresses.length,
+                name: "address-history"
+            }, {
+                href: "#social-media-section",
+                labelText: "Social Media",
+                reportItemsCount: t.profiles.length + t.usernames.length,
+                name: "social-media"
+            }]
+        }, {
+            labelText: "Jobs & Education",
+            name: "jobs-education",
+            icons: [e.jsx(W, {
+                sx: {
+                    color: n.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#jobs-section",
+                labelText: "Jobs",
+                reportItemsCount: t.jobs.length,
+                name: "jobs"
+            }, {
+                href: "#education-section",
+                labelText: "Education",
+                reportItemsCount: t.educations.length,
+                name: "education"
+            }]
+        }, {
+            labelText: "Key Contacts",
+            name: "key-contacts-section",
+            icons: [e.jsx(U, {
+                sx: {
+                    color: n.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#key-contacts-section",
+                labelText: `At ${t1(i??"")}`,
+                reportItemsCount: t.jobs.length,
+                name: "possible-key-contacts-at"
+            }, {
+                href: "#key-contacts-similar-section",
+                labelText: "With Similar Job Titles",
+                reportItemsCount: t.jobs.length,
+                name: "possible-key-contacts-with-simmilar-job-titles"
+            }]
+        }, {
+            labelText: "Next Steps",
+            icons: [e.jsx(J, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "next-steps",
+            childItems: [{
+                href: "#Notes-section",
+                labelText: "Notes",
+                hideReportItemsCount: !0,
+                name: "notes-section"
+            }, {
+                href: "#report-rating",
+                labelText: "Report Rating",
+                hideReportItemsCount: !0,
+                name: "report-rating"
+            }]
+        }]
+    },
+    x0 = (t, a, i, n, s, o, l, d, h) => {
+        const C = K("prop-2296");
+        return [{
+            href: "#overview",
+            sectionId: "#overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity",
+            name: "overview"
+        }, C && {
+            href: "#property-smart-insights",
+            sectionId: "#property-smart-insights",
+            text: "Property Smart Insights",
+            visible: !0,
+            reportItemsCount: 0,
+            notificationSection: "property smart insights",
+            icon: e.jsx(s1, {}),
+            showIcon: !0,
+            name: "property-smart-insights"
+        }, {
+            href: "#possible-owners-section",
+            sectionId: "#possible-owners-section",
+            text: "Possible Owners",
+            reportItemsCount: t,
+            notificationSection: "owners",
+            name: "possible-owners"
+        }, {
+            href: "#possible-residents-section",
+            sectionId: "#possible-residents-section",
+            text: "Possible Residents",
+            reportItemsCount: a,
+            notificationSection: "residents",
+            name: "possible-residents"
+        }, {
+            href: "#lot-and-building-details-section",
+            sectionId: "#lot-and-building-details-section",
+            text: "Property Details",
+            reportItemsCount: o,
+            notificationSection: "lot_details",
+            notificationSectionMapping: [{
+                text: "lot_details",
+                href: "#lot-and-building-details-section"
+            }, {
+                text: "values",
+                href: "#assessed-value-and-taxes-section"
+            }],
+            name: "property-details"
+        }, {
+            href: "#building-permits-section",
+            sectionId: "#building-permits-section",
+            text: "Building Permits",
+            reportItemsCount: i,
+            notificationSection: "permits",
+            name: "building-permits"
+        }, {
+            href: "#deeds-section",
+            sectionId: "#deeds-section",
+            text: "Deeds",
+            reportItemsCount: n,
+            notificationSection: "deeds",
+            name: "deeds"
+        }, {
+            href: "#liens-section",
+            sectionId: "liens-section",
+            text: "Liens",
+            reportItemsCount: s,
+            notificationSection: "liens",
+            name: "liens"
+        }, {
+            href: "#estimated-value-section",
+            sectionId: "#estimated-value-section",
+            text: "Property Valuation",
+            reportItemsCount: l,
+            notificationSection: "valuation",
+            name: "property-valuation"
+        }, {
+            href: "#equity-and-loans-section",
+            sectionId: "#equity-and-loans-section",
+            text: "Equity & Loans",
+            reportItemsCount: d,
+            notificationSection: "equity_loans",
+            name: "equity-&-loans"
+        }, {
+            href: "#schools-nearby-section",
+            sectionId: "#schools-nearby-section",
+            text: "Schools & Area",
+            reportItemsCount: h,
+            notificationSection: "schools",
+            notificationSectionMapping: [{
+                text: "schools",
+                href: "#schools-nearby-section"
+            }, {
+                text: "parcel_address",
+                href: "#demographics-section"
+            }],
+            name: "schools-&-area"
+        }, {
+            href: "#rewards-section",
+            sectionId: "#rewards-section",
+            text: "Member Perks",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "memberPerks",
+            name: "member-perks"
+        }].filter(Boolean)
+    },
+    g0 = (t, a) => {
+        var u, x, g;
+        const i = K("bump-4397"),
+            n = K("bump-4457"),
+            s = t == null ? void 0 : t.automobiles[0];
+        if (!t) return [];
+        const o = ((u = t.meta) == null ? void 0 : u.search_by) === "ymm",
+            l = ((g = (x = t == null ? void 0 : t.automobiles[0]) == null ? void 0 : x.safety_ratings) == null ? void 0 : g.length) + a,
+            h = [s == null ? void 0 : s.year, s == null ? void 0 : s.make, s == null ? void 0 : s.model].filter(Boolean).length === 3,
+            C = !o && h;
+        return [{
+            href: "#vehicle-overview",
+            sectionId: "#vehicle-overview",
+            labelText: "Photos",
+            icons: [e.jsx(At, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "2.5rem"
+                }
+            })],
+            reportItemsCount: (s == null ? void 0 : s.imagesCount) || null,
+            hideReportItemsCount: !1,
+            notificationSection: "identity",
+            visible: !0
+        }, {
+            labelText: "Overview",
+            name: "overview",
+            icons: [e.jsx(Pt, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !0,
+            childItems: [{
+                href: "#vehicle-overview",
+                sectionId: "#vehicle-overview",
+                labelText: "Photos",
+                name: "vehicle-photos",
+                reportItemsCount: (s == null ? void 0 : s.imagesCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "identity"
+            }, {
+                href: "#smart-insights",
+                sectionId: "#smart-insights",
+                labelText: "Smart Insights",
+                name: "vehicle-smart-insights",
+                visible: C,
+                reportItemsCount: 0,
+                notificationSection: "smart insights",
+                icons: [e.jsx(Oe, {})],
+                showIcon: !0
+            }]
+        }, {
+            labelText: "Vehicle History",
+            name: "vehicle-history",
+            icons: [e.jsx(wt, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !o,
+            childItems: [...i || n ? [{
+                href: "#detailed-history",
+                sectionId: "#detailed-history",
+                name: "vehicle-detailed-history",
+                labelText: "Detailed History",
+                reportItemsCount: s == null ? void 0 : s.detailedHistoryCount,
+                hideReportItemsCount: !1,
+                visible: !!(!o && (s != null && s.detailedHistoryCount)),
+                notificationSection: "history"
+            }] : [], {
+                href: "#vehicle-ownership-history",
+                sectionId: "vehicle-ownership-history",
+                labelText: "Ownership History",
+                name: "vehicle-ownership-history",
+                reportItemsCount: s == null ? void 0 : s.titleRecordsCount,
+                hideReportItemsCount: !1,
+                visible: !o,
+                icons: [e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginLeft: "10px",
+                        color: "#212121"
+                    }
+                })],
+                showIcon: !(s != null && s.nmvtis_success) && (s == null ? void 0 : s.titleRecordsCount) === 0
+            }, {
+                href: "#vehicle-title-records",
+                sectionId: "vehicle-title-records",
+                labelText: "Title Records",
+                name: "vehicle-title-records",
+                reportItemsCount: s == null ? void 0 : s.titleRegistrationsCount,
+                hideReportItemsCount: !1,
+                visible: !o,
+                icons: [e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginLeft: "10px",
+                        color: "#212121"
+                    }
+                })],
+                showIcon: !(s != null && s.nmvtis_success) && (s == null ? void 0 : s.titleRegistrationsCount) === 0
+            }, {
+                href: "#vehicle-title-brands",
+                sectionId: "#vehicle-title-brands",
+                labelText: "Title Brands",
+                name: "vehicle-title-brands",
+                reportItemsCount: s == null ? void 0 : s.titleChecksCount,
+                hideReportItemsCount: !1,
+                visible: !o,
+                icons: [e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginLeft: "10px",
+                        color: "#212121"
+                    }
+                })],
+                showIcon: !(s != null && s.nmvtis_success) && (s == null ? void 0 : s.titleChecksCount) === 0
+            }, {
+                href: "#vehicle-liens",
+                sectionId: "vehicle-liens",
+                labelText: "Liens",
+                name: "vehicle-liens",
+                reportItemsCount: s == null ? void 0 : s.liensCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-impounds",
+                sectionId: "#vehicle-impound",
+                labelText: "Impound",
+                name: "vehicle-impound",
+                reportItemsCount: s == null ? void 0 : s.impoundsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-exports",
+                sectionId: "#vehicle-exports",
+                labelText: "Exports",
+                name: "vehicle-exports",
+                reportItemsCount: s == null ? void 0 : s.exportsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-thefts",
+                sectionId: "#vehicle-thefts",
+                labelText: "Theft Records",
+                name: "vehicle-thefts",
+                reportItemsCount: s == null ? void 0 : s.theftsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-damage-history",
+                sectionId: "#vehicle-damage-history",
+                labelText: "Damage History",
+                name: "vehicle-damage-history",
+                reportItemsCount: s == null ? void 0 : s.damageHistoryCount,
+                hideReportItemsCount: !1,
+                visible: !o,
+                icons: [e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginLeft: "10px",
+                        color: "#212121"
+                    }
+                })],
+                showIcon: !(s != null && s.nmvtis_success) && (s == null ? void 0 : s.damageHistoryCount) === 0
+            }]
+        }, {
+            labelText: "Market Value",
+            name: "market-value",
+            icons: [e.jsx(Et, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !0,
+            childItems: [{
+                href: "#vehicle-market",
+                sectionId: "#vehicle-market",
+                labelText: "Market Value",
+                name: "vehicle-market",
+                reportItemsCount: s == null ? void 0 : s.marketValueCount,
+                hideReportItemsCount: !1,
+                visible: !0
+            }, {
+                href: "#vehicle-ownership-cost",
+                sectionId: "vehicle-ownership-cost",
+                labelText: "Ownership Costs",
+                name: "vehicle-ownership-cost",
+                reportItemsCount: s == null ? void 0 : s.costsCount,
+                hideReportItemsCount: !1,
+                visible: !0
+            }, {
+                href: "#vehicle-sales",
+                sectionId: "#vehicle-sales",
+                labelText: "Sale Listings",
+                name: "vehicle-sales",
+                reportItemsCount: s == null ? void 0 : s.listingsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-auctions",
+                sectionId: "#vehicle-auctions",
+                labelText: "Auctions",
+                name: "vehicle-auctions",
+                reportItemsCount: s == null ? void 0 : s.auctionsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }]
+        }, {
+            labelText: "Maintenance & Repairs",
+            name: "maintenance-repairs",
+            icons: [e.jsx(Bt, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !0,
+            childItems: [{
+                href: "#vehicle-service-and-repairs",
+                sectionId: "#vehicle-service-and-repairs",
+                name: "vehicle-service-and-repairs",
+                labelText: "Service & Repairs",
+                reportItemsCount: s == null ? void 0 : s.repairsCount,
+                hideReportItemsCount: !1,
+                visible: !o,
+                notificationSection: "maintenance"
+            }, {
+                href: "#vehicle-inspections",
+                sectionId: "#vehicle-inspections",
+                name: "vehicle-inspections",
+                labelText: "Inspections",
+                reportItemsCount: s == null ? void 0 : s.inspectionEventsCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-maintenance-schedule",
+                sectionId: "#vehicle-maintenance-schedule",
+                name: "vehicle-maintenance-schedule",
+                labelText: "Maintenance Schedule",
+                reportItemsCount: s == null ? void 0 : s.maintenanceCount,
+                hideReportItemsCount: !1,
+                visible: !o
+            }, {
+                href: "#vehicle-recalls",
+                sectionId: "#vehicle-recalls",
+                name: "vehicle-recalls",
+                labelText: "Recalls",
+                reportItemsCount: o ? s == null ? void 0 : s.recallsCount : s == null ? void 0 : s.recallsWithStatusCount,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "prices"
+            }, ...i || n ? [] : [{
+                href: "#detailed-history",
+                sectionId: "#detailed-history",
+                name: "vehicle-detailed-history",
+                labelText: "Detailed History",
+                reportItemsCount: s == null ? void 0 : s.detailedHistoryCount,
+                hideReportItemsCount: !1,
+                visible: !!(!o && (s != null && s.detailedHistoryCount)),
+                notificationSection: "history"
+            }]]
+        }, {
+            labelText: "Vehicle Specs",
+            name: "vehicle-specs",
+            icons: [e.jsx(Vt, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !0,
+            childItems: [{
+                href: "#vehicle-specs",
+                sectionId: "#vehicle-specs",
+                name: "vehicle-specs",
+                labelText: "Specs",
+                reportItemsCount: s == null ? void 0 : s.specsCount,
+                hideReportItemsCount: !1,
+                notificationSection: "specifications",
+                visible: !0
+            }]
+        }, {
+            labelText: "Additional Info",
+            name: "additional-info",
+            icons: [e.jsx(Ht, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            visible: !0,
+            childItems: [{
+                href: "#vehicle-warranty",
+                sectionId: "#vehicle-warranty",
+                name: "vehicle-warranty",
+                labelText: "Warranties",
+                reportItemsCount: s == null ? void 0 : s.warrantiesCount,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "warranties"
+            }, {
+                href: "#vehicle-safety-ratings",
+                sectionId: "#vehicle-safety-ratings",
+                name: "vehicle-safety-ratings",
+                labelText: "Vehicle Safety",
+                reportItemsCount: l,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "safety"
+            }]
+        }].map(f => ({
+            ...f,
+            childItems: f.childItems ? f.childItems.filter(y => y.visible) : []
+        })).filter(f => f.visible || f.childItems.length > 0)
+    },
+    b0 = (t, a) => {
+        var p, u, x;
+        const i = t == null ? void 0 : t.automobiles[0];
+        if (!t) return [];
+        const n = ((p = t.meta) == null ? void 0 : p.search_by) === "ymm",
+            s = ((x = (u = t == null ? void 0 : t.automobiles[0]) == null ? void 0 : u.safety_ratings) == null ? void 0 : x.length) + a,
+            l = [i == null ? void 0 : i.year, i == null ? void 0 : i.make, i == null ? void 0 : i.model].filter(Boolean).length === 3,
+            d = !n && l,
+            h = [{
+                href: "#vehicle-report-overview",
+                sectionId: "#vehicle-overview",
+                text: "Photos",
+                reportItemsCount: (i == null ? void 0 : i.imagesCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "identity",
+                name: "vehicle-photos"
+            }, {
+                href: "#smart-insights",
+                sectionId: "#smart-insights",
+                text: "Smart Insights",
+                visible: d,
+                reportItemsCount: 0,
+                notificationSection: "smart insights",
+                icon: e.jsx(Oe, {}),
+                showIcon: !0,
+                name: "smart-insights"
+            }, {
+                href: "#detailed-history",
+                sectionId: "#detailed-history",
+                text: "Detailed History",
+                reportItemsCount: (i == null ? void 0 : i.detailedHistoryCount) || null,
+                hideReportItemsCount: !1,
+                visible: !!(!n && (i != null && i.detailedHistoryCount)),
+                notificationSection: "history",
+                name: "detailed-history"
+            }, {
+                href: "#vehicle-sales",
+                sectionId: "#vehicle-sales",
+                text: "Sale Listings",
+                reportItemsCount: (i == null ? void 0 : i.listingsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !n,
+                notificationSection: "sales",
+                name: "vehicle-sale-listings"
+            }, {
+                href: "#vehicle-damage-history",
+                sectionId: "#vehicle-damage-history",
+                text: "Damage History",
+                reportItemsCount: (i == null ? void 0 : i.damageHistoryCount) || null,
+                hideReportItemsCount: !1,
+                visible: !n,
+                name: "vehicle-damage-history",
+                icon: e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginRight: "-6px"
+                    }
+                }),
+                showIcon: !(i != null && i.nmvtis_success) && (i == null ? void 0 : i.damageHistoryCount) === 0
+            }, {
+                href: "#vehicle-thefts",
+                sectionId: "#vehicle-thefts",
+                text: "Theft Records",
+                reportItemsCount: (i == null ? void 0 : i.theftsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !n,
+                notificationSection: "thefts",
+                name: "vehicle-theft-records"
+            }, {
+                href: "#vehicle-service-and-repairs",
+                sectionId: "#vehicle-service-and-repairs",
+                text: "Maintenance",
+                reportItemsCount: (i == null ? void 0 : i.servicesAndRepairsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !n,
+                notificationSection: "maintenance",
+                name: "maintenance"
+            }, {
+                href: "#vehicle-ownership-history",
+                sectionId: "vehicle-ownership-history",
+                text: "Ownership History",
+                reportItemsCount: (i == null ? void 0 : i.titleRecordsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !n,
+                name: "vehicle-ownership-history",
+                icon: e.jsx(z, {
+                    fontSize: "small",
+                    sx: {
+                        marginRight: "-6px"
+                    }
+                }),
+                showIcon: !(i != null && i.nmvtis_success) && (i == null ? void 0 : i.titleRecordsCount) === 0
+            }, {
+                href: "#vehicle-recalls",
+                sectionId: "#vehicle-recalls",
+                text: "Recalls",
+                reportItemsCount: (n ? i == null ? void 0 : i.recallsCount : i == null ? void 0 : i.recallsWithStatusCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "prices",
+                name: "vehicle-recalls"
+            }, {
+                href: "#vehicle-market",
+                sectionId: "#vehicle-market",
+                text: "Market Value",
+                reportItemsCount: (i == null ? void 0 : i.marketValueCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "market",
+                name: "vehicle-market"
+            }, {
+                href: "#vehicle-ownership-cost",
+                sectionId: "#vehicle-ownership-cost",
+                text: "Ownership Cost",
+                reportItemsCount: (i == null ? void 0 : i.costsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "costs",
+                name: "vehicle-ownership-cost"
+            }, {
+                href: "#vehicle-specs",
+                sectionId: "#vehicle-specs",
+                text: "Vehicle Specs",
+                reportItemsCount: (i == null ? void 0 : i.specsCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "specifications",
+                name: "vehicle-specs"
+            }, {
+                href: "#vehicle-warranty",
+                sectionId: "#vehicle-warranty",
+                text: "Warranties",
+                reportItemsCount: (i == null ? void 0 : i.warrantiesCount) || null,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "warranties",
+                name: "vehicle-warranties"
+            }, {
+                href: "#vehicle-safety-ratings",
+                sectionId: "#vehicle-safety-ratings",
+                text: "Vehicle Safety",
+                reportItemsCount: s,
+                hideReportItemsCount: !1,
+                visible: !0,
+                notificationSection: "safety",
+                name: "vehicle-safety-ratings"
+            }],
+            C = (g, f, y, S) => {
+                const j = g.findIndex(I => I.sectionId === f),
+                    v = g.findIndex(I => I.sectionId === y);
+                if (j !== -1 && v !== -1) {
+                    const [I] = g.splice(j, 1);
+                    I.GAEventLabel = S, g.splice(v + 1, 0, I)
+                }
+            };
+        return C(h, "vehicle-ownership-history", "#vehicle-overview", "ownership history NEW"), C(h, "#vehicle-specs", "vehicle-ownership-history", "vehicle specifications NEW"), d && C(h, "#smart-insights", "#vehicle-overview", "smart insights NEW"), h.filter(g => g.visible)
+    },
+    y0 = t => {
+        let a = [],
+            i = [],
+            n = [],
+            s = [];
+        const {
+            relatives: o,
+            accomplishments: l,
+            educationLevel: d,
+            jobs: h,
+            activities: C,
+            hobbies: p,
+            miscellaneous: u,
+            service: x,
+            visitation: g,
+            donations: f
+        } = t || {};
+        (o == null ? void 0 : o.length) > 0 && (a = [{
+            href: "#relatives-section",
+            sectionId: "#relatives-section",
+            text: "Relatives",
+            reportItemsCount: (o == null ? void 0 : o.length) || 0,
+            notificationSection: "relatives"
+        }]), ((l == null ? void 0 : l.length) > 0 || (d == null ? void 0 : d.length) > 0 || (h == null ? void 0 : h.length) > 0) && (i = [{
+            href: "#life-events-section",
+            sectionId: "#life-events-section",
+            text: "Life Events",
+            reportItemsCount: ((l == null ? void 0 : l.length) || 0) + ((d == null ? void 0 : d.length) || 0) + ((h == null ? void 0 : h.length) || 0),
+            notificationSection: "life_events"
+        }]), ((C == null ? void 0 : C.length) > 0 || (p == null ? void 0 : p.length) > 0 || (u == null ? void 0 : u.length) > 0) && (n = [{
+            href: "#personal-interest-section",
+            sectionId: "#personal-interest-section",
+            text: "Personal Interests",
+            reportItemsCount: ((C == null ? void 0 : C.length) || 0) + ((p == null ? void 0 : p.length) || 0) + ((u == null ? void 0 : u.length) || 0),
+            notificationSection: "personal_interests"
+        }]);
+        const y = ["n/a", "unknown", ""],
+            {
+                serviceType: S = "",
+                serviceLocation: j = "",
+                funeralHome: v = ""
+            } = x || {},
+            {
+                visitationDate: I = "",
+                visitationLocation: L = ""
+            } = g || {},
+            k = !y.includes(S) || !y.includes(j) || !y.includes(v),
+            _ = !y.includes(I) || !y.includes(L);
+        return (k || _ || (f == null ? void 0 : f.length) > 0) && (s = [{
+            href: "#funeral-details-section",
+            sectionId: "#funeral-details-section",
+            text: "Funeral Details",
+            reportItemsCount: ((f == null ? void 0 : f.length) || 0) + (k ? 1 : 0) + (_ ? 1 : 0),
+            notificationSection: "funeral_details"
+        }]), [{
+            href: "#obituary-overview",
+            sectionId: "#obituary-overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, {
+            href: "#full-obituary-section",
+            sectionId: "#full-obituary-section",
+            text: "Full Obituary",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, ...a, ...i, ...n, ...s]
+    },
+    st = t => {
+        let a = 0;
+        return t == null || t.forEach(i => {
+            var n, s;
+            a += 1, (n = i == null ? void 0 : i.relatives) != null && n.length && (a += (s = i == null ? void 0 : i.relatives) == null ? void 0 : s.length)
+        }), a
+    },
+    I0 = (t, a, i, n, s, o, l, d) => {
+        var x, g, f, y, S, j, v, I, L, k, _, B, P, M, w, R, V;
+        let h = [];
+        n || (h = [{
+            href: "#criminal-or-traffic-section",
+            sectionId: "#criminal-or-traffic-section",
+            text: "Criminal or Traffic",
+            reportItemsCount: ((x = t == null ? void 0 : t.courts.criminal) == null ? void 0 : x.length) || 0,
+            showIcon: !a,
+            icon: e.jsx(re, {
+                fontSize: "small"
+            })
+        }, {
+            href: "#bankruptcies-section",
+            sectionId: "#bankruptcies-section",
+            text: "Bankruptcies",
+            reportItemsCount: ((g = t == null ? void 0 : t.courts.bankruptcy) == null ? void 0 : g.length) || 0,
+            showIcon: !i,
+            icon: e.jsx(re, {
+                fontSize: "small"
+            })
+        }]);
+        let C = [];
+        (f = t == null ? void 0 : t.obituary) != null && f.funeralHome && (C = [{
+            href: "#obituary-section",
+            sectionId: "#obituary-section",
+            text: "Obituary Details",
+            hideReportItemsCount: !0,
+            reportItemsCount: null
+        }]);
+        let p = [];
+        t != null && t.grave && (p = [{
+            href: "#burial-information-section",
+            sectionId: "#burial-information-section",
+            text: "Burial Information",
+            hideReportItemsCount: !0,
+            reportItemsCount: null
+        }]);
+        let u = 0;
+        return d.forEach(N => {
+            N.placeholder || (u += 1)
+        }), [{
+            href: "#person-overview",
+            sectionId: "#person-overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, ...C, ...p, {
+            href: "#phone-numbers-section",
+            sectionId: "#phone-numbers-section",
+            text: "Phone Numbers",
+            reportItemsCount: t.phones.length,
+            notificationSection: "phones"
+        }, {
+            href: "#email-section",
+            sectionId: "#email-section",
+            text: "Email Addresses",
+            reportItemsCount: t.emails.length,
+            notificationSection: "emails"
+        }, {
+            href: "#address-history-section",
+            sectionId: "#address-history-section",
+            text: "Address History",
+            reportItemsCount: t.addresses.length,
+            notificationSection: "addresses"
+        }, {
+            href: "#names-ancestry-section",
+            sectionId: "#names-ancestry-section",
+            text: "Names & Ancestry",
+            reportItemsCount: (y = t == null ? void 0 : t.identity) != null && y.names.length ? 1 : 0
+        }, {
+            href: "#family-tree-section",
+            sectionId: "#family-tree-section",
+            text: "Family Tree",
+            hideReportItemsCount: u == 0,
+            reportItemsCount: u,
+            notificationSection: "family_tree"
+        }, {
+            href: "#relatives-section",
+            sectionId: "#relatives-section",
+            text: "Possible Relatives",
+            reportItemsCount: st(l) || 0,
+            notificationSection: "relatives"
+        }, {
+            href: "#associates-section",
+            sectionId: "#associates-section",
+            text: "Associates",
+            reportItemsCount: ((S = t == null ? void 0 : t.associates) == null ? void 0 : S.length) || 0,
+            notificationSection: "associates"
+        }, {
+            href: "#neighbors-section",
+            sectionId: "#neighbors-section",
+            text: "Neighbors",
+            reportItemsCount: ((j = t == null ? void 0 : t.neighbors) == null ? void 0 : j.length) || 0,
+            notificationSection: "neighbors"
+        }, ...h, {
+            href: "#jobs-section",
+            sectionId: "#jobs-section",
+            text: "Jobs & Education",
+            reportItemsCount: t.jobs.length + t.educations.length,
+            notificationSection: "jobs"
+        }, {
+            href: "#social-media-section",
+            sectionId: "#social-media-section",
+            text: "Social Media",
+            reportItemsCount: t.profiles.length + t.usernames.length,
+            notificationSection: "socials"
+        }, {
+            href: "#possible-owned-assets-section",
+            sectionId: "#possible-owned-assets-section",
+            text: "Assets",
+            reportItemsCount: ((L = (I = (v = t == null ? void 0 : t.ownedAssets) == null ? void 0 : v.vehicles) == null ? void 0 : I.aircraft) == null ? void 0 : L.length) + ((B = (_ = (k = t == null ? void 0 : t.ownedAssets) == null ? void 0 : k.vehicles) == null ? void 0 : _.watercraft) == null ? void 0 : B.length) + ((w = (M = (P = t == null ? void 0 : t.ownedAssets) == null ? void 0 : P.vehicles) == null ? void 0 : M.automobiles) == null ? void 0 : w.length) + ((V = (R = t == null ? void 0 : t.ownedAssets) == null ? void 0 : R.real_estate) == null ? void 0 : V.length) || 0,
+            notificationSection: "real_estate"
+        }, {
+            href: "#additional-owner-details-section",
+            sectionId: "#additional-owner-details-section",
+            text: "Free Bonus Data",
+            reportItemsCount: o || 0,
+            showIcon: !s,
+            icon: e.jsx(re, {
+                fontSize: "small"
+            })
+        }]
+    };
+
+function V2(t, a) {
+    var h;
+    const i = Q(),
+        n = t.bonusData.licenses.dea.length + t.bonusData.licenses.faa.length + t.bonusData.licenses.professional.length + t.bonusData.licenses.sporting.length + t.bonusData.filings.business.length + t.bonusData.filings.ucc.length + t.bonusData.licenses.weapon.length,
+        s = et("RFRSH-2888", ""),
+        o = s === "RFRSH-2888_control",
+        l = s === "RFRSH-2888_variation_2";
+    return [{
+        ...a ? {} : {
+            href: "#court-records-section"
+        },
+        labelText: o || l ? "Court Records" : "Free Bonus",
+        reportItemsCount: ((h = t == null ? void 0 : t.courts.criminal) == null ? void 0 : h.length) || 0,
+        name: "court-records",
+        icons: [e.jsx(Nt, {
+            sx: {
+                color: i.palette.primary.main,
+                fontSize: "1.4rem"
+            }
+        }), e.jsxs(D, {
+            spacing: 1,
+            direction: "row",
+            alignItems: "center",
+            children: [e.jsx(tt, {
+                sx: {
+                    backgroundColor: "premium.main",
+                    color: "premium.contrastText",
+                    borderRadius: 100,
+                    fontSize: ".875rem",
+                    paddingInline: .8125,
+                    lineHeight: 1.6
+                },
+                children: "Free"
+            }), l ? e.jsx(zt, {
+                sx: {
+                    marginLeft: 1,
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            }) : e.jsx(re, {
+                sx: {
+                    marginLeft: 1,
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })]
+        })],
+        showIcon: !a,
+        childItems: a ? [{
+            href: "#criminal-or-traffic-section",
+            labelText: "Criminal or Traffic",
+            reportItemsCount: t.courts.criminal.length
+        }, {
+            href: "#bankruptcies-section",
+            labelText: "Bankruptcies",
+            reportItemsCount: t.courts.bankruptcy.length
+        }, {
+            href: "#licenses-and-permits-section",
+            labelText: "Licenses and Permits",
+            reportItemsCount: n
+        }] : []
+    }]
+}
+const v0 = (t, a, i, n, s) => {
+        var f, y, S, j, v, I, L, k, _, B, P, M, w, R, V, N, X, O, ee, te, q, $, se;
+        const o = Q(),
+            l = a ? [] : V2(t, i),
+            d = K("RFRSH-2803"),
+            h = K("OAR-1569"),
+            C = d ? [{
+                href: "#social-media-section",
+                labelText: "Social Media",
+                reportItemsCount: t.profiles.length,
+                name: "social-media",
+                notificationSection: "profiles"
+            }, {
+                href: "#username-section",
+                labelText: "Usernames",
+                reportItemsCount: t.usernames.length,
+                name: "username",
+                notificationSection: "usernames"
+            }] : [{
+                href: "#social-media-section",
+                labelText: "Social Media",
+                reportItemsCount: t.profiles.length + t.usernames.length,
+                name: "social-media",
+                notificationSection: ["profiles", "usernames"]
+            }],
+            p = (y = (f = t == null ? void 0 : t.marital) == null ? void 0 : f.marriages) != null && y.length || (j = (S = t == null ? void 0 : t.marital) == null ? void 0 : S.divorces) != null && j.length ? [{
+                href: "#marital-records-section",
+                labelText: "Marital Records",
+                reportItemsCount: ((I = (v = t == null ? void 0 : t.marital) == null ? void 0 : v.marriages) == null ? void 0 : I.length) + ((k = (L = t == null ? void 0 : t.marital) == null ? void 0 : L.divorces) == null ? void 0 : k.length)
+            }] : [],
+            u = (_ = t == null ? void 0 : t.obituary) != null && _.funeralHome ? [{
+                href: "#obituary-section",
+                labelText: "Obituary Details",
+                reportItemsCount: null
+            }] : [],
+            x = t != null && t.grave ? [{
+                href: "#burial-information-section",
+                labelText: "Burial Information",
+                reportItemsCount: null
+            }] : [];
+        let g = 0;
+        return s.forEach(ie => {
+            ie.placeholder || (g += 1)
+        }), [{
+            href: "#person-overview",
+            labelText: "Overview",
+            icons: [e.jsx(U, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "2.5rem"
+                }
+            })],
+            notificationSection: "identity",
+            name: "person-overview"
+        }, {
+            labelText: "Contact Information",
+            icons: [e.jsx(G, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "contact-information",
+            childItems: [{
+                href: "#phone-numbers-section",
+                labelText: "Phone Numbers",
+                reportItemsCount: t.phones.length,
+                name: "phone-numbers",
+                notificationSection: "phones"
+            }, {
+                href: "#email-section",
+                labelText: "Email Addresses",
+                reportItemsCount: t.emails.length,
+                name: "email-addresses",
+                notificationSection: "emails"
+            }, {
+                href: "#address-history-section",
+                labelText: h ? "Possible Locations" : "Address History",
+                reportItemsCount: t.addresses.length,
+                name: "address-history",
+                notificationSection: "addresses"
+            }, ...C]
+        }, {
+            labelText: "Family & Ancestry",
+            name: "family-ancestry",
+            icons: [e.jsx(Xe, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#names-ancestry-section",
+                labelText: "Name Origin",
+                reportItemsCount: (B = t == null ? void 0 : t.identity) != null && B.names.length ? 1 : 0,
+                name: "names-ancestry"
+            }, {
+                href: "#family-tree-section",
+                labelText: "Family Tree",
+                reportItemsCount: g,
+                name: "family-tree",
+                notificationSection: "family_tree"
+            }, {
+                href: "#relatives-section",
+                labelText: "Possible Relatives",
+                reportItemsCount: st(n) || 0,
+                name: "possible-relatives",
+                notificationSection: "relatives"
+            }, ...p, ...u, ...x]
+        }, {
+            labelText: "Associates",
+            name: "associates",
+            icons: [e.jsx(Dt, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#associates-section",
+                labelText: "Associates",
+                reportItemsCount: ((P = t == null ? void 0 : t.associates) == null ? void 0 : P.length) || 0,
+                name: "associates",
+                notificationSection: "associates"
+            }, {
+                href: "#neighbors-section",
+                labelText: "Neighbors",
+                reportItemsCount: ((M = t == null ? void 0 : t.neighbors) == null ? void 0 : M.length) || 0,
+                name: "neighbors",
+                notificationSection: "neighbors"
+            }]
+        }, ...l, {
+            labelText: "Jobs & Education",
+            name: "jobs-education",
+            icons: [e.jsx(W, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#jobs-section",
+                labelText: "Jobs",
+                reportItemsCount: t.jobs.length,
+                name: "jobs",
+                notificationSection: "jobs"
+            }, {
+                href: "#education-section",
+                labelText: "Education",
+                reportItemsCount: t.educations.length,
+                name: "education",
+                notificationSection: "educations"
+            }]
+        }, {
+            labelText: "Assets",
+            icons: [e.jsx(E.OwnedAssetsIcon, {
+                color: "primary",
+                fontSize: "small"
+            })],
+            href: "#possible-owned-assets-section",
+            name: "assets",
+            reportItemsCount: ((V = (R = (w = t == null ? void 0 : t.ownedAssets) == null ? void 0 : w.vehicles) == null ? void 0 : R.aircraft) == null ? void 0 : V.length) + ((O = (X = (N = t == null ? void 0 : t.ownedAssets) == null ? void 0 : N.vehicles) == null ? void 0 : X.watercraft) == null ? void 0 : O.length) + ((q = (te = (ee = t == null ? void 0 : t.ownedAssets) == null ? void 0 : ee.vehicles) == null ? void 0 : te.automobiles) == null ? void 0 : q.length) + ((se = ($ = t == null ? void 0 : t.ownedAssets) == null ? void 0 : $.real_estate) == null ? void 0 : se.length) || 0,
+            notificationSection: ["real_estate", "automobiles", "vehicles"]
+        }, {
+            labelText: "Next Steps",
+            name: "next-steps",
+            icons: [e.jsx(J, {
+                sx: {
+                    color: o.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#Notes-section",
+                labelText: "Notes",
+                hideReportItemsCount: !0,
+                name: "notes"
+            }, {
+                href: "#related-reports-section",
+                labelText: "Related Reports",
+                hideReportItemsCount: !0,
+                name: "related-reports"
+            }, {
+                href: "#report-rating",
+                labelText: "Report Rating",
+                hideReportItemsCount: !0,
+                name: "report-rating"
+            }]
+        }]
+    },
+    S0 = (t, a) => {
+        var n;
+        const i = Q();
+        return [{
+            href: "#username-overview",
+            labelText: "Overview",
+            icons: [e.jsx(Zt, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "2.5rem"
+                }
+            })],
+            name: "username-overview"
+        }, {
+            labelText: "Potential Owners",
+            icons: [e.jsx(Se, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "potential-owners-section",
+            childItems: [{
+                href: "#potential-owners-section",
+                labelText: "Potential Owners",
+                reportItemsCount: a,
+                name: "potential-owners-section"
+            }, {
+                href: "#possible-photos-section",
+                labelText: "Possible Photos",
+                reportItemsCount: ((n = t.images) == null ? void 0 : n.length) || null,
+                name: "possible-photos-section"
+            }]
+        }, {
+            labelText: "Contact Information",
+            name: "contact-information-section",
+            icons: [e.jsx(G, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#phone-numbers-section",
+                labelText: "Phone Numbers",
+                reportItemsCount: Math.max(t.phones.length - 1, 0),
+                name: "phone-numbers-section"
+            }, {
+                href: "#email-section",
+                labelText: "Email Addresses",
+                reportItemsCount: t.emails.length,
+                name: "email-section"
+            }, {
+                href: "#address-history-section",
+                labelText: "Address History",
+                reportItemsCount: t.addresses.length,
+                name: "address-history-section"
+            }, {
+                href: "#social-media-section",
+                sectionId: "#social-media-section",
+                labelText: "Social Media",
+                reportItemsCount: t.profiles.length + t.usernames.length,
+                name: "social-media-section"
+            }]
+        }, {
+            labelText: "Jobs & Educations",
+            name: "jobs-educations-section",
+            icons: [e.jsx(W, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#jobs-section",
+                sectionId: "#jobs-section",
+                labelText: "Jobs",
+                reportItemsCount: t.jobs.length,
+                name: "jobs-section"
+            }, {
+                href: "#education-section",
+                sectionId: "#education-section",
+                labelText: "Education",
+                reportItemsCount: t.educations.length,
+                name: "education-section"
+            }]
+        }, {
+            labelText: "Next Steps",
+            name: "next-steps-section",
+            icons: [e.jsx(J, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#Notes-section",
+                labelText: "Notes",
+                hideReportItemsCount: !0,
+                name: "notes-section"
+            }, {
+                href: "#related-reports-section",
+                labelText: "Related Reports",
+                hideReportItemsCount: !0,
+                name: "related-reports-section"
+            }, {
+                href: "#report-rating",
+                labelText: "Report Rating",
+                hideReportItemsCount: !0,
+                name: "report-rating"
+            }]
+        }]
+    },
+    j0 = (t, a) => {
+        const i = t.ownedAssets.real_estate.length + t.ownedAssets.vehicles.aircraft.length + t.ownedAssets.vehicles.watercraft.length + t.ownedAssets.vehicles.automobiles.length;
+        return [{
+            href: "#phone-overview",
+            sectionId: "#phone-overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, {
+            href: "#phone-fraudscan-section",
+            sectionId: "#phone-fraudscan-section",
+            text: "FraudScan Summary",
+            reportItemsCount: null,
+            hideReportItemsCount: !0
+        }, {
+            href: "#potential-owners-section",
+            sectionId: "#potential-owners-section",
+            text: "Potential Owners",
+            reportItemsCount: a.potentialOwnersLength,
+            notificationSection: "owners"
+        }, {
+            href: "#phone-numbers-section",
+            sectionId: "#phone-numbers-section",
+            text: "Other Phone Numbers",
+            reportItemsCount: Math.max(t.phones.length - 1, 0),
+            notificationSection: "phones"
+        }, {
+            href: "#email-section",
+            sectionId: "#email-section",
+            text: "Email Addresses",
+            reportItemsCount: t.emails.length,
+            notificationSection: "emails"
+        }, {
+            href: "#address-history-section",
+            sectionId: "#address-history-section",
+            text: "Address History",
+            reportItemsCount: t.addresses.length,
+            notificationSection: "addresses"
+        }, {
+            href: "#jobs-section",
+            sectionId: "#jobs-section",
+            text: "Work History",
+            reportItemsCount: t.jobs.length,
+            notificationSection: "jobs"
+        }, {
+            href: "#education-section",
+            sectionId: "#education-section",
+            text: "Educational Background",
+            reportItemsCount: t.educations.length,
+            notificationSection: "educations"
+        }, {
+            href: "#social-media-section",
+            sectionId: "#social-media-section",
+            text: "Social Media",
+            reportItemsCount: t.profiles.length + t.usernames.length,
+            notificationSection: "socials"
+        }, {
+            href: "#neighbor-spoofing-section",
+            sectionId: "#neighbor-spoofing-section",
+            text: "Neighbor Spoofing",
+            reportItemsCount: a.neighborSpoofingLength,
+            notificationSection: "neighbors"
+        }, {
+            href: "#search-volume-section",
+            sectionId: "#search-volume-section",
+            text: "Search Volume",
+            reportItemsCount: a.searchVolumeLength
+        }, {
+            href: "#nuisance-caller-section",
+            sectionId: "#nuisance-caller-section",
+            text: "Nuisance Caller",
+            reportItemsCount: a.spamReportsCount
+        }, {
+            href: "#comments-section",
+            sectionId: "#comments-section",
+            text: "Comments",
+            reportItemsCount: a.commentsLength
+        }, {
+            href: "#possible-owned-assets-section",
+            sectionId: "#possible-owned-assets-section",
+            text: "Assets",
+            reportItemsCount: i,
+            notificationSection: "real_estate"
+        }]
+    },
+    _0 = (t, a) => {
+        const i = t.ownedAssets.real_estate.length + t.ownedAssets.vehicles.aircraft.length + t.ownedAssets.vehicles.watercraft.length + t.ownedAssets.vehicles.automobiles.length,
+            n = et("RFRSH-2790", ""),
+            s = n === "RFRSH-2790_variation_2",
+            o = n === "RFRSH-2790_variation_3";
+        let l = 0;
+        a.potentialOwnersLength > 0 && (s || o ? l = 1 : l = a.potentialOwnersLength);
+        const d = [{
+            href: "#potential-owners-section",
+            labelText: `Potential ${l>1?"Owners":"Owner"}`,
+            reportItemsCount: l,
+            notificationSection: "owners",
+            name: "potential-owners-section"
+        }, {
+            href: "#phone-numbers-section",
+            labelText: "Phone Numbers",
+            reportItemsCount: Math.max(t.phones.length - 1, 0),
+            notificationSection: "phones",
+            name: "phone-numbers-section"
+        }, {
+            href: "#email-section",
+            labelText: "Email Addresses",
+            reportItemsCount: t.emails.length,
+            notificationSection: "emails",
+            name: "email-section"
+        }, {
+            href: "#address-history-section",
+            labelText: "Address History",
+            reportItemsCount: t.addresses.length,
+            notificationSection: "addresses",
+            name: "address-history-section"
+        }, {
+            href: "#social-media-section",
+            sectionId: "#social-media-section",
+            labelText: "Social Media",
+            reportItemsCount: t.profiles.length + t.usernames.length,
+            notificationSection: "social",
+            name: "social-media-section"
+        }, {
+            href: "#jobs-section",
+            sectionId: "#jobs-section",
+            labelText: "Jobs",
+            reportItemsCount: t.jobs.length,
+            notificationSection: "jobs",
+            name: "jobs-section"
+        }, {
+            href: "#education-section",
+            sectionId: "#education-section",
+            labelText: "Education",
+            reportItemsCount: t.educations.length,
+            notificationSection: "educations",
+            name: "education-section"
+        }, {
+            labelText: "Assets",
+            href: "#possible-owned-assets-section",
+            reportItemsCount: i,
+            notificationSection: "real_estate",
+            name: "assets-section"
+        }];
+        return [{
+            href: "#phone-overview",
+            labelText: "Overview",
+            icons: [e.jsx(G, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "2.5rem"
+                }
+            })],
+            name: "phone-overview"
+        }, {
+            labelText: "Potential Owners",
+            icons: [e.jsx(Se, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "potential-owners",
+            childItems: s || o ? [d.at(0), {
+                labelText: "Others Associated",
+                href: "#others-associated-section",
+                name: "others-associated-section",
+                notificationSection: "others-associated-section",
+                reportItemsCount: l === 0 ? 0 : a.potentialOwnersLength - 1
+            }] : d
+        }, {
+            labelText: "FraudScan",
+            icons: [e.jsx(le, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "fraudscan",
+            childItems: o ? [{
+                href: "#threat-detection-section",
+                labelText: "Summary",
+                hideReportItemsCount: !0,
+                name: "threat-detection-section"
+            }, {
+                href: "#comments-section",
+                labelText: "Comments",
+                reportItemsCount: a.commentsLength,
+                name: "comments-section"
+            }, {
+                href: "#phone-location-details-section",
+                labelText: "Location Details",
+                hideReportItemsCount: !0,
+                name: "phone-location-details-section"
+            }] : [{
+                href: "#phone-fraudscan-section",
+                labelText: "Summary",
+                hideReportItemsCount: !0,
+                name: "phone-fraudscan-section"
+            }, {
+                href: "#neighbor-spoofing-section",
+                labelText: "Neighbor Spoofing",
+                reportItemsCount: a.neighborSpoofingLength,
+                name: "neighbor-spoofing-section"
+            }, {
+                href: "#search-volume-section",
+                labelText: "Search Volume",
+                reportItemsCount: a.searchVolumeLength,
+                name: "search-volume-section"
+            }, {
+                href: "#nuisance-caller-section",
+                labelText: "Nuisance Caller",
+                reportItemsCount: a.spamReportsCount,
+                name: "nuisance-caller-section"
+            }, {
+                href: "#comments-section",
+                labelText: "Comments",
+                reportItemsCount: a.commentsLength,
+                name: "comments-section"
+            }]
+        }, {
+            labelText: "Next Steps",
+            icons: [e.jsx(J, {
+                sx: {
+                    color: "#0052FF",
+                    fontSize: "1.4rem"
+                }
+            })],
+            name: "next-steps",
+            childItems: [{
+                href: "#Notes-section",
+                labelText: "Notes",
+                hideReportItemsCount: !0,
+                name: "notes-section"
+            }, {
+                href: "#related-reports-section",
+                labelText: "Related Reports",
+                hideReportItemsCount: !0,
+                name: "related-reports-section"
+            }, {
+                href: "#report-rating",
+                labelText: "Report Rating",
+                hideReportItemsCount: !0,
+                name: "report-rating"
+            }]
+        }]
+    },
+    F0 = (t, a) => {
+        var i, n, s, o, l, d, h, C, p, u, x, g;
+        return [{
+            href: "#email-overview",
+            sectionId: "#email-overview",
+            text: "Overview",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "identity"
+        }, {
+            href: "#email-fraud-check-section",
+            sectionId: '#email-fraud-check-section"',
+            text: "FraudScan Summary",
+            reportItemsCount: null,
+            hideReportItemsCount: !0,
+            notificationSection: "fraud_check"
+        }, {
+            href: "#potential-owners-section",
+            sectionId: "#potential-owners-section",
+            text: "Potential Owners",
+            reportItemsCount: t,
+            notificationSection: "owners"
+        }, {
+            href: "#possible-photos-section",
+            sectionId: "#possible-photos-section",
+            text: "Possible Photos",
+            reportItemsCount: ((i = a.images) == null ? void 0 : i.length) || null,
+            notificationSection: "photos"
+        }, {
+            href: "#phone-numbers-section",
+            sectionId: "#phone-numbers-section",
+            text: "Phone Numbers",
+            reportItemsCount: a.phones.length,
+            notificationSection: "phones"
+        }, {
+            href: "#email-section",
+            sectionId: "#email-section",
+            text: "Emails",
+            reportItemsCount: a.emails.length,
+            notificationSection: "emails"
+        }, {
+            href: "#address-history-section",
+            sectionId: "#address-history-section",
+            text: "Address History",
+            reportItemsCount: a.addresses.length,
+            notificationSection: "addresses"
+        }, {
+            href: "#jobs-section",
+            sectionId: "#jobs-section",
+            text: "Professional Background",
+            reportItemsCount: a.jobs.length,
+            notificationSection: "jobs"
+        }, {
+            href: "#education-section",
+            sectionId: "#education-section",
+            text: "Education",
+            reportItemsCount: a.educations.length,
+            notificationSection: "educations"
+        }, {
+            href: "#social-media-section",
+            sectionId: "#social-media-section",
+            text: "Social & Websites",
+            reportItemsCount: a.profiles.length + a.usernames.length,
+            notificationSection: "socials"
+        }, {
+            href: "#possible-owned-assets-section",
+            sectionId: "#possible-owned-assets-section",
+            text: "Assets",
+            reportItemsCount: (((s = (n = a == null ? void 0 : a.ownedAssets) == null ? void 0 : n.real_estate) == null ? void 0 : s.length) ?? 0) + (((d = (l = (o = a == null ? void 0 : a.ownedAssets) == null ? void 0 : o.vehicles) == null ? void 0 : l.watercraft) == null ? void 0 : d.length) ?? 0) + (((p = (C = (h = a == null ? void 0 : a.ownedAssets) == null ? void 0 : h.vehicles) == null ? void 0 : C.aircraft) == null ? void 0 : p.length) ?? 0) + (((g = (x = (u = a == null ? void 0 : a.ownedAssets) == null ? void 0 : u.vehicles) == null ? void 0 : x.automobiles) == null ? void 0 : g.length) ?? 0),
+            notificationSection: "real_estate"
+        }]
+    },
+    L0 = (t, a) => {
+        var n, s, o, l, d, h, C, p, u, x, g, f;
+        const i = Q();
+        return [{
+            href: "#email-overview",
+            labelText: "Overview",
+            name: "email-overview",
+            icons: [e.jsx(Ne, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "2.5rem"
+                }
+            })],
+            notificationSection: "identity"
+        }, {
+            href: "#email-fraud-check-section",
+            labelText: "FraudScan Summary",
+            icons: [e.jsx(le, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            hideReportItemsCount: !0,
+            name: "email-fraud-check-section",
+            notificationSection: "fraud_check"
+        }, {
+            labelText: "Potential Owners",
+            name: "potential-owners-section",
+            icons: [e.jsx(Se, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#potential-owners-section",
+                labelText: "Potential Owners",
+                reportItemsCount: t,
+                name: "potential-owners-section",
+                notificationSection: "owners"
+            }, {
+                href: "#possible-photos-section",
+                labelText: "Possible Photos",
+                reportItemsCount: ((n = a.images) == null ? void 0 : n.length) || null,
+                name: "possible-photos-section",
+                notificationSection: "photos"
+            }]
+        }, {
+            labelText: "Contact Information",
+            icons: [e.jsx(G, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#phone-numbers-section",
+                labelText: "Phone Numbers",
+                reportItemsCount: Math.max(a.phones.length - 1, 0),
+                name: "phone-numbers-section",
+                notificationSection: "phones"
+            }, {
+                href: "#email-section",
+                labelText: "Email Addresses",
+                reportItemsCount: a.emails.length,
+                name: "email-section",
+                notificationSection: "emails"
+            }, {
+                href: "#address-history-section",
+                labelText: "Address History",
+                reportItemsCount: a.addresses.length,
+                name: "address-history-section",
+                notificationSection: "addresses"
+            }, {
+                href: "#social-media-section",
+                sectionId: "#social-media-section",
+                labelText: "Social Media",
+                reportItemsCount: a.profiles.length + a.usernames.length,
+                name: "social-media-section",
+                notificationSection: "social"
+            }]
+        }, {
+            labelText: "Data Breaches",
+            name: "dark-web-email-section",
+            showIcon: !0,
+            hideReportItemsCount: !0,
+            href: "#dark-web-email-section",
+            icons: [e.jsx(E.DarkWebIcon, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            }), e.jsx(D, {
+                spacing: 1,
+                direction: "row",
+                alignItems: "center",
+                children: e.jsx(tt, {
+                    sx: {
+                        backgroundColor: "premium.main",
+                        color: "premium.contrastText",
+                        borderRadius: 100,
+                        fontSize: ".875rem",
+                        paddingInline: .8125,
+                        lineHeight: 1.6
+                    },
+                    children: "New"
+                })
+            })]
+        }, {
+            labelText: "Jobs & Educations",
+            name: "jobs-educations-section",
+            icons: [e.jsx(W, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#jobs-section",
+                sectionId: "#jobs-section",
+                labelText: "Jobs",
+                reportItemsCount: a.jobs.length,
+                name: "jobs-section",
+                notificationSection: "jobs"
+            }, {
+                href: "#education-section",
+                sectionId: "#education-section",
+                labelText: "Education",
+                reportItemsCount: a.educations.length,
+                name: "education-section",
+                notificationSection: "educations"
+            }]
+        }, {
+            labelText: "Assets",
+            icons: [e.jsx(E.OwnedAssetsIcon, {
+                color: "primary",
+                fontSize: "small"
+            })],
+            href: "#possible-owned-assets-section",
+            name: "assets",
+            reportItemsCount: (((o = (s = a == null ? void 0 : a.ownedAssets) == null ? void 0 : s.real_estate) == null ? void 0 : o.length) ?? 0) + (((h = (d = (l = a == null ? void 0 : a.ownedAssets) == null ? void 0 : l.vehicles) == null ? void 0 : d.watercraft) == null ? void 0 : h.length) ?? 0) + (((u = (p = (C = a == null ? void 0 : a.ownedAssets) == null ? void 0 : C.vehicles) == null ? void 0 : p.aircraft) == null ? void 0 : u.length) ?? 0) + (((f = (g = (x = a == null ? void 0 : a.ownedAssets) == null ? void 0 : x.vehicles) == null ? void 0 : g.automobiles) == null ? void 0 : f.length) ?? 0),
+            notificationSection: ["real_estate", "automobiles", "vehicles"]
+        }, {
+            labelText: "Next Steps",
+            name: "next-steps",
+            icons: [e.jsx(J, {
+                sx: {
+                    color: i.palette.primary.main,
+                    fontSize: "1.4rem"
+                }
+            })],
+            childItems: [{
+                href: "#Notes-section",
+                labelText: "Notes",
+                hideReportItemsCount: !0,
+                name: "notes-section"
+            }, {
+                href: "#related-reports-section",
+                labelText: "Related Reports",
+                hideReportItemsCount: !0,
+                name: "related-reports-section"
+            }, {
+                href: "#report-rating",
+                labelText: "Report Rating",
+                hideReportItemsCount: !0,
+                name: "report-rating"
+            }]
+        }]
+    },
+    k0 = i1({
+        typography: {
+            button: {
+                textTransform: "none",
+                fontSize: "1rem",
+                fontWeight: "bold"
+            },
+            fontSize: 16,
+            htmlFontSize: 16,
+            fontFamily: "'Nunito Sans', sans-serif",
+            h1: {
+                fontSize: "1.875rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            h2: {
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            h3: {
+                fontSize: "1.25rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            h4: {
+                fontSize: "1.125rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            h5: {
+                fontSize: "1rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            h6: {
+                fontSize: "0.875rem",
+                fontWeight: "bold",
+                margin: "0 0 12px 0",
+                lineHeight: 1.2
+            },
+            caption: {
+                letterSpacing: 0,
+                lineHeight: 1.2
+            },
+            body1: {
+                fontSize: "1rem",
+                lineHeight: 1.2
+            },
+            body2: {
+                fontSize: "0.875rem",
+                lineHeight: 1.2
+            }
+        },
+        components: {
+            MuiAutocomplete: {
+                styleOverrides: {
+                    listbox: {
+                        backgroundColor: "#fff",
+                        '& .MuiAutocomplete-option[aria-selected="true"]': {
+                            backgroundColor: "#fff"
+                        },
+                        '& .MuiAutocomplete-option[aria-selected="true"].Mui-focused': {
+                            backgroundColor: "#F8F8F8"
+                        }
+                    }
+                }
+            },
+            MuiCardActions: {
+                styleOverrides: {
+                    root: {
+                        padding: 0
+                    }
+                }
+            },
+            MuiButton: {
+                styleOverrides: {
+                    root: {
+                        boxShadow: "none",
+                        borderRadius: 32,
+                        "&.smart-insights-button": {
+                            backgroundImage: "linear-gradient(to right, rgba(99,138,58,1) 0%, rgba(129,180,76,1))"
+                        }
+                    }
+                }
+            },
+            MuiIconButton: {
+                styleOverrides: {
+                    root: {
+                        padding: 0
+                    }
+                }
+            },
+            MuiSvgIcon: {
+                styleOverrides: {
+                    root: () => ({
+                        "&.unrecorded-item": {
+                            color: "#638A3A"
+                        },
+                        "&.hidden-section-icon": {
+                            color: "#0052FF"
+                        }
+                    })
+                }
+            },
+            MuiDivider: {
+                styleOverrides: {
+                    root: {
+                        borderColor: "#E2E2E2"
+                    }
+                }
+            },
+            MuiTextField: {
+                styleOverrides: {
+                    root: {
+                        input: {
+                            padding: 12
+                        },
+                        div: {
+                            height: 40,
+                            backgroundColor: "#fff"
+                        },
+                        "& .MuiFormLabel-root": {
+                            top: -8
+                        },
+                        "& .Mui-focused": {
+                            top: 0
+                        },
+                        "& .MuiFormLabel-filled": {
+                            top: 0
+                        }
+                    }
+                }
+            },
+            MuiStack: {
+                styleOverrides: {
+                    root: () => ({
+                        "&.smart-insights-badge": {
+                            backgroundImage: "linear-gradient(to right, #638A3A 0%, #81B44C)"
+                        }
+                    })
+                }
+            },
+            MuiSkeleton: {
+                styleOverrides: {
+                    root: () => ({
+                        backgroundColor: "#E6E7E9 !important",
+                        "&.dark-mode": {
+                            backgroundColor: "rgba(255, 255, 255, 0.15)"
+                        }
+                    })
+                }
+            }
+        },
+        palette: {
+            button: {
+                main: "#0052FF",
+                light: "#E5EEFF",
+                dark: "#003099",
+                contrastText: "#FFFFFF"
+            },
+            buttonInverse: {
+                main: "#FFFFFF",
+                contrastText: "#0A0B0D",
+                light: "",
+                dark: ""
+            },
+            rats: {
+                main: "#5B616E",
+                light: "#F8F8F8",
+                dark: "#0052FF",
+                contrastText: "#F8F8F8",
+                activeHover: "#003099",
+                disabled: "#929AAB"
+            },
+            divider: "#E6E7E9",
+            primary: {
+                main: "#0052FF",
+                light: "#e5eeff",
+                dark: "#003099",
+                contrastText: "#FFFFFF"
+            },
+            info: {
+                main: "#2196F3",
+                light: "#64b5f6",
+                dark: "#1976d2",
+                contrastText: "#FFFFFF"
+            },
+            success: {
+                main: "#4caf50",
+                light: "#81c784",
+                dark: "#388e3c",
+                contrastText: "#FFFFFF"
+            },
+            warning: {
+                main: "#ED6C02",
+                light: "#F08934",
+                dark: "#9A000E",
+                contrastText: "#FFFFFF"
+            },
+            error: {
+                main: "#DC0015",
+                light: "#FFEDEA",
+                dark: "#9A000E",
+                contrastText: "#FFFFFF"
+            },
+            background: {
+                paper: "#fff",
+                default: "#F8F8F8",
+                light: "#E6E7E9"
+            },
+            text: {
+                primary: "#0A0B0D",
+                secondary: "#5B616E",
+                disabled: "#929AAB",
+                contrastText: "#fff"
+            },
+            barChart: {
+                main: "#4A3B8F",
+                light: "#939FC8",
+                dark: "#D3D3D7",
+                contrastText: "#000"
+            },
+            lineChart: {
+                main: "#4A3B8F",
+                light: "#757575",
+                dark: "#DC0015",
+                contrastText: "#000"
+            },
+            maps: {
+                main: "#1F2E64",
+                light: "#3388FF",
+                contrastText: "#FFF"
+            },
+            notistackToast: {
+                main: "#008000",
+                light: "#DEFCE6",
+                dark: "#005000",
+                contrastText: "#000"
+            },
+            neighborhoodWatch: {
+                main: "#0052FF",
+                light: "#DC0015",
+                dark: "#0052FF",
+                contrastText: "#fff"
+            },
+            marketInsights: {
+                main: "#4A3B8F",
+                light: "#edebff",
+                dark: "#4A3B8F",
+                contrastText: "#fff"
+            },
+            progress: {
+                main: "#4A3B8F",
+                light: "#757575",
+                dark: "#DC0015",
+                contrastText: "#E2E2E2"
+            },
+            premium: {
+                main: "#FCC41C",
+                contrastText: "#000"
+            },
+            listingPins: {
+                main: "#EC413D",
+                light: "#4AA351",
+                dark: "#4A3B8F",
+                contrastText: "#81b44c"
+            },
+            listingPinsVisited: {
+                main: "#f8a09e",
+                light: "#9FCBA2",
+                dark: "#9F97C1"
+            },
+            parcelBoundaries: {
+                main: "#FFFFFF",
+                dark: "#000000"
+            },
+            aiChip: {
+                main: "#81B44C",
+                light: "#9F44EB",
+                contrastText: "#fff"
+            },
+            propertySmartinsights: {
+                main: "#2A0345"
+            },
+            upgradeCheck: {
+                main: "#74ad47"
+            },
+            reportSectionSupertitleBackgroundColor: {
+                main: "#0052FF"
+            },
+            threatDetection: {
+                main: "#DC0015",
+                light: "#E1FAEA",
+                dark: "#81B44C",
+                contrastText: "#FFF1F1"
+            },
+            labelsAndLinks: {
+                main: "#757575"
+            },
+            chatbot: {
+                main: "#4a3b8f",
+                contrastText: "#81B44C"
+            }
+        }
+    });
+let T0 = a1(),
+    ge = null;
+ge = Ut({
+    name: "refresh-beenverified",
+    url: "https://gap01.beenverified.com/collect",
+    apikey: "d1a8d2e0-ca0b-03fd-a3f1-9c5a0a0cb959"
+});
+const H2 = ce("div")`
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+`,
+    D2 = ce("div")(({
+        theme: t
+    }) => ({
+        borderBottom: `1px solid ${t.palette.grey[300]}`
+    }));
+ce("div")(({
+    theme: t
+}) => ({
+    maxWidth: "1400px",
+    margin: t.spacing(0),
+    padding: t.spacing(0, 2, 4),
+    position: "relative",
+    backgroundColor: t.palette.background.paper,
+    [t.breakpoints.up("xs")]: {
+        margin: "auto"
+    },
+    [t.breakpoints.up("md")]: {
+        padding: t.spacing(0, 2, 4, 9)
+    }
+}));
+const N2 = ce("div")(({
+    theme: t
+}) => ({
+    padding: `${t.spacing(2)} 0 0 0`,
+    fontSize: t.typography.fontSize * .75
+}));
+
+function z2() {
+    localStorage.removeItem("astrology_user"), localStorage.removeItem(Ve.lifepath), localStorage.removeItem(Ve.personality)
+}
+
+function Z2() {
+    const t = Gt({
+            app: "refresh-beenverified",
+            debug: !0,
+            plugins: [Wt({
+                containerId: "GTM-HV76",
+                dataLayer: (window == null ? void 0 : window.dataLayer) ?? []
+            })]
+        }),
+        a = qt(),
+        i = $t(),
+        {
+            session: n
+        } = o1(),
+        {
+            isMobile: s
+        } = n1(),
+        [o] = _e("is_core_login_redirect", Fe),
+        [l] = _e("login_type", Fe),
+        [d, h] = b.useState(ue()),
+        [C, p] = b.useState(!1),
+        [u, x] = b.useState(!1),
+        [g, f] = b.useState(!1),
+        [y, S] = b.useState(!1),
+        [j, v] = b.useState(!1),
+        [I, L] = b.useState(!1),
+        [k, _] = b.useState(!1),
+        [B, P] = b.useState(!1),
+        [M, w] = b.useState(!1),
+        [R, V] = b.useState(!1),
+        [N, X] = b.useState(!1),
+        [O, ee] = b.useState(!1),
+        [te, q] = b.useState({
+            modalOpen: !1,
+            requestData: null
+        }),
+        [$, se] = b.useState(!1),
+        [ie, it] = b.useState(!1),
+        [at, ot] = b.useState(!1),
+        ae = b.useRef(null);
+    b.useEffect(() => {
+        window.history.scrollRestoration = "manual"
+    }, []), b.useEffect(() => {
+        o === "true" && !sessionStorage.getItem("has_tracked_core_login_redirect") && (t.track("site_event", {
+            event_name: "login_attempt",
+            type: l || "web",
+            success: !0
+        }), sessionStorage.setItem("has_tracked_core_login_redirect", o))
+    }, [o]);
+    const nt = m => {
+            w(m)
+        },
+        rt = m => {
+            V(m)
+        },
+        lt = m => {
+            P(m)
+        },
+        ct = m => {
+            se(m)
+        },
+        dt = m => {
+            it(m)
+        },
+        mt = m => {
+            ot(m)
+        },
+        ht = m => {
+            X(m)
+        };
+    async function de(m) {
+        await P1(), h(ue()), w1(), z2(), g2("https://www.beenverified.com"), m && m()
+    }
+
+    function pt(m) {
+        return m.response !== void 0
+    }
+
+    function je(m, F, T) {
+        if (!ge) return;
+        const {
+            account: H
+        } = n, {
+            api: Ce
+        } = ge;
+        if (Ce.isOTELInitialized()) {
+            H && Ce.setUser({
+                id: H == null ? void 0 : H.account.user_info.user_code,
+                email: H == null ? void 0 : H.account.user_info.email
+            });
+            let ne = `${m}: ${F.message}, Cause: ${F.cause}`;
+            pt(F) && (ne = `${ne}, Status: ${F.response.status}, Data: ${JSON.stringify(F.response)}`), T && (ne += `, URL: ${T}`), Ce.pushError(new Error(ne))
+        }
+    }
+
+    function me(m, F) {
+        t == null || t.track(F || "site_event", m)
+    }
+
+    function Ct(m, F, T) {
+        t.track("ua_event", {
+            eventCategory: m,
+            eventAction: F,
+            eventLabel: T
+        })
+    }
+    const ut = (m, F) => {
+            let T = "/";
+            a.state && a.state.next && (T = a.state.next), i(m || F ? F ? "/dashboard/reports" : "/dashboard/language" : T === "/" || T.startsWith("/report") && !T.includes("permalink") ? "/dashboard" : T), h(ue())
+        },
+        he = () => {
+            p(!0)
+        },
+        oe = ({
+            reportType: m,
+            searchParams: F,
+            permalink: T
+        }) => {
+            const H = `/report/${m}?${F}&permalink=${T}`;
+            i(H)
+        },
+        ft = !a.pathname.includes("self-searching"),
+        [W2, xt] = b.useState(!1),
+        gt = () => {
+            xt(!0)
+        },
+        bt = m => {
+            S(!1), m === "Too expensive" ? v(!0) : (m === "Other" || m === "No longer needed") && L(!0)
+        },
+        yt = m => {
+            L(!1), m && parseInt(m) >= 8 && _(!0)
+        },
+        pe = m => {
+            x(!0), ee(m || !1)
+        },
+        It = () => {
+            x(!1), S(!0)
+        };
+    return e.jsx(r1, {
+        redirectFunction: () => {
+            i("/error")
+        },
+        location: a,
+        logFunction: je,
+        trackEventFunction: me,
+        children: e.jsx(l2, {
+            handleLogout: de,
+            trackEventGA4: me,
+            setTosState: q,
+            children: e.jsx(l1, {
+                isAuthenticated: d,
+                children: e.jsx(c2, {
+                    children: e.jsx(d2, {
+                        trackEventGA4: me,
+                        logError: je,
+                        trackEvent: Ct,
+                        isInInternationalLanguageTest: M,
+                        isInInternationalVinTest: R,
+                        isInOwnerSearchVariation: $,
+                        isInSingleReportVariation: B,
+                        isInAstrologyStandaloneVariation: ie,
+                        isInSideMenuReorganizationVariation: at,
+                        handleLogoutClick: de,
+                        children: e.jsx(m2, {
+                            children: e.jsx(c1, {
+                                children: e.jsxs("div", {
+                                    className: "app",
+                                    children: [e.jsxs(H2, {
+                                        children: [e.jsx(h2, {}), e.jsxs(D2, {
+                                            children: [e.jsx(d1, {}), e.jsx(m1, {})]
+                                        }), e.jsx(p2, {
+                                            handleSearchSuccess: oe,
+                                            changeSingleReportVariation: lt,
+                                            changeOwnerSearchVariation: ct,
+                                            changeInternationalLanguageTest: nt,
+                                            changeInternationalVinTest: rt,
+                                            changeIsInAstrologyStandaloneVariation: dt,
+                                            changeIsInSideMenuReorganizationVariation: mt,
+                                            changeListV2Variation: ht
+                                        })]
+                                    }), e.jsxs(C2, {
+                                        children: [e.jsxs(Yt, {
+                                            children: [e.jsx(r, {
+                                                element: e.jsx(V1, {}),
+                                                path: "*"
+                                            }), e.jsx(r, {
+                                                element: e.jsx(H1, {}),
+                                                path: "/error"
+                                            }), e.jsx(r, {
+                                                index: !0,
+                                                element: e.jsx(Kt, {
+                                                    to: "/dashboard"
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/family-tree",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(D1, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/self-searching",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(h1, {})
+                                                })
+                                            }), e.jsxs(r, {
+                                                path: "/login",
+                                                element: e.jsx(Le, {
+                                                    children: e.jsx(N1, {
+                                                        onLoginSuccess: () => ut(M, R),
+                                                        ref: ae
+                                                    })
+                                                }),
+                                                children: [e.jsx(r, {
+                                                    path: "reset-password-request",
+                                                    element: e.jsx(p1, {
+                                                        containerRef: ae,
+                                                        open: !1
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "magic-link",
+                                                    element: e.jsx(C1, {
+                                                        containerRef: ae,
+                                                        open: !1
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "forgot-email",
+                                                    element: e.jsx(u1, {
+                                                        containerRef: ae,
+                                                        open: !1
+                                                    })
+                                                })]
+                                            }), e.jsx(r, {
+                                                path: "/reset-password",
+                                                element: e.jsx(Le, {
+                                                    children: e.jsx(z1, {})
+                                                })
+                                            }), e.jsxs(r, {
+                                                path: "dashboard",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(Z1, {
+                                                        contactUsHandler: he,
+                                                        handleLogout: de,
+                                                        openConfirmCancelModal: pe
+                                                    })
+                                                }),
+                                                children: [e.jsx(r, {
+                                                    index: !0,
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(U1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/reports",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(G1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/personality-traits",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(W1, {})
+                                                    })
+                                                }), ie && e.jsx(r, {
+                                                    path: "/dashboard/astrology",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(q1, {})
+                                                    })
+                                                }), N && e.jsx(r, {
+                                                    path: "/dashboard/lists/:listName",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx($1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/family-ancestry",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(f1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/family-album",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(x1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/rewards",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(Y1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/dark-web",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(K1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/lists",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(J1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/monitoring",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(Q1, {})
+                                                    })
+                                                }), e.jsxs(r, {
+                                                    path: "/dashboard/id-monitor",
+                                                    children: [e.jsx(r, {
+                                                        index: !0,
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(ke, {})
+                                                        })
+                                                    }), e.jsx(r, {
+                                                        path: "credit-bureau-contacts",
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(Te, {})
+                                                        })
+                                                    }), e.jsx(r, {
+                                                        path: "alert-details",
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(Me, {})
+                                                        })
+                                                    })]
+                                                }), e.jsxs(r, {
+                                                    path: "/dashboard/personal-reports",
+                                                    children: [e.jsx(r, {
+                                                        index: !0,
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(ke, {})
+                                                        })
+                                                    }), e.jsx(r, {
+                                                        path: "credit-bureau-contacts",
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(Te, {})
+                                                        })
+                                                    }), e.jsx(r, {
+                                                        path: "alert-details",
+                                                        element: e.jsx(c, {
+                                                            children: e.jsx(Me, {})
+                                                        })
+                                                    })]
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/my-garage",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(X1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "/dashboard/obituary",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(O1, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "neighborhood-report",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(es, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "unclaimed-money",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(ts, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "billing",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(ss, {
+                                                            onCancelConfirmCancelModal: It
+                                                        })
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "referrals",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(is, {})
+                                                    })
+                                                }), e.jsx(r, {
+                                                    path: "fraud",
+                                                    element: e.jsx(c, {
+                                                        children: e.jsx(as, {
+                                                            onSearchSuccess: oe
+                                                        })
+                                                    })
+                                                })]
+                                            }), e.jsx(r, {
+                                                path: "/collection/:collection_id/record/:record_id",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(os, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/report/:reportType",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(ns, {
+                                                        onSearchSuccess: oe
+                                                    })
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/search/person",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(fe, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/search/v2",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(fe, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/search/listing",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(rs, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/search/obituary",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(ls, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/search/contact",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(fe, {})
+                                                })
+                                            }), $ && e.jsx(r, {
+                                                path: "/search/owner",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(cs, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/noncompliance",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(g1, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/compliance-form",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(b1, {
+                                                        link: "/noncompliance"
+                                                    })
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/compliance-permitted",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(y1, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/compliance-prohibited",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(I1, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/compliance-recomply",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(v1, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/reactivation",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(ds, {})
+                                                })
+                                            }), e.jsx(r, {
+                                                index: !0,
+                                                path: "/upgrade/plan",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(ms, {
+                                                        contactUsHandler: he
+                                                    })
+                                                })
+                                            }), e.jsx(r, {
+                                                path: "/captcha",
+                                                element: e.jsx(c, {
+                                                    children: e.jsx(hs, {})
+                                                })
+                                            })]
+                                        }), e.jsx(u2, {
+                                            isAuthenticated: d
+                                        })]
+                                    }), e.jsx(S1, {
+                                        isOpen: C,
+                                        setIsOpen: p,
+                                        openConfirmCancelModal: pe,
+                                        plansWithout5ReportBlocker: Y.data.plansWithout5ReportBlocker,
+                                        validReportCountThreshold: Y.data.validReportCountThreshold,
+                                        blockUpgradeWindowThreshold: Y.data.blockUpgradeWindowThreshold
+                                    }), e.jsx(j1, {
+                                        isOpen: u,
+                                        onClose: () => x(!1),
+                                        onCancel: () => {
+                                            x(!1), S(!0)
+                                        },
+                                        openSuccessModal: gt,
+                                        showDownsell: !0,
+                                        showCheaperPlanLink: O
+                                    }), e.jsx(_1, {
+                                        isOpen: y,
+                                        onClose: m => {
+                                            bt(m)
+                                        }
+                                    }), e.jsx(F1, {
+                                        tosState: te,
+                                        setTosState: q,
+                                        handleSearchSuccess: oe
+                                    }), e.jsx(L1, {
+                                        isOpen: j,
+                                        bgImage: s ? Y.images.cancelDownsellBackgroundMobile : Y.images.cancelDownsellBackground,
+                                        onClose: () => {
+                                            v(!1), f(!0)
+                                        },
+                                        onSuccess: () => {
+                                            v(!1), f(!1)
+                                        }
+                                    }), e.jsx(k1, {
+                                        isOpen: g,
+                                        onClose: () => f(!1)
+                                    }), I && e.jsx(T1, {
+                                        onClose: m => yt(m)
+                                    }), e.jsx(M1, {
+                                        isOpen: k,
+                                        onClose: () => _(!1)
+                                    }), ft && e.jsx(R1, {
+                                        footerLinks: x2({
+                                            contactUsHandler: he,
+                                            isInternationalTestUser: M || R
+                                        }),
+                                        libVersion: e.jsx(N2, {
+                                            children: e.jsx("code", {
+                                                children: A1
+                                            })
+                                        }),
+                                        hasMobileApps: !0,
+                                        openConfirmCancelModal: pe
+                                    })]
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+        })
+    })
+}
+const U2 = "/rf",
+    G2 = Jt.createRoot(document.getElementById("root"));
+G2.render(e.jsx(Qt.StrictMode, {
+    children: e.jsx(Xt, {
+        basename: U2,
+        children: e.jsxs(Ot, {
+            adapter: e1,
+            children: [e.jsx(f2, {}), e.jsx(Z2, {})]
+        })
+    })
+}));
+E1();
+B1();
+export {
+    n0 as D, a0 as F, r0 as I, l0 as M, i0 as S, d0 as T, o0 as U, s0 as _, g0 as a, b0 as b, Y as c, y0 as d, I0 as e, v0 as f, x0 as g, S0 as h, _0 as i, j0 as j, L0 as k, F0 as l, u0 as m, f0 as n, C0 as o, T0 as p, c0 as q, m0 as r, p0 as s, k0 as t, h0 as u, e0 as v, O2 as w, t0 as x
+};
+//# sourceMappingURL=index-DWb1yUZw.js.map
